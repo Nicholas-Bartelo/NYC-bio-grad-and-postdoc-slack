@@ -41,21 +41,15 @@ GitHub → **Settings → Secrets and variables → Actions → New repository s
 Each opportunity entry must include:
 
 - **company**
-- **mission** ( ≥1 sentence about the company )
-- **position** (exact role/program name)
-- **description** (what is being shared)
-- **applyUrl** (`https://…` only; shorteners rejected; link is health-checked before posting)
-- **postedBy** (optional): `{ "name": "…", "contact": "…" }`
+- **mission** (≥1 sentence)
+- **listingsUrl** — careers / open-positions board (labeled in Slack as a listings page, not one job)
+- **featured.position** — one specific role/program
+- **featured.responsibilities**
+- **featured.qualifications**
+- **featured.applyUrl** — link for that featured role (may be a specific JD or the board)
+- **postedBy** (optional)
 
-Slack posts look like:
-
-```text
-Company: Regeneron
-Position: Postdoctoral Program
-About the company: …
-What we’re sharing: …
-Apply: <link>
-```
+Slack posts include Company, Featured position, mission, responsibilities, qualifications, a featured apply link, and a clearly labeled listings-page link (**listings page = many open roles, not one job**).
 
 Example JSON:
 
@@ -63,9 +57,13 @@ Example JSON:
 {
   "company": "Example Bio",
   "mission": "Example Bio develops therapies for rare metabolic disease.",
-  "position": "Research Associate, Discovery Biology",
-  "description": "Full-time lab role supporting target validation in NYC.",
-  "applyUrl": "https://example.com/careers/123",
+  "listingsUrl": "https://example.com/careers",
+  "featured": {
+    "position": "Research Associate, Discovery Biology",
+    "responsibilities": "Run target-validation assays and document results with the discovery team.",
+    "qualifications": "BS/MS in biology with 1+ years wet-lab experience.",
+    "applyUrl": "https://example.com/careers/research-associate-123"
+  },
   "postedBy": {
     "name": "Alex Kim",
     "contact": "@alex or alex@example.com"

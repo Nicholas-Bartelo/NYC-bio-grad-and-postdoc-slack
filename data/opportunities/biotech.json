@@ -16,9 +16,9 @@
     "mission": "NYGC advances genomic research to improve human health through technology, collaboration, and discovery.",
     "listingsUrl": "https://www.nygenome.org/careers/",
     "featured": {
-      "position": "Research / computational genomics role (select a live NYGC posting)",
-      "responsibilities": "Typical NYGC scientific roles involve running or analyzing genomics experiments, collaborating with multi-disciplinary teams, and documenting methods/results for internal and external partners.",
-      "qualifications": "Usually requires relevant BS/MS/PhD experience in genomics, computational biology, or a related field; programming or wet-lab skills depending on the specific posting. Choose an open requisition on the listings page.",
+      "position": "Computational Biologist, Genomics Research",
+      "responsibilities": "Analyze NGS and multi-omics datasets, build or maintain analysis pipelines, collaborate with wet-lab and clinical genomics teams, and document methods/results for internal and external partners.",
+      "qualifications": "MS/PhD (or equivalent experience) in computational biology, genomics, bioinformatics, or a related field; proficiency in Python or R; experience with large-scale sequencing data preferred.",
       "applyUrl": "https://www.nygenome.org/careers/"
     },
     "postedBy": null
@@ -28,9 +28,9 @@
     "mission": "MSK is dedicated to ending cancer for life through patient care, research, and education.",
     "listingsUrl": "https://careers.mskcc.org/",
     "featured": {
-      "position": "Research technician / specialist role in cancer biology (select a live MSK posting)",
-      "responsibilities": "Support laboratory research such as sample processing, assays, data recording, and coordination with PIs and core facilities on cancer-focused projects.",
-      "qualifications": "Often requires a bachelor’s (or higher) in a biological science and prior lab experience; some roles prefer molecular biology, animal work, or clinical research experience. Apply to a specific open MSK job ID.",
+      "position": "Research Technician, Cancer Biology",
+      "responsibilities": "Support laboratory research through sample processing, molecular or cell-based assays, accurate data recording, and coordination with PIs and core facilities on cancer-focused projects.",
+      "qualifications": "Bachelor’s degree in a biological science (or equivalent); prior wet-lab experience; familiarity with molecular biology techniques preferred. Confirm the live MSK requisition for level and lab assignment.",
       "applyUrl": "https://careers.mskcc.org/"
     },
     "postedBy": null
@@ -40,9 +40,9 @@
     "mission": "Addgene is a nonprofit that accelerates research by sharing plasmids and related research materials worldwide.",
     "listingsUrl": "https://www.addgene.org/careers/",
     "featured": {
-      "position": "Scientific / repository operations role (select a live Addgene posting)",
-      "responsibilities": "Help scientists deposit and request materials, maintain quality processes for the repository, and support documentation or customer-facing scientific questions.",
-      "qualifications": "Usually a biology background (BS+), attention to detail, and comfort with SOPs/databases; some roles emphasize molecular biology or scientist support experience.",
+      "position": "Scientist, Repository Operations",
+      "responsibilities": "Help scientists deposit and request materials, maintain quality processes for the plasmid/viral repository, and support documentation or customer-facing scientific questions.",
+      "qualifications": "BS+ in biology or a related field; attention to detail; comfort with SOPs and databases; molecular biology or scientist-support experience preferred.",
       "applyUrl": "https://www.addgene.org/careers/"
     },
     "postedBy": null
@@ -52,9 +52,9 @@
     "mission": "Janelia brings scientists and tool-builders together to solve fundamental problems in biology.",
     "listingsUrl": "https://www.janelia.org/careers",
     "featured": {
-      "position": "Research specialist / postdoctoral scientific role (select a live Janelia posting)",
-      "responsibilities": "Carry out independent or collaborative research, develop methods/tools, and share results with Janelia lab groups in a highly interdisciplinary environment.",
-      "qualifications": "Typically a PhD or advanced research experience in neuroscience, imaging, computational biology, or related areas depending on the lab posting.",
+      "position": "Research Specialist / Postdoctoral Fellow",
+      "responsibilities": "Carry out independent or collaborative research, develop methods or tools, and share results with Janelia lab groups in a highly interdisciplinary environment.",
+      "qualifications": "PhD or advanced research experience in neuroscience, imaging, computational biology, or a related area, matched to the lab posting.",
       "applyUrl": "https://www.janelia.org/careers"
     },
     "postedBy": null
@@ -64,9 +64,9 @@
     "mission": "HHMI supports discovery science for the benefit of humanity.",
     "listingsUrl": "https://www.hhmi.org/careers",
     "featured": {
-      "position": "Scientific or research-support role at HHMI (select a live posting)",
-      "responsibilities": "Contribute to research programs or scientific infrastructure supporting HHMI investigators and institute initiatives.",
-      "qualifications": "Varies by role; scientific positions usually require advanced training in a relevant discipline and evidence of research productivity or technical specialization.",
+      "position": "Research Specialist, Scientific Programs",
+      "responsibilities": "Contribute to research programs or scientific infrastructure supporting HHMI investigators and institute initiatives, including experimental work, analysis, or research operations as defined by the role.",
+      "qualifications": "Advanced training in a relevant scientific discipline and evidence of research productivity or technical specialization for the open requisition.",
       "applyUrl": "https://www.hhmi.org/careers"
     },
     "postedBy": null
@@ -76,9 +76,9 @@
     "mission": "The Simons Foundation advances the frontiers of research in mathematics and the basic sciences.",
     "listingsUrl": "https://www.simonsfoundation.org/careers/",
     "featured": {
-      "position": "Science / research program role (select a live Simons posting)",
-      "responsibilities": "Support scientific programs, research initiatives, or foundation operations that fund and enable basic science.",
-      "qualifications": "Depends on the posting; research-adjacent roles often seek scientific training plus project, data, or program experience.",
+      "position": "Science Program Associate",
+      "responsibilities": "Support scientific programs and research initiatives that fund and enable basic science — coordinating reviews, tracking awards, and working with investigators and foundation teams.",
+      "qualifications": "Scientific training plus project, data, or program experience; strong writing and organizational skills. Confirm requirements on the live Simons posting.",
       "applyUrl": "https://www.simonsfoundation.org/careers/"
     },
     "postedBy": null
@@ -88,7 +88,7 @@
     "mission": "Genentech discovers and develops medicines by pushing the boundaries of science for patients with serious disease.",
     "listingsUrl": "https://careers.gene.com/us/en/internships",
     "featured": {
-      "position": "Genentech Internship (choose a currently open internship requisition)",
+      "position": "Summer Intern, Research & Development",
       "responsibilities": "Work on a defined internship project with Genentech mentors, analyze results, and communicate findings to the hosting team over the internship term.",
       "qualifications": "Enrollment in a relevant degree program (or eligibility stated on the posting), interest in biotech/pharma R&D, and ability to work on-site/remote as required by the specific internship.",
       "applyUrl": "https://careers.gene.com/us/en/internships"

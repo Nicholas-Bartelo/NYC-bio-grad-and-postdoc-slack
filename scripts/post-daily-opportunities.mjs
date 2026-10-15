@@ -2,6 +2,10 @@
 /**
  * Post one opportunity to each opportunities-* Slack channel.
  *
+ * Each entry features one specific role (responsibilities + qualifications)
+ * and also links a careers/listings page clearly labeled as a job board
+ * (many roles — not a single job).
+ *
  * Never repeats an opportunity until every usable listing in that channel
  * has been posted once; then the channel history resets for a new cycle.
  * History is stored in data/opportunities/posted-history.json.
@@ -70,24 +74,52 @@ function normalizeItem(item) {
   if (!item || typeof item !== "object") return null;
   const company = typeof item.company === "string" ? item.company.trim() : "";
   const mission = typeof item.mission === "string" ? item.mission.trim() : "";
+  if (!company || !mission) return null;
+
+  const featured = item.featured && typeof item.featured === "object" ? item.featured : null;
   const position = (
-    typeof item.position === "string"
-      ? item.position
-      : typeof item.title === "string"
-        ? item.title
-        : ""
+    typeof featured?.position === "string"
+      ? featured.position
+      : typeof item.position === "string"
+        ? item.position
+        : typeof item.title === "string"
+          ? item.title
+          : ""
   ).trim();
-  const description =
-    typeof item.description === "string" ? item.description.trim() : "";
-  if (!company || !mission || !position || !description) return null;
-  const url = validateApplyUrl(item.applyUrl);
-  if (!url.ok) return null;
+  const responsibilities = (
+    typeof featured?.responsibilities === "string"
+      ? featured.responsibilities
+      : ""
+  ).trim();
+  const qualifications = (
+    typeof featured?.qualifications === "string" ? featured.qualifications : ""
+  ).trim();
+  const featuredApplyRaw =
+    typeof featured?.applyUrl === "string"
+      ? featured.applyUrl
+      : typeof item.applyUrl === "string"
+        ? item.applyUrl
+        : "";
+  const listingsRaw =
+    typeof item.listingsUrl === "string"
+      ? item.listingsUrl
+      : featuredApplyRaw;
+
+  if (!position || !responsibilities || !qualifications) return null;
+
+  const featuredUrl = validateApplyUrl(featuredApplyRaw);
+  const listingsUrl = validateApplyUrl(listingsRaw);
+  if (!featuredUrl.ok || !listingsUrl.ok) return null;
+
   const normalized = {
     company,
     mission,
     position,
-    description,
-    applyUrl: url.href,
+    responsibilities,
+    qualifications,
+    applyUrl: featuredUrl.href,
+    listingsUrl: listingsUrl.href,
+    listingsIsSameAsFeatured: featuredUrl.href === listingsUrl.href,
     postedBy: item.postedBy,
   };
   return { ...normalized, key: opportunityKey(normalized) };
@@ -97,7 +129,7 @@ async function pickHealthyOpportunity(items, date, channelId, history) {
   const candidates = items.map(normalizeItem).filter(Boolean);
   if (candidates.length === 0) {
     throw new Error(
-      `No complete opportunities in ${channelId}. Need company, mission, position, description, https applyUrl.`,
+      `No complete opportunities in ${channelId}. Need company, mission, featured.position/responsibilities/qualifications/applyUrl, listingsUrl.`,
     );
   }
 
@@ -105,7 +137,6 @@ async function pickHealthyOpportunity(items, date, channelId, history) {
   let unused = candidates.filter((c) => !channelHistory.keys.includes(c.key));
   let cycleReset = false;
 
-  // If everything has been used, start a new cycle.
   if (unused.length === 0) {
     resetChannelKeys(history, channelId);
     channelHistory = getChannelHistory(history, channelId);
@@ -117,17 +148,41 @@ async function pickHealthyOpportunity(items, date, channelId, history) {
   const skipped = [];
   for (let offset = 0; offset < unused.length; offset++) {
     const candidate = unused[(start + offset) % unused.length];
-    const health = await checkApplyUrl(candidate.applyUrl);
-    if (health.ok) {
-      return { ...candidate, linkStatus: health.status, skipped, cycleReset };
+    const featuredHealth = await checkApplyUrl(candidate.applyUrl);
+    if (!featuredHealth.ok) {
+      skipped.push({
+        company: candidate.company,
+        position: candidate.position,
+        applyUrl: candidate.applyUrl,
+        status: featuredHealth.status,
+        reason: featuredHealth.reason,
+      });
+      continue;
     }
-    skipped.push({
-      company: candidate.company,
-      position: candidate.position,
-      applyUrl: candidate.applyUrl,
-      status: health.status,
-      reason: health.reason,
-    });
+
+    let listingsStatus = featuredHealth.status;
+    if (!candidate.listingsIsSameAsFeatured) {
+      const listingsHealth = await checkApplyUrl(candidate.listingsUrl);
+      if (!listingsHealth.ok) {
+        skipped.push({
+          company: candidate.company,
+          position: candidate.position,
+          applyUrl: candidate.listingsUrl,
+          status: listingsHealth.status,
+          reason: `listings_${listingsHealth.reason}`,
+        });
+        continue;
+      }
+      listingsStatus = listingsHealth.status;
+    }
+
+    return {
+      ...candidate,
+      linkStatus: featuredHealth.status,
+      listingsStatus,
+      skipped,
+      cycleReset,
+    };
   }
 
   throw new Error(
@@ -145,26 +200,41 @@ function formatPostedBy(postedBy) {
   return name || contact;
 }
 
-function formatMessage({ channel, date, company, mission, position, description, applyUrl, postedBy }) {
+function formatMessage(picked, channel, date) {
   const lines = [
     `*Opportunity of the Day — ${channel.label} — ${date}*`,
     "",
-    `*Company:* ${company}`,
-    `*Position:* ${position}`,
+    `*Company:* ${picked.company}`,
+    `*Featured position:* ${picked.position}`,
     "",
-    `*About the company:* ${mission}`,
+    `*About the company:* ${picked.mission}`,
     "",
-    `*What we’re sharing:* ${description}`,
+    "*What we’re sharing:* One featured opportunity (role details below), plus a separate link to the company’s open-positions / careers listings page — that listings page is a board of many roles, not one job.",
     "",
-    `*Apply:* <${applyUrl}|${position}>`,
+    `*Responsibilities (featured role):* ${picked.responsibilities}`,
+    "",
+    `*Qualifications (featured role):* ${picked.qualifications}`,
+    "",
+    `*Apply to the featured opportunity:* <${picked.applyUrl}|${picked.position}>`,
   ];
-  const by = formatPostedBy(postedBy);
+
+  if (picked.listingsIsSameAsFeatured) {
+    lines.push(
+      `*Browse all open positions (listings page — many roles, not one job):* <${picked.listingsUrl}|${picked.company} careers / open roles> _(same site as above; use it to browse every open listing)_`,
+    );
+  } else {
+    lines.push(
+      `*Browse all open positions (listings page — many roles, not one job):* <${picked.listingsUrl}|${picked.company} careers / open roles>`,
+    );
+  }
+
+  const by = formatPostedBy(picked.postedBy);
   if (by) {
     lines.push("", `*Posted by:* ${by}`);
   }
   lines.push(
     "",
-    "_Link was checked before posting, but openings change — confirm the listing is still active before you apply._",
+    "_Links were checked before posting, but openings change — confirm the featured role is still active before you apply._",
   );
   return lines.join("\n");
 }
@@ -191,16 +261,7 @@ async function postChannel(channel, date, history) {
 
   const items = loadOpportunities(channel.file);
   const picked = await pickHealthyOpportunity(items, date, channel.id, history);
-  const text = formatMessage({
-    channel,
-    date,
-    company: picked.company,
-    mission: picked.mission,
-    position: picked.position,
-    description: picked.description,
-    applyUrl: picked.applyUrl,
-    postedBy: picked.postedBy,
-  });
+  const text = formatMessage(picked, channel, date);
 
   await postViaWebhook(webhook, text);
   recordPosted(history, channel.id, {
@@ -217,6 +278,7 @@ async function postChannel(channel, date, history) {
     company: picked.company,
     position: picked.position,
     applyUrl: picked.applyUrl,
+    listingsUrl: picked.listingsUrl,
     linkStatus: picked.linkStatus,
     skippedDeadLinks: picked.skipped.length,
     cycleReset: picked.cycleReset,
