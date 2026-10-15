@@ -1,10 +1,13 @@
 /**
- * Live-check apply links before posting.
+ * Live-check apply / listings links before posting.
  * Rejects clear dead links (404/410). Soft-fails network/403 as usable only
  * when allowUncertain is true; by default 2xx/3xx required.
+ *
+ * Careers listing boards often rate-limit or bot-wall scrapers (403/429);
+ * use checkListingsUrl for those so a board wall does not block a good JD.
  */
 
-export async function checkApplyUrl(href, { timeoutMs = 15000 } = {}) {
+async function fetchStatus(href, { timeoutMs = 15000 } = {}) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
