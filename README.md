@@ -9,6 +9,7 @@ Automated **8:00 AM Eastern** posts to nycgradpostdocs.slack.com:
 | `#opportunities-vc` | One VC / investing opportunity |
 | `#opportunities-pharma` | One pharma opportunity |
 | `#opportunities-entrepreneurship` | One entrepreneurship / startup opportunity |
+| `#opportunities-spatial` *(private)* | **Two** NYC or Remote spatial-omics roles |
 
 No LLM / Grok usage. GitHub Actions + Slack incoming webhooks.
 
@@ -17,24 +18,73 @@ No LLM / Grok usage. GitHub Actions + Slack incoming webhooks.
 | Path | Role |
 | --- | --- |
 | `data/topics.json` | Topic of the Day bank |
-| `data/opportunities/*.json` | Per-field opportunity banks |
+| `data/opportunities/*.json` | Per-field opportunity banks (`spatial.json` = spatial channel) |
 | `scripts/post-daily-topic.mjs` | Topic poster |
 | `scripts/post-daily-opportunities.mjs` | Opportunities poster (link safety checks) |
 | `.github/workflows/daily-topic.yml` | Daily 8 AM Eastern schedule |
 
-## Slack webhooks (one per channel)
+## Full setup walkthrough (including private `#opportunities-spatial`)
 
-In your Slack app → **Incoming Webhooks** → **Add New Webhook to Workspace** for each channel, then add GitHub Actions secrets:
+### 1. Create / confirm the Slack channel
+
+1. In Slack, create `#opportunities-spatial` (private is fine).
+2. Invite the members who should see posts.
+3. You will also invite your **Incoming Webhooks** Slack app into this private channel when you add the webhook (step 2).
+
+### 2. Create an Incoming Webhook for the private channel
+
+Use the **same Slack app** that already posts to your other opportunity channels:
+
+1. Open [api.slack.com/apps](https://api.slack.com/apps) → select your app.
+2. **Incoming Webhooks** → **On**.
+3. **Add New Webhook to Workspace**.
+4. Pick **`#opportunities-spatial`** (private channels appear in the picker if you are a member).
+5. Copy the URL — it must look like:
+
+   `https://hooks.slack.com/services/T…/B…/…`
+
+   Do **not** use an `app-settings` / “manage distribution” URL.
+
+Private vs public does not change the webhook mechanics: once the webhook is installed into that channel, GitHub Actions can post there.
+
+### 3. Add the GitHub Actions secret
+
+GitHub → your repo → **Settings → Secrets and variables → Actions → New repository secret**:
 
 | GitHub secret | Slack channel |
 | --- | --- |
-| `SLACK_WEBHOOK_URL` | `#topic-of-day` (already set if topic posts work) |
+| `SLACK_WEBHOOK_URL` | `#topic-of-day` |
 | `SLACK_WEBHOOK_URL_OPPORTUNITIES_BIOTECH` | `#opportunities-biotech` |
 | `SLACK_WEBHOOK_URL_OPPORTUNITIES_VC` | `#opportunities-vc` |
 | `SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA` | `#opportunities-pharma` |
 | `SLACK_WEBHOOK_URL_OPPORTUNITIES_ENTREPRENEURSHIP` | `#opportunities-entrepreneurship` |
+| `SLACK_WEBHOOK_URL_OPPORTUNITIES_SPATIAL` | `#opportunities-spatial` *(new)* |
 
-GitHub → **Settings → Secrets and variables → Actions → New repository secret**.
+Paste the hooks.slack.com URL from step 2 into `SLACK_WEBHOOK_URL_OPPORTUNITIES_SPATIAL`.
+
+### 4. How the daily job works
+
+1. GitHub Actions workflow **Daily Slack posts** runs on a schedule (UTC crons that cover 8 AM Eastern) and on manual **Run workflow**.
+2. `scripts/post-daily-opportunities.mjs` posts to each channel that has a webhook secret.
+3. Most channels post **1** featured role. `#opportunities-spatial` posts **2** separate Slack messages (`1/2` and `2/2`).
+4. Each message includes company type, scientific goal, role-specific summary, responsibilities, qualifications, a **specific JD apply link**, and a separate **listings board** link.
+5. Links are health-checked; dead links are skipped.
+6. Posted keys are saved in `data/opportunities/posted-history.json` and committed by Actions so roles are not repeated until the channel cycle completes.
+7. Scheduled runs post at most once per Eastern day per channel; manual **Run workflow** can repost the same day.
+
+### 5. Spatial channel rules (seed data)
+
+Entries in `data/opportunities/spatial.json` are curated for:
+
+- **Location:** New York City **or** Remote
+- **Work:** spatial transcriptomics, spatial proteomics, H&E / digital pathology imaging, spatial metabolomics, or spatial multiomics
+- **Preference:** industry roles first; academic postdoc/researcher roles allowed
+
+### 6. Test
+
+1. Confirm the spatial secret exists.
+2. GitHub → **Actions → Daily Slack posts → Run workflow**.
+3. Check `#opportunities-spatial` for **two** new posts (and the other channels as usual).
 
 ## Opportunity post format
 
@@ -49,9 +99,8 @@ Each opportunity entry must include:
 - **featured.responsibilities** — from that job description
 - **featured.qualifications** — from that job description
 - **featured.applyUrl** — direct link to that specific JD/application (not the board)
+- **location** / **spatialFocus** — required for spatial seed quality (shown in Slack when present)
 - **postedBy** (optional)
-
-Slack posts include company type + scientific goal, a role-specific summary, responsibilities/qualifications for that posting, a **specific apply** link, and a separately labeled listings-page link.
 
 Example JSON:
 
@@ -60,13 +109,15 @@ Example JSON:
   "company": "Example Bio",
   "companyType": "Clinical-stage biotech company",
   "mission": "Develop enzyme-replacement therapies for rare metabolic disease.",
+  "location": "New York, NY or Remote",
+  "spatialFocus": "Spatial transcriptomics (Xenium)",
   "listingsUrl": "https://example.com/careers",
   "featured": {
-    "position": "Research Associate, Discovery Biology",
-    "description": "Full-time wet-lab RA supporting target-validation assays for Example Bio’s lead metabolic program (requisition 123).",
-    "responsibilities": "Run target-validation assays and document results with the discovery team.",
-    "qualifications": "BS/MS in biology with 1+ years wet-lab experience.",
-    "applyUrl": "https://example.com/careers/research-associate-123"
+    "position": "Computational Biologist, Spatial Transcriptomics",
+    "description": "Full-time role analyzing Xenium datasets for Example Bio’s oncology program.",
+    "responsibilities": "Run spatial QC and niche analysis; align H&E to spatial coordinates.",
+    "qualifications": "PhD or MS with spatial transcriptomics experience; Python or R.",
+    "applyUrl": "https://example.com/careers/spatial-comp-bio-123"
   },
   "postedBy": {
     "name": "Alex Kim",
@@ -87,12 +138,6 @@ Scheduled runs also post **at most once per Eastern calendar day** per
 channel. A manual **Run workflow** can post again the same day (still
 respecting the no-repeat cycle for which listing is chosen).
 
-## Test
-
-1. Add the four opportunity webhook secrets  
-2. GitHub → **Actions → Daily Slack posts → Run workflow**  
-3. Check all five channels  
-
 ## Local test
 
 ```bash
@@ -100,10 +145,11 @@ export SLACK_WEBHOOK_URL_OPPORTUNITIES_BIOTECH='https://hooks.slack.com/services
 export SLACK_WEBHOOK_URL_OPPORTUNITIES_VC='https://hooks.slack.com/services/...'
 export SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA='https://hooks.slack.com/services/...'
 export SLACK_WEBHOOK_URL_OPPORTUNITIES_ENTREPRENEURSHIP='https://hooks.slack.com/services/...'
+export SLACK_WEBHOOK_URL_OPPORTUNITIES_SPATIAL='https://hooks.slack.com/services/...'
 export FORCE_POST=1
 node scripts/post-daily-opportunities.mjs
 ```
 
 ## Maintain the lists
 
-Seed data uses real public careers / program pages so links stay useful, but openings change. Edit the JSON files and commit to `main` whenever you want fresher roles. Prefer employer career pages over URL shorteners.
+Seed data uses real public careers / program pages so links stay useful, but openings change. Edit the JSON files and commit to `main` whenever you want fresher roles. Prefer employer career pages over URL shorteners. For `#opportunities-spatial`, keep only NYC or Remote roles that clearly involve spatial omics / H&E spatial imaging.

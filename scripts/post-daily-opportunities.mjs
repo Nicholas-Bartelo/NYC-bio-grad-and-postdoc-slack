@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 /**
- * Post one opportunity to each opportunities-* Slack channel.
+ * Post opportunities to each opportunities-* Slack channel.
  *
  * Each entry features one specific role (responsibilities + qualifications)
  * and also links a careers/listings page clearly labeled as a job board
  * (many roles — not a single job).
+ *
+ * Most channels post 1 role/day. The spatial channel posts 2/day.
  *
  * Never repeats an opportunity until every usable listing in that channel
  * has been posted once; then the channel history resets for a new cycle.
@@ -38,6 +40,7 @@ const CHANNELS = [
     slackChannel: "opportunities-biotech",
     file: "biotech.json",
     webhookEnv: "SLACK_WEBHOOK_URL_OPPORTUNITIES_BIOTECH",
+    postsPerDay: 1,
   },
   {
     id: "vc",
@@ -45,6 +48,7 @@ const CHANNELS = [
     slackChannel: "opportunities-vc",
     file: "vc.json",
     webhookEnv: "SLACK_WEBHOOK_URL_OPPORTUNITIES_VC",
+    postsPerDay: 1,
   },
   {
     id: "pharma",
@@ -52,6 +56,7 @@ const CHANNELS = [
     slackChannel: "opportunities-pharma",
     file: "pharma.json",
     webhookEnv: "SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA",
+    postsPerDay: 1,
   },
   {
     id: "entrepreneurship",
@@ -59,6 +64,15 @@ const CHANNELS = [
     slackChannel: "opportunities-entrepreneurship",
     file: "entrepreneurship.json",
     webhookEnv: "SLACK_WEBHOOK_URL_OPPORTUNITIES_ENTREPRENEURSHIP",
+    postsPerDay: 1,
+  },
+  {
+    id: "spatial",
+    label: "spatial omics",
+    slackChannel: "opportunities-spatial",
+    file: "spatial.json",
+    webhookEnv: "SLACK_WEBHOOK_URL_OPPORTUNITIES_SPATIAL",
+    postsPerDay: 2,
   },
 ];
 
@@ -103,6 +117,18 @@ function normalizeItem(item) {
   const qualifications = (
     typeof featured?.qualifications === "string" ? featured.qualifications : ""
   ).trim();
+  const location =
+    typeof item.location === "string"
+      ? item.location.trim()
+      : typeof featured?.location === "string"
+        ? featured.location.trim()
+        : "";
+  const spatialFocus =
+    typeof item.spatialFocus === "string"
+      ? item.spatialFocus.trim()
+      : typeof featured?.spatialFocus === "string"
+        ? featured.spatialFocus.trim()
+        : "";
   const featuredApplyRaw =
     typeof featured?.applyUrl === "string"
       ? featured.applyUrl
@@ -132,6 +158,8 @@ function normalizeItem(item) {
     description,
     responsibilities,
     qualifications,
+    location,
+    spatialFocus,
     applyUrl: featuredUrl.href,
     listingsUrl: listingsUrl.href,
     postedBy: item.postedBy,
@@ -139,8 +167,17 @@ function normalizeItem(item) {
   return { ...normalized, key: opportunityKey(normalized) };
 }
 
-async function pickHealthyOpportunity(items, date, channelId, history) {
-  const candidates = items.map(normalizeItem).filter(Boolean);
+async function pickHealthyOpportunity(
+  items,
+  date,
+  channelId,
+  history,
+  { excludeKeys = [] } = {},
+) {
+  const candidates = items
+    .map(normalizeItem)
+    .filter(Boolean)
+    .filter((c) => !excludeKeys.includes(c.key));
   if (candidates.length === 0) {
     throw new Error(
       `No complete opportunities in ${channelId}. Need company, companyType, mission, listingsUrl, and featured.position/description/responsibilities/qualifications/applyUrl (applyUrl must differ from listingsUrl).`,
@@ -158,7 +195,11 @@ async function pickHealthyOpportunity(items, date, channelId, history) {
     cycleReset = true;
   }
 
-  const start = dayIndex(date, unused.length, `${channelId}:unused`);
+  const start = dayIndex(
+    date,
+    unused.length,
+    `${channelId}:unused:${excludeKeys.length}`,
+  );
   const skipped = [];
   for (let offset = 0; offset < unused.length; offset++) {
     const candidate = unused[(start + offset) % unused.length];
@@ -174,26 +215,22 @@ async function pickHealthyOpportunity(items, date, channelId, history) {
       continue;
     }
 
-    let listingsStatus = featuredHealth.status;
-    if (!candidate.listingsIsSameAsFeatured) {
-      const listingsHealth = await checkApplyUrl(candidate.listingsUrl);
-      if (!listingsHealth.ok) {
-        skipped.push({
-          company: candidate.company,
-          position: candidate.position,
-          applyUrl: candidate.listingsUrl,
-          status: listingsHealth.status,
-          reason: `listings_${listingsHealth.reason}`,
-        });
-        continue;
-      }
-      listingsStatus = listingsHealth.status;
+    const listingsHealth = await checkApplyUrl(candidate.listingsUrl);
+    if (!listingsHealth.ok) {
+      skipped.push({
+        company: candidate.company,
+        position: candidate.position,
+        applyUrl: candidate.listingsUrl,
+        status: listingsHealth.status,
+        reason: `listings_${listingsHealth.reason}`,
+      });
+      continue;
     }
 
     return {
       ...candidate,
       linkStatus: featuredHealth.status,
-      listingsStatus,
+      listingsStatus: listingsHealth.status,
       skipped,
       cycleReset,
     };
@@ -214,13 +251,28 @@ function formatPostedBy(postedBy) {
   return name || contact;
 }
 
-function formatMessage(picked, channel, date) {
+function formatMessage(picked, channel, date, { index, total } = {}) {
+  const title =
+    total && total > 1
+      ? `*Opportunity of the Day (${index}/${total}) — ${channel.label} — ${date}*`
+      : `*Opportunity of the Day — ${channel.label} — ${date}*`;
+
   const lines = [
-    `*Opportunity of the Day — ${channel.label} — ${date}*`,
+    title,
     "",
     `*Company:* ${picked.company}`,
     `*Company type:* ${picked.companyType}`,
     `*Featured position:* ${picked.position}`,
+  ];
+
+  if (picked.location) {
+    lines.push(`*Location:* ${picked.location}`);
+  }
+  if (picked.spatialFocus) {
+    lines.push(`*Spatial focus:* ${picked.spatialFocus}`);
+  }
+
+  lines.push(
     "",
     `*About the company:* ${picked.companyType}. Scientific goal: ${picked.mission}`,
     "",
@@ -232,7 +284,7 @@ function formatMessage(picked, channel, date) {
     "",
     `*Apply to this specific role:* <${picked.applyUrl}|${picked.position}>`,
     `*Browse all open positions (listings page — many roles, not one job):* <${picked.listingsUrl}|${picked.company} careers / open roles>`,
-  ];
+  );
 
   const by = formatPostedBy(picked.postedBy);
   if (by) {
@@ -274,29 +326,52 @@ async function postChannel(channel, date, history) {
     };
   }
 
+  const postsPerDay = Number(channel.postsPerDay) > 0 ? Number(channel.postsPerDay) : 1;
   const items = loadOpportunities(channel.file);
-  const picked = await pickHealthyOpportunity(items, date, channel.id, history);
-  const text = formatMessage(picked, channel, date);
+  const posted = [];
+  const excludeKeys = [];
+  let cycleReset = false;
+  let skippedDeadLinks = 0;
 
-  await postViaWebhook(webhook, text);
-  recordPosted(history, channel.id, {
-    key: picked.key,
-    company: picked.company,
-    position: picked.position,
-    applyUrl: picked.applyUrl,
-    date,
-  });
+  for (let i = 0; i < postsPerDay; i++) {
+    const picked = await pickHealthyOpportunity(items, date, channel.id, history, {
+      excludeKeys,
+    });
+    const text = formatMessage(picked, channel, date, {
+      index: i + 1,
+      total: postsPerDay,
+    });
+
+    await postViaWebhook(webhook, text);
+    recordPosted(history, channel.id, {
+      key: picked.key,
+      company: picked.company,
+      position: picked.position,
+      applyUrl: picked.applyUrl,
+      date,
+    });
+
+    excludeKeys.push(picked.key);
+    cycleReset = cycleReset || picked.cycleReset;
+    skippedDeadLinks += picked.skipped.length;
+    posted.push({
+      company: picked.company,
+      position: picked.position,
+      applyUrl: picked.applyUrl,
+      listingsUrl: picked.listingsUrl,
+      location: picked.location || null,
+      spatialFocus: picked.spatialFocus || null,
+      linkStatus: picked.linkStatus,
+    });
+  }
 
   return {
     channel: channel.slackChannel,
     posted: true,
-    company: picked.company,
-    position: picked.position,
-    applyUrl: picked.applyUrl,
-    listingsUrl: picked.listingsUrl,
-    linkStatus: picked.linkStatus,
-    skippedDeadLinks: picked.skipped.length,
-    cycleReset: picked.cycleReset,
+    postsPerDay,
+    opportunities: posted,
+    skippedDeadLinks,
+    cycleReset,
   };
 }
 
@@ -350,13 +425,32 @@ async function main() {
     errors.length === 0 &&
     results.every((r) => !r.posted && String(r.reason).startsWith("missing_secret"));
 
-  if (missingOnly) {
+  // Don't fail the whole job solely because the new spatial secret isn't set yet.
+  const nonSpatialMissingOnly =
+    errors.length === 0 &&
+    results
+      .filter((r) => r.channel !== "opportunities-spatial")
+      .every((r) => !r.posted && String(r.reason).startsWith("missing_secret")) &&
+    results.some((r) => r.channel === "opportunities-spatial");
+
+  if (missingOnly && !nonSpatialMissingOnly) {
     throw new Error(
       "No opportunity webhook secrets set. Add SLACK_WEBHOOK_URL_OPPORTUNITIES_* secrets for each channel.",
     );
   }
   if (!anyPosted && !results.some((r) => r.reason === "already_posted_today")) {
-    throw new Error("No opportunities were posted. See results above.");
+    // Allow success when only spatial is missing its secret and others already posted today.
+    const onlySpatialMissing =
+      results.every(
+        (r) =>
+          r.reason === "already_posted_today" ||
+          (r.channel === "opportunities-spatial" &&
+            String(r.reason).startsWith("missing_secret")),
+      ) &&
+      results.some((r) => r.channel === "opportunities-spatial");
+    if (!onlySpatialMissing) {
+      throw new Error("No opportunities were posted. See results above.");
+    }
   }
   if (errors.length > 0) {
     throw new Error(
