@@ -1,7 +1,33 @@
-# NYC bio grad and postdoc Slack bots
+# Topic of the Day
 
-Daily biology **Topic of the Day** for `#topic-of-day` on nycgradpostdocs.slack.com.
+Posts one biology discussion topic every day at **8:00 AM Eastern** to
+`#topic-of-day` on **nycgradpostdocs.slack.com**.
 
-See [`bio-topic-of-day/README.md`](./bio-topic-of-day/README.md) for setup.
+## What’s in this repo
 
-**No Cursor Team required.** Posting is done by GitHub Actions + a Slack webhook.
+| Path | Role |
+| --- | --- |
+| `data/topics.json` | Rotating bank of biology topics |
+| `scripts/post-daily-topic.mjs` | Picks today’s topic and posts to Slack |
+| `.github/workflows/daily-topic.yml` | Daily schedule (8 AM Eastern year-round) |
+
+## Setup (already done if webhook secret exists)
+
+1. Slack app → **Incoming Webhooks** → webhook for `#topic-of-day`
+2. GitHub → **Settings → Secrets and variables → Actions**
+3. Secret `SLACK_WEBHOOK_URL` = that webhook URL
+
+## Test
+
+GitHub → **Actions → Daily biology topic → Run workflow**
+
+## Local test
+
+```bash
+export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/...'
+node scripts/post-daily-topic.mjs
+```
+
+## Cost
+
+No LLM / Grok usage. One short GitHub Actions job per day + a free Slack webhook.

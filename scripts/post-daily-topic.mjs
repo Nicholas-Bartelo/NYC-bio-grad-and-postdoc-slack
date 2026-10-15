@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /**
  * Post today's biology Topic of the Day to Slack.
- * Designed for GitHub Actions (no Cursor team / BDK deploy required).
+ * Designed for GitHub Actions.
  *
  * Auth (either works):
  *   SLACK_WEBHOOK_URL          Incoming webhook for #topic-of-day (simplest)
- *   SLACK_BOT_TOKEN + channel  Bot token with chat:write (and channels:read if resolving by name)
+ *   SLACK_BOT_TOKEN + channel  Bot token with chat:write
  *
  * Channel (bot-token mode):
  *   BIO_TOPIC_OF_DAY_CHANNEL_ID   preferred
