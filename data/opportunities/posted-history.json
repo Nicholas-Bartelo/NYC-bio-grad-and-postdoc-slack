@@ -2,24 +2,68 @@
   "version": 1,
   "channels": {
     "biotech": {
-      "keys": [],
-      "lastPostedDate": null,
-      "entries": []
+      "keys": [
+        "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs"
+      ],
+      "lastPostedDate": "2026-10-15",
+      "entries": [
+        {
+          "key": "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
+          "company": "Genentech",
+          "position": "Students & Graduates — open internship and early-career roles",
+          "applyUrl": "https://careers.gene.com/us/en/c/students-graduates-jobs",
+          "postedAt": "2026-10-15T15:35:42.272Z",
+          "date": "2026-10-15"
+        }
+      ]
     },
     "vc": {
-      "keys": [],
-      "lastPostedDate": null,
-      "entries": []
+      "keys": [
+        "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/"
+      ],
+      "lastPostedDate": "2026-10-15",
+      "entries": [
+        {
+          "key": "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
+          "company": "Atlas Venture",
+          "position": "Firm opportunities (see current Atlas site listings / contact paths)",
+          "applyUrl": "https://www.atlasventure.com/",
+          "postedAt": "2026-10-15T15:35:42.803Z",
+          "date": "2026-10-15"
+        }
+      ]
     },
     "pharma": {
-      "keys": [],
-      "lastPostedDate": null,
-      "entries": []
+      "keys": [
+        "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students"
+      ],
+      "lastPostedDate": "2026-10-15",
+      "entries": [
+        {
+          "key": "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
+          "company": "Sanofi",
+          "position": "Students — search current openings",
+          "applyUrl": "https://jobs.sanofi.com/en/search-jobs/students",
+          "postedAt": "2026-10-15T15:35:43.455Z",
+          "date": "2026-10-15"
+        }
+      ]
     },
     "entrepreneurship": {
-      "keys": [],
-      "lastPostedDate": null,
-      "entries": []
+      "keys": [
+        "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/"
+      ],
+      "lastPostedDate": "2026-10-15",
+      "entries": [
+        {
+          "key": "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
+          "company": "NIH SEED (SBIR/STTR)",
+          "position": "SBIR/STTR small business research funding",
+          "applyUrl": "https://seed.nih.gov/",
+          "postedAt": "2026-10-15T15:35:43.602Z",
+          "date": "2026-10-15"
+        }
+      ]
     }
   }
 }
