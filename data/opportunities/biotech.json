@@ -1,0 +1,61 @@
+[
+  {
+    "company": "National Institutes of Health (NIH)",
+    "title": "Postbaccalaureate IRTA / CRTA Research Training Award",
+    "description": "1–2 year full-time research training for recent grads planning graduate or professional school. Trainees work in NIH intramural labs across biomedical fields.",
+    "applyUrl": "https://www.training.nih.gov/research-training/pb/",
+    "postedBy": {
+      "name": "NYC Grad & Postdoc Slack bot",
+      "contact": "Maintainers: update data/opportunities/biotech.json"
+    }
+  },
+  {
+    "company": "Broad Institute of MIT and Harvard",
+    "title": "Careers — research, computational biology, and operations roles",
+    "description": "Openings across genomics, therapeutics, data science, and institute operations. Strong fit for wet-lab and computational biologists exploring non-academic paths.",
+    "applyUrl": "https://www.broadinstitute.org/careers",
+    "postedBy": null
+  },
+  {
+    "company": "Genentech",
+    "title": "Early careers & student programs",
+    "description": "Internships, co-ops, and early-career scientist roles in research, development, and gRED. Check current postings for location and degree requirements.",
+    "applyUrl": "https://careers.gene.com/us/en/students-and-graduates",
+    "postedBy": null
+  },
+  {
+    "company": "Regeneron",
+    "title": "Postdoctoral Program",
+    "description": "Industry postdoc training with Regeneron scientists. Designed for PhD scientists seeking biotechnology research experience outside academia.",
+    "applyUrl": "https://www.regeneron.com/careers/early-career-talent",
+    "postedBy": null
+  },
+  {
+    "company": "New York Genome Center",
+    "title": "Open positions",
+    "description": "NYC-based genomics center hiring across sequencing technology, computational biology, and research programs. Local option for NYC grads and postdocs.",
+    "applyUrl": "https://www.nygenome.org/careers/",
+    "postedBy": null
+  },
+  {
+    "company": "Memorial Sloan Kettering Cancer Center",
+    "title": "Careers — research and scientific roles",
+    "description": "Research technician, specialist, and scientist postings supporting cancer biology, translational research, and core facilities in NYC.",
+    "applyUrl": "https://careers.mskcc.org/",
+    "postedBy": null
+  },
+  {
+    "company": "Cold Spring Harbor Laboratory",
+    "title": "Careers & postdoctoral opportunities",
+    "description": "Basic research institute on Long Island with postdoc and staff scientist openings in molecular biology, neuroscience, cancer, and quantitative biology.",
+    "applyUrl": "https://www.cshl.edu/about-us/careers/",
+    "postedBy": null
+  },
+  {
+    "company": "Addgene",
+    "title": "Careers",
+    "description": "Nonprofit plasmid repository roles spanning science, operations, and customer-facing scientific support — often a bridge between bench experience and biotech ops.",
+    "applyUrl": "https://www.addgene.org/careers/",
+    "postedBy": null
+  }
+]

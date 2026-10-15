@@ -1,9 +1,9 @@
-name: Daily biology topic
+name: Daily Slack posts
 
 on:
   schedule:
     # GitHub cron is UTC only. Fire at both offsets that can be 8:00 AM Eastern:
-    # 12:00 UTC = 8 AM EDT, 13:00 UTC = 8 AM EST. The script posts only when
+    # 12:00 UTC = 8 AM EDT, 13:00 UTC = 8 AM EST. Scripts post only when
     # America/New_York local hour is 8 (manual Run workflow always posts).
     - cron: "0 12 * * *"
     - cron: "0 13 * * *"
@@ -26,7 +26,14 @@ jobs:
       - name: Post Topic of the Day
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-          BIO_TOPIC_OF_DAY_CHANNEL_ID: ${{ secrets.BIO_TOPIC_OF_DAY_CHANNEL_ID }}
-          BIO_TOPIC_OF_DAY_CHANNEL_NAME: topic-of-day
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: node scripts/post-daily-topic.mjs
+
+      - name: Post opportunities to field channels
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          SLACK_WEBHOOK_URL_OPPORTUNITIES_BIOTECH: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_BIOTECH }}
+          SLACK_WEBHOOK_URL_OPPORTUNITIES_VC: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_VC }}
+          SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA }}
+          SLACK_WEBHOOK_URL_OPPORTUNITIES_ENTREPRENEURSHIP: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_ENTREPRENEURSHIP }}
+        run: node scripts/post-daily-opportunities.mjs

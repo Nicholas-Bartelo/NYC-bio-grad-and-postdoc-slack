@@ -1,0 +1,58 @@
+[
+  {
+    "company": "Y Combinator",
+    "title": "Apply to YC",
+    "description": "Startup accelerator batches for founders (including bio/health). Rolling applications; best when you have a founding team and a clear problem thesis.",
+    "applyUrl": "https://www.ycombinator.com/apply",
+    "postedBy": null
+  },
+  {
+    "company": "IndieBio (SOSV)",
+    "title": "IndieBio application",
+    "description": "Biology-focused startup program with funding and lab support. Aimed at scientist-founders translating research into companies.",
+    "applyUrl": "https://indiebio.co/",
+    "postedBy": null
+  },
+  {
+    "company": "NSF I-Corps",
+    "title": "I-Corps Teams / Hubs",
+    "description": "Customer-discovery training for researchers commercializing science. Often a first structured step from lab idea → startup hypothesis.",
+    "applyUrl": "https://www.nsf.gov/funding/initiatives/i-corps",
+    "postedBy": null
+  },
+  {
+    "company": "Biolabs",
+    "title": "Join a BioLabs site / community",
+    "description": "Shared lab infrastructure and startup community for early biotech companies. NYC and other sites support scientist-founders needing bench space.",
+    "applyUrl": "https://www.biolabs.io/",
+    "postedBy": null
+  },
+  {
+    "company": "Breakout Ventures / Breakout Labs lineage programs",
+    "title": "Breakthrough scientific startup programs (check current calls)",
+    "description": "Science-focused venture programs periodically open applications for deep-tech and life-science founders. Confirm active calls on the site.",
+    "applyUrl": "https://www.breakout.vc/",
+    "postedBy": null
+  },
+  {
+    "company": "Creative Destruction Lab (CDL)",
+    "title": "CDL program streams",
+    "description": "Objectives-based mentoring program for massively scalable science/tech ventures, with health/bio-related streams depending on site/year.",
+    "applyUrl": "https://creativedestructionlab.com/",
+    "postedBy": null
+  },
+  {
+    "company": "Cornell Tech / Runway",
+    "title": "Runway Startup Postdoc Program",
+    "description": "NYC postdoc-to-startup pathway combining research commercialization support with venture creation (eligibility varies by call).",
+    "applyUrl": "https://tech.cornell.edu/programs/runway/",
+    "postedBy": null
+  },
+  {
+    "company": "NIH SBIR/STTR",
+    "title": "Small business research funding",
+    "description": "Non-dilutive US government funding for early-stage health/biotech companies. Critical path for many scientist-founders before or alongside seed rounds.",
+    "applyUrl": "https://seed.nih.gov/",
+    "postedBy": null
+  }
+]
