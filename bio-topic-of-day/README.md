@@ -12,7 +12,7 @@ plus a Slack incoming webhook (simplest) or bot token.
 | --- | --- |
 | `data/topics.json` | Rotating bank of biology discussion topics |
 | `scripts/post-daily-topic.mjs` | Picks today's topic and posts to Slack |
-| `.github/workflows/daily-topic.yml` | Cron at `0 12 * * *` UTC (~8 AM EDT) |
+| `.github/workflows/daily-topic.yml` | Cron at 12:00 and 13:00 UTC; posts only at 8 AM Eastern |
 
 ## One-time Slack setup (webhook — recommended)
 
@@ -47,12 +47,12 @@ export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/...'
 node scripts/post-daily-topic.mjs
 ```
 
-## Adjust the clock
+## Clock (8:00 AM Eastern year-round)
 
-Cron is UTC. Edit `.github/workflows/daily-topic.yml`:
-
-- `0 12 * * *` → 8:00 AM EDT / 7:00 AM EST
-- `0 13 * * *` → 9:00 AM EDT / 8:00 AM EST
+GitHub cron is UTC-only, so the workflow runs at **both** 12:00 and 13:00 UTC.
+`scripts/post-daily-topic.mjs` posts only when the local time in
+`America/New_York` is **8:00 AM**, covering EDT and EST. Manual
+**Run workflow** always posts.
 
 ## Optional: BDK agent (interactive Slack bot)
 

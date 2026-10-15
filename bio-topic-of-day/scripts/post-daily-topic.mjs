@@ -145,6 +145,18 @@ async function postViaBot(token, text) {
 }
 
 async function main() {
+  if (!shouldPostNow()) {
+    console.log(
+      JSON.stringify({
+        posted: false,
+        reason: "not_8am_eastern",
+        easternHour: easternHour(),
+        easternDate: easternDateKey(),
+      }),
+    );
+    return;
+  }
+
   const topics = JSON.parse(
     readFileSync(join(ROOT, "data", "topics.json"), "utf8"),
   );
