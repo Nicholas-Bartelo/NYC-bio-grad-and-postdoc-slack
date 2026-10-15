@@ -3,7 +3,8 @@
   "channels": {
     "biotech": {
       "keys": [
-        "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs"
+        "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
+        "New York Genome Center||Computational Biologist, Genomics Research||https://www.nygenome.org/careers/"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -14,12 +15,21 @@
           "applyUrl": "https://careers.gene.com/us/en/c/students-graduates-jobs",
           "postedAt": "2026-10-15T15:35:42.272Z",
           "date": "2026-10-15"
+        },
+        {
+          "key": "New York Genome Center||Computational Biologist, Genomics Research||https://www.nygenome.org/careers/",
+          "company": "New York Genome Center",
+          "position": "Computational Biologist, Genomics Research",
+          "applyUrl": "https://www.nygenome.org/careers/",
+          "postedAt": "2026-10-15T15:57:02.004Z",
+          "date": "2026-10-15"
         }
       ]
     },
     "vc": {
       "keys": [
-        "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/"
+        "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
+        "Atlas Venture||Venture Associate, Biotech Company Creation||https://www.atlasventure.com/"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -30,12 +40,21 @@
           "applyUrl": "https://www.atlasventure.com/",
           "postedAt": "2026-10-15T15:35:42.803Z",
           "date": "2026-10-15"
+        },
+        {
+          "key": "Atlas Venture||Venture Associate, Biotech Company Creation||https://www.atlasventure.com/",
+          "company": "Atlas Venture",
+          "position": "Venture Associate, Biotech Company Creation",
+          "applyUrl": "https://www.atlasventure.com/",
+          "postedAt": "2026-10-15T15:57:02.679Z",
+          "date": "2026-10-15"
         }
       ]
     },
     "pharma": {
       "keys": [
-        "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students"
+        "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
+        "Sanofi||Student Intern, R&D / Medical||https://jobs.sanofi.com/en/search-jobs/students"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -46,12 +65,21 @@
           "applyUrl": "https://jobs.sanofi.com/en/search-jobs/students",
           "postedAt": "2026-10-15T15:35:43.455Z",
           "date": "2026-10-15"
+        },
+        {
+          "key": "Sanofi||Student Intern, R&D / Medical||https://jobs.sanofi.com/en/search-jobs/students",
+          "company": "Sanofi",
+          "position": "Student Intern, R&D / Medical",
+          "applyUrl": "https://jobs.sanofi.com/en/search-jobs/students",
+          "postedAt": "2026-10-15T15:57:03.217Z",
+          "date": "2026-10-15"
         }
       ]
     },
     "entrepreneurship": {
       "keys": [
-        "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/"
+        "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
+        "NIH SEED (SBIR/STTR)||SBIR/STTR Small Business Applicant||https://seed.nih.gov/"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -61,6 +89,14 @@
           "position": "SBIR/STTR small business research funding",
           "applyUrl": "https://seed.nih.gov/",
           "postedAt": "2026-10-15T15:35:43.602Z",
+          "date": "2026-10-15"
+        },
+        {
+          "key": "NIH SEED (SBIR/STTR)||SBIR/STTR Small Business Applicant||https://seed.nih.gov/",
+          "company": "NIH SEED (SBIR/STTR)",
+          "position": "SBIR/STTR Small Business Applicant",
+          "applyUrl": "https://seed.nih.gov/",
+          "postedAt": "2026-10-15T15:57:03.559Z",
           "date": "2026-10-15"
         }
       ]
