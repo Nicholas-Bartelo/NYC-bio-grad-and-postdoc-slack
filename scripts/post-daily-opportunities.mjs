@@ -16,7 +16,7 @@ import { readdirSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { dayIndex, easternDateKey, shouldPostNow } from "./lib/eastern.mjs";
-import { checkApplyUrl } from "./lib/link-health.mjs";
+import { checkApplyUrl, checkListingsUrl } from "./lib/link-health.mjs";
 import {
   getChannelHistory,
   loadPostedHistory,
@@ -215,7 +215,7 @@ async function pickHealthyOpportunity(
       continue;
     }
 
-    const listingsHealth = await checkApplyUrl(candidate.listingsUrl);
+    const listingsHealth = await checkListingsUrl(candidate.listingsUrl);
     if (!listingsHealth.ok) {
       skipped.push({
         company: candidate.company,

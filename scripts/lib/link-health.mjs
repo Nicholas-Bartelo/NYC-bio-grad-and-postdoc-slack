@@ -7,7 +7,7 @@
  * use checkListingsUrl for those so a board wall does not block a good JD.
  */
 
-async function fetchStatus(href, { timeoutMs = 15000 } = {}) {
+async function probeUrl(href, { timeoutMs = 15000 } = {}) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
@@ -26,7 +26,8 @@ async function fetchStatus(href, { timeoutMs = 15000 } = {}) {
       res.status === 405 ||
       res.status === 501 ||
       res.status === 403 ||
-      res.status === 404
+      res.status === 404 ||
+      res.status === 429
     ) {
       res = await fetch(href, {
         method: "GET",
@@ -39,25 +40,49 @@ async function fetchStatus(href, { timeoutMs = 15000 } = {}) {
         },
       });
     }
-    const status = res.status;
-    if (status === 404 || status === 410 || status === 451) {
-      return { ok: false, status, reason: "dead_link" };
-    }
-    if (status >= 200 && status < 400) {
-      return { ok: true, status };
-    }
-    // Bot walls (401/403) are common on careers sites; treat as uncertain.
-    if (status === 401 || status === 403) {
-      return { ok: false, status, reason: "blocked_or_uncertain" };
-    }
-    return { ok: false, status, reason: `http_${status}` };
+    return { status: res.status, error: null };
   } catch (error) {
     return {
-      ok: false,
       status: 0,
-      reason: error instanceof Error ? error.message : String(error),
+      error: error instanceof Error ? error.message : String(error),
     };
   } finally {
     clearTimeout(timer);
   }
+}
+
+export async function checkApplyUrl(href, { timeoutMs = 15000 } = {}) {
+  const { status, error } = await probeUrl(href, { timeoutMs });
+  if (error) {
+    return { ok: false, status: 0, reason: error };
+  }
+  if (status === 404 || status === 410 || status === 451) {
+    return { ok: false, status, reason: "dead_link" };
+  }
+  if (status >= 200 && status < 400) {
+    return { ok: true, status };
+  }
+  if (status === 401 || status === 403) {
+    return { ok: false, status, reason: "blocked_or_uncertain" };
+  }
+  return { ok: false, status, reason: `http_${status}` };
+}
+
+/** Listings boards: allow common bot walls / rate limits. */
+export async function checkListingsUrl(href, { timeoutMs = 15000 } = {}) {
+  const { status, error } = await probeUrl(href, { timeoutMs });
+  if (error) {
+    // Network blips on listing hubs should not block a healthy featured JD.
+    return { ok: true, status: 0, reason: `network_uncertain:${error}` };
+  }
+  if (status === 404 || status === 410 || status === 451) {
+    return { ok: false, status, reason: "dead_link" };
+  }
+  if (status >= 200 && status < 400) {
+    return { ok: true, status };
+  }
+  if (status === 401 || status === 403 || status === 429) {
+    return { ok: true, status, reason: "board_bot_wall_allowed" };
+  }
+  return { ok: false, status, reason: `http_${status}` };
 }
