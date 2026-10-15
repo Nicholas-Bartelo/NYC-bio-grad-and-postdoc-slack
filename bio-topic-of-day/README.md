@@ -1,8 +1,9 @@
 # Biology Topic of the Day
 
 A [BDK](https://cursor.com/docs/bdk) Slack agent that posts one biology
-discussion topic every day at **8:00 AM Eastern** into your
-**Topic of the Day** channel. Topics can come from any field of biology.
+discussion topic every day at **8:00 AM Eastern** into `#topic-of-day` on
+[nycgradpostdocs.slack.com](https://nycgradpostdocs.slack.com). Topics can
+come from any field of biology.
 
 ## What it does
 
@@ -21,14 +22,14 @@ npx @cursor/bdk login
 npx @cursor/bdk slack create --dir . --name "Bio Topic of the Day"
 ```
 
-1. Complete the Slack wizard (same Cursor account in the browser).
-2. Invite the bot to `#topic-of-the-day` (or your channel).
-3. Set the channel in `.env.local` (see `.env.example`):
+1. Complete the Slack wizard for the **nycgradpostdocs** workspace (same Cursor account in the browser).
+2. Invite the bot to `#topic-of-day`.
+3. Optionally set the channel id in `.env.local` (see `.env.example`); the name default is already `topic-of-day`:
 
 ```bash
-BIO_TOPIC_OF_DAY_CHANNEL_ID=C0123456789   # preferred
-# or
-BIO_TOPIC_OF_DAY_CHANNEL_NAME=topic-of-the-day
+BIO_TOPIC_OF_DAY_CHANNEL_ID=C0123456789   # preferred if you have it
+# or leave unset and use the default name:
+BIO_TOPIC_OF_DAY_CHANNEL_NAME=topic-of-day
 ```
 
 4. Confirm Slack credentials:

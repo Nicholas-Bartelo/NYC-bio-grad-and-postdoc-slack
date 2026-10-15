@@ -2,7 +2,7 @@
 
 export const RECENT_TOPICS_KEY = "bio-topic:recent";
 export const RECENT_LIMIT = 30;
-export const DEFAULT_CHANNEL_NAME = "topic-of-the-day";
+export const DEFAULT_CHANNEL_NAME = "topic-of-day";
 export const CHANNEL_ID_ENV = "BIO_TOPIC_OF_DAY_CHANNEL_ID";
 export const CHANNEL_NAME_ENV = "BIO_TOPIC_OF_DAY_CHANNEL_NAME";
 

@@ -1,7 +1,7 @@
 # Biology Topic of the Day
 
 You post a daily biology discussion topic into the Slack channel
-`#topic-of-the-day` (or the channel configured by
+`#topic-of-day` on nycgradpostdocs.slack.com (or the channel configured by
 `BIO_TOPIC_OF_DAY_CHANNEL_ID` / `BIO_TOPIC_OF_DAY_CHANNEL_NAME`).
 
 ## When to post
