@@ -4,7 +4,9 @@
     "biotech": {
       "keys": [
         "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
-        "New York Genome Center||Computational Biologist, Genomics Research||https://www.nygenome.org/careers/"
+        "New York Genome Center||Computational Biologist, Genomics Research||https://www.nygenome.org/careers/",
+        "HHMI Janelia Research Campus||Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
+        "Memorial Sloan Kettering Cancer Center||Research Technician, Niethammer Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -23,13 +25,31 @@
           "applyUrl": "https://www.nygenome.org/careers/",
           "postedAt": "2026-10-15T15:57:02.004Z",
           "date": "2026-10-15"
+        },
+        {
+          "key": "HHMI Janelia Research Campus||Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
+          "company": "HHMI Janelia Research Campus",
+          "position": "Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)",
+          "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
+          "postedAt": "2026-10-15T16:12:43.642Z",
+          "date": "2026-10-15"
+        },
+        {
+          "key": "Memorial Sloan Kettering Cancer Center||Research Technician, Niethammer Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1",
+          "company": "Memorial Sloan Kettering Cancer Center",
+          "position": "Research Technician, Niethammer Lab",
+          "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1",
+          "postedAt": "2026-10-15T16:28:21.440Z",
+          "date": "2026-10-15"
         }
       ]
     },
     "vc": {
       "keys": [
         "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
-        "Atlas Venture||Venture Associate, Biotech Company Creation||https://www.atlasventure.com/"
+        "Atlas Venture||Venture Associate, Biotech Company Creation||https://www.atlasventure.com/",
+        "RA Capital Management||TechAtlas Healthcare Associate||https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/4565087008",
+        "a16z (Andreessen Horowitz)||Partner 36, Communications Partner, Bio||https://a16z.com/about/jobs/?gh_jid=7998862003"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -48,13 +68,31 @@
           "applyUrl": "https://www.atlasventure.com/",
           "postedAt": "2026-10-15T15:57:02.679Z",
           "date": "2026-10-15"
+        },
+        {
+          "key": "RA Capital Management||TechAtlas Healthcare Associate||https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/4565087008",
+          "company": "RA Capital Management",
+          "position": "TechAtlas Healthcare Associate",
+          "applyUrl": "https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/4565087008",
+          "postedAt": "2026-10-15T16:12:44.545Z",
+          "date": "2026-10-15"
+        },
+        {
+          "key": "a16z (Andreessen Horowitz)||Partner 36, Communications Partner, Bio||https://a16z.com/about/jobs/?gh_jid=7998862003",
+          "company": "a16z (Andreessen Horowitz)",
+          "position": "Partner 36, Communications Partner, Bio",
+          "applyUrl": "https://a16z.com/about/jobs/?gh_jid=7998862003",
+          "postedAt": "2026-10-15T16:28:21.798Z",
+          "date": "2026-10-15"
         }
       ]
     },
     "pharma": {
       "keys": [
         "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
-        "Sanofi||Student Intern, R&D / Medical||https://jobs.sanofi.com/en/search-jobs/students"
+        "Sanofi||Student Intern, R&D / Medical||https://jobs.sanofi.com/en/search-jobs/students",
+        "Genentech||2027 Spring Intern — GenAI Applications||https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications",
+        "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -73,13 +111,31 @@
           "applyUrl": "https://jobs.sanofi.com/en/search-jobs/students",
           "postedAt": "2026-10-15T15:57:03.217Z",
           "date": "2026-10-15"
+        },
+        {
+          "key": "Genentech||2027 Spring Intern — GenAI Applications||https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications",
+          "company": "Genentech",
+          "position": "2027 Spring Intern — GenAI Applications",
+          "applyUrl": "https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications",
+          "postedAt": "2026-10-15T16:12:45.638Z",
+          "date": "2026-10-15"
+        },
+        {
+          "key": "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
+          "company": "Bristol Myers Squibb",
+          "position": "Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433",
+          "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
+          "postedAt": "2026-10-15T16:28:22.648Z",
+          "date": "2026-10-15"
         }
       ]
     },
     "entrepreneurship": {
       "keys": [
         "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
-        "NIH SEED (SBIR/STTR)||SBIR/STTR Small Business Applicant||https://seed.nih.gov/"
+        "NIH SEED (SBIR/STTR)||SBIR/STTR Small Business Applicant||https://seed.nih.gov/",
+        "Epinoma (YC)||Therapeutic Research Associate||https://www.ycombinator.com/companies/epinoma/jobs/GRT7VJ4-therapeutic-research-associate",
+        "SOSV (IndieBio → SOSV NY / SOSV SF)||SOSV Startup Development Program application (rolling)||https://sosv.com/apply/sosv/"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -97,6 +153,22 @@
           "position": "SBIR/STTR Small Business Applicant",
           "applyUrl": "https://seed.nih.gov/",
           "postedAt": "2026-10-15T15:57:03.559Z",
+          "date": "2026-10-15"
+        },
+        {
+          "key": "Epinoma (YC)||Therapeutic Research Associate||https://www.ycombinator.com/companies/epinoma/jobs/GRT7VJ4-therapeutic-research-associate",
+          "company": "Epinoma (YC)",
+          "position": "Therapeutic Research Associate",
+          "applyUrl": "https://www.ycombinator.com/companies/epinoma/jobs/GRT7VJ4-therapeutic-research-associate",
+          "postedAt": "2026-10-15T16:12:46.238Z",
+          "date": "2026-10-15"
+        },
+        {
+          "key": "SOSV (IndieBio → SOSV NY / SOSV SF)||SOSV Startup Development Program application (rolling)||https://sosv.com/apply/sosv/",
+          "company": "SOSV (IndieBio → SOSV NY / SOSV SF)",
+          "position": "SOSV Startup Development Program application (rolling)",
+          "applyUrl": "https://sosv.com/apply/sosv/",
+          "postedAt": "2026-10-15T16:28:23.211Z",
           "date": "2026-10-15"
         }
       ]
