@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Why do some genes stay silent for a lifetime?",
+    "field": "epigenetics",
+    "blurb": "DNA sequence alone does not decide when a gene is on. Chromatin marks, DNA methylation, and nuclear positioning can keep loci quiet through development and even across cell divisions. That stability is useful—but it also means early environmental signals can leave long-lived molecular footprints.",
+    "prompt": "When should we treat an epigenetic mark as a lasting 'memory,' and when is it just a temporary state of the cell?"
+  },
+  {
+    "title": "Are mitochondria more than power plants?",
+    "field": "cell biology",
+    "blurb": "Mitochondria make ATP, but they also buffer calcium, generate signaling ROS, and host pieces of innate immune sensing. Their shape constantly changes through fission and fusion, and damaged organelles are cleared by mitophagy. Failures in those quality-control loops show up in neurodegeneration and aging research.",
+    "prompt": "If mitochondria are signaling hubs as much as energy factories, what experiments best separate those roles?"
+  },
+  {
+    "title": "How specific is CRISPR, really?",
+    "field": "genome editing",
+    "blurb": "Guide RNAs can tolerate mismatches, so nucleases sometimes cut unintended sites. Labs measure off-targets with sequencing and mitigate them with truncated guides or high-fidelity enzymes. The acceptable error rate depends entirely on whether the edit is a research tool or a therapeutic candidate.",
+    "prompt": "Where should the field draw the line between 'good enough for discovery' and 'safe enough for the clinic'?"
+  },
+  {
+    "title": "Why doesn't the immune system attack food?",
+    "field": "immunology",
+    "blurb": "The gut sees enormous antigenic load daily, yet healthy immunity usually ignores food and commensals. Oral tolerance, regulatory T cells, and barrier integrity all help. When that balance breaks, the result can look like food allergy, celiac disease, or inflammatory bowel disease.",
+    "prompt": "Is failure of oral tolerance mainly a barrier problem, an immune education problem, or both?"
+  },
+  {
+    "title": "Do microbiomes have a stable 'core'?",
+    "field": "microbiology",
+    "blurb": "Gut communities differ wildly between people, yet some functions—fiber fermentation, vitamin synthesis, colonization resistance—often recur. Whether that means a conserved set of taxa or only conserved metabolic jobs is still debated. Antibiotics, diet, and geography all reshuffle the cast.",
+    "prompt": "Should microbiome 'health' be defined by which microbes are present, or by which metabolic functions are performed?"
+  },
+  {
+    "title": "What makes a stem cell a stem cell?",
+    "field": "developmental biology",
+    "blurb": "Stemness is usually defined by self-renewal plus the ability to make differentiated daughters. In practice, that identity is enforced by transcription factor networks, niche signals, and cell-cycle control. Outside the niche, many stem cells differentiate or stall, which complicates therapies that expand them in culture.",
+    "prompt": "Is stemness an intrinsic cell state, a niche-imposed behavior, or a temporary job description?"
+  },
+  {
+    "title": "Why do some cancers become undruggable?",
+    "field": "cancer biology",
+    "blurb": "Oncogenes like KRAS were long called undruggable because their surfaces lacked obvious pockets. Resistance then adds another layer: tumors route around blocked pathways or select rare clones already primed to survive. New covalent inhibitors and degrader strategies are reopening old targets.",
+    "prompt": "Are 'undruggable' targets mostly a chemistry problem, a biology-of-resistance problem, or a trial-design problem?"
+  },
+  {
+    "title": "How does sleep remodel synapses?",
+    "field": "neuroscience",
+    "blurb": "Sleep is not just rest for the body; it coincides with shifts in synaptic strength, metabolite clearance, and memory consolidation. Some circuits seem to downscale globally while specific traces are stabilized. Disrupted sleep hits attention, mood, and long-term brain health.",
+    "prompt": "If sleep both weakens and strengthens synapses, what rule might decide which synapses keep their gains?"
+  },
+  {
+    "title": "Can aging be slowed without breaking development?",
+    "field": "aging biology",
+    "blurb": "Pathways like mTOR, insulin/IGF, and autophagy influence lifespan in many species. The catch is that the same pathways build and maintain tissues earlier in life. Interventions that extend lifespan in lab animals can impair growth, reproduction, or wound repair if timed poorly.",
+    "prompt": "Should anti-aging strategies target late life only, or rewire metabolism from earlier ages?"
+  },
+  {
+    "title": "Why do viruses keep jumping species?",
+    "field": "virology",
+    "blurb": "Spillover depends on contact opportunity plus molecular compatibility—receptor use, protease cleavage, innate immune evasion. RNA viruses mutate quickly, but ecology (markets, farms, habitat edges) often decides whether a rare jump becomes a chain of infections.",
+    "prompt": "For preventing the next pandemic, what deserves more investment: viral surveillance, ecological change, or medical countermeasures?"
+  },
+  {
+    "title": "How do plants remember drought?",
+    "field": "plant biology",
+    "blurb": "After a mild drought, some plants respond faster or more strongly the next time. That priming can involve persistent abscisic acid signaling, epigenetic changes, and shifts in root architecture. It helps in fluctuating climates but may carry costs when water is plentiful.",
+    "prompt": "Is drought priming mainly useful as a short-term physiological adjustment or a longer epigenetic memory?"
+  },
+  {
+    "title": "What is a species, operationally?",
+    "field": "evolutionary biology",
+    "blurb": "The biological species concept leans on reproductive isolation, but microbes, asexual lineages, and hybridizing plants strain that definition. Genomic clustering, ecological niches, and gene-flow barriers each give different species counts. Taxonomy choices then ripple into conservation law and biodiversity metrics.",
+    "prompt": "When gene flow is messy, which species definition should conservation biologists prefer—and why?"
+  },
+  {
+    "title": "Why is protein folding still hard to get right in cells?",
+    "field": "biochemistry",
+    "blurb": "Structure predictors transformed our view of folded domains, yet cells must fold in crowded compartments, insert into membranes, and assemble multiprotein machines. Chaperones, co-translational folding, and quality control decide whether a chain becomes function or aggregate.",
+    "prompt": "What cellular folding problems remain poorly captured by structures predicted from sequence alone?"
+  },
+  {
+    "title": "Do 'junk' regions of the genome still matter?",
+    "field": "genomics",
+    "blurb": "Much of the human genome does not code for proteins, but it includes enhancers, silencers, structural elements, and parasitic repeats. Some noncoding DNA is clearly functional; some may be evolutionary leftovers. ENCODE-style maps fueled a long argument about how to define function.",
+    "prompt": "Should genomic 'function' mean biochemical activity, evolutionary constraint, or organism-level consequence?"
+  },
+  {
+    "title": "How do biofilms resist antibiotics?",
+    "field": "microbial ecology",
+    "blurb": "Cells in biofilms sit in a matrix that slows drug penetration, harbor slow-growing persisters, and exchange resistance genes more readily. Biofilms matter in catheters, lungs, and industrial pipes. Planktonic MIC assays often underestimate what it takes to clear them.",
+    "prompt": "Are biofilm infections best fought with better drugs, better disruption of the matrix, or better prevention of surface attachment?"
+  },
+  {
+    "title": "Why are there so many rare genetic diseases?",
+    "field": "human genetics",
+    "blurb": "Each rare disease may affect few people, but together they are common. New mutations continually enter the population, and recessive alleles can hide in heterozygotes. Sequencing expanded diagnosis, yet many patients still lack a clear causal variant or a treatment path.",
+    "prompt": "For rare disease, is the bigger bottleneck finding causal genes or translating known genes into therapies?"
+  },
+  {
+    "title": "Can the brain's energy budget explain its design?",
+    "field": "systems neuroscience",
+    "blurb": "The brain is metabolically expensive, so sparse coding, myelin, and synaptic pruning may reflect energy constraints as much as information goals. Firing a neuron and remodeling a synapse both cost ATP. Energetic limits may shape which computations are practical.",
+    "prompt": "Which neural features look more like energy-saving tricks than pure computational optimizations?"
+  },
+  {
+    "title": "How do circadian clocks stay synced?",
+    "field": "chronobiology",
+    "blurb": "Nearly every cell has a molecular clock, but the suprachiasmatic nucleus and light input keep tissues aligned. Shift work, late light, and irregular meals can desynchronize peripheral clocks from the brain. That misalignment shows up in metabolism, immunity, and mood.",
+    "prompt": "If central and peripheral clocks disagree, which cues—light, food, or sleep timing—should we prioritize to resynchronize?"
+  },
+  {
+    "title": "What counts as consciousness in animals?",
+    "field": "animal behavior",
+    "blurb": "Octopuses, corvids, and great apes pass sophisticated cognitive tests, but behavioral complexity is not a direct meter of subjective experience. Markers proposed include pain responses, self-recognition, and flexible planning. Ethics and law increasingly depend on where we draw the line.",
+    "prompt": "Which experimental criteria would convince you an animal has (or lacks) conscious experience?"
+  },
+  {
+    "title": "Why do vaccines sometimes need boosters forever?",
+    "field": "vaccinology",
+    "blurb": "Some infections leave durable immunity; others mutate antigens or hide in ways that weaken memory. Vaccine platforms differ in the quality of antibodies and T cells they elicit. Mucosal immunity is especially hard to maintain, which matters for respiratory viruses.",
+    "prompt": "For a mutating respiratory virus, should we optimize vaccines for durable memory or for frequent, updated coverage?"
+  },
+  {
+    "title": "How do cells decide their size?",
+    "field": "cell physiology",
+    "blurb": "Cell size couples to the cell cycle, biosynthetic capacity, and ploidy. Grow too large and intracellular transport and scaling relationships break down; stay too small and there may not be room for organelles and genome content. Different tissues enforce different size set points.",
+    "prompt": "Is cell size mainly controlled by total biosynthetic rate, by geometric scaling rules, or by tissue-specific checkpoints?"
+  },
+  {
+    "title": "Are model organisms misleading us?",
+    "field": "research methods",
+    "blurb": "Yeast, flies, worms, and mice enabled deep mechanism, but they are not humans. Some pathways are conserved; disease phenotypes often are not. Organoids and human genetics help, yet they introduce their own artifacts and incomplete cell-type mixes.",
+    "prompt": "When a mouse result fails in people, how should labs decide whether the model, the dose, or the biology was wrong?"
+  },
+  {
+    "title": "What is the unit of natural selection?",
+    "field": "evolutionary theory",
+    "blurb": "Genes, cells, organisms, and groups can all be framed as units of selection. Selfish genetic elements spread despite harming hosts; cancer is selection among cells; social insects complicate organism boundaries. Clear thinking about levels prevents sloppy 'for the good of the species' stories.",
+    "prompt": "Pick a biological example and argue which level of selection best explains it."
+  },
+  {
+    "title": "How does inflammation know when to stop?",
+    "field": "immunology",
+    "blurb": "Acute inflammation clears threats, then specialized pro-resolving mediators, regulatory cells, and tissue repair programs wind it down. Failed resolution looks like chronic inflammatory disease even after the initial trigger is gone. Blocking initiation and promoting resolution are not the same strategy.",
+    "prompt": "Should chronic inflammatory diseases be treated as excess activation, failed resolution, or failed repair?"
+  },
+  {
+    "title": "Why is there still no universal flu vaccine?",
+    "field": "infectious disease",
+    "blurb": "Influenza continually drifts and sometimes shifts, and immunodominant head epitopes distract from more conserved stem targets. Prior immune history shapes what boosters do next—original antigenic sin in modern clothes. Platform choice and mucosal delivery remain active frontiers.",
+    "prompt": "Is the path to universal flu protection mainly better antigens, better delivery to the right tissue, or better handling of immune history?"
+  },
+  {
+    "title": "Do ecosystems have tipping points?",
+    "field": "ecology",
+    "blurb": "Coral reefs, forests, and lakes can shift abruptly after gradual pressure, then resist returning to the prior state. Feedbacks—algae over coral, fire over forest—stabilize the new regime. Detecting early-warning signals before the jump is hard in noisy field data.",
+    "prompt": "For conservation, is it more useful to hunt for tipping-point warnings or to reduce chronic pressures regardless?"
+  },
+  {
+    "title": "How do embryos tell head from tail?",
+    "field": "developmental patterning",
+    "blurb": "Morphogen gradients, timing waves, and mechanical forces assign positional identity. Classic bicoid-style gradients are only part of the story; tissues also use oscillators and cell-cell feedback. Small early errors can be corrected—or amplified into congenital defects.",
+    "prompt": "Are positional identities mainly written by gradients, by timing, or by local cell interactions that lock in choices?"
+  },
+  {
+    "title": "What makes a prion different from a misfolded protein?",
+    "field": "protein pathology",
+    "blurb": "Prions propagate by templating their fold onto normal protein, creating transmissible chains of misfolding. Related ideas now appear in some neurodegenerative proteins, though transmissibility between people is usually limited. Distinguishing aggregation from true templated spread matters for biosafety and therapy.",
+    "prompt": "Which evidence would convince you a neurodegenerative protein is acting in a prion-like way in humans?"
+  },
+  {
+    "title": "Why do antibiotics fail even without resistance genes?",
+    "field": "antimicrobial biology",
+    "blurb": "Persister cells, tolerant slow growers, poor drug penetration, and host sanctuary sites can defeat therapy without classic resistance mutations. Resistance and tolerance are related but not identical. Treatment length and combination design often target these non-genetic escape routes.",
+    "prompt": "How should clinical microbiology separate resistance, tolerance, and persistence when choosing a regimen?"
+  },
+  {
+    "title": "Can we map a cell's destiny from its transcriptome?",
+    "field": "single-cell biology",
+    "blurb": "Single-cell RNA-seq snapshots are often arranged into trajectories that imply future fates. Those maps are powerful hypotheses, not movies—cells can jump paths, reverse, or die. Lineage tracing and perturbation are needed to turn a pretty UMAP into causal developmental truth.",
+    "prompt": "When is a pseudotime trajectory strong enough to claim a real developmental path?"
+  }
+]

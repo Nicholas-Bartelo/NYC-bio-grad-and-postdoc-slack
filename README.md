@@ -1,6 +1,7 @@
-# Biology Topic of the Day
+# NYC bio grad and postdoc Slack bots
 
-Slack bot that posts a daily biology discussion topic at 8:00 AM Eastern to
-`#topic-of-day` on nycgradpostdocs.slack.com.
+Daily biology **Topic of the Day** for `#topic-of-day` on nycgradpostdocs.slack.com.
 
-The BDK agent lives in [`bio-topic-of-day/`](./bio-topic-of-day/). See that README for setup, Slack wiring, and deploy.
+See [`bio-topic-of-day/README.md`](./bio-topic-of-day/README.md) for setup.
+
+**No Cursor Team required.** Posting is done by GitHub Actions + a Slack webhook.

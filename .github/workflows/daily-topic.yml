@@ -1,0 +1,31 @@
+name: Daily biology topic
+
+on:
+  schedule:
+    # 8:00 AM Eastern during EDT (UTC-4). In EST (UTC-5) this is 7:00 AM.
+    # Adjust to "0 13 * * *" if you prefer 8:00 AM Eastern Standard Time year-round.
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Post Topic of the Day
+        working-directory: bio-topic-of-day
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          BIO_TOPIC_OF_DAY_CHANNEL_ID: ${{ secrets.BIO_TOPIC_OF_DAY_CHANNEL_ID }}
+          BIO_TOPIC_OF_DAY_CHANNEL_NAME: topic-of-day
+        run: node scripts/post-daily-topic.mjs

@@ -1,84 +1,61 @@
 # Biology Topic of the Day
 
-A [BDK](https://cursor.com/docs/bdk) Slack agent that posts one biology
-discussion topic every day at **8:00 AM Eastern** into `#topic-of-day` on
-[nycgradpostdocs.slack.com](https://nycgradpostdocs.slack.com). Topics can
-come from any field of biology.
+Posts one biology discussion topic every day at **~8:00 AM Eastern** into
+`#topic-of-day` on **nycgradpostdocs.slack.com**.
 
-## What it does
+This setup does **not** need a Cursor Team account. It uses **GitHub Actions**
+plus a Slack incoming webhook (simplest) or bot token.
 
-- Cron schedule `daily-topic` fires at `0 12 * * *` UTC (8:00 AM EDT /
-  7:00 AM EST — adjust the cron in `bot/schedules/daily-topic.md` if you
-  need a different timezone).
-- The agent picks a fresh topic, avoids recent repeats, and posts to Slack
-  via `post_topic_of_day`.
-- Mentions/DMs work too: ask it to “post today’s topic” or suggest one.
+## How it works
 
-## Setup
-
-```bash
-npm install
-npx @cursor/bdk login
-npx @cursor/bdk slack create --dir . --name "Bio Topic of the Day"
-```
-
-1. Complete the Slack wizard for the **nycgradpostdocs** workspace (same Cursor account in the browser).
-2. Invite the bot to `#topic-of-day`.
-3. Optionally set the channel id in `.env.local` (see `.env.example`); the name default is already `topic-of-day`:
-
-```bash
-BIO_TOPIC_OF_DAY_CHANNEL_ID=C0123456789   # preferred if you have it
-# or leave unset and use the default name:
-BIO_TOPIC_OF_DAY_CHANNEL_NAME=topic-of-day
-```
-
-4. Confirm Slack credentials:
-
-```bash
-npx @cursor/bdk slack doctor --prefix BIO_TOPIC_OF_DAY
-```
-
-## Local run
-
-```bash
-npx @cursor/bdk serve --dir . --dev
-```
-
-Schedules do **not** auto-fire in `--dev`. Dispatch by hand:
-
-```bash
-curl -X POST http://127.0.0.1:3000/bio-topic-of-day/v1/dev/schedules/daily-topic
-```
-
-Or mention the bot: “Post today’s biology Topic of the Day.”
-
-## Deploy (so 8 AM runs automatically)
-
-```bash
-npx @cursor/bdk deploy --dir .
-```
-
-Hosted schedules come from the deployed release. After deploy, the daily
-cron posts without a local `serve` process.
-
-## Checks
-
-```bash
-npx @cursor/bdk validate --dir .
-npx @cursor/bdk info --dir . --json
-npm run check
-npx @cursor/bdk eval --dir . --list
-# needs a Cursor API key:
-npx @cursor/bdk eval --dir . --tag smoke
-```
-
-## Layout
-
-| Path | Role |
+| Piece | Role |
 | --- | --- |
-| `bot/instructions.md` | Agent prompt |
-| `bot/schedules/daily-topic.md` | 8 AM Eastern cron |
-| `bot/tools/post_topic_of_day.ts` | Slack post + dedupe |
-| `bot/tools/list_recent_topics.ts` | Recent topic memory |
-| `bot/channels/slack.ts` | Slack channel pack |
-| `evals/daily-topic.eval.ts` | Smoke eval |
+| `data/topics.json` | Rotating bank of biology discussion topics |
+| `scripts/post-daily-topic.mjs` | Picks today's topic and posts to Slack |
+| `.github/workflows/daily-topic.yml` | Cron at `0 12 * * *` UTC (~8 AM EDT) |
+
+## One-time Slack setup (webhook — recommended)
+
+1. Open [api.slack.com/apps](https://api.slack.com/apps) → **Create New App** → **From scratch**
+2. Name it e.g. `Bio Topic of the Day`, workspace **nycgradpostdocs**
+3. **Incoming Webhooks** → On → **Add New Webhook to Workspace**
+4. Choose **`#topic-of-day`** → Allow
+5. Copy the webhook URL (`https://hooks.slack.com/services/...`)
+
+## One-time GitHub secrets
+
+In the GitHub repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**:
+
+| Secret | Value |
+| --- | --- |
+| `SLACK_WEBHOOK_URL` | the webhook URL from above |
+
+(Optional bot-token mode instead of webhook: set `SLACK_BOT_TOKEN` and ideally `BIO_TOPIC_OF_DAY_CHANNEL_ID`. Do not set both unless you intend bot mode.)
+
+## Turn it on
+
+1. Push these files to `main` (if they are not already there)
+2. GitHub → **Actions** → **Daily biology topic** → **Run workflow** (manual test)
+3. Confirm a post appears in `#topic-of-day`
+4. Leave the scheduled workflow enabled for daily posts
+
+## Test locally
+
+```bash
+cd bio-topic-of-day
+export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/...'
+node scripts/post-daily-topic.mjs
+```
+
+## Adjust the clock
+
+Cron is UTC. Edit `.github/workflows/daily-topic.yml`:
+
+- `0 12 * * *` → 8:00 AM EDT / 7:00 AM EST
+- `0 13 * * *` → 9:00 AM EDT / 8:00 AM EST
+
+## Optional: BDK agent (interactive Slack bot)
+
+The `bot/` folder is a Cursor BDK agent for mentions/DMs. Hosted BDK deploy
+requires a Cursor Team, which this workspace is not using. You can ignore
+`bot/` unless you later get team access or self-host `bdk serve`.

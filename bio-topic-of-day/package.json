@@ -7,7 +7,8 @@
     "check": "tsc --noEmit",
     "dev": "bdk dev",
     "validate": "bdk validate --dir .",
-    "eval": "bdk eval --dir ."
+    "eval": "bdk eval --dir .",
+    "post-topic": "node scripts/post-daily-topic.mjs"
   },
   "dependencies": {
     "@cursor/bdk": "^0.2.25",
