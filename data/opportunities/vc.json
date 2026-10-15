@@ -1,58 +1,66 @@
 [
   {
     "company": "a16z (Andreessen Horowitz)",
-    "title": "Careers — bio & health investing / support roles",
-    "description": "Open roles across the firm, including bio and health-related investing and platform positions when posted. Competitive; often seeks domain expertise plus curiosity about startups.",
+    "mission": "a16z backs technology and bio/health companies building the future.",
+    "position": "Open firm roles (including bio/health-related when listed)",
+    "description": "Official a16z jobs board. Review currently open investing, platform, and support roles and apply only to active listings.",
     "applyUrl": "https://a16z.com/about/jobs/",
     "postedBy": null
   },
   {
     "company": "Flagship Pioneering",
-    "title": "Careers — venture creation / science roles",
-    "description": "Cambridge-based firm that originates biotech companies. Look for associate, fellow, and scientific venture roles aimed at scientists exploring company creation.",
+    "mission": "Flagship originates and grows bioplatform companies to transform human health and sustainability.",
+    "position": "Open Flagship careers (venture creation / science roles when listed)",
+    "description": "Flagship’s careers page for current associate, fellow, and scientific venture-creation openings. Confirm what is actively hiring before applying.",
     "applyUrl": "https://www.flagshippioneering.com/careers/",
     "postedBy": null
   },
   {
     "company": "RA Capital Management",
-    "title": "Careers",
-    "description": "Life-science investment firm roles spanning research/investing support. Strong fit for PhDs interested in public and private biotech markets.",
+    "mission": "RA Capital invests in evidence-based healthcare and life-science companies.",
+    "position": "Open investing and firm roles",
+    "description": "RA Capital careers listings for research/investing support and related firm roles. Apply to a currently posted position only.",
     "applyUrl": "https://www.racap.com/careers",
     "postedBy": null
   },
   {
+    "company": "The Engine (MIT)",
+    "mission": "The Engine backs tough tech founders building transformative companies from breakthrough science and engineering.",
+    "position": "Open Engine careers",
+    "description": "Careers at MIT’s tough-tech venture firm/accelerator. Check live openings if you want a hybrid science + venture path.",
+    "applyUrl": "https://www.engine.xyz/careers",
+    "postedBy": null
+  },
+  {
     "company": "Atlas Venture",
-    "title": "Careers",
-    "description": "Early-stage biotech venture firm. Check for associate or operating roles when available; hiring is typically selective and cyclical.",
-    "applyUrl": "https://www.atlasventure.com/careers/",
+    "mission": "Atlas Venture creates and invests in early-stage biotech companies inventing new medicines.",
+    "position": "Firm opportunities (see current Atlas site listings / contact paths)",
+    "description": "Atlas Venture homepage/careers presence for early-stage biotech company creation. Use only currently advertised roles or stated application paths on the site.",
+    "applyUrl": "https://www.atlasventure.com/",
     "postedBy": null
   },
   {
     "company": "Versant Ventures",
-    "title": "Careers",
-    "description": "Healthcare venture firm focused on biotech company building. Review open investing and firm roles on their careers page.",
-    "applyUrl": "https://www.versantventures.com/careers/",
+    "mission": "Versant builds and invests in healthcare companies across biotech and related modalities.",
+    "position": "Firm opportunities listed on Versant’s site",
+    "description": "Versant Ventures site for firm information and any posted career opportunities. Apply only when a concrete opening is listed.",
+    "applyUrl": "https://www.versantventures.com/",
     "postedBy": null
   },
   {
     "company": "Third Rock Ventures",
-    "title": "Careers",
-    "description": "Company-creating biotech VC. Occasional openings for scientist-investors and firm roles; verify what is currently listed.",
-    "applyUrl": "https://www.thirdrockventures.com/careers",
+    "mission": "Third Rock discovers, launches, and builds companies that make a difference for patients.",
+    "position": "Firm opportunities listed on Third Rock’s site",
+    "description": "Third Rock Ventures site covering company creation and any current career calls. Confirm an active listing before applying.",
+    "applyUrl": "https://www.thirdrockventures.com/",
     "postedBy": null
   },
   {
     "company": "GV (Google Ventures)",
-    "title": "Careers",
-    "description": "Multi-stage venture firm with an active life science practice. Browse firm-wide openings and life-science relevant roles.",
-    "applyUrl": "https://www.gv.com/careers/",
-    "postedBy": null
-  },
-  {
-    "company": "The Engine (MIT)",
-    "title": "Careers & community opportunities",
-    "description": "Tough-tech venture firm/accelerator adjacent to deep science and engineering startups. Useful for scientists exploring investing + venture-building hybrids.",
-    "applyUrl": "https://www.engine.xyz/careers",
+    "mission": "GV invests in startups across life science, tech, and other sectors from the seed stage onward.",
+    "position": "Open GV / Alphabet-related venture roles when posted",
+    "description": "GV homepage with links to current opportunities when available. Use only live application links shown on the site.",
+    "applyUrl": "https://www.gv.com/",
     "postedBy": null
   }
 ]

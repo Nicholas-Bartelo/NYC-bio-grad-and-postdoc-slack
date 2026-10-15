@@ -1,58 +1,66 @@
 [
   {
-    "company": "Pfizer",
-    "title": "Student & early talent opportunities",
-    "description": "Internships and early-career paths across R&D, medical, manufacturing, and corporate functions. Filter open roles by degree level and location.",
-    "applyUrl": "https://www.pfizer.com/about/careers/student-opportunities",
-    "postedBy": null
-  },
-  {
     "company": "Merck",
-    "title": "Students & graduates",
-    "description": "Internship, co-op, and graduate programs in research, clinical, and business roles. Useful entry point for PhDs exploring large-pharma tracks.",
+    "mission": "Merck uses the power of leading-edge science to save and improve lives around the world.",
+    "position": "Students & Graduates — early talent and internship pathways",
+    "description": "Official Merck careers hub for students and graduates. Open the page, choose a currently listed internship/co-op/graduate role, and apply through Merck’s job portal.",
     "applyUrl": "https://www.merck.com/careers/students-and-graduates/",
     "postedBy": null
   },
   {
     "company": "Novartis",
-    "title": "Students and graduates",
-    "description": "Global early-talent programs including research and development rotations. Check which sites and business units are currently recruiting.",
-    "applyUrl": "https://www.novartis.com/careers/students",
+    "mission": "Novartis reimagines medicine to improve and extend people’s lives.",
+    "position": "Early Careers — student and graduate opportunities",
+    "description": "Novartis early-careers portal with current student/graduate pathways. Select a live posting that matches your background and location preferences.",
+    "applyUrl": "https://www.novartis.com/careers/early-careers",
     "postedBy": null
   },
   {
     "company": "Bristol Myers Squibb",
-    "title": "Students & early careers",
-    "description": "Internships and early-career scientist/associate roles in discovery, translational medicine, and related R&D functions.",
-    "applyUrl": "https://careers.bms.com/students-and-early-careers/",
+    "mission": "Bristol Myers Squibb transforms patients’ lives through science in oncology, hematology, immunology, and cardiovascular disease.",
+    "position": "Internship and early-career search (intern query)",
+    "description": "BMS careers search filtered for intern-related openings. Apply only to a specific active job ID listed on the site.",
+    "applyUrl": "https://jobs.bms.com/careers?query=intern",
     "postedBy": null
   },
   {
     "company": "AstraZeneca",
-    "title": "Students and graduates",
-    "description": "Early talent pathways spanning research, development, and operations. Review current postings for US-based eligibility.",
-    "applyUrl": "https://careers.astrazeneca.com/students",
-    "postedBy": null
-  },
-  {
-    "company": "Johnson & Johnson",
-    "title": "Students & early career development",
-    "description": "Programs across Janssen R&D and broader J&J companies — research, clinical, and commercial science roles for interns and new grads.",
-    "applyUrl": "https://www.careers.jnj.com/students",
+    "mission": "AstraZeneca pushes the boundaries of science to deliver life-changing medicines.",
+    "position": "Early Talent programs and roles",
+    "description": "AstraZeneca early-talent page covering internships and graduate routes. Confirm which programs are currently accepting applications.",
+    "applyUrl": "https://careers.astrazeneca.com/early-talent",
     "postedBy": null
   },
   {
     "company": "Sanofi",
-    "title": "Students & graduates",
-    "description": "Early-career and internship listings in vaccines, specialty care, and R&D. Confirm location and visa constraints on each posting.",
-    "applyUrl": "https://www.sanofi.com/en/careers/students",
+    "mission": "Sanofi works to chase the miracles of science to improve people’s lives.",
+    "position": "Students — search current openings",
+    "description": "Sanofi job search filtered for student-related roles. Pick an open requisition and apply through Sanofi’s careers system.",
+    "applyUrl": "https://jobs.sanofi.com/en/search-jobs/students",
     "postedBy": null
   },
   {
     "company": "GSK",
-    "title": "Students and early careers",
-    "description": "Internships and graduate schemes in pharmaceutical R&D and related functions. Browse open US and global roles before applying.",
-    "applyUrl": "https://www.gsk.com/en-gb/careers/students-and-early-careers/",
+    "mission": "GSK unites science, technology, and talent to get ahead of disease together.",
+    "position": "Early Talent — students and graduates",
+    "description": "GSK early-talent careers page for internships and graduate schemes. Verify US eligibility and open application windows on each listing.",
+    "applyUrl": "https://www.gsk.com/en-gb/careers/early-talent/",
+    "postedBy": null
+  },
+  {
+    "company": "Bristol Myers Squibb",
+    "mission": "BMS discovers, develops, and delivers innovative medicines for patients with serious diseases.",
+    "position": "Open careers across R&D and related functions",
+    "description": "Main BMS careers portal. Search for research associate, scientist, or internship titles that are currently open.",
+    "applyUrl": "https://careers.bms.com/",
+    "postedBy": null
+  },
+  {
+    "company": "Novartis",
+    "mission": "Novartis focuses on innovative medicines that address serious unmet medical need.",
+    "position": "Career search — open Novartis roles",
+    "description": "Novartis career search for current openings across R&D and early talent. Apply to a specific live posting only.",
+    "applyUrl": "https://www.novartis.com/careers/career-search",
     "postedBy": null
   }
 ]

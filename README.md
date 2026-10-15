@@ -38,21 +38,33 @@ GitHub → **Settings → Secrets and variables → Actions → New repository s
 
 ## Opportunity post format
 
-Each opportunity entry includes:
+Each opportunity entry must include:
 
 - **company**
-- **title** (role / program)
-- **description**
-- **applyUrl** (must be `https://…`; shorteners are rejected)
+- **mission** ( ≥1 sentence about the company )
+- **position** (exact role/program name)
+- **description** (what is being shared)
+- **applyUrl** (`https://…` only; shorteners rejected; link is health-checked before posting)
 - **postedBy** (optional): `{ "name": "…", "contact": "…" }`
 
-Example:
+Slack posts look like:
+
+```text
+Company: Regeneron
+Position: Postdoctoral Program
+About the company: …
+What we’re sharing: …
+Apply: <link>
+```
+
+Example JSON:
 
 ```json
 {
   "company": "Example Bio",
-  "title": "Research Associate",
-  "description": "Short plain-language description of the role.",
+  "mission": "Example Bio develops therapies for rare metabolic disease.",
+  "position": "Research Associate, Discovery Biology",
+  "description": "Full-time lab role supporting target validation in NYC.",
   "applyUrl": "https://example.com/careers/123",
   "postedBy": {
     "name": "Alex Kim",
@@ -61,7 +73,7 @@ Example:
 }
 ```
 
-Add new listings at the top or bottom of the matching file under `data/opportunities/`. The daily picker rotates through entries with safe links.
+Dead/404 links are skipped automatically at post time.
 
 ## Test
 

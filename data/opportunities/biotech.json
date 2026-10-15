@@ -1,61 +1,66 @@
 [
   {
-    "company": "National Institutes of Health (NIH)",
-    "title": "Postbaccalaureate IRTA / CRTA Research Training Award",
-    "description": "1–2 year full-time research training for recent grads planning graduate or professional school. Trainees work in NIH intramural labs across biomedical fields.",
-    "applyUrl": "https://www.training.nih.gov/research-training/pb/",
-    "postedBy": {
-      "name": "NYC Grad & Postdoc Slack bot",
-      "contact": "Maintainers: update data/opportunities/biotech.json"
-    }
-  },
-  {
-    "company": "Broad Institute of MIT and Harvard",
-    "title": "Careers — research, computational biology, and operations roles",
-    "description": "Openings across genomics, therapeutics, data science, and institute operations. Strong fit for wet-lab and computational biologists exploring non-academic paths.",
-    "applyUrl": "https://www.broadinstitute.org/careers",
+    "company": "Genentech",
+    "mission": "Genentech pioneers biotechnology medicines for people with serious and life-threatening diseases.",
+    "position": "2027 Spring Intern — GenAI Applications",
+    "description": "Paid internship on GenAI applications at Genentech (Roche). Open student/graduate role listed on the official careers site — confirm location, dates, and eligibility on the posting before applying.",
+    "applyUrl": "https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications",
     "postedBy": null
   },
   {
     "company": "Genentech",
-    "title": "Early careers & student programs",
-    "description": "Internships, co-ops, and early-career scientist roles in research, development, and gRED. Check current postings for location and degree requirements.",
-    "applyUrl": "https://careers.gene.com/us/en/students-and-graduates",
-    "postedBy": null
-  },
-  {
-    "company": "Regeneron",
-    "title": "Postdoctoral Program",
-    "description": "Industry postdoc training with Regeneron scientists. Designed for PhD scientists seeking biotechnology research experience outside academia.",
-    "applyUrl": "https://www.regeneron.com/careers/early-career-talent",
+    "mission": "Genentech discovers and develops medicines by pushing the boundaries of science for patients with serious disease.",
+    "position": "Students & Graduates — open internship and early-career roles",
+    "description": "Live board of Genentech student and graduate openings (internships, early talent). Browse current postings and apply only to roles that match your degree level and work authorization.",
+    "applyUrl": "https://careers.gene.com/us/en/c/students-graduates-jobs",
     "postedBy": null
   },
   {
     "company": "New York Genome Center",
-    "title": "Open positions",
-    "description": "NYC-based genomics center hiring across sequencing technology, computational biology, and research programs. Local option for NYC grads and postdocs.",
+    "mission": "NYGC advances genomic research to improve human health through technology, collaboration, and discovery.",
+    "position": "Open research, computational, and operations roles",
+    "description": "NYC-based genomics center hiring across research and computational biology. Review current openings on their careers page and apply to a specific listed role.",
     "applyUrl": "https://www.nygenome.org/careers/",
     "postedBy": null
   },
   {
     "company": "Memorial Sloan Kettering Cancer Center",
-    "title": "Careers — research and scientific roles",
-    "description": "Research technician, specialist, and scientist postings supporting cancer biology, translational research, and core facilities in NYC.",
+    "mission": "MSK is dedicated to ending cancer for life through patient care, research, and education.",
+    "position": "Open research and scientific staff roles",
+    "description": "MSK posts research technician, specialist, and scientist roles supporting cancer biology and translational work in NYC. Pick a specific live posting from the careers portal.",
     "applyUrl": "https://careers.mskcc.org/",
     "postedBy": null
   },
   {
-    "company": "Cold Spring Harbor Laboratory",
-    "title": "Careers & postdoctoral opportunities",
-    "description": "Basic research institute on Long Island with postdoc and staff scientist openings in molecular biology, neuroscience, cancer, and quantitative biology.",
-    "applyUrl": "https://www.cshl.edu/about-us/careers/",
+    "company": "Addgene",
+    "mission": "Addgene is a nonprofit that accelerates research by sharing and distributing plasmids and other research materials.",
+    "position": "Open science, operations, and support roles",
+    "description": "Careers at a scientist-founded nonprofit that runs a global plasmid repository — often a bridge from bench experience into biotech operations or scientific support.",
+    "applyUrl": "https://www.addgene.org/careers/",
     "postedBy": null
   },
   {
-    "company": "Addgene",
-    "title": "Careers",
-    "description": "Nonprofit plasmid repository roles spanning science, operations, and customer-facing scientific support — often a bridge between bench experience and biotech ops.",
-    "applyUrl": "https://www.addgene.org/careers/",
+    "company": "HHMI Janelia Research Campus",
+    "mission": "Janelia brings scientists and tool-builders together to solve fundamental problems in biology.",
+    "position": "Open research and scientific roles at Janelia",
+    "description": "HHMI’s Janelia campus lists research and scientific openings. Check current postings for postdoc, specialist, and related opportunities.",
+    "applyUrl": "https://www.janelia.org/careers",
+    "postedBy": null
+  },
+  {
+    "company": "Howard Hughes Medical Institute (HHMI)",
+    "mission": "HHMI supports discovery science for the benefit of humanity.",
+    "position": "Open HHMI careers (research and institute roles)",
+    "description": "Institute-wide HHMI openings, including scientific and research-support roles. Confirm the specific position and location on the live listing.",
+    "applyUrl": "https://www.hhmi.org/careers",
+    "postedBy": null
+  },
+  {
+    "company": "Simons Foundation",
+    "mission": "The Simons Foundation advances the frontiers of research in mathematics and the basic sciences.",
+    "position": "Open science and research-support roles",
+    "description": "NYC-area science philanthropy organization with research and related openings. Review current listings before applying.",
+    "applyUrl": "https://www.simonsfoundation.org/careers/",
     "postedBy": null
   }
 ]

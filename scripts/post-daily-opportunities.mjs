@@ -2,19 +2,16 @@
 /**
  * Post one opportunity to each opportunities-* Slack channel.
  *
- * Webhook secrets (recommended):
- *   SLACK_WEBHOOK_URL_OPPORTUNITIES_BIOTECH
- *   SLACK_WEBHOOK_URL_OPPORTUNITIES_VC
- *   SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA
- *   SLACK_WEBHOOK_URL_OPPORTUNITIES_ENTREPRENEURSHIP
- *
- * Data files:
- *   data/opportunities/{biotech,vc,pharma,entrepreneurship}.json
+ * Required fields per entry:
+ *   company, mission, position, description, applyUrl
+ * Optional:
+ *   postedBy: { name, contact }
  */
 import { readdirSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { dayIndex, easternDateKey, shouldPostNow } from "./lib/eastern.mjs";
+import { checkApplyUrl } from "./lib/link-health.mjs";
 import { validateApplyUrl } from "./lib/safe-url.mjs";
 import { postViaWebhook } from "./lib/slack-webhook.mjs";
 
@@ -61,53 +58,77 @@ function loadOpportunities(file) {
   return raw;
 }
 
-function pickOpportunity(items, date, channelId) {
-  const usable = [];
-  for (const item of items) {
-    if (!item || typeof item !== "object") continue;
-    if (typeof item.company !== "string" || item.company.trim() === "") continue;
-    if (typeof item.title !== "string" || item.title.trim() === "") continue;
-    if (typeof item.description !== "string" || item.description.trim() === "") {
-      continue;
-    }
-    const url = validateApplyUrl(item.applyUrl);
-    if (!url.ok) continue;
-    usable.push({ item, applyUrl: url.href });
-  }
-  if (usable.length === 0) {
+function normalizeItem(item) {
+  if (!item || typeof item !== "object") return null;
+  const company = typeof item.company === "string" ? item.company.trim() : "";
+  const mission = typeof item.mission === "string" ? item.mission.trim() : "";
+  const position = (
+    typeof item.position === "string"
+      ? item.position
+      : typeof item.title === "string"
+        ? item.title
+        : ""
+  ).trim();
+  const description =
+    typeof item.description === "string" ? item.description.trim() : "";
+  if (!company || !mission || !position || !description) return null;
+  const url = validateApplyUrl(item.applyUrl);
+  if (!url.ok) return null;
+  return { company, mission, position, description, applyUrl: url.href, postedBy: item.postedBy };
+}
+
+async function pickHealthyOpportunity(items, date, channelId) {
+  const candidates = items.map(normalizeItem).filter(Boolean);
+  if (candidates.length === 0) {
     throw new Error(
-      `No safe/complete opportunities in ${channelId}. Check applyUrl (https only) and required fields.`,
+      `No complete opportunities in ${channelId}. Need company, mission, position, description, https applyUrl.`,
     );
   }
-  return usable[dayIndex(date, usable.length, channelId)];
+
+  const start = dayIndex(date, candidates.length, channelId);
+  const skipped = [];
+  for (let offset = 0; offset < candidates.length; offset++) {
+    const candidate = candidates[(start + offset) % candidates.length];
+    const health = await checkApplyUrl(candidate.applyUrl);
+    if (health.ok) {
+      return { ...candidate, linkStatus: health.status, skipped };
+    }
+    skipped.push({
+      company: candidate.company,
+      position: candidate.position,
+      applyUrl: candidate.applyUrl,
+      status: health.status,
+      reason: health.reason,
+    });
+  }
+
+  throw new Error(
+    `All opportunity links failed health checks for ${channelId}. Skipped: ${JSON.stringify(skipped)}`,
+  );
 }
 
 function formatPostedBy(postedBy) {
-  if (!postedBy || typeof postedBy !== "object") {
-    return null;
-  }
+  if (!postedBy || typeof postedBy !== "object") return null;
   const name = typeof postedBy.name === "string" ? postedBy.name.trim() : "";
   const contact =
     typeof postedBy.contact === "string" ? postedBy.contact.trim() : "";
-  if (!name && !contact) {
-    return null;
-  }
-  if (name && contact) {
-    return `${name} (${contact})`;
-  }
+  if (!name && !contact) return null;
+  if (name && contact) return `${name} (${contact})`;
   return name || contact;
 }
 
-function formatMessage({ channel, date, company, title, description, applyUrl, postedBy }) {
+function formatMessage({ channel, date, company, mission, position, description, applyUrl, postedBy }) {
   const lines = [
     `*Opportunity of the Day — ${channel.label} — ${date}*`,
     "",
-    `*${company}*`,
-    `*${title}*`,
+    `*Company:* ${company}`,
+    `*Position:* ${position}`,
     "",
-    description.trim(),
+    `*About the company:* ${mission}`,
     "",
-    `*Apply:* <${applyUrl}|Open application / careers page>`,
+    `*What we’re sharing:* ${description}`,
+    "",
+    `*Apply:* <${applyUrl}|${position}>`,
   ];
   const by = formatPostedBy(postedBy);
   if (by) {
@@ -115,7 +136,7 @@ function formatMessage({ channel, date, company, title, description, applyUrl, p
   }
   lines.push(
     "",
-    "_Always verify the listing is still open and that the link matches the employer before applying._",
+    "_Link was checked before posting, but openings change — confirm the listing is still active before you apply._",
   );
   return lines.join("\n");
 }
@@ -131,24 +152,27 @@ async function postChannel(channel, date) {
   }
 
   const items = loadOpportunities(channel.file);
-  const picked = pickOpportunity(items, date, channel.id);
+  const picked = await pickHealthyOpportunity(items, date, channel.id);
   const text = formatMessage({
     channel,
     date,
-    company: picked.item.company.trim(),
-    title: picked.item.title.trim(),
-    description: picked.item.description,
+    company: picked.company,
+    mission: picked.mission,
+    position: picked.position,
+    description: picked.description,
     applyUrl: picked.applyUrl,
-    postedBy: picked.item.postedBy,
+    postedBy: picked.postedBy,
   });
 
   await postViaWebhook(webhook, text);
   return {
     channel: channel.slackChannel,
     posted: true,
-    company: picked.item.company.trim(),
-    title: picked.item.title.trim(),
+    company: picked.company,
+    position: picked.position,
     applyUrl: picked.applyUrl,
+    linkStatus: picked.linkStatus,
+    skippedDeadLinks: picked.skipped.length,
   };
 }
 
@@ -164,7 +188,6 @@ async function main() {
     return;
   }
 
-  // Fail fast if data folder is missing files.
   const present = new Set(readdirSync(DATA_DIR));
   for (const channel of CHANNELS) {
     if (!present.has(channel.file)) {
@@ -195,7 +218,8 @@ async function main() {
 
   const anyPosted = results.some((r) => r.posted);
   const missingOnly =
-    errors.length === 0 && results.every((r) => !r.posted && String(r.reason).startsWith("missing_secret"));
+    errors.length === 0 &&
+    results.every((r) => !r.posted && String(r.reason).startsWith("missing_secret"));
 
   if (missingOnly) {
     throw new Error(
