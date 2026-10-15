@@ -1,97 +1,85 @@
 [
   {
-    "company": "Merck",
-    "mission": "Merck uses leading-edge science to save and improve lives around the world.",
-    "listingsUrl": "https://www.merck.com/careers/students-and-graduates/",
+    "company": "AstraZeneca",
+    "companyType": "Global pharmaceutical company (R&D / medicines)",
+    "mission": "Push the boundaries of science to deliver life-changing medicines — including oncology drug discovery supported by medicinal and computational chemistry design.",
+    "listingsUrl": "https://careers.astrazeneca.com/early-talent",
     "featured": {
-      "position": "Intern, Merck Research Laboratories",
-      "responsibilities": "Support an R&D project under Merck mentors — run analyses or experiments, document results, and present outcomes at the end of the internship term.",
-      "qualifications": "Currently enrolled student or recent graduate as defined by the posting; relevant STEM coursework; work authorization and location constraints vary by role.",
-      "applyUrl": "https://www.merck.com/careers/students-and-graduates/"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Novartis",
-    "mission": "Novartis reimagines medicine to improve and extend people’s lives.",
-    "listingsUrl": "https://www.novartis.com/careers/early-careers",
-    "featured": {
-      "position": "Early Careers Associate / Student Program",
-      "responsibilities": "Join a Novartis early-talent assignment spanning research, development, or related functions; contribute to team deliverables and learning rotations where offered.",
-      "qualifications": "Degree in progress or completed in a relevant field; interest in pharmaceutical R&D or associated functions; check each posting for GPA, language, and location requirements.",
-      "applyUrl": "https://www.novartis.com/careers/early-careers"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Bristol Myers Squibb",
-    "mission": "BMS transforms patients’ lives through science in oncology, hematology, immunology, and cardiovascular disease.",
-    "listingsUrl": "https://jobs.bms.com/careers?query=intern",
-    "featured": {
-      "position": "Summer Intern, Research & Development",
-      "responsibilities": "Assist a BMS team with experiments, data analysis, documentation, or cross-functional project support during the internship period.",
-      "qualifications": "Student status as required by the posting; coursework in life sciences, engineering, data, or a related field; strong communication and teamwork skills.",
-      "applyUrl": "https://jobs.bms.com/careers?query=intern"
+      "position": "12-Month University Industrial Placement Student: Computational Chemistry (Cambridge, UK)",
+      "description": "Paid 12-month undergraduate industrial placement (start September 2027) in Oncology Medicinal Chemistry’s Computational Chemistry team supporting drug-discovery design efforts (Job ID R-257921).",
+      "responsibilities": "Carry out structure- and ligand-based drug design; employ machine learning and generative AI for de novo molecule design; implement cheminformatics workflows; analyze literature and high-throughput screen data; run physics-based modelling including docking, free-energy perturbation, and molecular dynamics; use packages such as Maestro and MOE.",
+      "qualifications": "Currently undertaking an undergraduate chemistry degree with the opportunity to spend 1 year in industry starting September 2027; strong planning/organisation; ability to learn and apply new methods; good collaboration/teamwork; programming/cheminformatics knowledge valued. Applications window noted around 4 Sept–2 Oct 2026; assessment day 11 Nov 2026; start 6 Sept 2027.",
+      "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Computational-Chemistry_R-257921"
     },
     "postedBy": null
   },
   {
     "company": "AstraZeneca",
-    "mission": "AstraZeneca pushes the boundaries of science to deliver life-changing medicines.",
+    "companyType": "Global pharmaceutical company (R&D / medicines)",
+    "mission": "Discover and develop oncology medicines through laboratory bioscience that turns biological insight into drug-discovery decisions.",
     "listingsUrl": "https://careers.astrazeneca.com/early-talent",
     "featured": {
-      "position": "Early Talent Intern / Graduate",
-      "responsibilities": "Contribute to an early-talent project in R&D or a related function, collaborate with mentors, and deliver defined internship or graduate milestones.",
-      "qualifications": "Eligible student or graduate per the posting; scientific or quantitative background preferred for R&D tracks; confirm site and authorization requirements.",
-      "applyUrl": "https://careers.astrazeneca.com/early-talent"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Sanofi",
-    "mission": "Sanofi chases the miracles of science to improve people’s lives.",
-    "listingsUrl": "https://jobs.sanofi.com/en/search-jobs/students",
-    "featured": {
-      "position": "Student Intern, R&D / Medical",
-      "responsibilities": "Support scientific or medical teams with project work, data gathering, and presentations appropriate to the student assignment.",
-      "qualifications": "Enrollment in a relevant program and skills listed on the specific requisition; language and country eligibility vary.",
-      "applyUrl": "https://jobs.sanofi.com/en/search-jobs/students"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "GSK",
-    "mission": "GSK unites science, technology, and talent to get ahead of disease together.",
-    "listingsUrl": "https://www.gsk.com/en-gb/careers/early-talent/",
-    "featured": {
-      "position": "Early Talent Intern / Graduate Scheme",
-      "responsibilities": "Complete structured early-talent project work with GSK teams, including analysis, lab or office deliverables, and stakeholder updates.",
-      "qualifications": "Student/graduate eligibility as stated for the scheme; STEM background common for R&D tracks; review visa and location rules carefully.",
-      "applyUrl": "https://www.gsk.com/en-gb/careers/early-talent/"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Bristol Myers Squibb",
-    "mission": "BMS discovers, develops, and delivers innovative medicines for patients with serious diseases.",
-    "listingsUrl": "https://careers.bms.com/",
-    "featured": {
-      "position": "Scientist / Research Associate, Discovery",
-      "responsibilities": "Design or execute experiments, analyze data, and collaborate across discovery or translational teams depending on the requisition.",
-      "qualifications": "Typically BS/MS/PhD in a life science discipline and hands-on research experience matched to the posting level.",
-      "applyUrl": "https://careers.bms.com/"
+      "position": "12-Month University Industrial Placement Student: Biosciences / Oncology (Cambridge, UK)",
+      "description": "12-month laboratory-based Oncology R&D undergraduate industrial placement introducing students to innovative drug discovery inside an Oncology Bioscience team (Job ID R-258891; start September 2027).",
+      "responsibilities": "Contribute to a defined research project and day-to-day lab work: design and run experiments, generate and analyse data, maintain accurate experimental records, and present findings. Depending on placement area, gain experience in cell-based assays, molecular/cellular biology techniques, data analysis, and interpretation supporting oncology drug discovery.",
+      "qualifications": "Currently undertaking an undergraduate or integrated master’s degree in a biological discipline with a year-in-industry option starting September 2027; interest in cancer biology and drug discovery; strong organisation and attention to detail; ability to follow protocols and work safely; quick learner with good collaboration/communication. Application window noted ~4 Sept–2 Oct 2026; assessment day 25 Nov 2026; start 6 Sept 2027.",
+      "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Biosciences_R-258891"
     },
     "postedBy": null
   },
   {
     "company": "Novartis",
-    "mission": "Novartis focuses on innovative medicines that address serious unmet medical need.",
+    "companyType": "Global pharmaceutical / biomedical research company",
+    "mission": "Reimagine medicine through Biomedical Research (BR) — drug discovery and related life-science research aimed at serious unmet medical need.",
     "listingsUrl": "https://www.novartis.com/careers/career-search",
     "featured": {
-      "position": "Scientist, Drug Discovery / Development",
-      "responsibilities": "Contribute to drug discovery or development activities such as assay work, data analysis, documentation, and cross-functional collaboration.",
-      "qualifications": "Scientific degree and experience level specified on the chosen requisition; industry or academic research experience preferred for many scientist roles.",
-      "applyUrl": "https://www.novartis.com/careers/career-search"
+      "position": "US Biomedical Research — Summer of Science undergraduate internship (program)",
+      "description": "Paid ~10-week undergraduate research internship in Novartis Biomedical Research (US), with scientific mentoring; applications for the cycle described on the program page are due December 7, 2026 for a late-May/early-June 2027 start.",
+      "responsibilities": "Perform mentored research in a Biomedical Research lab/group over the summer term; contribute to experimental or computational project work defined with your mentor; participate in the program’s professional development and present outcomes as required by the hosting group.",
+      "qualifications": "Undergraduate student pursuing biomedical/life-science training suitable for a BR research internship; strong motivation for drug-discovery research. Confirm eligibility, site (Cambridge MA / West Coast options vary by program), and materials on the Novartis US Biomedical Research internship programs page before applying. Deadline listed: December 7, 2026.",
+      "applyUrl": "https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Novartis",
+    "companyType": "Global pharmaceutical / biomedical research company",
+    "mission": "Train the next generation of biomedical scientists through intensive industry research experiences that prepare candidates for competitive PhD programs.",
+    "listingsUrl": "https://www.novartis.com/careers/early-careers",
+    "featured": {
+      "position": "PRISM Postbaccalaureate Research InternShip & Mentoring (2-year)",
+      "description": "Paid 2-year postbac research and professional-development program at Novartis Biomedical Research (Cambridge, MA or West Coast CA sites) for recent STEM graduates aiming for a PhD; applications due December 7, 2026 for an Aug/Sept 2027 start.",
+      "responsibilities": "Perform an independent research project with a dedicated Novartis scientific mentoring supervisor for two years; develop experimental/analytical skills in an industry BR environment; engage in professional development designed to strengthen readiness for doctoral programs.",
+      "qualifications": "Recent college graduates highly motivated to obtain a PhD in biomedical research / life sciences; strong research potential. Program encourages applicants from HBCUs, Tribal Colleges & Universities, and IDeA/INBRE networks among other backgrounds. Deadline listed: December 7, 2026; notifications Feb/March 2027.",
+      "applyUrl": "https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Genentech",
+    "companyType": "Biotechnology / pharmaceutical company (Roche Group)",
+    "mission": "Discover and develop medicines for serious and life-threatening diseases by pushing the boundaries of science — historically including first-in-class targeted antibodies and transformative therapies.",
+    "listingsUrl": "https://careers.gene.com/us/en/c/students-graduates-jobs",
+    "featured": {
+      "position": "2027 Spring Intern — GenAI Applications",
+      "description": "Specific Genentech students & graduates internship requisition focused on GenAI applications (South San Francisco). This is a named internship posting — not the general internships board.",
+      "responsibilities": "Contribute to GenAI application projects with a Genentech hosting team during the spring internship term; analyze prototypes/data, collaborate with scientists and engineers, and present progress in the structured internship setting. Confirm exact project scope and deliverables on the live requisition before applying.",
+      "qualifications": "Student or recent-graduate eligibility as stated on the requisition; interest/skills relevant to GenAI/ML applications in a biotech R&D setting; confirm degree level, work authorization, dates, and location requirements on the posting (requisition 202610-125229).",
+      "applyUrl": "https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Bristol Myers Squibb",
+    "companyType": "Global biopharmaceutical company",
+    "mission": "Discover, develop, and deliver innovative medicines for serious diseases — including radiopharmaceutical and broader R&D programs that depend on rigorous regulatory submissions.",
+    "listingsUrl": "https://careers.bms.com/internships-co-ops/",
+    "featured": {
+      "position": "Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433",
+      "description": "Full-time summer internship (June–August 2027) supporting BMS Regulatory Affairs at the Indianapolis RayzeBio site — hands-on documentation, submission tracking, and cross-functional regulatory project coordination (requisition R1607433).",
+      "responsibilities": "Assist organizing/formatting regulatory submission documents (e.g. IND, CTA, briefing packages, nonclinical reports); maintain submission trackers and document repositories; review documents for consistency under supervision; support project timelines/task lists and meeting notes; coordinate with internal teams for required documentation; conduct literature reviews and regulatory-intelligence gathering; compile summaries of FDA/EMA guidance and flag requirement changes.",
+      "qualifications": "Currently pursuing a Bachelor’s degree in Life Sciences, Pharmacy, Public Health, or a related field; strong interest in regulatory affairs and drug development; excellent organizational and communication skills; authorized to work in the U.S. for the full internship (no visa sponsorship). Preferred: Microsoft Office/Adobe Acrobat familiarity; project-management tools experience; prior coursework/internship related to clinical trials or regulatory science.",
+      "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433"
     },
     "postedBy": null
   }

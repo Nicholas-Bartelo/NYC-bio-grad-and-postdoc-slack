@@ -1,97 +1,85 @@
 [
   {
+    "company": "Epinoma (YC)",
+    "companyType": "Early-stage biotech startup (Y Combinator-backed)",
+    "mission": "Engineer proteins that control the “operating system” of biology — starting with tools that improve blood-test performance, with longer-term aims in safer, more effective epigenetic medicines.",
+    "listingsUrl": "https://www.ycombinator.com/jobs/role/science",
+    "featured": {
+      "position": "Therapeutic Research Associate",
+      "description": "Full-time wet-lab Research Associate role in San Carlos, CA ($70k–$95k + equity) supporting cell engineering, molecular biology, and assay work for Epinoma’s therapeutic/protein-engineering programs.",
+      "responsibilities": "Maintain cell lines/primary cells; perform transfection, transduction, and nucleofection; run basic imaging and flow cytometry; manage cell-line, plasmid, and bacterial stocks; clone genes/regulatory elements/vector components with QC; keep detailed experimental records and ELN entries; analyze technical data and improve routine methods; operate/maintain equipment and supplies; assist with SOP refinement. Senior RA track may independently design experiments and coordinate RA I tasks.",
+      "qualifications": "BS or MS in cellular biology or related field; new graduates with ≥6 months relevant lab experience welcome. Required skills: tissue culture; PCR, DNA binding, Western blot, ELISA, ChIP, immunostaining, multiplexed protein assays; cloning experience desirable; flow cytometry/imaging a plus; comfort with lab safety and biohazards. US citizen/visa only per posting. Senior RA: additional industry experience or project-design experience.",
+      "applyUrl": "https://www.ycombinator.com/companies/epinoma/jobs/GRT7VJ4-therapeutic-research-associate"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Origin Bio (YC)",
+    "companyType": "Early-stage biotech / data company (Y Combinator-backed)",
+    "mission": "Produce matched spatial transcriptomics, histopathology, and clinical datasets from real patient tumors for cancer therapeutics R&D and AI — so findings translate better in the clinic.",
+    "listingsUrl": "https://www.ycombinator.com/jobs/role/science",
+    "featured": {
+      "position": "Computational Biologist, Spatial Transcriptomics",
+      "description": "Full-time computational biology role ($140k–$170k + equity; SF preferred / remote possible) owning Xenium post-run QC and secondary analysis of Origin’s spatial cancer datasets.",
+      "responsibilities": "Develop reproducible QC workflows for transcript detection, background, cell segmentation, transcript assignment, tissue/imaging artefacts, and run-to-run variation; align post-run H&E whole-slide images to Xenium DAPI and assess registration; work with pathologists to bring histological annotations into spatial data; analyze cell states, spatial neighbourhoods, tumour–immune interactions, and differential expression; use single-cell references where helpful.",
+      "qualifications": "PhD or postdoctoral research in spatial biology, or equivalent hands-on industry experience; Xenium or CosMx experience especially valuable (other spatial platforms welcome); oncology tissue / H&E WSI / multi-modality imaging experience preferred; strong Python or R and reproducible workflow skills. Prefer in-person San Francisco; remote possible for the right candidate.",
+      "applyUrl": "https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics"
+    },
+    "postedBy": null
+  },
+  {
     "company": "Y Combinator",
-    "mission": "Y Combinator helps founders start companies through funding, advice, and a powerful alumni network.",
+    "companyType": "Startup accelerator / early-stage investor",
+    "mission": "Help founders start companies through funding, intense advising, and a powerful alumni network — including bio/health startups ready to build full-time.",
     "listingsUrl": "https://www.ycombinator.com/companies",
     "featured": {
       "position": "YC Batch Application (founder program)",
-      "responsibilities": "Build and iterate a startup during the YC batch, talk to users, ship product, and present at Demo Day with your co-founders.",
-      "qualifications": "A founding team (or strong solo case), a clear problem/solution thesis, and commitment to work on the company full-time if accepted. Bio/health startups are welcome when ready.",
+      "description": "Apply to a YC batch as a founder/co-founder. This is the specific batch application — not a job board listing at a portfolio company.",
+      "responsibilities": "If accepted: build and iterate the startup during the batch, talk to users, ship product, and present at Demo Day with your co-founders while working with YC partners.",
+      "qualifications": "A founding team (or strong solo case), a clear problem/solution thesis, and commitment to work on the company full-time if accepted. Bio/health startups are welcome when ready. Apply at the YC Apply page for the current batch cycle.",
       "applyUrl": "https://www.ycombinator.com/apply"
     },
     "postedBy": null
   },
   {
-    "company": "Y Combinator",
-    "mission": "Y Combinator funds and supports early-stage startups across industries, including bio and health.",
-    "listingsUrl": "https://www.ycombinator.com/jobs",
+    "company": "SOSV (IndieBio → SOSV NY / SOSV SF)",
+    "companyType": "Deep-tech / biotech pre-seed accelerator and VC",
+    "mission": "Fund and develop scientist-founders building deep-tech and biology-driven companies — with hands-on company-building support historically associated with IndieBio, now under SOSV NY and SOSV SF programs.",
+    "listingsUrl": "https://sosv.com/apply/",
     "featured": {
-      "position": "Early Hire at a YC-backed Bio/Health Startup",
-      "responsibilities": "Join an early startup team to build product, run experiments, or support scientific/commercial work depending on the company posting.",
-      "qualifications": "Skills listed by the hiring startup (often full-stack, ML, biology, or ops). Filter the YC Jobs board for bio/health roles that match you.",
-      "applyUrl": "https://www.ycombinator.com/jobs"
+      "position": "SOSV Startup Development Program application (rolling)",
+      "description": "Rolling application to SOSV startup development programs (including SOSV SF / SOSV NY biotech pathways formerly branded IndieBio). Selected teams enter diligence via screening calls and a short pitch.",
+      "responsibilities": "If accepted: execute a technical development plan during the program, iterate product/science with SOSV partners, and progress toward seed milestones with customized founder support.",
+      "qualifications": "A well-developed idea with technology worked out at least in principle and a strong team (typically ≥2 co-founders for funding; solo founders may apply but need a co-founder before funding). Programs may require in-person participation (clarify in interview). Apply via the SOSV application portal.",
+      "applyUrl": "https://sosv.com/apply/sosv/"
     },
     "postedBy": null
   },
   {
     "company": "NSF I-Corps",
-    "mission": "NSF I-Corps trains researchers to test commercial potential of deep science and engineering ideas.",
-    "listingsUrl": "https://www.nsf.gov/funding/initiatives/i-corps",
+    "companyType": "Federal entrepreneurship training program (NSF)",
+    "mission": "Train researchers to test the commercial potential of deep science and engineering ideas through structured customer discovery — a pathway from lab research toward ventures and broader impact.",
+    "listingsUrl": "https://www.nsf.gov/funding/opportunities",
     "featured": {
-      "position": "I-Corps Team Participant (academic commercialization training)",
-      "responsibilities": "Complete customer-discovery interviews, test value propositions for a research-based idea, and report learning with your I-Corps team.",
-      "qualifications": "Typically an academic team (PI/entrepreneurial lead/mentor) with a deep-tech or life-science concept; eligibility depends on the Hub/Teams call.",
+      "position": "I-Corps Teams / Hub participant (customer-discovery training)",
+      "description": "NSF I-Corps pathway for academic teams to run intensive customer-discovery interviews and test value propositions for a research-based idea under an open Hub/Teams call.",
+      "responsibilities": "Complete customer-discovery interviews; test value propositions for a deep-tech or life-science concept; report learning with your I-Corps team (PI / entrepreneurial lead / mentor structure as defined by the call).",
+      "qualifications": "Typically an academic team with a deep-tech or life-science concept; eligibility depends on the specific Hub/Teams solicitation. Review current NSF I-Corps initiative guidance before applying.",
       "applyUrl": "https://www.nsf.gov/funding/initiatives/i-corps"
     },
     "postedBy": null
   },
   {
-    "company": "BioLabs",
-    "mission": "BioLabs provides shared lab infrastructure and community for early-stage biotech companies.",
-    "listingsUrl": "https://www.biolabs.io/",
-    "featured": {
-      "position": "Resident Company — BioLabs Site Membership",
-      "responsibilities": "Operate your early biotech company in shared lab space, follow site EH&S rules, and engage with the BioLabs founder community.",
-      "qualifications": "An incorporated (or forming) biotech startup needing lab access; scientific founders with a clear experimental plan are typical applicants.",
-      "applyUrl": "https://www.biolabs.io/"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Creative Destruction Lab (CDL)",
-    "mission": "CDL is an objectives-based program for massively scalable science- and tech-based ventures.",
-    "listingsUrl": "https://creativedestructionlab.com/",
-    "featured": {
-      "position": "CDL Venture Participant",
-      "responsibilities": "Set and hit commercialization objectives with CDL mentors, refine go-to-market and technical milestones, and engage in sessions throughout the program.",
-      "qualifications": "A scalable science/tech venture at a stage matching the stream; founding team committed to the CDL objectives process.",
-      "applyUrl": "https://creativedestructionlab.com/"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Breakout Ventures",
-    "mission": "Breakout backs scientific founders building transformative deep-tech and life-science companies.",
-    "listingsUrl": "https://www.breakout.vc/",
-    "featured": {
-      "position": "Scientific Founder — Breakout Application Path",
-      "responsibilities": "Work with Breakout on company building for a scientific venture — diligence, milestones, and founder support as defined by the active program.",
-      "qualifications": "Scientific founders with a deep-tech or life-science thesis; check Breakout’s site for current application criteria.",
-      "applyUrl": "https://www.breakout.vc/"
-    },
-    "postedBy": null
-  },
-  {
     "company": "NIH SEED (SBIR/STTR)",
-    "mission": "NIH SEED helps small businesses turn promising technologies into products that improve health.",
+    "companyType": "Federal small-business research funding program (NIH)",
+    "mission": "Help small businesses turn promising health technologies into products through SBIR/STTR research funding and commercialization support.",
     "listingsUrl": "https://seed.nih.gov/",
     "featured": {
-      "position": "SBIR/STTR Small Business Applicant",
-      "responsibilities": "Prepare and submit an NIH small-business research proposal, execute the funded R&D plan, and report progress under NIH terms.",
-      "qualifications": "A qualifying small business with a health-related innovation; PI and company eligibility rules are defined in the current Omnibus/solicitation.",
-      "applyUrl": "https://seed.nih.gov/"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "IndieBio (SOSV)",
-    "mission": "IndieBio helps scientist-founders turn biology breakthroughs into companies through funding and lab support.",
-    "listingsUrl": "https://sosv.com/news/",
-    "featured": {
-      "position": "IndieBio / SOSV Program Application",
-      "responsibilities": "If accepted, build the company in-program: experiments, customer discovery, and investor milestones with IndieBio mentors.",
-      "qualifications": "Scientist-founders with a biology-driven company idea; team commitment and ability to relocate/participate as required by the cohort.",
-      "applyUrl": "https://sosv.com/apply/sosv/"
+      "position": "SBIR/STTR funding opportunity applicant",
+      "description": "Apply to current NIH SBIR/STTR funding opportunities via the SEED Find Funding page — this is a specific funding mechanism for qualifying small businesses, not a company careers board.",
+      "responsibilities": "Prepare and submit an NIH small-business research proposal under the open Omnibus or targeted solicitation; if awarded, execute the funded R&D plan and report progress under NIH terms.",
+      "qualifications": "A qualifying small business with a health-related innovation; PI and company eligibility rules are defined in the current Omnibus/solicitation. Review SEED’s SBIR/STTR funding opportunities page for open announcements and requirements.",
+      "applyUrl": "https://seed.nih.gov/small-business-funding/find-funding/sbir-sttr-funding-opportunities"
     },
     "postedBy": null
   }

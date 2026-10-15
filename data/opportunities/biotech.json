@@ -1,97 +1,85 @@
 [
   {
-    "company": "Genentech",
-    "mission": "Genentech pioneers biotechnology medicines for people with serious and life-threatening diseases.",
-    "listingsUrl": "https://careers.gene.com/us/en/c/students-graduates-jobs",
-    "featured": {
-      "position": "2027 Spring Intern — GenAI Applications",
-      "responsibilities": "Contribute to GenAI application projects with a Genentech team; analyze data/prototypes, collaborate with scientists and engineers, and present progress in a structured internship setting.",
-      "qualifications": "Currently enrolled student (or recent graduate, per posting) with interest in GenAI/ML applications in biotech; strong analytical and communication skills. Confirm degree level, work authorization, and location on the posting.",
-      "applyUrl": "https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications"
-    },
-    "postedBy": null
-  },
-  {
     "company": "New York Genome Center",
-    "mission": "NYGC advances genomic research to improve human health through technology, collaboration, and discovery.",
-    "listingsUrl": "https://www.nygenome.org/careers/",
+    "companyType": "Nonprofit genomic research institute (NYC)",
+    "mission": "Advance genomic science and its application to biomedical discovery, with major programs in single-cell genomics, functional genomics, and disease genetics.",
+    "listingsUrl": "https://www.nygenome.org/careers/open-positions-training-opportunities/",
     "featured": {
-      "position": "Computational Biologist, Genomics Research",
-      "responsibilities": "Analyze NGS and multi-omics datasets, build or maintain analysis pipelines, collaborate with wet-lab and clinical genomics teams, and document methods/results for internal and external partners.",
-      "qualifications": "MS/PhD (or equivalent experience) in computational biology, genomics, bioinformatics, or a related field; proficiency in Python or R; experience with large-scale sequencing data preferred.",
-      "applyUrl": "https://www.nygenome.org/careers/"
+      "position": "Computational Biologist, Single Cell Genomics (Satija Lab)",
+      "description": "Full-time computational biology role in the Satija Lab developing statistical methods and open-source software for single-cell genomics, with applications in cancer immunology and developmental neuroscience.",
+      "responsibilities": "Develop computational methods for single-cell genomics datasets; contribute to open-source software packages; assist with data analysis/interpretation across lab projects; help manage lab servers and computational infrastructure; document and present results to the lab.",
+      "qualifications": "BS or MS in bioinformatics, computer science, biology, biochemistry, or similar; strong programming in R, Python, and BASH; Linux experience; strong written/verbal communication. Preferred: statistics or ML training; NGS, functional genomics, or human genetics exposure. Salary range listed as $65,000–$85,000.",
+      "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/jobs/500"
     },
     "postedBy": null
   },
   {
     "company": "Memorial Sloan Kettering Cancer Center",
-    "mission": "MSK is dedicated to ending cancer for life through patient care, research, and education.",
+    "companyType": "Academic cancer center / research hospital (NYC)",
+    "mission": "End cancer for life through patient care, research, and education — including basic and translational lab science across Sloan Kettering Institute and MSK clinical programs.",
     "listingsUrl": "https://careers.mskcc.org/",
     "featured": {
-      "position": "Research Technician, Cancer Biology",
-      "responsibilities": "Support laboratory research through sample processing, molecular or cell-based assays, accurate data recording, and coordination with PIs and core facilities on cancer-focused projects.",
-      "qualifications": "Bachelor’s degree in a biological science (or equivalent); prior wet-lab experience; familiarity with molecular biology techniques preferred. Confirm the live MSK requisition for level and lab assignment.",
-      "applyUrl": "https://careers.mskcc.org/"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Addgene",
-    "mission": "Addgene is a nonprofit that accelerates research by sharing plasmids and related research materials worldwide.",
-    "listingsUrl": "https://www.addgene.org/careers/",
-    "featured": {
-      "position": "Scientist, Repository Operations",
-      "responsibilities": "Help scientists deposit and request materials, maintain quality processes for the plasmid/viral repository, and support documentation or customer-facing scientific questions.",
-      "qualifications": "BS+ in biology or a related field; attention to detail; comfort with SOPs and databases; molecular biology or scientist-support experience preferred.",
-      "applyUrl": "https://www.addgene.org/careers/"
+      "position": "Research Technician, Niethammer Lab",
+      "description": "Onsite research technician role in the Philipp Niethammer Lab studying how cells sense physical stress, using zebrafish, human cells, microscopy, genetics, and molecular biology.",
+      "responsibilities": "Prepare and maintain lab equipment, solutions, and assays; perform techniques such as CRISPR screening, flow cytometry, sterile mammalian tissue culture, transfection, fluorescent imaging, and tissue processing; conduct animal studies (injections, tissue/fluid collection, euthanasia, zebrafish handling); record/analyze data and assist peers on ongoing projects.",
+      "qualifications": "Bachelor’s degree in biology/life sciences; experience with tissue culture and molecular biology; comfort working with zebrafish larvae or adults (monitoring, genotyping, behavioral scoring, tailfin amputation); attention to detail, protocol adherence, teamwork. Location: NYC; 37.5 hours/week onsite; pay range listed ~$26.77–$40.05/hour.",
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1"
     },
     "postedBy": null
   },
   {
     "company": "HHMI Janelia Research Campus",
-    "mission": "Janelia brings scientists and tool-builders together to solve fundamental problems in biology.",
-    "listingsUrl": "https://www.janelia.org/careers",
-    "featured": {
-      "position": "Research Specialist / Postdoctoral Fellow",
-      "responsibilities": "Carry out independent or collaborative research, develop methods or tools, and share results with Janelia lab groups in a highly interdisciplinary environment.",
-      "qualifications": "PhD or advanced research experience in neuroscience, imaging, computational biology, or a related area, matched to the lab posting.",
-      "applyUrl": "https://www.janelia.org/careers"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Howard Hughes Medical Institute (HHMI)",
-    "mission": "HHMI supports discovery science for the benefit of humanity.",
+    "companyType": "HHMI research campus (nonprofit basic science institute)",
+    "mission": "Solve fundamental problems in biology by bringing scientists and tool-builders together — including new imaging chemistry and microscopy methods that enable multimodal and super-resolution biological imaging.",
     "listingsUrl": "https://www.hhmi.org/careers",
     "featured": {
-      "position": "Research Specialist, Scientific Programs",
-      "responsibilities": "Contribute to research programs or scientific infrastructure supporting HHMI investigators and institute initiatives, including experimental work, analysis, or research operations as defined by the role.",
-      "qualifications": "Advanced training in a relevant scientific discipline and evidence of research productivity or technical specialization for the open requisition.",
-      "applyUrl": "https://www.hhmi.org/careers"
+      "position": "Postdoctoral Scientist — Lincoln Lab (fluorophores / super-resolution imaging)",
+      "description": "Postdoc in the Lincoln Lab designing and characterizing next-generation fluorophores for multimodal, whole-organism, and/or super-resolution imaging challenges.",
+      "responsibilities": "Design and execute multistep synthetic routes for new small-molecule fluorophores and ligands; develop high-throughput spectroscopic assays and characterize photophysical profiles; apply dyes in live/fixed imaging contexts; may train into single-molecule imaging, immunofluorescence, super-resolution methods, or related techniques as projects require.",
+      "qualifications": "Ph.D. in chemistry, physics, or a related physical/life science field; hybrid background in photochemistry and/or chemical biology with strong organic chemistry grounding; hands-on organic synthesis of fluorophores or light-sensitive substances; experience with computational chemistry tools (e.g. Gaussian, Orca). Spectroscopy, assay development, molecular docking, or fluorescence microscopy are assets. Janelia Postdoc 00 compensation listed at $74,200.",
+      "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598"
     },
     "postedBy": null
   },
   {
-    "company": "Simons Foundation",
-    "mission": "The Simons Foundation advances the frontiers of research in mathematics and the basic sciences.",
-    "listingsUrl": "https://www.simonsfoundation.org/careers/",
+    "company": "HHMI Janelia Research Campus",
+    "companyType": "HHMI research campus (nonprofit basic science institute)",
+    "mission": "Advance systems neuroscience and method development — including how neural circuits generate collective behavior and social cognition in experimentally tractable model systems.",
+    "listingsUrl": "https://www.janelia.org/careers",
     "featured": {
-      "position": "Science Program Associate",
-      "responsibilities": "Support scientific programs and research initiatives that fund and enable basic science — coordinating reviews, tracking awards, and working with investigators and foundation teams.",
-      "qualifications": "Scientific training plus project, data, or program experience; strong writing and organizational skills. Confirm requirements on the live Simons posting.",
-      "applyUrl": "https://www.simonsfoundation.org/careers/"
+      "position": "Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)",
+      "description": "Postdoc integrating custom hardware/software with computational analysis to probe neural circuits underlying collective behavior and social cognition, including VR paradigms in Danionella.",
+      "responsibilities": "Build and apply virtual-reality behavioral paradigms with the lab’s VR specialist; develop/execute experiments on inter-individual differences and social behavior circuits; use multi-animal tracking and behavioral classification to study latent structure and create brain–behavior maps; integrate software-hardware systems with analysis pipelines.",
+      "qualifications": "Ph.D. in neuroscience, computer science, engineering, or a closely related field; hybrid background bridging software-hardware integration, computational/ML skills, and systems neuroscience; experience building or working with complex behavioral rigs (e.g. VR). Genuine interest in neural bases of social/collective behavior. Janelia Postdoc 00 compensation listed at $74,200.",
+      "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506"
     },
     "postedBy": null
   },
   {
-    "company": "Genentech",
-    "mission": "Genentech discovers and develops medicines by pushing the boundaries of science for patients with serious disease.",
-    "listingsUrl": "https://careers.gene.com/us/en/internships",
+    "company": "Addgene",
+    "companyType": "Nonprofit biorepository / scientific materials company",
+    "mission": "Accelerate research by making high-quality plasmids, viral vectors, and related research materials accessible to scientists worldwide — plasmids are the core portfolio that enables viral vectors, antibodies, and new formats.",
+    "listingsUrl": "https://addgene.applytojob.com/apply",
     "featured": {
-      "position": "Summer Intern, Research & Development",
-      "responsibilities": "Work on a defined internship project with Genentech mentors, analyze results, and communicate findings to the hosting team over the internship term.",
-      "qualifications": "Enrollment in a relevant degree program (or eligibility stated on the posting), interest in biotech/pharma R&D, and ability to work on-site/remote as required by the specific internship.",
-      "applyUrl": "https://careers.gene.com/us/en/internships"
+      "position": "Sr. Manager, Scientific Product Management",
+      "description": "Senior manager role owning day-to-day execution of Addgene’s plasmid product portfolio — segmentation, catalog health, roadmap delivery, and launch execution — in partnership with the Director of Scientific Product Management (Watertown, MA; hybrid).",
+      "responsibilities": "Track and report plasmid portfolio performance (revenue growth, margin, catalog health) against Annual Operating Plan targets; set/hit targets for adoption, market penetration, and retention across academic/biotech/pharma segments; identify gaps and recommend pricing, positioning, promotional, or product-mix changes; own roadmap delivery and launch execution for the plasmid portfolio.",
+      "qualifications": "Senior product/portfolio leadership background suited to a scientific materials business; ability to translate scientific insight into commercial results with urgency and clear outcomes ownership. Salary listed $130,000–$155,000 plus benefits; hybrid at Watertown, MA headquarters. Confirm full requirements on the posting.",
+      "applyUrl": "https://addgene.applytojob.com/apply/mntGDS7RZV/Sr-Manager-Scientific-Product-Management"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "New York Genome Center",
+    "companyType": "Nonprofit genomic research institute (NYC)",
+    "mission": "Use functional genomics and gene-editing technologies to understand how genetic variation shapes gene expression and cellular phenotypes relevant to disease.",
+    "listingsUrl": "https://www.nygenome.org/careers/open-positions-training-opportunities/",
+    "featured": {
+      "position": "Postdoctoral Research Associate, Sanjana Lab",
+      "description": "Postdoc mentored by Dr. Neville Sanjana on functional genomics and gene editing — e.g. Cas13 noncoding RNA profiling in human neurons, in vivo CRISPR screens, protein design of new editors/cell therapies, or massively parallel enhancer/noncoding perturbations.",
+      "responsibilities": "Plan and carry out research independently; develop and execute a functional genomics / genome technology project; write up and present findings regularly; contribute experimentally and/or computationally depending on background (the role can be tailored toward wet-lab scientists building computational skills or computational geneticists building experimental expertise).",
+      "qualifications": "PhD or MD-PhD; prior research experience in molecular biology, biochemistry, computational biology, and/or functional genomics; first-author publications expected. Strong fit for candidates eager to connect human genetic variation to cellular/tissue phenotypes with cutting-edge genome technologies.",
+      "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/jobs/737"
     },
     "postedBy": null
   }

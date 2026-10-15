@@ -73,8 +73,10 @@ function loadOpportunities(file) {
 function normalizeItem(item) {
   if (!item || typeof item !== "object") return null;
   const company = typeof item.company === "string" ? item.company.trim() : "";
+  const companyType =
+    typeof item.companyType === "string" ? item.companyType.trim() : "";
   const mission = typeof item.mission === "string" ? item.mission.trim() : "";
-  if (!company || !mission) return null;
+  if (!company || !companyType || !mission) return null;
 
   const featured = item.featured && typeof item.featured === "object" ? item.featured : null;
   const position = (
@@ -85,6 +87,13 @@ function normalizeItem(item) {
         : typeof item.title === "string"
           ? item.title
           : ""
+  ).trim();
+  const description = (
+    typeof featured?.description === "string"
+      ? featured.description
+      : typeof item.description === "string"
+        ? item.description
+        : ""
   ).trim();
   const responsibilities = (
     typeof featured?.responsibilities === "string"
@@ -101,25 +110,30 @@ function normalizeItem(item) {
         ? item.applyUrl
         : "";
   const listingsRaw =
-    typeof item.listingsUrl === "string"
-      ? item.listingsUrl
-      : featuredApplyRaw;
+    typeof item.listingsUrl === "string" ? item.listingsUrl : "";
 
-  if (!position || !responsibilities || !qualifications) return null;
+  if (!position || !description || !responsibilities || !qualifications) {
+    return null;
+  }
+  if (!featuredApplyRaw || !listingsRaw) return null;
 
   const featuredUrl = validateApplyUrl(featuredApplyRaw);
   const listingsUrl = validateApplyUrl(listingsRaw);
   if (!featuredUrl.ok || !listingsUrl.ok) return null;
 
+  // Featured JD must be a specific posting, not the same careers board URL.
+  if (featuredUrl.href === listingsUrl.href) return null;
+
   const normalized = {
     company,
+    companyType,
     mission,
     position,
+    description,
     responsibilities,
     qualifications,
     applyUrl: featuredUrl.href,
     listingsUrl: listingsUrl.href,
-    listingsIsSameAsFeatured: featuredUrl.href === listingsUrl.href,
     postedBy: item.postedBy,
   };
   return { ...normalized, key: opportunityKey(normalized) };
@@ -129,7 +143,7 @@ async function pickHealthyOpportunity(items, date, channelId, history) {
   const candidates = items.map(normalizeItem).filter(Boolean);
   if (candidates.length === 0) {
     throw new Error(
-      `No complete opportunities in ${channelId}. Need company, mission, featured.position/responsibilities/qualifications/applyUrl, listingsUrl.`,
+      `No complete opportunities in ${channelId}. Need company, companyType, mission, listingsUrl, and featured.position/description/responsibilities/qualifications/applyUrl (applyUrl must differ from listingsUrl).`,
     );
   }
 
@@ -205,28 +219,20 @@ function formatMessage(picked, channel, date) {
     `*Opportunity of the Day — ${channel.label} — ${date}*`,
     "",
     `*Company:* ${picked.company}`,
+    `*Company type:* ${picked.companyType}`,
     `*Featured position:* ${picked.position}`,
     "",
-    `*About the company:* ${picked.mission}`,
+    `*About the company:* ${picked.companyType}. Scientific goal: ${picked.mission}`,
     "",
-    "*What we’re sharing:* One featured opportunity (role details below), plus a separate link to the company’s open-positions / careers listings page — that listings page is a board of many roles, not one job.",
+    `*What we’re sharing:* ${picked.description}`,
     "",
-    `*Responsibilities (featured role):* ${picked.responsibilities}`,
+    `*Responsibilities (this role):* ${picked.responsibilities}`,
     "",
-    `*Qualifications (featured role):* ${picked.qualifications}`,
+    `*Qualifications (this role):* ${picked.qualifications}`,
     "",
-    `*Apply to the featured opportunity:* <${picked.applyUrl}|${picked.position}>`,
+    `*Apply to this specific role:* <${picked.applyUrl}|${picked.position}>`,
+    `*Browse all open positions (listings page — many roles, not one job):* <${picked.listingsUrl}|${picked.company} careers / open roles>`,
   ];
-
-  if (picked.listingsIsSameAsFeatured) {
-    lines.push(
-      `*Browse all open positions (listings page — many roles, not one job):* <${picked.listingsUrl}|${picked.company} careers / open roles> _(same site as above; use it to browse every open listing)_`,
-    );
-  } else {
-    lines.push(
-      `*Browse all open positions (listings page — many roles, not one job):* <${picked.listingsUrl}|${picked.company} careers / open roles>`,
-    );
-  }
 
   const by = formatPostedBy(picked.postedBy);
   if (by) {
@@ -234,7 +240,7 @@ function formatMessage(picked, channel, date) {
   }
   lines.push(
     "",
-    "_Links were checked before posting, but openings change — confirm the featured role is still active before you apply._",
+    "_Links were checked before posting, but openings change — confirm this specific role is still active before you apply._",
   );
   return lines.join("\n");
 }

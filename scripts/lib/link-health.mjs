@@ -18,8 +18,13 @@ export async function checkApplyUrl(href, { timeoutMs = 15000 } = {}) {
         accept: "text/html,application/xhtml+xml",
       },
     });
-    // Some career sites block HEAD; retry GET.
-    if (res.status === 405 || res.status === 501 || res.status === 403) {
+    // Some career sites block HEAD or return false 404s on HEAD; retry GET.
+    if (
+      res.status === 405 ||
+      res.status === 501 ||
+      res.status === 403 ||
+      res.status === 404
+    ) {
       res = await fetch(href, {
         method: "GET",
         redirect: "follow",

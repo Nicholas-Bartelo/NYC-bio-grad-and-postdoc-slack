@@ -41,25 +41,29 @@ GitHub → **Settings → Secrets and variables → Actions → New repository s
 Each opportunity entry must include:
 
 - **company**
-- **mission** (≥1 sentence)
-- **listingsUrl** — careers / open-positions board (labeled in Slack as a listings page, not one job)
-- **featured.position** — one specific role/program
-- **featured.responsibilities**
-- **featured.qualifications**
-- **featured.applyUrl** — link for that featured role (may be a specific JD or the board)
+- **companyType** — e.g. VC firm, pharma company, nonprofit research institute, YC startup
+- **mission** — scientific / strategic goal of the organization
+- **listingsUrl** — careers / open-positions **board** (many roles; must differ from `featured.applyUrl`)
+- **featured.position** — one specific live role/program
+- **featured.description** — short summary of that specific posting (“What we’re sharing”)
+- **featured.responsibilities** — from that job description
+- **featured.qualifications** — from that job description
+- **featured.applyUrl** — direct link to that specific JD/application (not the board)
 - **postedBy** (optional)
 
-Slack posts include Company, Featured position, mission, responsibilities, qualifications, a featured apply link, and a clearly labeled listings-page link (**listings page = many open roles, not one job**).
+Slack posts include company type + scientific goal, a role-specific summary, responsibilities/qualifications for that posting, a **specific apply** link, and a separately labeled listings-page link.
 
 Example JSON:
 
 ```json
 {
   "company": "Example Bio",
-  "mission": "Example Bio develops therapies for rare metabolic disease.",
+  "companyType": "Clinical-stage biotech company",
+  "mission": "Develop enzyme-replacement therapies for rare metabolic disease.",
   "listingsUrl": "https://example.com/careers",
   "featured": {
     "position": "Research Associate, Discovery Biology",
+    "description": "Full-time wet-lab RA supporting target-validation assays for Example Bio’s lead metabolic program (requisition 123).",
     "responsibilities": "Run target-validation assays and document results with the discovery team.",
     "qualifications": "BS/MS in biology with 1+ years wet-lab experience.",
     "applyUrl": "https://example.com/careers/research-associate-123"
