@@ -28,6 +28,26 @@ function easternDateKey(now = new Date()) {
   }).format(now);
 }
 
+function easternHour(now = new Date()) {
+  const hour = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    hour: "numeric",
+    hour12: false,
+  }).formatToParts(now).find((part) => part.type === "hour")?.value;
+  return Number(hour);
+}
+
+function shouldPostNow() {
+  // Manual "Run workflow" always posts. Scheduled runs only at 8 AM Eastern.
+  if (process.env.GITHUB_EVENT_NAME === "workflow_dispatch") {
+    return true;
+  }
+  if (process.env.FORCE_POST === "1") {
+    return true;
+  }
+  return easternHour() === 8;
+}
+
 function dayIndex(dateKey, modulo) {
   // Stable rotation by Eastern calendar date.
   let hash = 0;

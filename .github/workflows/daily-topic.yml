@@ -2,9 +2,11 @@ name: Daily biology topic
 
 on:
   schedule:
-    # 8:00 AM Eastern during EDT (UTC-4). In EST (UTC-5) this is 7:00 AM.
-    # Adjust to "0 13 * * *" if you prefer 8:00 AM Eastern Standard Time year-round.
+    # GitHub cron is UTC only. Fire at both offsets that can be 8:00 AM Eastern:
+    # 12:00 UTC = 8 AM EDT, 13:00 UTC = 8 AM EST. The script posts only when
+    # America/New_York local hour is 8 (manual Run workflow always posts).
     - cron: "0 12 * * *"
+    - cron: "0 13 * * *"
   workflow_dispatch:
 
 jobs:
