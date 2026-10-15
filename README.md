@@ -75,6 +75,12 @@ Example JSON:
 
 Dead/404 links are skipped automatically at post time.
 
+### No repeats
+Posted opportunities are recorded in `data/opportunities/posted-history.json`.
+Each channel will not reuse a listing until every usable listing in that
+channel has been posted once; then the cycle resets. The GitHub Action
+commits history updates after a successful run.
+
 ## Test
 
 1. Add the four opportunity webhook secrets  

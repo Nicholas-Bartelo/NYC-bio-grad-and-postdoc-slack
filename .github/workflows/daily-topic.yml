@@ -9,6 +9,10 @@ on:
     - cron: "0 13 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: daily-slack-posts
+  cancel-in-progress: false
+
 jobs:
   topic:
     name: Topic of the Day
@@ -30,9 +34,11 @@ jobs:
     name: Field opportunities
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     steps:
       - uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v5
         with:
           node-version: "24"
@@ -44,3 +50,16 @@ jobs:
           SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA }}
           SLACK_WEBHOOK_URL_OPPORTUNITIES_ENTREPRENEURSHIP: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_ENTREPRENEURSHIP }}
         run: node scripts/post-daily-opportunities.mjs
+      - name: Commit posted-history
+        if: success()
+        run: |
+          if git diff --quiet -- data/opportunities/posted-history.json; then
+            echo "No history changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/opportunities/posted-history.json
+          git commit -m "Record posted opportunities ($(date -u +%F))"
+          git pull --rebase origin main
+          git push origin HEAD:main

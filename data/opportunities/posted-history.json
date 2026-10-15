@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "channels": {
+    "biotech": {
+      "keys": [],
+      "lastPostedDate": null,
+      "entries": []
+    },
+    "vc": {
+      "keys": [],
+      "lastPostedDate": null,
+      "entries": []
+    },
+    "pharma": {
+      "keys": [],
+      "lastPostedDate": null,
+      "entries": []
+    },
+    "entrepreneurship": {
+      "keys": [],
+      "lastPostedDate": null,
+      "entries": []
+    }
+  }
+}
