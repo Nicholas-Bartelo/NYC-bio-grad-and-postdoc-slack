@@ -239,6 +239,15 @@ function formatMessage(picked, channel, date) {
   return lines.join("\n");
 }
 
+function allowRepostToday() {
+  // Scheduled runs stay once-per-day. Manual Run workflow / FORCE_POST can
+  // post again the same Eastern day (useful after format changes or testing).
+  return (
+    process.env.GITHUB_EVENT_NAME === "workflow_dispatch" ||
+    process.env.FORCE_POST === "1"
+  );
+}
+
 async function postChannel(channel, date, history) {
   const webhook = process.env[channel.webhookEnv]?.trim();
   if (!webhook) {
@@ -250,7 +259,7 @@ async function postChannel(channel, date, history) {
   }
 
   const channelHistory = getChannelHistory(history, channel.id);
-  if (channelHistory.lastPostedDate === date) {
+  if (channelHistory.lastPostedDate === date && !allowRepostToday()) {
     return {
       channel: channel.slackChannel,
       posted: false,

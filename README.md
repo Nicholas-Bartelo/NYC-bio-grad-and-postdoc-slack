@@ -79,6 +79,10 @@ Each channel will not reuse a listing until every usable listing in that
 channel has been posted once; then the cycle resets. The GitHub Action
 commits history updates after a successful run.
 
+Scheduled runs also post **at most once per Eastern calendar day** per
+channel. A manual **Run workflow** can post again the same day (still
+respecting the no-repeat cycle for which listing is chosen).
+
 ## Test
 
 1. Add the four opportunity webhook secrets  
