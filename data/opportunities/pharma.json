@@ -1,66 +1,98 @@
 [
   {
     "company": "Merck",
-    "mission": "Merck uses the power of leading-edge science to save and improve lives around the world.",
-    "position": "Students & Graduates — early talent and internship pathways",
-    "description": "Official Merck careers hub for students and graduates. Open the page, choose a currently listed internship/co-op/graduate role, and apply through Merck’s job portal.",
-    "applyUrl": "https://www.merck.com/careers/students-and-graduates/",
+    "mission": "Merck uses leading-edge science to save and improve lives around the world.",
+    "listingsUrl": "https://www.merck.com/careers/students-and-graduates/",
+    "featured": {
+      "position": "Student / graduate internship or early-talent role (select a live Merck posting)",
+      "responsibilities": "Support an R&D, medical, manufacturing, or corporate project under Merck mentors; complete assigned analyses or experiments and present outcomes at the end of the term.",
+      "qualifications": "Currently enrolled student or recent graduate as defined by the posting; relevant STEM or business coursework; work authorization and location constraints vary by role.",
+      "applyUrl": "https://www.merck.com/careers/students-and-graduates/"
+    },
     "postedBy": null
   },
   {
     "company": "Novartis",
     "mission": "Novartis reimagines medicine to improve and extend people’s lives.",
-    "position": "Early Careers — student and graduate opportunities",
-    "description": "Novartis early-careers portal with current student/graduate pathways. Select a live posting that matches your background and location preferences.",
-    "applyUrl": "https://www.novartis.com/careers/early-careers",
+    "listingsUrl": "https://www.novartis.com/careers/early-careers",
+    "featured": {
+      "position": "Early Careers / student program role (select a live Novartis posting)",
+      "responsibilities": "Join a Novartis early-talent assignment spanning research, development, or related functions; contribute to team deliverables and learning rotations where offered.",
+      "qualifications": "Degree in progress or completed in a relevant field; interest in pharmaceutical R&D or associated functions; check each posting for GPA, language, and location requirements.",
+      "applyUrl": "https://www.novartis.com/careers/early-careers"
+    },
     "postedBy": null
   },
   {
     "company": "Bristol Myers Squibb",
-    "mission": "Bristol Myers Squibb transforms patients’ lives through science in oncology, hematology, immunology, and cardiovascular disease.",
-    "position": "Internship and early-career search (intern query)",
-    "description": "BMS careers search filtered for intern-related openings. Apply only to a specific active job ID listed on the site.",
-    "applyUrl": "https://jobs.bms.com/careers?query=intern",
+    "mission": "BMS transforms patients’ lives through science in oncology, hematology, immunology, and cardiovascular disease.",
+    "listingsUrl": "https://jobs.bms.com/careers?query=intern",
+    "featured": {
+      "position": "Internship role at BMS (select a live intern requisition from the search)",
+      "responsibilities": "Assist a BMS team with experiments, data analysis, documentation, or cross-functional project support during the internship period.",
+      "qualifications": "Student status as required by the posting; coursework in life sciences, engineering, data, or a related field; strong communication and teamwork skills.",
+      "applyUrl": "https://jobs.bms.com/careers?query=intern"
+    },
     "postedBy": null
   },
   {
     "company": "AstraZeneca",
     "mission": "AstraZeneca pushes the boundaries of science to deliver life-changing medicines.",
-    "position": "Early Talent programs and roles",
-    "description": "AstraZeneca early-talent page covering internships and graduate routes. Confirm which programs are currently accepting applications.",
-    "applyUrl": "https://careers.astrazeneca.com/early-talent",
+    "listingsUrl": "https://careers.astrazeneca.com/early-talent",
+    "featured": {
+      "position": "Early Talent internship or graduate role (select a live AstraZeneca posting)",
+      "responsibilities": "Contribute to an early-talent project in R&D or a related function, collaborate with mentors, and deliver defined internship/graduate milestones.",
+      "qualifications": "Eligible student or graduate per the posting; scientific or quantitative background preferred for R&D tracks; confirm site and authorization requirements.",
+      "applyUrl": "https://careers.astrazeneca.com/early-talent"
+    },
     "postedBy": null
   },
   {
     "company": "Sanofi",
-    "mission": "Sanofi works to chase the miracles of science to improve people’s lives.",
-    "position": "Students — search current openings",
-    "description": "Sanofi job search filtered for student-related roles. Pick an open requisition and apply through Sanofi’s careers system.",
-    "applyUrl": "https://jobs.sanofi.com/en/search-jobs/students",
+    "mission": "Sanofi chases the miracles of science to improve people’s lives.",
+    "listingsUrl": "https://jobs.sanofi.com/en/search-jobs/students",
+    "featured": {
+      "position": "Student opportunity at Sanofi (select a live student job from the search)",
+      "responsibilities": "Support scientific or business teams with project work, data gathering, and presentations appropriate to the student assignment.",
+      "qualifications": "Enrollment in a relevant program and skills listed on the specific requisition; language and country eligibility vary.",
+      "applyUrl": "https://jobs.sanofi.com/en/search-jobs/students"
+    },
     "postedBy": null
   },
   {
     "company": "GSK",
     "mission": "GSK unites science, technology, and talent to get ahead of disease together.",
-    "position": "Early Talent — students and graduates",
-    "description": "GSK early-talent careers page for internships and graduate schemes. Verify US eligibility and open application windows on each listing.",
-    "applyUrl": "https://www.gsk.com/en-gb/careers/early-talent/",
+    "listingsUrl": "https://www.gsk.com/en-gb/careers/early-talent/",
+    "featured": {
+      "position": "Early Talent internship or graduate scheme role (select a live GSK posting)",
+      "responsibilities": "Complete structured early-talent project work with GSK teams, including analysis, lab/office deliverables, and stakeholder updates.",
+      "qualifications": "Student/graduate eligibility as stated for the scheme; STEM background common for R&D tracks; review visa and location rules carefully.",
+      "applyUrl": "https://www.gsk.com/en-gb/careers/early-talent/"
+    },
     "postedBy": null
   },
   {
     "company": "Bristol Myers Squibb",
     "mission": "BMS discovers, develops, and delivers innovative medicines for patients with serious diseases.",
-    "position": "Open careers across R&D and related functions",
-    "description": "Main BMS careers portal. Search for research associate, scientist, or internship titles that are currently open.",
-    "applyUrl": "https://careers.bms.com/",
+    "listingsUrl": "https://careers.bms.com/",
+    "featured": {
+      "position": "Scientist / research associate role (select a live BMS posting)",
+      "responsibilities": "Design or execute experiments, analyze data, and collaborate across discovery or translational teams depending on the requisition.",
+      "qualifications": "Typically BS/MS/PhD in a life science discipline and hands-on research experience matched to the posting level.",
+      "applyUrl": "https://careers.bms.com/"
+    },
     "postedBy": null
   },
   {
     "company": "Novartis",
     "mission": "Novartis focuses on innovative medicines that address serious unmet medical need.",
-    "position": "Career search — open Novartis roles",
-    "description": "Novartis career search for current openings across R&D and early talent. Apply to a specific live posting only.",
-    "applyUrl": "https://www.novartis.com/careers/career-search",
+    "listingsUrl": "https://www.novartis.com/careers/career-search",
+    "featured": {
+      "position": "R&D or early-talent scientific role (select a live Novartis posting)",
+      "responsibilities": "Contribute to drug discovery/development activities such as assay work, data analysis, documentation, and cross-functional collaboration.",
+      "qualifications": "Scientific degree and experience level specified on the chosen requisition; industry or academic research experience preferred for many scientist roles.",
+      "applyUrl": "https://www.novartis.com/careers/career-search"
+    },
     "postedBy": null
   }
 ]

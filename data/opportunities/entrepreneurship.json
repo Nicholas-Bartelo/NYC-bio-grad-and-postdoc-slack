@@ -2,65 +2,97 @@
   {
     "company": "Y Combinator",
     "mission": "Y Combinator helps founders start companies through funding, advice, and a powerful alumni network.",
-    "position": "YC Batch Application (founders)",
-    "description": "Apply to a YC batch with a founding team and clear problem thesis. Rolling applications; bio/health startups are welcome when the idea is ready.",
-    "applyUrl": "https://www.ycombinator.com/apply",
+    "listingsUrl": "https://www.ycombinator.com/companies",
+    "featured": {
+      "position": "YC Batch Application (founder program)",
+      "responsibilities": "Build and iterate a startup during the YC batch, talk to users, ship product, and present at Demo Day with your co-founders.",
+      "qualifications": "A founding team (or strong solo case), a clear problem/solution thesis, and commitment to work on the company full-time if accepted. Bio/health startups are welcome when ready.",
+      "applyUrl": "https://www.ycombinator.com/apply"
+    },
     "postedBy": null
   },
   {
     "company": "Y Combinator",
     "mission": "Y Combinator funds and supports early-stage startups across industries, including bio and health.",
-    "position": "YC Jobs — roles at YC-backed startups",
-    "description": "Job board of openings at YC companies. Filter for bio/health roles that match your skills and apply to a specific live posting.",
-    "applyUrl": "https://www.ycombinator.com/jobs",
+    "listingsUrl": "https://www.ycombinator.com/jobs",
+    "featured": {
+      "position": "Role at a YC-backed startup (select a live job on the YC Jobs board)",
+      "responsibilities": "Join an early startup team to build product, run experiments, or support scientific/commercial work depending on the company posting.",
+      "qualifications": "Skills listed by the hiring startup (often full-stack, ML, biology, or ops). Filter the YC Jobs board for bio/health roles that match you.",
+      "applyUrl": "https://www.ycombinator.com/jobs"
+    },
     "postedBy": null
   },
   {
     "company": "NSF I-Corps",
     "mission": "NSF I-Corps trains researchers to test commercial potential of deep science and engineering ideas.",
-    "position": "I-Corps Teams / Hubs participation",
-    "description": "Customer-discovery training for academic teams commercializing research. A common first structured step from lab idea to startup hypothesis.",
-    "applyUrl": "https://www.nsf.gov/funding/initiatives/i-corps",
+    "listingsUrl": "https://www.nsf.gov/funding/initiatives/i-corps",
+    "featured": {
+      "position": "I-Corps Team participant (academic commercialization training)",
+      "responsibilities": "Complete customer-discovery interviews, test value propositions for a research-based idea, and report learning with your I-Corps team.",
+      "qualifications": "Typically an academic team (PI/entrepreneurial lead/mentor) with a deep-tech or life-science concept; eligibility depends on the Hub/Teams call.",
+      "applyUrl": "https://www.nsf.gov/funding/initiatives/i-corps"
+    },
     "postedBy": null
   },
   {
     "company": "BioLabs",
     "mission": "BioLabs provides shared lab infrastructure and community for early-stage biotech companies.",
-    "position": "Join a BioLabs site / resident company pathway",
-    "description": "Shared lab and startup community for scientist-founders needing bench space and peer support (including NYC-area sites when available).",
-    "applyUrl": "https://www.biolabs.io/",
+    "listingsUrl": "https://www.biolabs.io/",
+    "featured": {
+      "position": "Resident company / join a BioLabs site pathway",
+      "responsibilities": "Operate your early biotech company in shared lab space, follow site EH&S rules, and engage with the BioLabs founder community.",
+      "qualifications": "An incorporated (or forming) biotech startup needing lab access; scientific founders with a clear experimental plan are typical applicants.",
+      "applyUrl": "https://www.biolabs.io/"
+    },
     "postedBy": null
   },
   {
     "company": "Creative Destruction Lab (CDL)",
     "mission": "CDL is an objectives-based program for massively scalable science- and tech-based ventures.",
-    "position": "CDL program stream application",
-    "description": "Mentorship program with health/bio-related streams depending on site and year. Apply to an open stream that fits your venture stage.",
-    "applyUrl": "https://creativedestructionlab.com/",
+    "listingsUrl": "https://creativedestructionlab.com/",
+    "featured": {
+      "position": "CDL venture participant (apply to an open stream)",
+      "responsibilities": "Set and hit commercialization objectives with CDL mentors, refine go-to-market and technical milestones, and engage in sessions throughout the program.",
+      "qualifications": "A scalable science/tech venture at a stage matching the stream; founding team committed to the CDL objectives process.",
+      "applyUrl": "https://creativedestructionlab.com/"
+    },
     "postedBy": null
   },
   {
     "company": "Breakout Ventures",
     "mission": "Breakout backs scientific founders building transformative deep-tech and life-science companies.",
-    "position": "Program / firm opportunities listed by Breakout",
-    "description": "Science-focused venture firm/program site. Check for active application calls before submitting materials.",
-    "applyUrl": "https://www.breakout.vc/",
+    "listingsUrl": "https://www.breakout.vc/",
+    "featured": {
+      "position": "Breakout portfolio / program application path (when a call is open)",
+      "responsibilities": "Work with Breakout on company building for a scientific venture—diligence, milestones, and founder support as defined by the active program.",
+      "qualifications": "Scientific founders with a deep-tech or life-science thesis; check Breakout’s site for current application criteria.",
+      "applyUrl": "https://www.breakout.vc/"
+    },
     "postedBy": null
   },
   {
     "company": "NIH SEED (SBIR/STTR)",
     "mission": "NIH SEED helps small businesses turn promising technologies into products that improve health.",
-    "position": "SBIR/STTR small business research funding",
-    "description": "Non-dilutive US government funding path for early-stage health/biotech companies. Review current solicitations and eligibility before applying.",
-    "applyUrl": "https://seed.nih.gov/",
+    "listingsUrl": "https://seed.nih.gov/",
+    "featured": {
+      "position": "SBIR/STTR small business applicant (funding opportunity)",
+      "responsibilities": "Prepare and submit an NIH small-business research proposal, execute the funded R&D plan, and report progress under NIH terms.",
+      "qualifications": "A qualifying small business with a health-related innovation; PI and company eligibility rules are defined in the current Omnibus/solicitation.",
+      "applyUrl": "https://seed.nih.gov/"
+    },
     "postedBy": null
   },
   {
     "company": "IndieBio (SOSV)",
     "mission": "IndieBio helps scientist-founders turn biology breakthroughs into companies through funding and lab support.",
-    "position": "IndieBio / SOSV application pathway",
-    "description": "Biology-focused startup program under SOSV. Use the current SOSV apply flow and confirm IndieBio track availability for your cohort.",
-    "applyUrl": "https://sosv.com/apply/sosv/",
+    "listingsUrl": "https://sosv.com/news/",
+    "featured": {
+      "position": "IndieBio / SOSV program application",
+      "responsibilities": "If accepted, build the company in-program: experiments, customer discovery, and investor milestones with IndieBio mentors.",
+      "qualifications": "Scientist-founders with a biology-driven company idea; team commitment and ability to relocate/participate as required by the cohort.",
+      "applyUrl": "https://sosv.com/apply/sosv/"
+    },
     "postedBy": null
   }
 ]

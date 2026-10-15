@@ -2,65 +2,97 @@
   {
     "company": "a16z (Andreessen Horowitz)",
     "mission": "a16z backs technology and bio/health companies building the future.",
-    "position": "Open firm roles (including bio/health-related when listed)",
-    "description": "Official a16z jobs board. Review currently open investing, platform, and support roles and apply only to active listings.",
-    "applyUrl": "https://a16z.com/about/jobs/",
+    "listingsUrl": "https://a16z.com/about/jobs/",
+    "featured": {
+      "position": "Investing / platform role at a16z (select a live a16z posting)",
+      "responsibilities": "Support deal sourcing or portfolio work, research markets and companies, and collaborate with investing or platform teams on firm priorities.",
+      "qualifications": "Strong analytical background; domain expertise (often life sciences for bio roles); excellent writing and judgment. Requirements vary by open role.",
+      "applyUrl": "https://a16z.com/about/jobs/"
+    },
     "postedBy": null
   },
   {
     "company": "Flagship Pioneering",
     "mission": "Flagship originates and grows bioplatform companies to transform human health and sustainability.",
-    "position": "Open Flagship careers (venture creation / science roles when listed)",
-    "description": "Flagship’s careers page for current associate, fellow, and scientific venture-creation openings. Confirm what is actively hiring before applying.",
-    "applyUrl": "https://www.flagshippioneering.com/careers/",
+    "listingsUrl": "https://www.flagshippioneering.com/careers/",
+    "featured": {
+      "position": "Associate / fellow / scientific venture role (select a live Flagship posting)",
+      "responsibilities": "Help explore new company concepts, evaluate scientific platforms, and support venture creation with Flagship teams and entrepreneurs-in-residence.",
+      "qualifications": "Often a PhD or advanced scientific training plus curiosity about company building; prior startup, consulting, or research leadership experience is a plus.",
+      "applyUrl": "https://www.flagshippioneering.com/careers/"
+    },
     "postedBy": null
   },
   {
     "company": "RA Capital Management",
     "mission": "RA Capital invests in evidence-based healthcare and life-science companies.",
-    "position": "Open investing and firm roles",
-    "description": "RA Capital careers listings for research/investing support and related firm roles. Apply to a currently posted position only.",
-    "applyUrl": "https://www.racap.com/careers",
+    "listingsUrl": "https://www.racap.com/careers",
+    "featured": {
+      "position": "Research / investing support role (select a live RA Capital posting)",
+      "responsibilities": "Analyze scientific and clinical data, help diligence opportunities, and prepare materials for investment discussions.",
+      "qualifications": "Life-science research background (often PhD/MD/PharmD track) and comfort with quantitative analysis; exact requirements depend on the listing.",
+      "applyUrl": "https://www.racap.com/careers"
+    },
     "postedBy": null
   },
   {
     "company": "The Engine (MIT)",
     "mission": "The Engine backs tough tech founders building transformative companies from breakthrough science and engineering.",
-    "position": "Open Engine careers",
-    "description": "Careers at MIT’s tough-tech venture firm/accelerator. Check live openings if you want a hybrid science + venture path.",
-    "applyUrl": "https://www.engine.xyz/careers",
+    "listingsUrl": "https://www.engine.xyz/careers",
+    "featured": {
+      "position": "Firm / platform role at The Engine (select a live posting)",
+      "responsibilities": "Support investing, founder support, or operations for tough-tech ventures, depending on the open role.",
+      "qualifications": "Technical or scientific background preferred for many roles; interest in deep tech commercialization and startup ecosystems.",
+      "applyUrl": "https://www.engine.xyz/careers"
+    },
     "postedBy": null
   },
   {
     "company": "Atlas Venture",
     "mission": "Atlas Venture creates and invests in early-stage biotech companies inventing new medicines.",
-    "position": "Firm opportunities (see current Atlas site listings / contact paths)",
-    "description": "Atlas Venture homepage/careers presence for early-stage biotech company creation. Use only currently advertised roles or stated application paths on the site.",
-    "applyUrl": "https://www.atlasventure.com/",
+    "listingsUrl": "https://www.atlasventure.com/",
+    "featured": {
+      "position": "Venture associate / firm opportunity when listed on Atlas channels",
+      "responsibilities": "Support new company creation and diligence: scientific assessment, competitive landscaping, and work with founders and Atlas partners.",
+      "qualifications": "Advanced scientific training is common; interest in biotech company building and strong communication skills. Apply only when Atlas lists an open role.",
+      "applyUrl": "https://www.atlasventure.com/"
+    },
     "postedBy": null
   },
   {
     "company": "Versant Ventures",
     "mission": "Versant builds and invests in healthcare companies across biotech and related modalities.",
-    "position": "Firm opportunities listed on Versant’s site",
-    "description": "Versant Ventures site for firm information and any posted career opportunities. Apply only when a concrete opening is listed.",
-    "applyUrl": "https://www.versantventures.com/",
+    "listingsUrl": "https://www.versantventures.com/",
+    "featured": {
+      "position": "Firm role at Versant (when an opening is posted)",
+      "responsibilities": "Contribute to sourcing, diligence, or portfolio support for Versant companies as defined by the specific opening.",
+      "qualifications": "Scientific or healthcare investing background preferred for many roles; follow Versant’s posted requirements.",
+      "applyUrl": "https://www.versantventures.com/"
+    },
     "postedBy": null
   },
   {
     "company": "Third Rock Ventures",
     "mission": "Third Rock discovers, launches, and builds companies that make a difference for patients.",
-    "position": "Firm opportunities listed on Third Rock’s site",
-    "description": "Third Rock Ventures site covering company creation and any current career calls. Confirm an active listing before applying.",
-    "applyUrl": "https://www.thirdrockventures.com/",
+    "listingsUrl": "https://www.thirdrockventures.com/",
+    "featured": {
+      "position": "Company-creation / firm role (when listed by Third Rock)",
+      "responsibilities": "Help evaluate scientific ideas, build founding plans, and support newly launched companies with Third Rock teams.",
+      "qualifications": "Typically deep scientific expertise and interest in founding environments; check any live posting for exact criteria.",
+      "applyUrl": "https://www.thirdrockventures.com/"
+    },
     "postedBy": null
   },
   {
     "company": "GV (Google Ventures)",
-    "mission": "GV invests in startups across life science, tech, and other sectors from the seed stage onward.",
-    "position": "Open GV / Alphabet-related venture roles when posted",
-    "description": "GV homepage with links to current opportunities when available. Use only live application links shown on the site.",
-    "applyUrl": "https://www.gv.com/",
+    "mission": "GV invests in startups across life science, tech, and other sectors from seed stage onward.",
+    "listingsUrl": "https://www.gv.com/",
+    "featured": {
+      "position": "GV investing or platform role (select a currently advertised opening)",
+      "responsibilities": "Support investment processes, portfolio engagement, or platform programs as defined by the open role.",
+      "qualifications": "Varies widely by role; life-science investing roles usually seek scientific depth plus product/market curiosity.",
+      "applyUrl": "https://www.gv.com/"
+    },
     "postedBy": null
   }
 ]
