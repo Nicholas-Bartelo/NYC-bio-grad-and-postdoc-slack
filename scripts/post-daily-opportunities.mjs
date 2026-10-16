@@ -380,7 +380,7 @@ async function main() {
     console.log(
       JSON.stringify({
         posted: false,
-        reason: "not_8am_eastern",
+        reason: "outside_morning_window",
         easternDate: easternDateKey(),
       }),
     );

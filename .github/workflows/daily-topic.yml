@@ -2,11 +2,11 @@ name: Daily Slack posts
 
 on:
   schedule:
-    # GitHub cron is UTC only. Fire at both offsets that can be 8:00 AM Eastern:
-    # 12:00 UTC = 8 AM EDT, 13:00 UTC = 8 AM EST. Scripts post only when
-    # America/New_York local hour is 8 (manual Run workflow always posts).
-    - cron: "0 12 * * *"
-    - cron: "0 13 * * *"
+    # GitHub cron is UTC-only and often delayed. Fire every 15 minutes across
+    # the Eastern morning window; scripts post only once per Eastern day
+    # (hour 8–9 gate + already-posted-today history).
+    # 11–14 UTC covers 7–10 AM EDT and 6–9 AM EST.
+    - cron: "0,15,30,45 11-14 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -14,24 +14,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  topic:
-    name: Topic of the Day
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
-        with:
-          node-version: "24"
-      - name: Post Topic of the Day
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          GITHUB_EVENT_NAME: ${{ github.event_name }}
-        run: node scripts/post-daily-topic.mjs
-
-  opportunities:
-    name: Field opportunities
+  daily:
+    name: Topic + opportunities
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -42,6 +26,11 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: "24"
+      - name: Post Topic of the Day
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: node scripts/post-daily-topic.mjs
       - name: Post opportunities
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
@@ -51,16 +40,30 @@ jobs:
           SLACK_WEBHOOK_URL_OPPORTUNITIES_ENTREPRENEURSHIP: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_ENTREPRENEURSHIP }}
           SLACK_WEBHOOK_URL_OPPORTUNITIES_SPATIAL: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_SPATIAL }}
         run: node scripts/post-daily-opportunities.mjs
-      - name: Commit posted-history
+      - name: Commit posted history
         if: success()
         run: |
-          if git diff --quiet -- data/opportunities/posted-history.json; then
+          CHANGED=0
+          if ! git diff --quiet -- data/opportunities/posted-history.json 2>/dev/null; then
+            CHANGED=1
+          fi
+          if ! git diff --quiet -- data/topic-last-posted.json 2>/dev/null; then
+            CHANGED=1
+          fi
+          # Also pick up untracked topic history on first write
+          if [ -f data/topic-last-posted.json ] && ! git ls-files --error-unmatch data/topic-last-posted.json >/dev/null 2>&1; then
+            CHANGED=1
+          fi
+          if [ "$CHANGED" -eq 0 ]; then
             echo "No history changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/opportunities/posted-history.json
-          git commit -m "Record posted opportunities ($(date -u +%F))"
+          git add data/opportunities/posted-history.json data/topic-last-posted.json
+          git commit -m "Record daily Slack posts ($(date -u +%F))" || {
+            echo "Nothing to commit after staging."
+            exit 0
+          }
           git pull --rebase origin main
           git push origin HEAD:main

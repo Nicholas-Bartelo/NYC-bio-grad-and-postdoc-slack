@@ -64,13 +64,14 @@ Paste the hooks.slack.com URL from step 2 into `SLACK_WEBHOOK_URL_OPPORTUNITIES_
 
 ### 4. How the daily job works
 
-1. GitHub Actions workflow **Daily Slack posts** runs on a schedule (UTC crons that cover 8 AM Eastern) and on manual **Run workflow**.
-2. `scripts/post-daily-opportunities.mjs` posts to each channel that has a webhook secret.
-3. Most channels post **1** featured role. `#opportunities-spatial` posts **2** separate Slack messages (`1/2` and `2/2`).
-4. Each message includes company type, scientific goal, role-specific summary, responsibilities, qualifications, a **specific JD apply link**, and a separate **listings board** link.
-5. Links are health-checked; dead links are skipped.
-6. Posted keys are saved in `data/opportunities/posted-history.json` and committed by Actions so roles are not repeated until the channel cycle completes.
-7. Scheduled runs post at most once per Eastern day per channel; manual **Run workflow** can repost the same day.
+1. GitHub Actions workflow **Daily Slack posts** runs on a schedule (every 15 minutes from 11:00–14:59 UTC, covering the Eastern morning window) and on manual **Run workflow**.
+2. GitHub often delays cron triggers; the scripts accept Eastern hour **8 or 9** and use already-posted-today history so a delayed run still posts once.
+3. One job posts the topic, then opportunities, then commits history files.
+4. Most opportunity channels post **1** featured role. `#opportunities-spatial` posts **2** separate Slack messages (`1/2` and `2/2`).
+5. Each opportunity message includes company type, scientific goal, role-specific summary, responsibilities, qualifications, a **specific JD apply link**, and a separate **listings board** link.
+6. Links are health-checked; dead links are skipped.
+7. History is saved in `data/opportunities/posted-history.json` and `data/topic-last-posted.json`.
+8. Manual **Run workflow** can repost the same day.
 
 ### 5. Spatial channel rules (seed data)
 

@@ -20,7 +20,12 @@ export function easternHour(now = new Date()) {
   return Number(hour);
 }
 
-/** Manual Run workflow always posts; scheduled runs only at 8 AM Eastern. */
+/**
+ * Manual Run workflow / FORCE_POST always posts.
+ * Scheduled runs post during Eastern hour 8, and also hour 9 as a catch-up
+ * window when GitHub delays the cron past 8:59.
+ * Dedup (already-posted-today) prevents double posts across retries.
+ */
 export function shouldPostNow() {
   if (process.env.GITHUB_EVENT_NAME === "workflow_dispatch") {
     return true;
@@ -28,7 +33,8 @@ export function shouldPostNow() {
   if (process.env.FORCE_POST === "1") {
     return true;
   }
-  return easternHour() === 8;
+  const hour = easternHour();
+  return hour === 8 || hour === 9;
 }
 
 export function dayIndex(dateKey, modulo, salt = "") {

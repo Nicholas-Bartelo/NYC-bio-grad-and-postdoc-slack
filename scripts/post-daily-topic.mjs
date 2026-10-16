@@ -11,50 +11,53 @@
  *   BIO_TOPIC_OF_DAY_CHANNEL_ID   preferred
  *   BIO_TOPIC_OF_DAY_CHANNEL_NAME default: topic-of-day
  */
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { dayIndex, easternDateKey, easternHour, shouldPostNow } from "./lib/eastern.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
+const TOPIC_HISTORY_PATH = join(ROOT, "data", "topic-last-posted.json");
 const CHANNEL_ID_RE = /^[CG][A-Z0-9]+$/i;
 
-function easternDateKey(now = new Date()) {
-  return new Intl.DateTimeFormat("en-CA", {
-    timeZone: "America/New_York",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(now);
+function allowRepostToday() {
+  return (
+    process.env.GITHUB_EVENT_NAME === "workflow_dispatch" ||
+    process.env.FORCE_POST === "1"
+  );
 }
 
-function easternHour(now = new Date()) {
-  const hour = new Intl.DateTimeFormat("en-US", {
-    timeZone: "America/New_York",
-    hour: "numeric",
-    hour12: false,
-  }).formatToParts(now).find((part) => part.type === "hour")?.value;
-  return Number(hour);
+function loadTopicHistory() {
+  if (!existsSync(TOPIC_HISTORY_PATH)) {
+    return { lastPostedDate: null, title: null };
+  }
+  try {
+    const raw = JSON.parse(readFileSync(TOPIC_HISTORY_PATH, "utf8"));
+    return {
+      lastPostedDate:
+        typeof raw?.lastPostedDate === "string" ? raw.lastPostedDate : null,
+      title: typeof raw?.title === "string" ? raw.title : null,
+    };
+  } catch {
+    return { lastPostedDate: null, title: null };
+  }
 }
 
-function shouldPostNow() {
-  // Manual "Run workflow" always posts. Scheduled runs only at 8 AM Eastern.
-  if (process.env.GITHUB_EVENT_NAME === "workflow_dispatch") {
-    return true;
-  }
-  if (process.env.FORCE_POST === "1") {
-    return true;
-  }
-  return easternHour() === 8;
-}
-
-function dayIndex(dateKey, modulo) {
-  // Stable rotation by Eastern calendar date.
-  let hash = 0;
-  for (let i = 0; i < dateKey.length; i++) {
-    hash = (hash * 33 + dateKey.charCodeAt(i)) >>> 0;
-  }
-  return hash % modulo;
+function saveTopicHistory(date, title) {
+  writeFileSync(
+    TOPIC_HISTORY_PATH,
+    `${JSON.stringify(
+      {
+        lastPostedDate: date,
+        title,
+        postedAt: new Date().toISOString(),
+      },
+      null,
+      2,
+    )}\n`,
+    "utf8",
+  );
 }
 
 function formatTopicMessage(topic, date) {
@@ -149,9 +152,23 @@ async function main() {
     console.log(
       JSON.stringify({
         posted: false,
-        reason: "not_8am_eastern",
+        reason: "outside_morning_window",
         easternHour: easternHour(),
         easternDate: easternDateKey(),
+      }),
+    );
+    return;
+  }
+
+  const date = easternDateKey();
+  const history = loadTopicHistory();
+  if (history.lastPostedDate === date && !allowRepostToday()) {
+    console.log(
+      JSON.stringify({
+        posted: false,
+        reason: "already_posted_today",
+        easternDate: date,
+        title: history.title,
       }),
     );
     return;
@@ -164,7 +181,6 @@ async function main() {
     throw new Error("data/topics.json is empty");
   }
 
-  const date = easternDateKey();
   const topic = topics[dayIndex(date, topics.length)];
   const text = formatTopicMessage(topic, date);
 
@@ -175,12 +191,22 @@ async function main() {
 
   if (webhook) {
     await postViaWebhook(webhook, text);
-    console.log(JSON.stringify({ posted: true, mode: "webhook", date, title: topic.title, field: topic.field }));
+    saveTopicHistory(date, topic.title);
+    console.log(
+      JSON.stringify({
+        posted: true,
+        mode: "webhook",
+        date,
+        title: topic.title,
+        field: topic.field,
+      }),
+    );
     return;
   }
 
   if (botToken) {
     const meta = await postViaBot(botToken, text);
+    saveTopicHistory(date, topic.title);
     console.log(
       JSON.stringify({
         posted: true,
