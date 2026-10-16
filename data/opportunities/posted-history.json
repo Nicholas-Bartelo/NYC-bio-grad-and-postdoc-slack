@@ -6,7 +6,8 @@
         "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
         "New York Genome Center||Computational Biologist, Genomics Research||https://www.nygenome.org/careers/",
         "HHMI Janelia Research Campus||Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
-        "Memorial Sloan Kettering Cancer Center||Research Technician, Niethammer Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1"
+        "Memorial Sloan Kettering Cancer Center||Research Technician, Niethammer Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1",
+        "New York Genome Center||Postdoctoral Research Associate, Sanjana Lab||https://jobs.silkroad.com/NYGenome/Careers/jobs/737"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -41,6 +42,14 @@
           "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1",
           "postedAt": "2026-10-15T16:28:21.440Z",
           "date": "2026-10-15"
+        },
+        {
+          "key": "New York Genome Center||Postdoctoral Research Associate, Sanjana Lab||https://jobs.silkroad.com/NYGenome/Careers/jobs/737",
+          "company": "New York Genome Center",
+          "position": "Postdoctoral Research Associate, Sanjana Lab",
+          "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/jobs/737",
+          "postedAt": "2026-10-15T16:30:24.403Z",
+          "date": "2026-10-15"
         }
       ]
     },
@@ -49,7 +58,8 @@
         "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
         "Atlas Venture||Venture Associate, Biotech Company Creation||https://www.atlasventure.com/",
         "RA Capital Management||TechAtlas Healthcare Associate||https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/4565087008",
-        "a16z (Andreessen Horowitz)||Partner 36, Communications Partner, Bio||https://a16z.com/about/jobs/?gh_jid=7998862003"
+        "a16z (Andreessen Horowitz)||Partner 36, Communications Partner, Bio||https://a16z.com/about/jobs/?gh_jid=7998862003",
+        "The Engine (MIT)||Partnerships & Development Associate||https://jobs.orbit.mit.edu/companies/the-engine-2-c73f50e2-83b0-4b71-86bf-2f003e4c868a/jobs/96161287-partnerships-development-associate"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -84,6 +94,14 @@
           "applyUrl": "https://a16z.com/about/jobs/?gh_jid=7998862003",
           "postedAt": "2026-10-15T16:28:21.798Z",
           "date": "2026-10-15"
+        },
+        {
+          "key": "The Engine (MIT)||Partnerships & Development Associate||https://jobs.orbit.mit.edu/companies/the-engine-2-c73f50e2-83b0-4b71-86bf-2f003e4c868a/jobs/96161287-partnerships-development-associate",
+          "company": "The Engine (MIT)",
+          "position": "Partnerships & Development Associate",
+          "applyUrl": "https://jobs.orbit.mit.edu/companies/the-engine-2-c73f50e2-83b0-4b71-86bf-2f003e4c868a/jobs/96161287-partnerships-development-associate",
+          "postedAt": "2026-10-15T16:30:26.271Z",
+          "date": "2026-10-15"
         }
       ]
     },
@@ -92,7 +110,8 @@
         "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
         "Sanofi||Student Intern, R&D / Medical||https://jobs.sanofi.com/en/search-jobs/students",
         "Genentech||2027 Spring Intern — GenAI Applications||https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications",
-        "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433"
+        "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
+        "Novartis||US Biomedical Research — Summer of Science undergraduate internship (program)||https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -127,6 +146,14 @@
           "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
           "postedAt": "2026-10-15T16:28:22.648Z",
           "date": "2026-10-15"
+        },
+        {
+          "key": "Novartis||US Biomedical Research — Summer of Science undergraduate internship (program)||https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs",
+          "company": "Novartis",
+          "position": "US Biomedical Research — Summer of Science undergraduate internship (program)",
+          "applyUrl": "https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs",
+          "postedAt": "2026-10-15T16:30:26.489Z",
+          "date": "2026-10-15"
         }
       ]
     },
@@ -135,7 +162,8 @@
         "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
         "NIH SEED (SBIR/STTR)||SBIR/STTR Small Business Applicant||https://seed.nih.gov/",
         "Epinoma (YC)||Therapeutic Research Associate||https://www.ycombinator.com/companies/epinoma/jobs/GRT7VJ4-therapeutic-research-associate",
-        "SOSV (IndieBio → SOSV NY / SOSV SF)||SOSV Startup Development Program application (rolling)||https://sosv.com/apply/sosv/"
+        "SOSV (IndieBio → SOSV NY / SOSV SF)||SOSV Startup Development Program application (rolling)||https://sosv.com/apply/sosv/",
+        "Origin Bio (YC)||Computational Biologist, Spatial Transcriptomics||https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics"
       ],
       "lastPostedDate": "2026-10-15",
       "entries": [
@@ -169,6 +197,39 @@
           "position": "SOSV Startup Development Program application (rolling)",
           "applyUrl": "https://sosv.com/apply/sosv/",
           "postedAt": "2026-10-15T16:28:23.211Z",
+          "date": "2026-10-15"
+        },
+        {
+          "key": "Origin Bio (YC)||Computational Biologist, Spatial Transcriptomics||https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics",
+          "company": "Origin Bio (YC)",
+          "position": "Computational Biologist, Spatial Transcriptomics",
+          "applyUrl": "https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics",
+          "postedAt": "2026-10-15T16:30:27.081Z",
+          "date": "2026-10-15"
+        }
+      ]
+    },
+    "spatial": {
+      "keys": [
+        "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
+        "Origin Bio (YC)||Computational Biologist, Spatial Transcriptomics||https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics"
+      ],
+      "lastPostedDate": "2026-10-15",
+      "entries": [
+        {
+          "key": "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
+          "company": "Tempus",
+          "position": "Staff AI Scientist — AI Products / Life Sciences (JR202600267)",
+          "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
+          "postedAt": "2026-10-15T16:30:28.809Z",
+          "date": "2026-10-15"
+        },
+        {
+          "key": "Origin Bio (YC)||Computational Biologist, Spatial Transcriptomics||https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics",
+          "company": "Origin Bio (YC)",
+          "position": "Computational Biologist, Spatial Transcriptomics",
+          "applyUrl": "https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics",
+          "postedAt": "2026-10-15T16:30:29.335Z",
           "date": "2026-10-15"
         }
       ]
