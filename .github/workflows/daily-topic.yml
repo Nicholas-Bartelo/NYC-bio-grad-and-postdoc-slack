@@ -2,11 +2,11 @@ name: Daily Slack posts
 
 on:
   schedule:
-    # GitHub cron is UTC-only and often delayed. Fire every 15 minutes across
-    # the Eastern morning window; scripts post only once per Eastern day
-    # (hour 8–9 gate + already-posted-today history).
-    # 11–14 UTC covers 7–10 AM EDT and 6–9 AM EST.
-    - cron: "0,15,30,45 11-14 * * *"
+    # GitHub cron is UTC-only and often delayed by hours. Fire frequently
+    # through morning + early afternoon Eastern; scripts post once per
+    # Eastern day via already-posted-today history (no hour gate on schedule).
+    # 11–18 UTC ≈ 7 AM–2 PM EDT / 6 AM–1 PM EST.
+    - cron: "0,15,30,45 11-18 * * *"
   workflow_dispatch:
 
 concurrency:

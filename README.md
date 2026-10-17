@@ -64,8 +64,8 @@ Paste the hooks.slack.com URL from step 2 into `SLACK_WEBHOOK_URL_OPPORTUNITIES_
 
 ### 4. How the daily job works
 
-1. GitHub Actions workflow **Daily Slack posts** runs on a schedule (every 15 minutes from 11:00–14:59 UTC, covering the Eastern morning window) and on manual **Run workflow**.
-2. GitHub often delays cron triggers; the scripts accept Eastern hour **8 or 9** and use already-posted-today history so a delayed run still posts once.
+1. GitHub Actions workflow **Daily Slack posts** runs on a schedule (every 15 minutes from 11:00–18:59 UTC, covering Eastern morning through early afternoon) and on manual **Run workflow**. Your computer does **not** need to be on — posts run on GitHub’s servers.
+2. GitHub often delays cron triggers by an hour or more. Scheduled runs always attempt to post; already-posted-today history ensures only one post per Eastern day even when many cron ticks fire.
 3. One job posts the topic, then opportunities, then commits history files.
 4. Most opportunity channels post **1** featured role. `#opportunities-spatial` posts **2** separate Slack messages (`1/2` and `2/2`).
 5. Each opportunity message includes company type, scientific goal, role-specific summary, responsibilities, qualifications, a **specific JD apply link**, and a separate **listings board** link.
