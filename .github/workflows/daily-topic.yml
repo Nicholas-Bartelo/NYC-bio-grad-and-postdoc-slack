@@ -2,11 +2,16 @@ name: Daily Slack posts
 
 on:
   schedule:
-    # GitHub cron is UTC-only and often delayed by hours. Fire frequently
-    # through morning + early afternoon Eastern; scripts post once per
-    # Eastern day via already-posted-today history (no hour gate on schedule).
-    # 11–18 UTC ≈ 7 AM–2 PM EDT / 6 AM–1 PM EST.
-    - cron: "0,15,30,45 11-18 * * *"
+    # Target ~10:00 America/New_York year-round.
+    # GitHub cron is UTC-only and often delayed; dense every-15-min crons
+    # have been heavily throttled on this repo (few ticks actually fire).
+    # Prefer a few explicit morning ticks + afternoon catch-ups.
+    # 14:00 UTC = 10:00 EDT; 15:00 UTC = 10:00 EST.
+    - cron: "0 14 * * *"
+    - cron: "0 15 * * *"
+    # Same-hour / later catch-ups if the :00 tick is delayed.
+    - cron: "15,30,45 14,15 * * *"
+    - cron: "0,30 16,17,18 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -26,6 +31,21 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: "24"
+      - name: Show schedule context
+        env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+        run: |
+          node --input-type=module <<'EOF'
+          import { easternDateKey, easternHour } from "./scripts/lib/eastern.mjs";
+          console.log(
+            JSON.stringify({
+              event: process.env.GITHUB_EVENT_NAME,
+              easternDate: easternDateKey(),
+              easternHour: easternHour(),
+              utc: new Date().toISOString(),
+            }),
+          );
+          EOF
       - name: Post Topic of the Day
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
