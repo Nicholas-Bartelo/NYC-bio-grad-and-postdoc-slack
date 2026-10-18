@@ -22,22 +22,23 @@ export function easternHour(now = new Date()) {
 
 /**
  * Manual Run workflow / FORCE_POST always posts.
- * Scheduled runs always attempt to post; already-posted-today history
- * prevents doubles. GitHub cron is often delayed past 8–9 AM Eastern,
- * so we do not gate on hour for schedule events.
+ * On GitHub Actions (schedule or otherwise), always attempt to post;
+ * already-posted-today history prevents doubles. Do not gate on Eastern
+ * hour — GitHub cron is often delayed by hours.
+ * Local ad-hoc runs still prefer Eastern hour 8–9 unless FORCE_POST.
  */
 export function shouldPostNow() {
-  if (process.env.GITHUB_EVENT_NAME === "workflow_dispatch") {
-    return true;
-  }
   if (process.env.FORCE_POST === "1") {
     return true;
   }
-  // schedule (and any other automated trigger): post if not already done today
-  if (process.env.GITHUB_EVENT_NAME === "schedule") {
+  const event = process.env.GITHUB_EVENT_NAME || "";
+  if (event === "workflow_dispatch" || event === "schedule") {
     return true;
   }
-  // Local / ad-hoc: only during Eastern morning unless FORCE_POST
+  // Actions sets these even if GITHUB_EVENT_NAME were missing/wrong.
+  if (process.env.GITHUB_ACTIONS === "true" || process.env.CI === "true") {
+    return true;
+  }
   const hour = easternHour();
   return hour === 8 || hour === 9;
 }
