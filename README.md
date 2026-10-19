@@ -62,16 +62,21 @@ GitHub → your repo → **Settings → Secrets and variables → Actions → Ne
 
 Paste the hooks.slack.com URL from step 2 into `SLACK_WEBHOOK_URL_OPPORTUNITIES_SPATIAL`.
 
-### 4. How the daily job works
+### 4. How the daily job works (important)
 
-1. GitHub Actions workflow **Daily Slack posts** targets **~10:00 AM Eastern** (`14:00` UTC in EDT, `15:00` UTC in EST), with same-hour and afternoon catch-up ticks if GitHub delays the cron. Manual **Run workflow** still works. Your computer does **not** need to be on.
-2. GitHub cron is often delayed or throttled (this repo’s old every-15-minute schedule often skipped most ticks). Scheduled runs always attempt to post; already-posted-today history ensures only one post per Eastern day.
-3. One job posts the topic, then opportunities, then commits history files.
-4. Most opportunity channels post **1** featured role. `#opportunities-spatial` posts **2** separate Slack messages (`1/2` and `2/2`).
-5. Each opportunity message includes company type, scientific goal, role-specific summary, responsibilities, qualifications, a **specific JD apply link**, and a separate **listings board** link.
-6. Links are health-checked; dead links are skipped.
-7. History is saved in `data/opportunities/posted-history.json` and `data/topic-last-posted.json`.
-8. Manual **Run workflow** can repost the same day.
+**GitHub’s built-in schedule has not been reliable for this repo** (often hours late or skipped). The supported automatic path is a free external cron:
+
+→ **[docs/EXTERNAL_CRON.md](docs/EXTERNAL_CRON.md)** — cron-job.org at 10:00 America/New_York → `repository_dispatch`
+
+Your laptop stays off. GitHub `schedule:` remains only as a late backup. Manual **Run workflow** still works (check **force_repost** only if you intentionally want a second post the same day).
+
+Once triggered:
+
+1. One job posts the topic, then opportunities, then commits history files.
+2. Most opportunity channels post **1** featured role. `#opportunities-spatial` posts **2** separate Slack messages (`1/2` and `2/2`).
+3. Each opportunity message includes company type, scientific goal, role-specific summary, responsibilities, qualifications, a **specific JD apply link**, and a separate **listings board** link.
+4. Links are health-checked; dead links are skipped.
+5. History is saved in `data/opportunities/posted-history.json` and `data/topic-last-posted.json` (once per Eastern day).
 
 ### 5. Spatial channel rules (seed data)
 
