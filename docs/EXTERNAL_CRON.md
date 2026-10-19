@@ -15,14 +15,15 @@ Your laptop does **not** need to be on.
 3. Expiration: 90 days (or longer; rotate when it expires)  
 4. Resource owner: your account  
 5. Repository access: **Only select** `Nicholas-Bartelo/NYC-bio-grad-and-postdoc-slack`  
-6. Permissions → Repository permissions:
-   - **Contents:** Read-only  
-   - **Metadata:** Read-only  
-   - **Actions:** Read and write  
+6. Permissions → Repository permissions — set only:
+   - **Contents:** **Read and write**  
+     (this is what `repository_dispatch` needs; you do **not** need an Actions permission)
+   - **Metadata:** Read-only (usually added automatically)
 7. Generate and **copy the token once**.  
    Store it only in cron-job.org (step 2). Do not commit it.
 
-(Classic PAT with `repo` scope also works, but fine-grained is safer.)
+If you do not see **Contents → Read and write**, use a **classic** PAT instead:  
+https://github.com/settings/tokens/new → enable **`repo`** → use that as the Bearer token.
 
 ### 2. Create the cron job at cron-job.org
 
