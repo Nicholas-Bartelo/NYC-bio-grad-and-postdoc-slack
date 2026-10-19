@@ -1,18 +1,21 @@
 name: Daily Slack posts
 
 on:
+  # PRIMARY: external cron (cron-job.org) → repository_dispatch.
+  # GitHub's own schedule trigger is often hours late or skipped on this repo.
+  repository_dispatch:
+    types: [daily-slack-posts]
+  # BACKUP only — do not rely on this for 10am Eastern delivery.
   schedule:
-    # Target ~10:00 America/New_York year-round.
-    # GitHub cron is UTC-only and often delayed; dense every-15-min crons
-    # have been heavily throttled on this repo (few ticks actually fire).
-    # Prefer a few explicit morning ticks + afternoon catch-ups.
-    # 14:00 UTC = 10:00 EDT; 15:00 UTC = 10:00 EST.
-    - cron: "0 14 * * *"
-    - cron: "0 15 * * *"
-    # Same-hour / later catch-ups if the :00 tick is delayed.
-    - cron: "15,30,45 14,15 * * *"
-    - cron: "0,30 16,17,18 * * *"
+    - cron: "0 14 * * *" # 10:00 EDT
+    - cron: "0 15 * * *" # 10:00 EST
+    - cron: "0 18 * * *" # afternoon catch-up if earlier ticks were skipped
   workflow_dispatch:
+    inputs:
+      force_repost:
+        description: "Repost even if already posted today (Eastern date)"
+        type: boolean
+        default: false
 
 concurrency:
   group: daily-slack-posts
@@ -34,12 +37,14 @@ jobs:
       - name: Show schedule context
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
+          FORCE_REPOST: ${{ github.event.inputs.force_repost }}
         run: |
           node --input-type=module <<'EOF'
           import { easternDateKey, easternHour } from "./scripts/lib/eastern.mjs";
           console.log(
             JSON.stringify({
               event: process.env.GITHUB_EVENT_NAME,
+              forceRepost: process.env.FORCE_REPOST,
               easternDate: easternDateKey(),
               easternHour: easternHour(),
               utc: new Date().toISOString(),
@@ -50,10 +55,12 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
+          FORCE_REPOST: ${{ github.event.inputs.force_repost }}
         run: node scripts/post-daily-topic.mjs
       - name: Post opportunities
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
+          FORCE_REPOST: ${{ github.event.inputs.force_repost }}
           SLACK_WEBHOOK_URL_OPPORTUNITIES_BIOTECH: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_BIOTECH }}
           SLACK_WEBHOOK_URL_OPPORTUNITIES_VC: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_VC }}
           SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA }}
@@ -70,7 +77,6 @@ jobs:
           if ! git diff --quiet -- data/topic-last-posted.json 2>/dev/null; then
             CHANGED=1
           fi
-          # Also pick up untracked topic history on first write
           if [ -f data/topic-last-posted.json ] && ! git ls-files --error-unmatch data/topic-last-posted.json >/dev/null 2>&1; then
             CHANGED=1
           fi

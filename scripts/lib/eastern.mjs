@@ -21,26 +21,37 @@ export function easternHour(now = new Date()) {
 }
 
 /**
- * Manual Run workflow / FORCE_POST always posts.
- * On GitHub Actions (schedule or otherwise), always attempt to post;
- * already-posted-today history prevents doubles. Do not gate on Eastern
- * hour — GitHub cron is often delayed by hours.
- * Local ad-hoc runs still prefer Eastern hour 8–9 unless FORCE_POST.
+ * Post eligibility for a run. Dedup (already-posted-today) is separate.
+ * - repository_dispatch / schedule / Actions CI: always attempt
+ * - workflow_dispatch: always attempt
+ * - local ad-hoc: Eastern hour 8–9 unless FORCE_POST
  */
 export function shouldPostNow() {
   if (process.env.FORCE_POST === "1") {
     return true;
   }
   const event = process.env.GITHUB_EVENT_NAME || "";
-  if (event === "workflow_dispatch" || event === "schedule") {
+  if (
+    event === "workflow_dispatch" ||
+    event === "schedule" ||
+    event === "repository_dispatch"
+  ) {
     return true;
   }
-  // Actions sets these even if GITHUB_EVENT_NAME were missing/wrong.
   if (process.env.GITHUB_ACTIONS === "true" || process.env.CI === "true") {
     return true;
   }
   const hour = easternHour();
   return hour === 8 || hour === 9;
+}
+
+/** Only explicit force flags may repost the same Eastern day. */
+export function allowRepostToday() {
+  if (process.env.FORCE_POST === "1") {
+    return true;
+  }
+  const force = (process.env.FORCE_REPOST || "").toLowerCase();
+  return force === "true" || force === "1";
 }
 
 export function dayIndex(dateKey, modulo, salt = "") {

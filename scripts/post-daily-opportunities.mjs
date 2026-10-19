@@ -15,7 +15,12 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { dayIndex, easternDateKey, shouldPostNow } from "./lib/eastern.mjs";
+import {
+  allowRepostToday,
+  dayIndex,
+  easternDateKey,
+  shouldPostNow,
+} from "./lib/eastern.mjs";
 import { checkApplyUrl, checkListingsUrl } from "./lib/link-health.mjs";
 import {
   getChannelHistory,
@@ -295,15 +300,6 @@ function formatMessage(picked, channel, date, { index, total } = {}) {
     "_Links were checked before posting, but openings change — confirm this specific role is still active before you apply._",
   );
   return lines.join("\n");
-}
-
-function allowRepostToday() {
-  // Scheduled runs stay once-per-day. Manual Run workflow / FORCE_POST can
-  // post again the same Eastern day (useful after format changes or testing).
-  return (
-    process.env.GITHUB_EVENT_NAME === "workflow_dispatch" ||
-    process.env.FORCE_POST === "1"
-  );
 }
 
 async function postChannel(channel, date, history) {

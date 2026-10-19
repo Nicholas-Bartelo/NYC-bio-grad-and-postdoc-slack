@@ -14,19 +14,18 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { dayIndex, easternDateKey, easternHour, shouldPostNow } from "./lib/eastern.mjs";
+import {
+  allowRepostToday,
+  dayIndex,
+  easternDateKey,
+  easternHour,
+  shouldPostNow,
+} from "./lib/eastern.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 const TOPIC_HISTORY_PATH = join(ROOT, "data", "topic-last-posted.json");
 const CHANNEL_ID_RE = /^[CG][A-Z0-9]+$/i;
-
-function allowRepostToday() {
-  return (
-    process.env.GITHUB_EVENT_NAME === "workflow_dispatch" ||
-    process.env.FORCE_POST === "1"
-  );
-}
 
 function loadTopicHistory() {
   if (!existsSync(TOPIC_HISTORY_PATH)) {
