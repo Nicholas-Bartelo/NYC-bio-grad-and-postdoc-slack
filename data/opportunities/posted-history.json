@@ -3,9 +3,10 @@
   "channels": {
     "biotech": {
       "keys": [
-        "HHMI Janelia Research Campus||Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506"
+        "HHMI Janelia Research Campus||Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
+        "Addgene||Sr. Manager, Scientific Product Management||https://addgene.applytojob.com/apply/mntGDS7RZV/Sr-Manager-Scientific-Product-Management"
       ],
-      "lastPostedDate": "2026-10-19",
+      "lastPostedDate": "2026-10-20",
       "entries": [
         {
           "key": "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
@@ -78,14 +79,23 @@
           "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
           "postedAt": "2026-10-19T15:43:12.308Z",
           "date": "2026-10-19"
+        },
+        {
+          "key": "Addgene||Sr. Manager, Scientific Product Management||https://addgene.applytojob.com/apply/mntGDS7RZV/Sr-Manager-Scientific-Product-Management",
+          "company": "Addgene",
+          "position": "Sr. Manager, Scientific Product Management",
+          "applyUrl": "https://addgene.applytojob.com/apply/mntGDS7RZV/Sr-Manager-Scientific-Product-Management",
+          "postedAt": "2026-10-20T14:00:28.700Z",
+          "date": "2026-10-20"
         }
       ]
     },
     "vc": {
       "keys": [
-        "RA Capital Management||TechAtlas Healthcare Associate||https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/4565087008"
+        "RA Capital Management||TechAtlas Healthcare Associate||https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/4565087008",
+        "RA Capital Management||Applied AI Scientist||https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/5427346008"
       ],
-      "lastPostedDate": "2026-10-19",
+      "lastPostedDate": "2026-10-20",
       "entries": [
         {
           "key": "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
@@ -158,14 +168,23 @@
           "applyUrl": "https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/4565087008",
           "postedAt": "2026-10-19T15:43:12.825Z",
           "date": "2026-10-19"
+        },
+        {
+          "key": "RA Capital Management||Applied AI Scientist||https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/5427346008",
+          "company": "RA Capital Management",
+          "position": "Applied AI Scientist",
+          "applyUrl": "https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/5427346008",
+          "postedAt": "2026-10-20T14:00:29.254Z",
+          "date": "2026-10-20"
         }
       ]
     },
     "pharma": {
       "keys": [
-        "AstraZeneca||12-Month University Industrial Placement Student: Computational Chemistry (Cambridge, UK)||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Computational-Chemistry_R-257921"
+        "AstraZeneca||12-Month University Industrial Placement Student: Computational Chemistry (Cambridge, UK)||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Computational-Chemistry_R-257921",
+        "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433"
       ],
-      "lastPostedDate": "2026-10-19",
+      "lastPostedDate": "2026-10-20",
       "entries": [
         {
           "key": "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
@@ -238,14 +257,23 @@
           "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Computational-Chemistry_R-257921",
           "postedAt": "2026-10-19T15:43:13.784Z",
           "date": "2026-10-19"
+        },
+        {
+          "key": "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
+          "company": "Bristol Myers Squibb",
+          "position": "Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433",
+          "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
+          "postedAt": "2026-10-20T14:00:30.275Z",
+          "date": "2026-10-20"
         }
       ]
     },
     "entrepreneurship": {
       "keys": [
-        "Y Combinator||YC Batch Application (founder program)||https://www.ycombinator.com/apply"
+        "Y Combinator||YC Batch Application (founder program)||https://www.ycombinator.com/apply",
+        "Origin Bio (YC)||Computational Biologist, Spatial Transcriptomics||https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics"
       ],
-      "lastPostedDate": "2026-10-19",
+      "lastPostedDate": "2026-10-20",
       "entries": [
         {
           "key": "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
@@ -318,15 +346,25 @@
           "applyUrl": "https://www.ycombinator.com/apply",
           "postedAt": "2026-10-19T15:43:14.288Z",
           "date": "2026-10-19"
+        },
+        {
+          "key": "Origin Bio (YC)||Computational Biologist, Spatial Transcriptomics||https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics",
+          "company": "Origin Bio (YC)",
+          "position": "Computational Biologist, Spatial Transcriptomics",
+          "applyUrl": "https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics",
+          "postedAt": "2026-10-20T14:00:31.052Z",
+          "date": "2026-10-20"
         }
       ]
     },
     "spatial": {
       "keys": [
         "PathAI||Machine Learning Engineer III (Applied Research & Model Development)||https://www.pathai.com/careers/8786343002?gh_jid=8786343002",
-        "10x Genomics||Spatial Science & Technology Advisor, New York||https://jobs.sandscapitalventures.com/companies/10x-genomics/jobs/41252112-spatial-science-technology-advisor-new-york"
+        "10x Genomics||Spatial Science & Technology Advisor, New York||https://jobs.sandscapitalventures.com/companies/10x-genomics/jobs/41252112-spatial-science-technology-advisor-new-york",
+        "Memorial Sloan Kettering Cancer Center||Post Doctoral Research Fellow — Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
+        "PathAI||Machine Learning Engineer II (Applied Research & Model Development)||https://www.pathai.com/careers/8696752002?gh_jid=8696752002"
       ],
-      "lastPostedDate": "2026-10-19",
+      "lastPostedDate": "2026-10-20",
       "entries": [
         {
           "key": "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
@@ -407,6 +445,22 @@
           "applyUrl": "https://jobs.sandscapitalventures.com/companies/10x-genomics/jobs/41252112-spatial-science-technology-advisor-new-york",
           "postedAt": "2026-10-19T15:43:16.604Z",
           "date": "2026-10-19"
+        },
+        {
+          "key": "Memorial Sloan Kettering Cancer Center||Post Doctoral Research Fellow — Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
+          "company": "Memorial Sloan Kettering Cancer Center",
+          "position": "Post Doctoral Research Fellow — Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)",
+          "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
+          "postedAt": "2026-10-20T14:00:31.734Z",
+          "date": "2026-10-20"
+        },
+        {
+          "key": "PathAI||Machine Learning Engineer II (Applied Research & Model Development)||https://www.pathai.com/careers/8696752002?gh_jid=8696752002",
+          "company": "PathAI",
+          "position": "Machine Learning Engineer II (Applied Research & Model Development)",
+          "applyUrl": "https://www.pathai.com/careers/8696752002?gh_jid=8696752002",
+          "postedAt": "2026-10-20T14:00:32.203Z",
+          "date": "2026-10-20"
         }
       ]
     }
