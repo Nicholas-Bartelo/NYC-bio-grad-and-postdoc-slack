@@ -39,9 +39,10 @@ If you skip IDs, the scripts resolve channels by name (you must be a member).
 
 ## Behavior
 
-- If `SLACK_USER_TOKEN` is set, daily posts use `chat.postMessage` **as you**.
-- Existing Incoming Webhook secrets remain as **fallback** only (used if the user token is missing).
-- After this is live, new posts show your name and have **Edit** in Slack.
+- If `SLACK_USER_TOKEN` is set, daily posts try `chat.postMessage` **as you** first.
+- If that fails (not in the channel, missing scopes, bad token), the workflow **falls back to the Incoming Webhook** so posts still go out.
+- Webhook fallback messages are **not editable**. Editable posts require: join every target channel + valid `xoxp-` scopes (`chat:write`, `channels:read`, `groups:read`).
+- After user-token posting works, new posts show your name and have **Edit** in Slack.
 
 ## Test
 

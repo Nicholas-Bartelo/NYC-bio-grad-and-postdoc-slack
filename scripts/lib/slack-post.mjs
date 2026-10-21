@@ -72,8 +72,17 @@ export async function postViaUserToken(token, text, { channelId, channelName }) 
   return { mode: "user_token", channelId: id, ts: result.ts };
 }
 
+function isRecoverableUserTokenError(err) {
+  const msg = String(err?.message ?? err);
+  return /Could not find #|not_in_channel|channel_not_found|missing_scope|invalid_auth|token_revoked|account_inactive|not_authed|users\.conversations failed|chat\.postMessage failed/i.test(
+    msg,
+  );
+}
+
 /**
  * Prefer user token (editable posts) → webhook → error.
+ * If the user token cannot post (wrong scopes, not in channel, bad token),
+ * fall back to the Incoming Webhook so daily automation keeps working.
  */
 export async function postToSlack(text, {
   userToken,
@@ -82,14 +91,31 @@ export async function postToSlack(text, {
   channelName,
 }) {
   const token = userToken?.trim();
-  if (token) {
-    return postViaUserToken(token, text, { channelId, channelName });
-  }
   const webhook = webhookUrl?.trim();
+
+  if (token) {
+    try {
+      return await postViaUserToken(token, text, { channelId, channelName });
+    } catch (err) {
+      if (!webhook || !isRecoverableUserTokenError(err)) {
+        throw err;
+      }
+      console.warn(
+        JSON.stringify({
+          warning: "user_token_failed_falling_back_to_webhook",
+          channel: channelName ?? channelId ?? null,
+          reason: String(err?.message ?? err),
+          note: "Webhook posts are not editable in Slack. Join the channel and fix SLACK_USER_TOKEN scopes for editable posts.",
+        }),
+      );
+    }
+  }
+
   if (webhook) {
     await postViaWebhook(webhook, text);
     return { mode: "webhook" };
   }
+
   throw new Error(
     "No Slack credentials. Set SLACK_USER_TOKEN (recommended, editable posts) or the channel webhook secret.",
   );
