@@ -84,30 +84,30 @@
     "postedBy": null
   },
   {
-    "company": "Empire State Development \u2014 Innovate NY / life sciences programs",
-    "companyType": "State economic development / startup programs (NY)",
-    "mission": "Grow New York\u2019s innovation economy, including life-sciences company formation and commercialization support.",
-    "listingsUrl": "https://esd.ny.gov/",
+    "company": "Breakthrough Energy Fellows",
+    "companyType": "Climate / deep-tech fellowship",
+    "mission": "Support scientists and entrepreneurs building companies that cut greenhouse gas emissions, including bio-based approaches.",
+    "listingsUrl": "https://www.breakthroughenergy.org/",
     "featured": {
-      "position": "Life sciences entrepreneurship / Innovate NY program applicant",
-      "description": "Track New York State innovation and life-sciences entrepreneurship programs (grants, accelerators, and company-formation support) via Empire State Development.",
-      "responsibilities": "Identify a fitting ESD / Innovate NY / life-sciences program; prepare application materials; articulate scientific and commercial milestones; engage program managers as needed.",
-      "qualifications": "Scientist-founder or early startup with NY nexus; clear technology thesis; willingness to engage customer discovery and commercialization planning. Confirm current open solicitations on ESD before applying.",
-      "applyUrl": "https://esd.ny.gov/doing-business-ny/innovation-support"
+      "position": "Breakthrough Energy Fellows \u2014 Explorer / Innovator applicant",
+      "description": "Fellowship pathway for scientist-founders developing climate-critical technologies, including biological and industrial biotech solutions.",
+      "responsibilities": "Develop a venture thesis; engage technical and commercial milestones with program support; participate in cohort programming and mentorship.",
+      "qualifications": "Scientist or engineer founder (or founding team) with a climate-relevant technology; readiness for company formation. Confirm current track, deadlines, and eligibility on the Fellows page before applying.",
+      "applyUrl": "https://www.breakthroughenergy.org/fellows"
     },
     "postedBy": null
   },
   {
-    "company": "Biolabs NYC (and network)",
-    "companyType": "Startup lab / incubator network",
-    "mission": "Provide ready-to-go lab space and community for early-stage life-sciences companies.",
-    "listingsUrl": "https://www.biolabs.io/",
+    "company": "Activate Fellowship",
+    "companyType": "Hard-tech entrepreneurship fellowship",
+    "mission": "Help scientists and engineers turn research into startups through a funded fellowship with mentorship and community.",
+    "listingsUrl": "https://www.activate.org/",
     "featured": {
-      "position": "BioLabs membership / NYC site inquiry (scientist-founder)",
-      "description": "For wet-lab startups needing turnkey lab infrastructure and a founder community in the BioLabs network (including NYC-area sites when available).",
-      "responsibilities": "Apply for membership; outline company stage, lab needs, and safety profile; engage site leadership on fit and onboarding.",
-      "qualifications": "Incorporated or forming life-sciences startup with experimental needs; basic EHS readiness. Confirm NYC/network availability and membership process on BioLabs\u2019 site.",
-      "applyUrl": "https://www.biolabs.io/join"
+      "position": "Activate Fellowship applicant (scientist-founder)",
+      "description": "Two-year fellowship supporting technical founders leaving academia/industry labs to build startups (including life-science hardware/biotech tools).",
+      "responsibilities": "Pursue full-time venture building; engage Activate programming, mentors, and milestones; develop customer discovery and fundraising readiness.",
+      "qualifications": "Technical founder background (PhD/postdoc/engineer common); commitment to building a company. Confirm cohort locations, stipend, and deadlines on Activate\u2019s site.",
+      "applyUrl": "https://www.activate.org/apply"
     },
     "postedBy": null
   }

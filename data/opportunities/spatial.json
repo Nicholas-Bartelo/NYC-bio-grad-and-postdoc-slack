@@ -144,18 +144,18 @@
     "postedBy": null
   },
   {
-    "company": "Tempus",
-    "companyType": "Precision medicine / AI diagnostics company",
-    "mission": "Use AI and multimodal clinical+molecular data to personalize cancer and other disease care \u2014 including digital pathology and spatial-aware imaging products.",
-    "location": "Remote / NYC-relevant roles vary by posting",
-    "spatialFocus": "Digital pathology / AI imaging (spatial tissue context)",
-    "listingsUrl": "https://www.tempus.com/careers/",
+    "company": "Recursion",
+    "companyType": "AI drug discovery / cellular imaging biotech",
+    "mission": "Decode biology to industrialize drug discovery using high-dimensional cellular imaging maps and machine learning.",
+    "location": "Remote / US roles vary by posting",
+    "spatialFocus": "High-content cellular imaging / phenomics (spatial cell biology)",
+    "listingsUrl": "https://www.recursion.com/careers",
     "featured": {
-      "position": "Tempus AI / Life Sciences careers \u2014 imaging & computational roles",
-      "description": "Gateway to Tempus openings spanning AI science, computational biology, and pathology/imaging roles that operate on tissue-level (spatial) clinical data.",
-      "responsibilities": "Role-dependent: build models on multimodal clinical-genomic or pathology datasets; validate algorithms; partner with clinical and product teams.",
-      "qualifications": "Varies by role (ML, computational biology, pathology AI). Filter Tempus careers for AI Scientist / Computational / Pathology postings and confirm location (remote vs onsite) on each JD.",
-      "applyUrl": "https://www.tempus.com/careers/"
+      "position": "Recursion careers \u2014 ML / Computational Biology openings",
+      "description": "Open Recursion roles spanning machine learning and computational biology on large cellular imaging and multi-omics datasets. Pick the current JD that matches your level on the Greenhouse board.",
+      "responsibilities": "Role-dependent: build models on imaging/omics datasets; partner with biology and platform teams; ship reproducible ML pipelines for discovery.",
+      "qualifications": "Strong ML or computational biology background; imaging or systems biology experience preferred. Confirm the specific posting and location on Recursion careers / Greenhouse.",
+      "applyUrl": "https://job-boards.greenhouse.io/recursionpharmaceuticals"
     },
     "postedBy": null
   }

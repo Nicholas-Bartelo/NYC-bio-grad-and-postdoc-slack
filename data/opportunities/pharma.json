@@ -42,20 +42,6 @@
     "postedBy": null
   },
   {
-    "company": "Novartis",
-    "companyType": "Global pharmaceutical / biomedical research company",
-    "mission": "Train the next generation of biomedical scientists through intensive industry research experiences that prepare candidates for competitive PhD programs.",
-    "listingsUrl": "https://www.novartis.com/careers/early-careers",
-    "featured": {
-      "position": "PRISM Postbaccalaureate Research InternShip & Mentoring (2-year)",
-      "description": "Paid 2-year postbac research and professional-development program at Novartis Biomedical Research (Cambridge, MA or West Coast CA sites) for recent STEM graduates aiming for a PhD; applications due December 7, 2026 for an Aug/Sept 2027 start.",
-      "responsibilities": "Perform an independent research project with a dedicated Novartis scientific mentoring supervisor for two years; develop experimental/analytical skills in an industry BR environment; engage in professional development designed to strengthen readiness for doctoral programs.",
-      "qualifications": "Recent college graduates highly motivated to obtain a PhD in biomedical research / life sciences; strong research potential. Program encourages applicants from HBCUs, Tribal Colleges & Universities, and IDeA/INBRE networks among other backgrounds. Deadline listed: December 7, 2026; notifications Feb/March 2027.",
-      "applyUrl": "https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Genentech",
     "companyType": "Biotechnology / pharmaceutical company (Roche Group)",
     "mission": "Discover and develop medicines for serious and life-threatening diseases by pushing the boundaries of science \u2014 historically including first-in-class targeted antibodies and transformative therapies.",
@@ -84,30 +70,30 @@
     "postedBy": null
   },
   {
-    "company": "Pfizer",
-    "companyType": "Global biopharma",
-    "mission": "Deliver breakthroughs that change patients\u2019 lives across oncology, vaccines, inflammation, and other therapeutic areas.",
-    "listingsUrl": "https://www.pfizer.com/about/careers",
+    "company": "Regeneron",
+    "companyType": "Biotechnology / biopharma (Tarrytown, NY)",
+    "mission": "Discover, invent, and develop medicines for people with serious diseases using genetics-driven science and data.",
+    "listingsUrl": "https://careers.regeneron.com/",
     "featured": {
-      "position": "Early Career / Student programs \u2014 Pfizer careers board",
-      "description": "Gateway listing for Pfizer student, intern, and early-career scientific roles (including computational and biomedical tracks when open).",
-      "responsibilities": "Program-dependent: support R&D or digital science projects; analyze biological or clinical datasets; collaborate with cross-functional mentors; present findings at program close.",
-      "qualifications": "Varies by program (undergraduate through PhD/postdoc tracks). Filter the Pfizer careers board for Student, Intern, or Early Career scientific roles and confirm location/eligibility on each posting.",
-      "applyUrl": "https://www.pfizer.com/about/careers/search?keywords=intern"
+      "position": "2027 Co-op Data Science & Computational Biology (Research)",
+      "description": "Full-time onsite Tarrytown co-op (Jan\u2013Aug) on Regeneron\u2019s Research team applying machine learning and data analysis to early-stage drug discovery problems.",
+      "responsibilities": "Build models to predict how genetic variants affect proteins; develop computational tools for high-throughput image analysis; harmonize metadata across large RNA-seq datasets; apply ML/data analysis to research questions; collaborate with researchers; write/test code; present results to the research team.",
+      "qualifications": "Must be enrolled in or accepted to an undergraduate or graduate program (bioinformatics, data science, computer science, statistics, or related) and able to commit 40 hours/week for a co-op term; returning to school afterward or graduating after the co-op. GPA 3.0+ preferred. Pay listed about $17.90\u2013$50.90/hour by education level. Confirm dates on the posting.",
+      "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/XMLNAME-2027-Co-op-Data-Science---Computational-Biology--Research-_R51032-1"
     },
     "postedBy": null
   },
   {
     "company": "Regeneron",
-    "companyType": "Biotechnology / biopharma (Tarrytown, NY area)",
-    "mission": "Discover, invent, and develop medicines for people with serious diseases using genetics-driven science.",
+    "companyType": "Biotechnology / biopharma (Tarrytown, NY)",
+    "mission": "Apply generative AI and bioinformatics to biomolecule design and therapeutic development.",
     "listingsUrl": "https://careers.regeneron.com/",
     "featured": {
-      "position": "Regeneron careers \u2014 research & early talent openings",
-      "description": "Entry point to Regeneron\u2019s research, computational biology, and early-talent postings at the Tarrytown campus and related sites.",
-      "responsibilities": "Role-dependent across research associates, computational scientists, and internship/co-op programs supporting discovery and development.",
-      "qualifications": "Scientific training aligned to the specific posting (biology, bioinformatics, chemistry, etc.). Search Regeneron careers for current Research / Intern / Computational roles and confirm requirements there.",
-      "applyUrl": "https://careers.regeneron.com/search-results"
+      "position": "Senior Scientist \u2014 Bioinformatics (AI/ML biomolecule design)",
+      "description": "Tarrytown senior scientist role incorporating generative AI for biomolecule design/optimization in a closed-loop cycle with experimental teams (onsite 4 days / 1 remote).",
+      "responsibilities": "Apply and tailor generative foundation models for protein/antibody/small-molecule/nucleic-acid design; curate and encode experimental datasets for training/fine-tuning; incorporate feedback from validation assays; collaborate with wet-lab and clinical partners.",
+      "qualifications": "PhD in computational biology, bioinformatics, computer science, or related field; 2+ years using AI for biomolecule research; familiarity with generative AI foundation models; proficiency in Python/R or similar. Salary listed ~$109,900\u2013$179,300. Confirm full requirements on the posting.",
+      "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Senior-Scientist---Bioinformatics_R47854"
     },
     "postedBy": null
   }

@@ -255,9 +255,13 @@ async function pickHealthyOpportunity(
     };
   }
 
-  throw new Error(
-    `All unused opportunity links failed health checks for ${channelId}. Skipped: ${JSON.stringify(skipped)}`,
+  const err = new Error(
+    `unused_links_dead:${channelId}: all unused links failed health checks. Skipped: ${JSON.stringify(skipped)}`,
   );
+  err.code = "unused_links_dead";
+  err.channelId = channelId;
+  err.skipped = skipped;
+  throw err;
 }
 
 function formatPostedBy(postedBy) {
@@ -380,13 +384,19 @@ async function postChannel(channel, date, history) {
       });
     }
   } catch (error) {
-    if (error && error.code === "bank_exhausted") {
+    if (
+      error &&
+      (error.code === "bank_exhausted" || error.code === "unused_links_dead")
+    ) {
       if (posted.length === 0) {
         return {
           channel: channel.slackChannel,
           posted: false,
-          reason: "bank_exhausted",
+          reason: error.code,
           detail: error.message,
+          skippedDeadLinks: Array.isArray(error.skipped)
+            ? error.skipped.length
+            : skippedDeadLinks,
         };
       }
       // Partial success (e.g. spatial 1/2) — keep what posted.
@@ -446,47 +456,54 @@ async function main() {
 
   const anyPosted = results.some((r) => r.posted);
   if (anyPosted) {
+    // Always persist before exiting so the workflow commit step can run.
     savePostedHistory(HISTORY_PATH, history);
   }
 
   console.log(JSON.stringify({ date, results }, null, 2));
 
+  const isSoftSkip = (r) =>
+    r.reason === "already_posted_today" ||
+    r.reason === "bank_exhausted" ||
+    r.reason === "unused_links_dead" ||
+    String(r.reason || "").startsWith("missing_secret");
+
   const missingOnly =
     errors.length === 0 &&
     results.every((r) => !r.posted && String(r.reason).startsWith("missing_secret"));
 
-  // Don't fail the whole job solely because the new spatial secret isn't set yet.
-  const nonSpatialMissingOnly =
-    errors.length === 0 &&
-    results
-      .filter((r) => r.channel !== "opportunities-spatial")
-      .every((r) => !r.posted && String(r.reason).startsWith("missing_secret")) &&
-    results.some((r) => r.channel === "opportunities-spatial");
-
-  if (missingOnly && !nonSpatialMissingOnly) {
+  if (missingOnly) {
     throw new Error(
       "No opportunity webhook secrets set. Add SLACK_WEBHOOK_URL_OPPORTUNITIES_* secrets for each channel.",
     );
   }
-  if (!anyPosted && !results.some((r) => r.reason === "already_posted_today")) {
-    // Allow success when only spatial is missing its secret and others already posted today.
-    const onlySpatialMissing =
-      results.every(
-        (r) =>
-          r.reason === "already_posted_today" ||
-          (r.channel === "opportunities-spatial" &&
-            String(r.reason).startsWith("missing_secret")),
-      ) &&
-      results.some((r) => r.channel === "opportunities-spatial");
-    if (!onlySpatialMissing) {
-      throw new Error("No opportunities were posted. See results above.");
+
+  // Soft skips (already posted / bank empty / dead unused links) are OK.
+  // If anything posted, exit 0 even when other channels had hard errors so
+  // history can be committed (otherwise Slack posts would not be remembered).
+  if (anyPosted) {
+    if (errors.length > 0) {
+      console.error(
+        JSON.stringify({
+          warning: "some_channels_failed_after_partial_post",
+          failed: errors,
+        }),
+      );
     }
+    return;
   }
+
+  if (results.every(isSoftSkip)) {
+    return;
+  }
+
   if (errors.length > 0) {
     throw new Error(
-      `Posted some channels, but ${errors.length} failed: ${errors.map((e) => e.channel).join(", ")}`,
+      `${errors.length} channel(s) failed: ${errors.map((e) => e.channel).join(", ")}`,
     );
   }
+
+  throw new Error("No opportunities were posted. See results above.");
 }
 
 main().catch((error) => {
