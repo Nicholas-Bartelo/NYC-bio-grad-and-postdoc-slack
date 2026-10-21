@@ -34,7 +34,7 @@ import {
   savePostedHistory,
 } from "./lib/posted-history.mjs";
 import { validateApplyUrl } from "./lib/safe-url.mjs";
-import { postViaWebhook } from "./lib/slack-webhook.mjs";
+import { postToSlack } from "./lib/slack-post.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -48,6 +48,7 @@ const CHANNELS = [
     slackChannel: "opportunities-biotech",
     file: "biotech.json",
     webhookEnv: "SLACK_WEBHOOK_URL_OPPORTUNITIES_BIOTECH",
+    channelIdEnv: "SLACK_CHANNEL_ID_OPPORTUNITIES_BIOTECH",
     postsPerDay: 1,
   },
   {
@@ -56,6 +57,7 @@ const CHANNELS = [
     slackChannel: "opportunities-vc",
     file: "vc.json",
     webhookEnv: "SLACK_WEBHOOK_URL_OPPORTUNITIES_VC",
+    channelIdEnv: "SLACK_CHANNEL_ID_OPPORTUNITIES_VC",
     postsPerDay: 1,
   },
   {
@@ -64,6 +66,7 @@ const CHANNELS = [
     slackChannel: "opportunities-pharma",
     file: "pharma.json",
     webhookEnv: "SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA",
+    channelIdEnv: "SLACK_CHANNEL_ID_OPPORTUNITIES_PHARMA",
     postsPerDay: 1,
   },
   {
@@ -72,6 +75,7 @@ const CHANNELS = [
     slackChannel: "opportunities-entrepreneurship",
     file: "entrepreneurship.json",
     webhookEnv: "SLACK_WEBHOOK_URL_OPPORTUNITIES_ENTREPRENEURSHIP",
+    channelIdEnv: "SLACK_CHANNEL_ID_OPPORTUNITIES_ENTREPRENEURSHIP",
     postsPerDay: 1,
   },
   {
@@ -80,6 +84,7 @@ const CHANNELS = [
     slackChannel: "opportunities-spatial",
     file: "spatial.json",
     webhookEnv: "SLACK_WEBHOOK_URL_OPPORTUNITIES_SPATIAL",
+    channelIdEnv: "SLACK_CHANNEL_ID_OPPORTUNITIES_SPATIAL",
     postsPerDay: 2,
   },
 ];
@@ -321,12 +326,13 @@ function formatMessage(picked, channel, date, { index, total } = {}) {
 }
 
 async function postChannel(channel, date, history) {
+  const userToken = process.env.SLACK_USER_TOKEN?.trim();
   const webhook = process.env[channel.webhookEnv]?.trim();
-  if (!webhook) {
+  if (!userToken && !webhook) {
     return {
       channel: channel.slackChannel,
       posted: false,
-      reason: `missing_secret:${channel.webhookEnv}`,
+      reason: `missing_secret:SLACK_USER_TOKEN_or_${channel.webhookEnv}`,
     };
   }
 
@@ -361,7 +367,12 @@ async function postChannel(channel, date, history) {
         total: postsPerDay,
       });
 
-      await postViaWebhook(webhook, text);
+      await postToSlack(text, {
+        userToken,
+        webhookUrl: webhook,
+        channelId: process.env[channel.channelIdEnv]?.trim(),
+        channelName: channel.slackChannel,
+      });
       recordPosted(history, channel.id, {
         key: picked.key,
         company: picked.company,
@@ -474,7 +485,7 @@ async function main() {
 
   if (missingOnly) {
     throw new Error(
-      "No opportunity webhook secrets set. Add SLACK_WEBHOOK_URL_OPPORTUNITIES_* secrets for each channel.",
+      "No Slack credentials for opportunities. Set SLACK_USER_TOKEN (recommended) or SLACK_WEBHOOK_URL_OPPORTUNITIES_* secrets. See docs/USER_TOKEN_POSTING.md",
     );
   }
 

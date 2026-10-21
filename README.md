@@ -11,7 +11,9 @@ Automated **8:00 AM Eastern** posts to nycgradpostdocs.slack.com:
 | `#opportunities-entrepreneurship` | One entrepreneurship / startup opportunity |
 | `#opportunities-spatial` *(private)* | **Two** NYC or Remote spatial-omics roles |
 
-No LLM / Grok usage. GitHub Actions + Slack incoming webhooks.
+No LLM / Grok usage. GitHub Actions + Slack (**user token** preferred so posts are editable; webhooks as fallback).
+
+→ **Editable posts:** [docs/USER_TOKEN_POSTING.md](docs/USER_TOKEN_POSTING.md)
 
 ## Repo layout
 

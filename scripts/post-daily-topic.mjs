@@ -3,13 +3,16 @@
  * Post today's biology Topic of the Day to Slack.
  * Designed for GitHub Actions.
  *
- * Auth (either works):
- *   SLACK_WEBHOOK_URL          Incoming webhook for #topic-of-day (simplest)
- *   SLACK_BOT_TOKEN + channel  Bot token with chat:write
+ * Auth preference:
+ *   1. SLACK_USER_TOKEN (xoxp-…) — posts as you; editable in Slack UI
+ *   2. SLACK_WEBHOOK_URL — Incoming Webhook (app message; not editable)
+ *   3. SLACK_BOT_TOKEN — bot post (not editable by you)
  *
- * Channel (bot-token mode):
- *   BIO_TOPIC_OF_DAY_CHANNEL_ID   preferred
+ * Channel (user/bot token mode):
+ *   SLACK_CHANNEL_ID_TOPIC_OF_DAY or BIO_TOPIC_OF_DAY_CHANNEL_ID
  *   BIO_TOPIC_OF_DAY_CHANNEL_NAME default: topic-of-day
+ *
+ * See docs/USER_TOKEN_POSTING.md
  */
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -21,11 +24,11 @@ import {
   easternHour,
   shouldPostNow,
 } from "./lib/eastern.mjs";
+import { postToSlack, slackApi, resolveChannelId } from "./lib/slack-post.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 const TOPIC_HISTORY_PATH = join(ROOT, "data", "topic-last-posted.json");
-const CHANNEL_ID_RE = /^[CG][A-Z0-9]+$/i;
 
 function loadTopicHistory() {
   if (!existsSync(TOPIC_HISTORY_PATH)) {
@@ -63,8 +66,8 @@ function formatTopicMessage(topic, date) {
   return [
     `*Topic of the Day — ${date}*`,
     "",
-    `*${topic.title}*`,
-    `_${topic.field}_`,
+    `*${topic.title.trim()}*`,
+    `_${topic.field.trim()}_`,
     "",
     topic.blurb.trim(),
     "",
@@ -72,69 +75,12 @@ function formatTopicMessage(topic, date) {
   ].join("\n");
 }
 
-async function slackApi(token, method, body) {
-  const res = await fetch(`https://slack.com/api/${method}`, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json; charset=utf-8",
-    },
-    body: JSON.stringify(body),
-  });
-  const json = await res.json();
-  if (!json.ok) {
-    throw new Error(`${method} failed: ${json.error ?? res.status}`);
-  }
-  return json;
-}
-
-async function resolveChannelId(token, channelId, channelName) {
-  if (channelId && CHANNEL_ID_RE.test(channelId)) {
-    return channelId;
-  }
-  const name = (channelName || "topic-of-day").replace(/^#/, "");
-  if (CHANNEL_ID_RE.test(name)) {
-    return name;
-  }
-  let cursor;
-  for (let page = 0; page < 8; page++) {
-    const listed = await slackApi(token, "users.conversations", {
-      types: "public_channel,private_channel",
-      exclude_archived: true,
-      limit: 200,
-      cursor,
-    });
-    const match = (listed.channels ?? []).find((c) => c.name === name);
-    if (match?.id) {
-      return match.id;
-    }
-    cursor = listed.response_metadata?.next_cursor;
-    if (!cursor) {
-      break;
-    }
-  }
-  throw new Error(
-    `Could not find #${name}. Invite the bot to the channel or set BIO_TOPIC_OF_DAY_CHANNEL_ID.`,
-  );
-}
-
-async function postViaWebhook(webhookUrl, text) {
-  const res = await fetch(webhookUrl, {
-    method: "POST",
-    headers: { "Content-Type": "application/json; charset=utf-8" },
-    body: JSON.stringify({ text, mrkdwn: true }),
-  });
-  const body = await res.text();
-  if (!res.ok || body !== "ok") {
-    throw new Error(`Webhook post failed: ${res.status} ${body}`);
-  }
-}
-
 async function postViaBot(token, text) {
   const channelId = await resolveChannelId(
     token,
-    process.env.BIO_TOPIC_OF_DAY_CHANNEL_ID?.trim(),
-    process.env.BIO_TOPIC_OF_DAY_CHANNEL_NAME?.trim(),
+    process.env.SLACK_CHANNEL_ID_TOPIC_OF_DAY?.trim() ||
+      process.env.BIO_TOPIC_OF_DAY_CHANNEL_ID?.trim(),
+    process.env.BIO_TOPIC_OF_DAY_CHANNEL_NAME?.trim() || "topic-of-day",
   );
   const result = await slackApi(token, "chat.postMessage", {
     channel: channelId,
@@ -183,13 +129,38 @@ async function main() {
   const topic = topics[dayIndex(date, topics.length)];
   const text = formatTopicMessage(topic, date);
 
+  const userToken = process.env.SLACK_USER_TOKEN?.trim();
   const webhook = process.env.SLACK_WEBHOOK_URL?.trim();
   const botToken =
     process.env.SLACK_BOT_TOKEN?.trim() ||
     process.env.BIO_TOPIC_OF_DAY_SLACK_BOT_TOKEN?.trim();
 
+  if (userToken) {
+    const meta = await postToSlack(text, {
+      userToken,
+      channelId:
+        process.env.SLACK_CHANNEL_ID_TOPIC_OF_DAY?.trim() ||
+        process.env.BIO_TOPIC_OF_DAY_CHANNEL_ID?.trim(),
+      channelName:
+        process.env.BIO_TOPIC_OF_DAY_CHANNEL_NAME?.trim() || "topic-of-day",
+    });
+    saveTopicHistory(date, topic.title);
+    console.log(
+      JSON.stringify({
+        posted: true,
+        mode: meta.mode,
+        date,
+        title: topic.title,
+        field: topic.field,
+        channelId: meta.channelId,
+        ts: meta.ts,
+      }),
+    );
+    return;
+  }
+
   if (webhook) {
-    await postViaWebhook(webhook, text);
+    await postToSlack(text, { webhookUrl: webhook });
     saveTopicHistory(date, topic.title);
     console.log(
       JSON.stringify({
@@ -220,7 +191,7 @@ async function main() {
   }
 
   throw new Error(
-    "Set SLACK_WEBHOOK_URL (recommended) or SLACK_BOT_TOKEN / BIO_TOPIC_OF_DAY_SLACK_BOT_TOKEN",
+    "Set SLACK_USER_TOKEN (recommended — editable posts) or SLACK_WEBHOOK_URL. See docs/USER_TOKEN_POSTING.md",
   );
 }
 

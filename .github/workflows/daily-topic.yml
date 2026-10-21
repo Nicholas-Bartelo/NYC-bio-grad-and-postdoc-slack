@@ -53,6 +53,9 @@ jobs:
           EOF
       - name: Post Topic of the Day
         env:
+          # Prefer user token (editable posts). Webhooks remain as fallback.
+          SLACK_USER_TOKEN: ${{ secrets.SLACK_USER_TOKEN }}
+          SLACK_CHANNEL_ID_TOPIC_OF_DAY: ${{ secrets.SLACK_CHANNEL_ID_TOPIC_OF_DAY }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
           FORCE_REPOST: ${{ github.event.inputs.force_repost }}
@@ -61,6 +64,12 @@ jobs:
         env:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
           FORCE_REPOST: ${{ github.event.inputs.force_repost }}
+          SLACK_USER_TOKEN: ${{ secrets.SLACK_USER_TOKEN }}
+          SLACK_CHANNEL_ID_OPPORTUNITIES_BIOTECH: ${{ secrets.SLACK_CHANNEL_ID_OPPORTUNITIES_BIOTECH }}
+          SLACK_CHANNEL_ID_OPPORTUNITIES_VC: ${{ secrets.SLACK_CHANNEL_ID_OPPORTUNITIES_VC }}
+          SLACK_CHANNEL_ID_OPPORTUNITIES_PHARMA: ${{ secrets.SLACK_CHANNEL_ID_OPPORTUNITIES_PHARMA }}
+          SLACK_CHANNEL_ID_OPPORTUNITIES_ENTREPRENEURSHIP: ${{ secrets.SLACK_CHANNEL_ID_OPPORTUNITIES_ENTREPRENEURSHIP }}
+          SLACK_CHANNEL_ID_OPPORTUNITIES_SPATIAL: ${{ secrets.SLACK_CHANNEL_ID_OPPORTUNITIES_SPATIAL }}
           SLACK_WEBHOOK_URL_OPPORTUNITIES_BIOTECH: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_BIOTECH }}
           SLACK_WEBHOOK_URL_OPPORTUNITIES_VC: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_VC }}
           SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA: ${{ secrets.SLACK_WEBHOOK_URL_OPPORTUNITIES_PHARMA }}
