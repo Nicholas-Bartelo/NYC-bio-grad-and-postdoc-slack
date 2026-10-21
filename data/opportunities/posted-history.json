@@ -3,21 +3,21 @@
   "channels": {
     "biotech": {
       "keys": [
-        "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
+        "Genentech||Students & Graduates \u2014 open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
         "New York Genome Center||Computational Biologist, Genomics Research||https://www.nygenome.org/careers/",
-        "HHMI Janelia Research Campus||Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
+        "HHMI Janelia Research Campus||Postdoctoral Scientist \u2014 Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
         "Memorial Sloan Kettering Cancer Center||Research Technician, Niethammer Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1",
         "New York Genome Center||Postdoctoral Research Associate, Sanjana Lab||https://jobs.silkroad.com/NYGenome/Careers/jobs/737",
         "New York Genome Center||Computational Biologist, Single Cell Genomics (Satija Lab)||https://jobs.silkroad.com/NYGenome/Careers/jobs/500",
         "Addgene||Sr. Manager, Scientific Product Management||https://addgene.applytojob.com/apply/mntGDS7RZV/Sr-Manager-Scientific-Product-Management",
-        "HHMI Janelia Research Campus||Postdoctoral Scientist — Lincoln Lab (fluorophores / super-resolution imaging)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598"
+        "HHMI Janelia Research Campus||Postdoctoral Scientist \u2014 Lincoln Lab (fluorophores / super-resolution imaging)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598"
       ],
       "lastPostedDate": "2026-10-20",
       "entries": [
         {
-          "key": "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
+          "key": "Genentech||Students & Graduates \u2014 open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
           "company": "Genentech",
-          "position": "Students & Graduates — open internship and early-career roles",
+          "position": "Students & Graduates \u2014 open internship and early-career roles",
           "applyUrl": "https://careers.gene.com/us/en/c/students-graduates-jobs",
           "postedAt": "2026-10-15T15:35:42.272Z",
           "date": "2026-10-15"
@@ -31,9 +31,9 @@
           "date": "2026-10-15"
         },
         {
-          "key": "HHMI Janelia Research Campus||Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
+          "key": "HHMI Janelia Research Campus||Postdoctoral Scientist \u2014 Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
           "company": "HHMI Janelia Research Campus",
-          "position": "Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)",
+          "position": "Postdoctoral Scientist \u2014 Schulze Lab (systems neuroscience / behavioral ML / VR)",
           "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
           "postedAt": "2026-10-15T16:12:43.642Z",
           "date": "2026-10-15"
@@ -71,17 +71,17 @@
           "date": "2026-10-17"
         },
         {
-          "key": "HHMI Janelia Research Campus||Postdoctoral Scientist — Lincoln Lab (fluorophores / super-resolution imaging)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598",
+          "key": "HHMI Janelia Research Campus||Postdoctoral Scientist \u2014 Lincoln Lab (fluorophores / super-resolution imaging)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598",
           "company": "HHMI Janelia Research Campus",
-          "position": "Postdoctoral Scientist — Lincoln Lab (fluorophores / super-resolution imaging)",
+          "position": "Postdoctoral Scientist \u2014 Lincoln Lab (fluorophores / super-resolution imaging)",
           "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598",
           "postedAt": "2026-10-18T17:07:14.006Z",
           "date": "2026-10-18"
         },
         {
-          "key": "HHMI Janelia Research Campus||Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
+          "key": "HHMI Janelia Research Campus||Postdoctoral Scientist \u2014 Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
           "company": "HHMI Janelia Research Campus",
-          "position": "Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)",
+          "position": "Postdoctoral Scientist \u2014 Schulze Lab (systems neuroscience / behavioral ML / VR)",
           "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
           "postedAt": "2026-10-19T15:43:12.308Z",
           "date": "2026-10-19"
@@ -195,11 +195,11 @@
     },
     "pharma": {
       "keys": [
-        "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
+        "Sanofi||Students \u2014 search current openings||https://jobs.sanofi.com/en/search-jobs/students",
         "Sanofi||Student Intern, R&D / Medical||https://jobs.sanofi.com/en/search-jobs/students",
-        "Genentech||2027 Spring Intern — GenAI Applications||https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications",
-        "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
-        "Novartis||US Biomedical Research — Summer of Science undergraduate internship (program)||https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs",
+        "Genentech||2027 Spring Intern \u2014 GenAI Applications||https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications",
+        "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) \u2014 R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
+        "Novartis||US Biomedical Research \u2014 Summer of Science undergraduate internship (program)||https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs",
         "AstraZeneca||12-Month University Industrial Placement Student: Computational Chemistry (Cambridge, UK)||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Computational-Chemistry_R-257921",
         "AstraZeneca||12-Month University Industrial Placement Student: Biosciences / Oncology (Cambridge, UK)||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Biosciences_R-258891",
         "Novartis||PRISM Postbaccalaureate Research InternShip & Mentoring (2-year)||https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs"
@@ -207,9 +207,9 @@
       "lastPostedDate": "2026-10-20",
       "entries": [
         {
-          "key": "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
+          "key": "Sanofi||Students \u2014 search current openings||https://jobs.sanofi.com/en/search-jobs/students",
           "company": "Sanofi",
-          "position": "Students — search current openings",
+          "position": "Students \u2014 search current openings",
           "applyUrl": "https://jobs.sanofi.com/en/search-jobs/students",
           "postedAt": "2026-10-15T15:35:43.455Z",
           "date": "2026-10-15"
@@ -223,25 +223,25 @@
           "date": "2026-10-15"
         },
         {
-          "key": "Genentech||2027 Spring Intern — GenAI Applications||https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications",
+          "key": "Genentech||2027 Spring Intern \u2014 GenAI Applications||https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications",
           "company": "Genentech",
-          "position": "2027 Spring Intern — GenAI Applications",
+          "position": "2027 Spring Intern \u2014 GenAI Applications",
           "applyUrl": "https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications",
           "postedAt": "2026-10-15T16:12:45.638Z",
           "date": "2026-10-15"
         },
         {
-          "key": "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
+          "key": "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) \u2014 R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
           "company": "Bristol Myers Squibb",
-          "position": "Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433",
+          "position": "Regulatory Affairs Intern (Indianapolis / RayzeBio) \u2014 R1607433",
           "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
           "postedAt": "2026-10-15T16:28:22.648Z",
           "date": "2026-10-15"
         },
         {
-          "key": "Novartis||US Biomedical Research — Summer of Science undergraduate internship (program)||https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs",
+          "key": "Novartis||US Biomedical Research \u2014 Summer of Science undergraduate internship (program)||https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs",
           "company": "Novartis",
-          "position": "US Biomedical Research — Summer of Science undergraduate internship (program)",
+          "position": "US Biomedical Research \u2014 Summer of Science undergraduate internship (program)",
           "applyUrl": "https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs",
           "postedAt": "2026-10-15T16:30:26.489Z",
           "date": "2026-10-15"
@@ -279,9 +279,9 @@
           "date": "2026-10-19"
         },
         {
-          "key": "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
+          "key": "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) \u2014 R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
           "company": "Bristol Myers Squibb",
-          "position": "Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433",
+          "position": "Regulatory Affairs Intern (Indianapolis / RayzeBio) \u2014 R1607433",
           "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
           "postedAt": "2026-10-20T14:00:30.275Z",
           "date": "2026-10-20"
@@ -294,7 +294,7 @@
         "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
         "NIH SEED (SBIR/STTR)||SBIR/STTR Small Business Applicant||https://seed.nih.gov/",
         "Epinoma (YC)||Therapeutic Research Associate||https://www.ycombinator.com/companies/epinoma/jobs/GRT7VJ4-therapeutic-research-associate",
-        "SOSV (IndieBio → SOSV NY / SOSV SF)||SOSV Startup Development Program application (rolling)||https://sosv.com/apply/sosv/",
+        "SOSV (IndieBio \u2192 SOSV NY / SOSV SF)||SOSV Startup Development Program application (rolling)||https://sosv.com/apply/sosv/",
         "Origin Bio (YC)||Computational Biologist, Spatial Transcriptomics||https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics",
         "NIH SEED (SBIR/STTR)||SBIR/STTR funding opportunity applicant||https://seed.nih.gov/small-business-funding/find-funding/sbir-sttr-funding-opportunities",
         "Y Combinator||YC Batch Application (founder program)||https://www.ycombinator.com/apply",
@@ -327,8 +327,8 @@
           "date": "2026-10-15"
         },
         {
-          "key": "SOSV (IndieBio → SOSV NY / SOSV SF)||SOSV Startup Development Program application (rolling)||https://sosv.com/apply/sosv/",
-          "company": "SOSV (IndieBio → SOSV NY / SOSV SF)",
+          "key": "SOSV (IndieBio \u2192 SOSV NY / SOSV SF)||SOSV Startup Development Program application (rolling)||https://sosv.com/apply/sosv/",
+          "company": "SOSV (IndieBio \u2192 SOSV NY / SOSV SF)",
           "position": "SOSV Startup Development Program application (rolling)",
           "applyUrl": "https://sosv.com/apply/sosv/",
           "postedAt": "2026-10-15T16:28:23.211Z",
@@ -387,21 +387,21 @@
     },
     "spatial": {
       "keys": [
-        "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
+        "Tempus||Staff AI Scientist \u2014 AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
         "Origin Bio (YC)||Computational Biologist, Spatial Transcriptomics||https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics",
         "Icahn School of Medicine at Mount Sinai||Postdoctoral Fellow in Spatial Biology (Yuan Lab)||https://www.fundedscience.com/jobs/postdoctoral-fellow-in-spatial-biology-icahn-school-of-028abe",
         "PathAI||Machine Learning Engineer III (Applied Research & Model Development)||https://www.pathai.com/careers/8786343002?gh_jid=8786343002",
         "PathAI||Machine Learning Engineer II (Applied Research & Model Development)||https://www.pathai.com/careers/8696752002?gh_jid=8696752002",
-        "Memorial Sloan Kettering Cancer Center||Post Doctoral Research Fellow — Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
+        "Memorial Sloan Kettering Cancer Center||Post Doctoral Research Fellow \u2014 Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
         "10x Genomics||Spatial Science & Technology Advisor, New York||https://jobs.sandscapitalventures.com/companies/10x-genomics/jobs/41252112-spatial-science-technology-advisor-new-york",
         "MSK Single-cell Analytics Innovation Lab (SAIL)||Computational Biologist (Single-cell Genomics / ML)||https://sail.mskcc.org/jobs/computational-biologist-single-cell-genomics-ml/"
       ],
       "lastPostedDate": "2026-10-20",
       "entries": [
         {
-          "key": "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
+          "key": "Tempus||Staff AI Scientist \u2014 AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
           "company": "Tempus",
-          "position": "Staff AI Scientist — AI Products / Life Sciences (JR202600267)",
+          "position": "Staff AI Scientist \u2014 AI Products / Life Sciences (JR202600267)",
           "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
           "postedAt": "2026-10-15T16:30:28.809Z",
           "date": "2026-10-15"
@@ -439,9 +439,9 @@
           "date": "2026-10-17"
         },
         {
-          "key": "Memorial Sloan Kettering Cancer Center||Post Doctoral Research Fellow — Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
+          "key": "Memorial Sloan Kettering Cancer Center||Post Doctoral Research Fellow \u2014 Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
           "company": "Memorial Sloan Kettering Cancer Center",
-          "position": "Post Doctoral Research Fellow — Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)",
+          "position": "Post Doctoral Research Fellow \u2014 Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)",
           "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
           "postedAt": "2026-10-17T20:14:48.109Z",
           "date": "2026-10-17"
@@ -479,9 +479,9 @@
           "date": "2026-10-19"
         },
         {
-          "key": "Memorial Sloan Kettering Cancer Center||Post Doctoral Research Fellow — Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
+          "key": "Memorial Sloan Kettering Cancer Center||Post Doctoral Research Fellow \u2014 Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
           "company": "Memorial Sloan Kettering Cancer Center",
-          "position": "Post Doctoral Research Fellow — Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)",
+          "position": "Post Doctoral Research Fellow \u2014 Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)",
           "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
           "postedAt": "2026-10-20T14:00:31.734Z",
           "date": "2026-10-20"
