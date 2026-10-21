@@ -98,16 +98,30 @@
     "postedBy": null
   },
   {
-    "company": "Lux Capital",
-    "companyType": "Venture capital (deep tech / biotech)",
-    "mission": "Invest in emerging science and technology companies spanning biotech, health, and deep tech.",
-    "listingsUrl": "https://www.luxcapital.com/",
+    "company": "Inductive Bio (via Lux Capital Job Board)",
+    "companyType": "AI drug discovery startup (Lux Capital portfolio)",
+    "mission": "Build AI and machine learning tools that accelerate medicinal chemistry \u2014 predictive ADMET/PK models and an AI-integrated lab used across biopharma partnerships.",
+    "listingsUrl": "https://jobs.luxcapital.com/jobs",
     "featured": {
-      "position": "Firm careers / open roles (Lux Capital)",
-      "description": "Monitor Lux Capital\u2019s careers and open-role channels for investing associate, platform, and research opportunities relevant to biotech and deep-tech company creation.",
-      "responsibilities": "Role-dependent: market mapping, founder sourcing, technical diligence support, portfolio support, or research writing for emerging science themes.",
-      "qualifications": "Interest in deep tech / biotech investing; analytical writing; comfort with scientific and commercial diligence. Confirm current openings and apply instructions on Lux\u2019s site/LinkedIn before applying.",
-      "applyUrl": "https://jobs.ashbyhq.com/luxcapital"
+      "position": "Member of Technical Staff \u2014 Machine Learning",
+      "description": "Full-time ML role (SF / NYC / Boston) building models and agents that design and prioritize molecules for synthesis, working from Inductive\u2019s proprietary chemistry datasets. Posted on the Lux Capital portfolio job board.",
+      "responsibilities": "Develop ML models to predict molecular properties from chemical structures; invent algorithms to generate and prioritize molecules; build agents that use program context for molecular optimization; improve models on proprietary data; collaborate with chemists and engineers to integrate models into the discovery platform; engage scientific users and contribute to product strategy.",
+      "qualifications": "4+ years as ML scientist/engineer or similar; strong scientific background (PhD in chemistry/biology/physics or related preferred); deep learning expertise; Python ML stack (PyTorch/JAX/TensorFlow); ability to productionize models. Preferred: graduate-level cell/molecular biology or biochemistry; omics or high-content imaging experience. Confirm full details on the posting.",
+      "applyUrl": "https://jobs.luxcapital.com/companies/inductive-bio-2/jobs/93052729-mts-machine-learning"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "LatchBio (via Lux Capital Job Board)",
+    "companyType": "AI-for-biology / benchmarks startup (Lux Capital portfolio)",
+    "mission": "Build rigorous scientific benchmarks that measure how well AI agents perform real biology for frontier AI labs and pharma.",
+    "listingsUrl": "https://jobs.luxcapital.com/jobs",
+    "featured": {
+      "position": "Member of Technical Staff, Cell Therapy",
+      "description": "Own cell-therapy benchmarks that define correct discovery-to-IND work for AI agents; scientific authority role at Latch (SF onsite). Listed on the Lux Capital portfolio job board.",
+      "responsibilities": "Author and ship cell-therapy benchmarks across discovery, development, and translation; set scientific standards for agent evaluation; collaborate on agentic wet-lab programs; work with CROs; help build the function beyond an individual contributor role.",
+      "qualifications": "5+ years hands-on cell therapy experience; strong opinions about what correct work looks like in the field; desire to build a function. Comp listed roughly $250k\u2013$400k + equity. Confirm full details on the posting.",
+      "applyUrl": "https://jobs.luxcapital.com/companies/latchbio/jobs/92741263-member-of-technical-staff-cell-gene-therapy"
     },
     "postedBy": null
   }
