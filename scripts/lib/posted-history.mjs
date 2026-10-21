@@ -3,6 +3,9 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 /**
  * Persistent "already posted" memory for opportunities.
  * Stored in-repo so GitHub Actions can commit updates after each run.
+ *
+ * Used by schedule, workflow_dispatch, and repository_dispatch (cron-job.org)
+ * — the trigger does not change memory rules.
  */
 
 export function opportunityKey({ company, position, applyUrl }) {
@@ -29,22 +32,53 @@ export function loadPostedHistory(path) {
 export function getChannelHistory(history, channelId) {
   const entry = history.channels[channelId];
   if (!entry || typeof entry !== "object") {
-    return { keys: [], lastPostedDate: null, entries: [] };
+    return {
+      keys: [],
+      lastPostedDate: null,
+      entries: [],
+      cycleResetAt: null,
+    };
   }
-  const keys = Array.isArray(entry.keys)
+
+  const entries = Array.isArray(entry.entries) ? entry.entries : [];
+  const keysFromField = Array.isArray(entry.keys)
     ? entry.keys.filter((k) => typeof k === "string")
     : [];
-  const entries = Array.isArray(entry.entries) ? entry.entries : [];
+  const cycleResetAt =
+    typeof entry.cycleResetAt === "string" ? entry.cycleResetAt : null;
+  const uniqueEntryKeys = [
+    ...new Set(
+      entries
+        .map((e) => (typeof e?.key === "string" ? e.key : null))
+        .filter(Boolean),
+    ),
+  ];
+
+  // Heal wiped `keys` when there was no intentional cycle reset.
+  // (A bug previously replaced keys with only the newest post.)
+  let keys = keysFromField;
+  if (!cycleResetAt && uniqueEntryKeys.length > keysFromField.length) {
+    keys = uniqueEntryKeys;
+  }
+
   const lastPostedDate =
     typeof entry.lastPostedDate === "string" ? entry.lastPostedDate : null;
-  return { keys, lastPostedDate, entries };
+  return { keys, lastPostedDate, entries, cycleResetAt };
 }
 
-export function recordPosted(history, channelId, { key, company, position, applyUrl, date }) {
-  const current = getChannelHistory(history, channelId);
-  const keys = current.keys.includes(key) ? current.keys : [...current.keys, key];
+export function recordPosted(
+  history,
+  channelId,
+  { key, company, position, applyUrl, date },
+) {
+  const stored = history.channels[channelId] || {};
+  const storedKeys = Array.isArray(stored.keys)
+    ? stored.keys.filter((k) => typeof k === "string")
+    : [];
+  const storedEntries = Array.isArray(stored.entries) ? stored.entries : [];
+  const keys = storedKeys.includes(key) ? storedKeys : [...storedKeys, key];
   const entries = [
-    ...current.entries,
+    ...storedEntries,
     {
       key,
       company,
@@ -54,21 +88,49 @@ export function recordPosted(history, channelId, { key, company, position, apply
       date,
     },
   ].slice(-200);
+
   history.channels[channelId] = {
     keys,
     lastPostedDate: date,
     entries,
+    // Preserve intentional cycle-reset marker (do not drop on each post).
+    cycleResetAt:
+      typeof stored.cycleResetAt === "string" ? stored.cycleResetAt : null,
   };
   return history;
 }
 
 export function resetChannelKeys(history, channelId) {
-  const current = getChannelHistory(history, channelId);
+  const stored = history.channels[channelId] || {};
+  const entries = Array.isArray(stored.entries) ? stored.entries : [];
+  const lastPostedDate =
+    typeof stored.lastPostedDate === "string" ? stored.lastPostedDate : null;
   history.channels[channelId] = {
     keys: [],
-    lastPostedDate: current.lastPostedDate,
-    entries: current.entries,
+    lastPostedDate,
+    entries,
     cycleResetAt: new Date().toISOString(),
+  };
+  return history;
+}
+
+/** Rebuild keys from the full audit log (blocks all previously sent roles). */
+export function healChannelKeysFromEntries(history, channelId) {
+  const stored = history.channels[channelId] || {};
+  const entries = Array.isArray(stored.entries) ? stored.entries : [];
+  const keys = [
+    ...new Set(
+      entries
+        .map((e) => (typeof e?.key === "string" ? e.key : null))
+        .filter(Boolean),
+    ),
+  ];
+  history.channels[channelId] = {
+    keys,
+    lastPostedDate:
+      typeof stored.lastPostedDate === "string" ? stored.lastPostedDate : null,
+    entries,
+    cycleResetAt: null,
   };
   return history;
 }

@@ -2,13 +2,13 @@
   {
     "company": "Epinoma (YC)",
     "companyType": "Early-stage biotech startup (Y Combinator-backed)",
-    "mission": "Engineer proteins that control the “operating system” of biology — starting with tools that improve blood-test performance, with longer-term aims in safer, more effective epigenetic medicines.",
+    "mission": "Engineer proteins that control the \u201coperating system\u201d of biology \u2014 starting with tools that improve blood-test performance, with longer-term aims in safer, more effective epigenetic medicines.",
     "listingsUrl": "https://www.ycombinator.com/jobs/role/science",
     "featured": {
       "position": "Therapeutic Research Associate",
-      "description": "Full-time wet-lab Research Associate role in San Carlos, CA ($70k–$95k + equity) supporting cell engineering, molecular biology, and assay work for Epinoma’s therapeutic/protein-engineering programs.",
+      "description": "Full-time wet-lab Research Associate role in San Carlos, CA ($70k\u2013$95k + equity) supporting cell engineering, molecular biology, and assay work for Epinoma\u2019s therapeutic/protein-engineering programs.",
       "responsibilities": "Maintain cell lines/primary cells; perform transfection, transduction, and nucleofection; run basic imaging and flow cytometry; manage cell-line, plasmid, and bacterial stocks; clone genes/regulatory elements/vector components with QC; keep detailed experimental records and ELN entries; analyze technical data and improve routine methods; operate/maintain equipment and supplies; assist with SOP refinement. Senior RA track may independently design experiments and coordinate RA I tasks.",
-      "qualifications": "BS or MS in cellular biology or related field; new graduates with ≥6 months relevant lab experience welcome. Required skills: tissue culture; PCR, DNA binding, Western blot, ELISA, ChIP, immunostaining, multiplexed protein assays; cloning experience desirable; flow cytometry/imaging a plus; comfort with lab safety and biohazards. US citizen/visa only per posting. Senior RA: additional industry experience or project-design experience.",
+      "qualifications": "BS or MS in cellular biology or related field; new graduates with \u22656 months relevant lab experience welcome. Required skills: tissue culture; PCR, DNA binding, Western blot, ELISA, ChIP, immunostaining, multiplexed protein assays; cloning experience desirable; flow cytometry/imaging a plus; comfort with lab safety and biohazards. US citizen/visa only per posting. Senior RA: additional industry experience or project-design experience.",
       "applyUrl": "https://www.ycombinator.com/companies/epinoma/jobs/GRT7VJ4-therapeutic-research-associate"
     },
     "postedBy": null
@@ -16,12 +16,12 @@
   {
     "company": "Origin Bio (YC)",
     "companyType": "Early-stage biotech / data company (Y Combinator-backed)",
-    "mission": "Produce matched spatial transcriptomics, histopathology, and clinical datasets from real patient tumors for cancer therapeutics R&D and AI — so findings translate better in the clinic.",
+    "mission": "Produce matched spatial transcriptomics, histopathology, and clinical datasets from real patient tumors for cancer therapeutics R&D and AI \u2014 so findings translate better in the clinic.",
     "listingsUrl": "https://www.ycombinator.com/jobs/role/science",
     "featured": {
       "position": "Computational Biologist, Spatial Transcriptomics",
-      "description": "Full-time computational biology role ($140k–$170k + equity; SF preferred / remote possible) owning Xenium post-run QC and secondary analysis of Origin’s spatial cancer datasets.",
-      "responsibilities": "Develop reproducible QC workflows for transcript detection, background, cell segmentation, transcript assignment, tissue/imaging artefacts, and run-to-run variation; align post-run H&E whole-slide images to Xenium DAPI and assess registration; work with pathologists to bring histological annotations into spatial data; analyze cell states, spatial neighbourhoods, tumour–immune interactions, and differential expression; use single-cell references where helpful.",
+      "description": "Full-time computational biology role ($140k\u2013$170k + equity; SF preferred / remote possible) owning Xenium post-run QC and secondary analysis of Origin\u2019s spatial cancer datasets.",
+      "responsibilities": "Develop reproducible QC workflows for transcript detection, background, cell segmentation, transcript assignment, tissue/imaging artefacts, and run-to-run variation; align post-run H&E whole-slide images to Xenium DAPI and assess registration; work with pathologists to bring histological annotations into spatial data; analyze cell states, spatial neighbourhoods, tumour\u2013immune interactions, and differential expression; use single-cell references where helpful.",
       "qualifications": "PhD or postdoctoral research in spatial biology, or equivalent hands-on industry experience; Xenium or CosMx experience especially valuable (other spatial platforms welcome); oncology tissue / H&E WSI / multi-modality imaging experience preferred; strong Python or R and reproducible workflow skills. Prefer in-person San Francisco; remote possible for the right candidate.",
       "applyUrl": "https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics"
     },
@@ -30,11 +30,11 @@
   {
     "company": "Y Combinator",
     "companyType": "Startup accelerator / early-stage investor",
-    "mission": "Help founders start companies through funding, intense advising, and a powerful alumni network — including bio/health startups ready to build full-time.",
+    "mission": "Help founders start companies through funding, intense advising, and a powerful alumni network \u2014 including bio/health startups ready to build full-time.",
     "listingsUrl": "https://www.ycombinator.com/companies",
     "featured": {
       "position": "YC Batch Application (founder program)",
-      "description": "Apply to a YC batch as a founder/co-founder. This is the specific batch application — not a job board listing at a portfolio company.",
+      "description": "Apply to a YC batch as a founder/co-founder. This is the specific batch application \u2014 not a job board listing at a portfolio company.",
       "responsibilities": "If accepted: build and iterate the startup during the batch, talk to users, ship product, and present at Demo Day with your co-founders while working with YC partners.",
       "qualifications": "A founding team (or strong solo case), a clear problem/solution thesis, and commitment to work on the company full-time if accepted. Bio/health startups are welcome when ready. Apply at the YC Apply page for the current batch cycle.",
       "applyUrl": "https://www.ycombinator.com/apply"
@@ -42,15 +42,15 @@
     "postedBy": null
   },
   {
-    "company": "SOSV (IndieBio → SOSV NY / SOSV SF)",
+    "company": "SOSV (IndieBio \u2192 SOSV NY / SOSV SF)",
     "companyType": "Deep-tech / biotech pre-seed accelerator and VC",
-    "mission": "Fund and develop scientist-founders building deep-tech and biology-driven companies — with hands-on company-building support historically associated with IndieBio, now under SOSV NY and SOSV SF programs.",
+    "mission": "Fund and develop scientist-founders building deep-tech and biology-driven companies \u2014 with hands-on company-building support historically associated with IndieBio, now under SOSV NY and SOSV SF programs.",
     "listingsUrl": "https://sosv.com/apply/",
     "featured": {
       "position": "SOSV Startup Development Program application (rolling)",
       "description": "Rolling application to SOSV startup development programs (including SOSV SF / SOSV NY biotech pathways formerly branded IndieBio). Selected teams enter diligence via screening calls and a short pitch.",
       "responsibilities": "If accepted: execute a technical development plan during the program, iterate product/science with SOSV partners, and progress toward seed milestones with customized founder support.",
-      "qualifications": "A well-developed idea with technology worked out at least in principle and a strong team (typically ≥2 co-founders for funding; solo founders may apply but need a co-founder before funding). Programs may require in-person participation (clarify in interview). Apply via the SOSV application portal.",
+      "qualifications": "A well-developed idea with technology worked out at least in principle and a strong team (typically \u22652 co-founders for funding; solo founders may apply but need a co-founder before funding). Programs may require in-person participation (clarify in interview). Apply via the SOSV application portal.",
       "applyUrl": "https://sosv.com/apply/sosv/"
     },
     "postedBy": null
@@ -58,7 +58,7 @@
   {
     "company": "NSF I-Corps",
     "companyType": "Federal entrepreneurship training program (NSF)",
-    "mission": "Train researchers to test the commercial potential of deep science and engineering ideas through structured customer discovery — a pathway from lab research toward ventures and broader impact.",
+    "mission": "Train researchers to test the commercial potential of deep science and engineering ideas through structured customer discovery \u2014 a pathway from lab research toward ventures and broader impact.",
     "listingsUrl": "https://www.nsf.gov/funding/opportunities",
     "featured": {
       "position": "I-Corps Teams / Hub participant (customer-discovery training)",
@@ -76,10 +76,38 @@
     "listingsUrl": "https://seed.nih.gov/",
     "featured": {
       "position": "SBIR/STTR funding opportunity applicant",
-      "description": "Apply to current NIH SBIR/STTR funding opportunities via the SEED Find Funding page — this is a specific funding mechanism for qualifying small businesses, not a company careers board.",
+      "description": "Apply to current NIH SBIR/STTR funding opportunities via the SEED Find Funding page \u2014 this is a specific funding mechanism for qualifying small businesses, not a company careers board.",
       "responsibilities": "Prepare and submit an NIH small-business research proposal under the open Omnibus or targeted solicitation; if awarded, execute the funded R&D plan and report progress under NIH terms.",
-      "qualifications": "A qualifying small business with a health-related innovation; PI and company eligibility rules are defined in the current Omnibus/solicitation. Review SEED’s SBIR/STTR funding opportunities page for open announcements and requirements.",
+      "qualifications": "A qualifying small business with a health-related innovation; PI and company eligibility rules are defined in the current Omnibus/solicitation. Review SEED\u2019s SBIR/STTR funding opportunities page for open announcements and requirements.",
       "applyUrl": "https://seed.nih.gov/small-business-funding/find-funding/sbir-sttr-funding-opportunities"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Empire State Development \u2014 Innovate NY / life sciences programs",
+    "companyType": "State economic development / startup programs (NY)",
+    "mission": "Grow New York\u2019s innovation economy, including life-sciences company formation and commercialization support.",
+    "listingsUrl": "https://esd.ny.gov/",
+    "featured": {
+      "position": "Life sciences entrepreneurship / Innovate NY program applicant",
+      "description": "Track New York State innovation and life-sciences entrepreneurship programs (grants, accelerators, and company-formation support) via Empire State Development.",
+      "responsibilities": "Identify a fitting ESD / Innovate NY / life-sciences program; prepare application materials; articulate scientific and commercial milestones; engage program managers as needed.",
+      "qualifications": "Scientist-founder or early startup with NY nexus; clear technology thesis; willingness to engage customer discovery and commercialization planning. Confirm current open solicitations on ESD before applying.",
+      "applyUrl": "https://esd.ny.gov/doing-business-ny/innovation-support"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Biolabs NYC (and network)",
+    "companyType": "Startup lab / incubator network",
+    "mission": "Provide ready-to-go lab space and community for early-stage life-sciences companies.",
+    "listingsUrl": "https://www.biolabs.io/",
+    "featured": {
+      "position": "BioLabs membership / NYC site inquiry (scientist-founder)",
+      "description": "For wet-lab startups needing turnkey lab infrastructure and a founder community in the BioLabs network (including NYC-area sites when available).",
+      "responsibilities": "Apply for membership; outline company stage, lab needs, and safety profile; engage site leadership on fit and onboarding.",
+      "qualifications": "Incorporated or forming life-sciences startup with experimental needs; basic EHS readiness. Confirm NYC/network availability and membership process on BioLabs\u2019 site.",
+      "applyUrl": "https://www.biolabs.io/join"
     },
     "postedBy": null
   }

@@ -64,6 +64,16 @@ https://github.com/settings/tokens/new → enable **`repo`** → use that as the
 - Slack gets topic + opportunity posts  
 - History files update so a late GitHub `schedule` backup that same day is a no-op  
 
+### Memory / no-repeat (same as before)
+
+cron-job.org only **starts** the workflow. It does **not** bypass memory:
+
+- `data/topic-last-posted.json` — one topic per Eastern day  
+- `data/opportunities/posted-history.json` — never re-posts a role already in that file  
+- Same-day backups exit with `already_posted_today`  
+
+When a channel’s JSON bank has no unused roles left, that channel skips (`bank_exhausted`) until you add new jobs to `data/opportunities/*.json`.
+
 ## Why this works
 
 | Trigger | Reliability on this repo |

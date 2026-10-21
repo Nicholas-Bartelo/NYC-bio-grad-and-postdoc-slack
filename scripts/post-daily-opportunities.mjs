@@ -8,9 +8,12 @@
  *
  * Most channels post 1 role/day. The spatial channel posts 2/day.
  *
- * Never repeats an opportunity until every usable listing in that channel
- * has been posted once; then the channel history resets for a new cycle.
- * History is stored in data/opportunities/posted-history.json.
+ * Never re-posts an opportunity that is already in posted-history (keys /
+ * entries). This applies equally to cron-job.org (repository_dispatch),
+ * GitHub schedule, and manual Run workflow.
+ * History: data/opportunities/posted-history.json
+ * Optional: ALLOW_OPPORTUNITY_CYCLE_RESET=1 to clear keys and start a new
+ * cycle only after every current bank item has been posted.
  */
 import { readdirSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -194,10 +197,21 @@ async function pickHealthyOpportunity(
   let cycleReset = false;
 
   if (unused.length === 0) {
-    resetChannelKeys(history, channelId);
-    channelHistory = getChannelHistory(history, channelId);
-    unused = candidates;
-    cycleReset = true;
+    // Default: do NOT auto-repeat already-sent roles. Add new jobs to the
+    // JSON banks instead. Set ALLOW_OPPORTUNITY_CYCLE_RESET=1 to opt in.
+    if (process.env.ALLOW_OPPORTUNITY_CYCLE_RESET === "1") {
+      resetChannelKeys(history, channelId);
+      channelHistory = getChannelHistory(history, channelId);
+      unused = candidates;
+      cycleReset = true;
+    } else {
+      const err = new Error(
+        `bank_exhausted:${channelId}: all ${candidates.length} bank items were already posted; add new opportunities to data/opportunities/${channelId}.json`,
+      );
+      err.code = "bank_exhausted";
+      err.channelId = channelId;
+      throw err;
+    }
   }
 
   const start = dayIndex(
@@ -329,36 +343,56 @@ async function postChannel(channel, date, history) {
   let cycleReset = false;
   let skippedDeadLinks = 0;
 
-  for (let i = 0; i < postsPerDay; i++) {
-    const picked = await pickHealthyOpportunity(items, date, channel.id, history, {
-      excludeKeys,
-    });
-    const text = formatMessage(picked, channel, date, {
-      index: i + 1,
-      total: postsPerDay,
-    });
+  try {
+    for (let i = 0; i < postsPerDay; i++) {
+      const picked = await pickHealthyOpportunity(
+        items,
+        date,
+        channel.id,
+        history,
+        { excludeKeys },
+      );
+      const text = formatMessage(picked, channel, date, {
+        index: i + 1,
+        total: postsPerDay,
+      });
 
-    await postViaWebhook(webhook, text);
-    recordPosted(history, channel.id, {
-      key: picked.key,
-      company: picked.company,
-      position: picked.position,
-      applyUrl: picked.applyUrl,
-      date,
-    });
+      await postViaWebhook(webhook, text);
+      recordPosted(history, channel.id, {
+        key: picked.key,
+        company: picked.company,
+        position: picked.position,
+        applyUrl: picked.applyUrl,
+        date,
+      });
 
-    excludeKeys.push(picked.key);
-    cycleReset = cycleReset || picked.cycleReset;
-    skippedDeadLinks += picked.skipped.length;
-    posted.push({
-      company: picked.company,
-      position: picked.position,
-      applyUrl: picked.applyUrl,
-      listingsUrl: picked.listingsUrl,
-      location: picked.location || null,
-      spatialFocus: picked.spatialFocus || null,
-      linkStatus: picked.linkStatus,
-    });
+      excludeKeys.push(picked.key);
+      cycleReset = cycleReset || picked.cycleReset;
+      skippedDeadLinks += picked.skipped.length;
+      posted.push({
+        company: picked.company,
+        position: picked.position,
+        applyUrl: picked.applyUrl,
+        listingsUrl: picked.listingsUrl,
+        location: picked.location || null,
+        spatialFocus: picked.spatialFocus || null,
+        linkStatus: picked.linkStatus,
+      });
+    }
+  } catch (error) {
+    if (error && error.code === "bank_exhausted") {
+      if (posted.length === 0) {
+        return {
+          channel: channel.slackChannel,
+          posted: false,
+          reason: "bank_exhausted",
+          detail: error.message,
+        };
+      }
+      // Partial success (e.g. spatial 1/2) — keep what posted.
+    } else {
+      throw error;
+    }
   }
 
   return {
