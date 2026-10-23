@@ -12,9 +12,10 @@
         "Addgene||Sr. Manager, Scientific Product Management||https://addgene.applytojob.com/apply/mntGDS7RZV/Sr-Manager-Scientific-Product-Management",
         "HHMI Janelia Research Campus||Postdoctoral Scientist — Lincoln Lab (fluorophores / super-resolution imaging)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598",
         "Biohub||Computational Biologist, Immune Cell Repolarization (Biohub NY)||https://job-boards.greenhouse.io/biohub/jobs/8140482",
-        "Memorial Sloan Kettering Cancer Center||Senior Computational Biologist I, Center for Molecular Oncology (cfDNA / MSK-ACCESS)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1"
+        "Memorial Sloan Kettering Cancer Center||Senior Computational Biologist I, Center for Molecular Oncology (cfDNA / MSK-ACCESS)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1",
+        "Volastra Therapeutics||Scientist / Senior Scientist, Computational Biology||https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003"
       ],
-      "lastPostedDate": "2026-10-21",
+      "lastPostedDate": "2026-10-23",
       "entries": [
         {
           "key": "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
@@ -111,6 +112,14 @@
           "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1",
           "postedAt": "2026-10-21T14:33:12.835Z",
           "date": "2026-10-21"
+        },
+        {
+          "key": "Volastra Therapeutics||Scientist / Senior Scientist, Computational Biology||https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003",
+          "company": "Volastra Therapeutics",
+          "position": "Scientist / Senior Scientist, Computational Biology",
+          "applyUrl": "https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003",
+          "postedAt": "2026-10-23T14:27:55.586Z",
+          "date": "2026-10-23"
         }
       ],
       "cycleResetAt": null
@@ -126,9 +135,10 @@
         "Flagship Pioneering||2027 Flagship Pioneering Fellowship||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8721195002?gh_jid=8721195002",
         "RA Capital Management||Applied AI Scientist||https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/5427346008",
         "Inductive Bio (via Lux Capital Job Board)||Member of Technical Staff — Machine Learning||https://jobs.luxcapital.com/companies/inductive-bio-2/jobs/93052729-mts-machine-learning",
-        "LatchBio (via Lux Capital Job Board)||Member of Technical Staff, Cell Therapy||https://jobs.luxcapital.com/companies/latchbio/jobs/92741263-member-of-technical-staff-cell-gene-therapy"
+        "LatchBio (via Lux Capital Job Board)||Member of Technical Staff, Cell Therapy||https://jobs.luxcapital.com/companies/latchbio/jobs/92741263-member-of-technical-staff-cell-gene-therapy",
+        "a16z Bio + Health||Bio + Health investing / platform opportunities (open roles board)||https://boards.greenhouse.io/a16z"
       ],
-      "lastPostedDate": "2026-10-21",
+      "lastPostedDate": "2026-10-23",
       "entries": [
         {
           "key": "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
@@ -225,6 +235,14 @@
           "applyUrl": "https://jobs.luxcapital.com/companies/latchbio/jobs/92741263-member-of-technical-staff-cell-gene-therapy",
           "postedAt": "2026-10-21T14:33:14.152Z",
           "date": "2026-10-21"
+        },
+        {
+          "key": "a16z Bio + Health||Bio + Health investing / platform opportunities (open roles board)||https://boards.greenhouse.io/a16z",
+          "company": "a16z Bio + Health",
+          "position": "Bio + Health investing / platform opportunities (open roles board)",
+          "applyUrl": "https://boards.greenhouse.io/a16z",
+          "postedAt": "2026-10-23T14:27:56.298Z",
+          "date": "2026-10-23"
         }
       ],
       "cycleResetAt": null
