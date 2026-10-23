@@ -135,9 +135,11 @@ async function main() {
     process.env.SLACK_BOT_TOKEN?.trim() ||
     process.env.BIO_TOPIC_OF_DAY_SLACK_BOT_TOKEN?.trim();
 
-  if (userToken) {
+  if (userToken || webhook) {
+    // Always pass both so user-token failures can fall back to the webhook.
     const meta = await postToSlack(text, {
       userToken,
+      webhookUrl: webhook,
       channelId:
         process.env.SLACK_CHANNEL_ID_TOPIC_OF_DAY?.trim() ||
         process.env.BIO_TOPIC_OF_DAY_CHANNEL_ID?.trim(),
@@ -154,21 +156,6 @@ async function main() {
         field: topic.field,
         channelId: meta.channelId,
         ts: meta.ts,
-      }),
-    );
-    return;
-  }
-
-  if (webhook) {
-    await postToSlack(text, { webhookUrl: webhook });
-    saveTopicHistory(date, topic.title);
-    console.log(
-      JSON.stringify({
-        posted: true,
-        mode: "webhook",
-        date,
-        title: topic.title,
-        field: topic.field,
       }),
     );
     return;
