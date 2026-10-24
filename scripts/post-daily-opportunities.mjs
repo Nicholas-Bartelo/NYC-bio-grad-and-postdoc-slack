@@ -202,14 +202,10 @@ async function pickHealthyOpportunity(
   let cycleReset = false;
 
   if (unused.length === 0) {
-    // Default: do NOT auto-repeat already-sent roles. Add new jobs to the
-    // JSON banks instead. Set ALLOW_OPPORTUNITY_CYCLE_RESET=1 to opt in.
-    if (process.env.ALLOW_OPPORTUNITY_CYCLE_RESET === "1") {
-      resetChannelKeys(history, channelId);
-      channelHistory = getChannelHistory(history, channelId);
-      unused = candidates;
-      cycleReset = true;
-    } else {
+    // Prefer new bank items. When every role has already been posted, start a
+    // new cycle so daily channels keep receiving posts (silence is worse than
+    // occasional recirculation). Set ALLOW_OPPORTUNITY_CYCLE_RESET=0 to disable.
+    if (process.env.ALLOW_OPPORTUNITY_CYCLE_RESET === "0") {
       const err = new Error(
         `bank_exhausted:${channelId}: all ${candidates.length} bank items were already posted; add new opportunities to data/opportunities/${channelId}.json`,
       );
@@ -217,6 +213,18 @@ async function pickHealthyOpportunity(
       err.channelId = channelId;
       throw err;
     }
+    console.warn(
+      JSON.stringify({
+        warning: "opportunity_cycle_reset",
+        channelId,
+        bankSize: candidates.length,
+        note: "All bank items were already posted; resetting cycle so posting can continue. Add new roles to reduce recirculation.",
+      }),
+    );
+    resetChannelKeys(history, channelId);
+    channelHistory = getChannelHistory(history, channelId);
+    unused = candidates;
+    cycleReset = true;
   }
 
   const start = dayIndex(

@@ -8,8 +8,8 @@
     "listingsUrl": "https://www.ycombinator.com/jobs/role/science",
     "featured": {
       "position": "Computational Biologist, Spatial Transcriptomics",
-      "description": "Full-time industry role ($140k\u2013$170k + equity) owning Xenium post-run QC and secondary analysis of Origin\u2019s matched spatial + H&E cancer datasets.",
-      "responsibilities": "Build reproducible QC for transcript detection, background, cell segmentation, transcript assignment, tissue/imaging artefacts, and run variation; align post-run H&E whole-slide images to Xenium DAPI and assess registration; work with pathologists on histological annotations; analyze cell states, spatial neighbourhoods, tumour\u2013immune interactions, and differential expression using single-cell references where helpful.",
+      "description": "Full-time industry role ($140k–$170k + equity) owning Xenium post-run QC and secondary analysis of Origin’s matched spatial + H&E cancer datasets.",
+      "responsibilities": "Build reproducible QC for transcript detection, background, cell segmentation, transcript assignment, tissue/imaging artefacts, and run variation; align post-run H&E whole-slide images to Xenium DAPI and assess registration; work with pathologists on histological annotations; analyze cell states, spatial neighbourhoods, tumour–immune interactions, and differential expression using single-cell references where helpful.",
       "qualifications": "PhD/postdoc in spatial biology or equivalent industry experience; Xenium or CosMx especially valuable (other spatial platforms welcome); oncology tissue / H&E WSI experience preferred; strong Python or R and reproducible workflows. Prefer San Francisco in-person; remote possible for the right candidate.",
       "applyUrl": "https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics"
     },
@@ -17,16 +17,16 @@
   },
   {
     "company": "Memorial Sloan Kettering Cancer Center",
-    "companyType": "Academic cancer center (NYC) \u2014 industry-collaborative research role",
+    "companyType": "Academic cancer center (NYC) — industry-collaborative research role",
     "mission": "End cancer for life; this posting sits at the intersection of biostatistics, single-cell/spatial omics, and translational surgical oncology in the Adusumilli Lab.",
     "location": "New York, NY (onsite)",
     "spatialFocus": "Spatial transcriptomics / multiplexed spatial profiling (Xenium, CosMx, Visium, IMC)",
     "listingsUrl": "https://careers.mskcc.org/",
     "featured": {
-      "position": "Post Doctoral Research Fellow \u2014 Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)",
+      "position": "Post Doctoral Research Fellow — Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)",
       "description": "NYC postdoc/computational scientist role developing statistical and ML methods for high-plex spatial and single-cell data in translational cancer research (Workday req 101549).",
-      "responsibilities": "Develop/scale statistical and ML frameworks for high-dimensional spatial omics and single-cell landscapes; build pipelines for multiplexed spatial imaging and paired single-cell multi-omics; perform spatial point-pattern analysis, cell\u2013cell interaction modeling, and niche identification in the tumor microenvironment; design analyses linking spatial immune phenotypes to clinical outcomes; support study design/power for translational protocols.",
-      "qualifications": "PhD-level computational scientist with proven analysis of single-cell and high-plex spatial data; direct experience with IMC, 10x Xenium, NanoString CosMx, and/or 10x Visium; advanced Python and/or R; expert familiarity with Seurat, Giotto, and Bioconductor spatial/single-cell tools; strong spatial statistics (autocorrelation, deconvolution, neighborhood modeling). Pay range listed ~$72,000\u2013$87,564.",
+      "responsibilities": "Develop/scale statistical and ML frameworks for high-dimensional spatial omics and single-cell landscapes; build pipelines for multiplexed spatial imaging and paired single-cell multi-omics; perform spatial point-pattern analysis, cell–cell interaction modeling, and niche identification in the tumor microenvironment; design analyses linking spatial immune phenotypes to clinical outcomes; support study design/power for translational protocols.",
+      "qualifications": "PhD-level computational scientist with proven analysis of single-cell and high-plex spatial data; direct experience with IMC, 10x Xenium, NanoString CosMx, and/or 10x Visium; advanced Python and/or R; expert familiarity with Seurat, Giotto, and Bioconductor spatial/single-cell tools; strong spatial statistics (autocorrelation, deconvolution, neighborhood modeling). Pay range listed ~$72,000–$87,564.",
       "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549"
     },
     "postedBy": null
@@ -34,15 +34,15 @@
   {
     "company": "PathAI",
     "companyType": "AI-powered digital pathology company (industry)",
-    "mission": "Improve patient outcomes with AI for histopathology \u2014 deploying algorithms that analyze H&E and related pathology imagery for translational research, labs, and clinical trials.",
+    "mission": "Improve patient outcomes with AI for histopathology — deploying algorithms that analyze H&E and related pathology imagery for translational research, labs, and clinical trials.",
     "location": "New York (onsite preferred) or Remote; Boston also available",
     "spatialFocus": "H&E / digital pathology imaging (computer vision on whole-slide images)",
     "listingsUrl": "https://www.pathai.com/careers",
     "featured": {
       "position": "Machine Learning Engineer II (Applied Research & Model Development)",
-      "description": "Industry ML engineer role building and deploying models for PathAI\u2019s histopathology AI products \u2014 NYC, Boston, or remote (Greenhouse 8696752002).",
+      "description": "Industry ML engineer role building and deploying models for PathAI’s histopathology AI products — NYC, Boston, or remote (Greenhouse 8696752002).",
       "responsibilities": "Design, develop, and deploy ML models for research and product projects; collaborate with biomedical data science, product, translational research, MLOps, and platform teams; contribute to experimental design, documentation, and reporting; improve ML pipelines/infrastructure; support abstracts, manuscripts, and conference contributions.",
-      "qualifications": "Master\u2019s in ML/CS/data science/statistics/applied math (or related) with relevant experience, or equivalent PhD-focused background as listed on the posting; experience developing/deploying modern ML and computer-vision models; strong Python and deep-learning frameworks (PyTorch/TensorFlow); familiarity with full ML lifecycle (data pipelines, training, evaluation, deployment). Confirm level-specific years-of-experience on the live posting.",
+      "qualifications": "Master’s in ML/CS/data science/statistics/applied math (or related) with relevant experience, or equivalent PhD-focused background as listed on the posting; experience developing/deploying modern ML and computer-vision models; strong Python and deep-learning frameworks (PyTorch/TensorFlow); familiarity with full ML lifecycle (data pipelines, training, evaluation, deployment). Confirm level-specific years-of-experience on the live posting.",
       "applyUrl": "https://www.pathai.com/careers/8696752002?gh_jid=8696752002"
     },
     "postedBy": null
@@ -50,15 +50,15 @@
   {
     "company": "Tempus",
     "companyType": "Precision medicine / multimodal clinical+molecular AI company (industry)",
-    "mission": "Redefine precision medicine by connecting real-world clinical and molecular evidence \u2014 including pathology slides, genomics, and spatial omics \u2014 into AI products for care and drug development.",
-    "location": "Remote \u2014 USA (NYC pay band also listed on posting)",
+    "mission": "Redefine precision medicine by connecting real-world clinical and molecular evidence — including pathology slides, genomics, and spatial omics — into AI products for care and drug development.",
+    "location": "Remote — USA (NYC pay band also listed on posting)",
     "spatialFocus": "Spatial omics + pathology WSI multimodal modeling",
     "listingsUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers",
     "featured": {
-      "position": "Staff AI Scientist \u2014 AI Products / Life Sciences (JR202600267)",
+      "position": "Staff AI Scientist — AI Products / Life Sciences (JR202600267)",
       "description": "Senior industry AI scientist role designing multimodal models over pathology WSI, genomic profiles, spatial omics, and longitudinal records for Tempus AI Products (remote USA).",
       "responsibilities": "Architect AI-intensive projects from research to production-ready design; train state-of-the-art multimodal models using WSI, DNA/RNA, spatial omics, and longitudinal patient data; build solutions for biomarker discovery, therapy-outcome prediction, and CDx with life-sciences partners; ensure regulatory/quality alignment; publish and engage the AI research community.",
-      "qualifications": "Demonstrated expertise in large-scale deep learning and production-grade model training; computer vision and multimodal modeling (pathology, multi-omics) preferred; medical/healthcare AI experience valued. Remote USA compensation band listed ~$200k\u2013$240k (NYC band higher on posting). Confirm full requirements on the Workday requisition.",
+      "qualifications": "Demonstrated expertise in large-scale deep learning and production-grade model training; computer vision and multimodal modeling (pathology, multi-omics) preferred; medical/healthcare AI experience valued. Remote USA compensation band listed ~$200k–$240k (NYC band higher on posting). Confirm full requirements on the Workday requisition.",
       "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267"
     },
     "postedBy": null
@@ -72,9 +72,9 @@
     "listingsUrl": "https://careers.10xgenomics.com/",
     "featured": {
       "position": "Spatial Science & Technology Advisor, New York",
-      "description": "Field technical advisor accelerating 10x Spatial sales in the New York territory \u2014 deep product/workflow expertise for spatial solutions and multiomic customer enablement.",
+      "description": "Field technical advisor accelerating 10x Spatial sales in the New York territory — deep product/workflow expertise for spatial solutions and multiomic customer enablement.",
       "responsibilities": "Partner with Spatial Sales and Marketing to accelerate deals and maximize revenue; run sales-support activities for current/future Spatial products; act as field technical expert positioning spatial workflows (and combinations with other 10x apps) for academic, government, and industrial accounts in the assigned territory.",
-      "qualifications": "Extensive histology and/or spatial workflow experience; NGS, immunology, cell biology, and molecular biology background; single-cell genomics and deep NGS experience valued; 5+ years commercial experience (sales/marketing/support) in life-science research tools preferred; overnight travel up to ~70%. Base pay range listed ~$111,000\u2013$151,000 on the posting aggregator \u2014 confirm on 10x\u2019s official apply flow.",
+      "qualifications": "Extensive histology and/or spatial workflow experience; NGS, immunology, cell biology, and molecular biology background; single-cell genomics and deep NGS experience valued; 5+ years commercial experience (sales/marketing/support) in life-science research tools preferred; overnight travel up to ~70%. Base pay range listed ~$111,000–$151,000 on the posting aggregator — confirm on 10x’s official apply flow.",
       "applyUrl": "https://jobs.sandscapitalventures.com/companies/10x-genomics/jobs/41252112-spatial-science-technology-advisor-new-york"
     },
     "postedBy": null
@@ -88,8 +88,8 @@
     "listingsUrl": "https://sail.mskcc.org/join-us/",
     "featured": {
       "position": "Computational Biologist (Single-cell Genomics / ML)",
-      "description": "NYC computational biologist role in Dana Pe\u2019er\u2019s SAIL group developing/implementing ML methods for high-throughput single-cell and spatial transcriptomics data in cancer and immunology.",
-      "responsibilities": "Develop, implement, and evaluate ML methods to process, normalize, organize, and visualize single-cell sequencing and spatial transcriptomics data; extract biological insights on tumor heterogeneity, drug resistance, immunotherapy, metastasis, and tumor\u2013immune environments; enable data scientists, biologists, and clinicians to interact with and interpret large datasets.",
+      "description": "NYC computational biologist role in Dana Pe’er’s SAIL group developing/implementing ML methods for high-throughput single-cell and spatial transcriptomics data in cancer and immunology.",
+      "responsibilities": "Develop, implement, and evaluate ML methods to process, normalize, organize, and visualize single-cell sequencing and spatial transcriptomics data; extract biological insights on tumor heterogeneity, drug resistance, immunotherapy, metastasis, and tumor–immune environments; enable data scientists, biologists, and clinicians to interact with and interpret large datasets.",
       "qualifications": "Background in statistics, machine learning, or computer science; prior deep-learning methods research preferred but not required; genomics exposure a plus; excitement to learn sophisticated algorithms on large biological datasets at MSK. Apply via the SAIL job page / join-us instructions.",
       "applyUrl": "https://sail.mskcc.org/jobs/computational-biologist-single-cell-genomics-ml/"
     },
@@ -100,11 +100,11 @@
     "companyType": "Academic medical school / research institute (NYC)",
     "mission": "Develop quantitative ML/AI tools that integrate spatial multi-omics to investigate cancer and neurodegenerative disease mechanisms (Yuan Lab, Genetics and Genomic Sciences).",
     "location": "New York City, NY",
-    "spatialFocus": "Spatial biology / spatial multi-omics ML across molecular\u2013cellular\u2013tissue scales",
+    "spatialFocus": "Spatial biology / spatial multi-omics ML across molecular–cellular–tissue scales",
     "listingsUrl": "https://careers.mountsinai.org/",
     "featured": {
       "position": "Postdoctoral Fellow in Spatial Biology (Yuan Lab)",
-      "description": "NYC postdoc ($70k\u2013$85k advertised) building scalable ML/AI tools that integrate spatial multi-omics data for cancer and neurodegeneration; closing date listed Dec 11, 2026 on the public posting.",
+      "description": "NYC postdoc ($70k–$85k advertised) building scalable ML/AI tools that integrate spatial multi-omics data for cancer and neurodegeneration; closing date listed Dec 11, 2026 on the public posting.",
       "responsibilities": "Build computational tools combining spatial multi-omics with mechanistic models across molecular, cellular, and tissue scales; collaborate on disease-mechanism projects; develop quantitative, flexible, scalable methods for integrating spatial multi-omics datasets.",
       "qualifications": "PhD in a quantitative field; strong analytical, ML, and programming skills; prior genomic data analysis; first-author publication record. Spatial biology knowledge preferred but not required; experimentally trained candidates with strong stats/programming also welcome. Apply by emailing cover letter, CV, and two references to guo-cheng.yuan@mssm.edu (per public posting).",
       "applyUrl": "https://www.fundedscience.com/jobs/postdoctoral-fellow-in-spatial-biology-icahn-school-of-028abe"
@@ -120,9 +120,9 @@
     "listingsUrl": "https://www.pathai.com/careers",
     "featured": {
       "position": "Machine Learning Engineer III (Applied Research & Model Development)",
-      "description": "More senior PathAI ML engineer track for histopathology model research and product deployment \u2014 NYC/Boston/remote (Greenhouse 8786343002).",
+      "description": "More senior PathAI ML engineer track for histopathology model research and product deployment — NYC/Boston/remote (Greenhouse 8786343002).",
       "responsibilities": "Lead design/development/deployment of ML models for research and product; translate biological/clinical requirements into scalable ML solutions with cross-functional partners; drive experimental design and reporting; strengthen ML pipelines with MLOps/platform teams; publish and present scientific work.",
-      "qualifications": "Master\u2019s (or PhD-equivalent experience) in ML/CS/data science/statistics/applied math with additional professional experience as specified for the III level on the posting; strong deep-learning and computer-vision track record in products/platforms; excellent Python and PyTorch/TensorFlow proficiency. Confirm exact years-of-experience on the live JD.",
+      "qualifications": "Master’s (or PhD-equivalent experience) in ML/CS/data science/statistics/applied math with additional professional experience as specified for the III level on the posting; strong deep-learning and computer-vision track record in products/platforms; excellent Python and PyTorch/TensorFlow proficiency. Confirm exact years-of-experience on the live JD.",
       "applyUrl": "https://www.pathai.com/careers/8786343002?gh_jid=8786343002"
     },
     "postedBy": null
@@ -138,7 +138,7 @@
       "position": "Computational Biologist, Immune Cell Repolarization (spatial / multi-omics)",
       "description": "NYC hybrid computational role analyzing transcriptional, TCR-seq, and spatial data to map immunotherapy resistance and prioritize immune-reprogramming targets.",
       "responsibilities": "Develop and apply ML/stats methods on spatial and multi-omic immune datasets; collaborate on clinical and pre-clinical studies; publish methods and biological insights; partner across Biohub engineering and biology teams.",
-      "qualifications": "Computational biology experience with transcriptomics and preferably spatial or TCR-seq analyses; strong ML/statistics; hybrid NYC (~3 days onsite). Pay listed ~$153,000\u2013$191,000. Confirm full requirements on the posting.",
+      "qualifications": "Computational biology experience with transcriptomics and preferably spatial or TCR-seq analyses; strong ML/statistics; hybrid NYC (~3 days onsite). Pay listed ~$153,000–$191,000. Confirm full requirements on the posting.",
       "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/8140482"
     },
     "postedBy": null
@@ -151,11 +151,75 @@
     "spatialFocus": "High-content cellular imaging / phenomics (spatial cell biology)",
     "listingsUrl": "https://www.recursion.com/careers",
     "featured": {
-      "position": "Recursion careers \u2014 ML / Computational Biology openings",
+      "position": "Recursion careers — ML / Computational Biology openings",
       "description": "Open Recursion roles spanning machine learning and computational biology on large cellular imaging and multi-omics datasets. Pick the current JD that matches your level on the Greenhouse board.",
       "responsibilities": "Role-dependent: build models on imaging/omics datasets; partner with biology and platform teams; ship reproducible ML pipelines for discovery.",
       "qualifications": "Strong ML or computational biology background; imaging or systems biology experience preferred. Confirm the specific posting and location on Recursion careers / Greenhouse.",
       "applyUrl": "https://job-boards.greenhouse.io/recursionpharmaceuticals"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "New York Genome Center",
+    "companyType": "Nonprofit genomic research institute (NYC)",
+    "mission": "Advance spatial and functional genomics — the Vicković Lab develops and applies spatial genomics technologies to map tissue architecture and disease.",
+    "location": "New York, NY (onsite)",
+    "spatialFocus": "Spatial genomics / functional genomics experiment design and scientific communication",
+    "listingsUrl": "https://www.nygenome.org/careers/open-positions-training-opportunities/",
+    "featured": {
+      "position": "Grant Writer / Staff Scientist, Vickovic Lab",
+      "description": "NYC staff scientist role preparing grants and scientific communications for spatial/functional genomics research in the Vicković Lab (SilkRoad job 807).",
+      "responsibilities": "Lead preparation/project management of individual and multi-PI proposals; advise on grantsmanship; coordinate writing timelines; edit manuscripts and progress reports; help design/plan functional genomics experiments; assist with analysis and figure prep for sequencing, microscopy, and related data.",
+      "qualifications": "PhD in genetics, genomics, cancer biology, neuroscience, or related field; 5+ years research experience including grant writing; exceptional scientific writing; applied statistics for power/metrics; strong project management. Salary listed ~$62,000–$78,000; visa sponsorship eligible.",
+      "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/Jobs/807"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Eli Lilly and Company",
+    "companyType": "Global pharmaceutical company (Discovery Technologies)",
+    "mission": "Build next-generation spatial biology and long-read genomics platforms that turn tissue molecular maps into oncology discovery decisions.",
+    "location": "New York, NY",
+    "spatialFocus": "Visium HD, CosMx, Xenium; spatial proteomics integration; tissue processing for FFPE/fresh-frozen oncology samples",
+    "listingsUrl": "https://careers.lilly.com/",
+    "featured": {
+      "position": "Scientific Lead, Molecular Characterization (Spatial Transcriptomics)",
+      "description": "NYC scientific lead developing, optimizing, and scaling spatial transcriptomics and multimodal spatial workflows for Lilly Oncology discovery.",
+      "responsibilities": "Lead Visium HD / CosMx / Xenium workflow development; integrate spatial transcriptomics with spatial proteomics and single-cell data; set tissue-processing standards; partner on image analysis (QuPath/HALO); evaluate emerging spatial platforms for internalization.",
+      "qualifications": "Deep hands-on spatial transcriptomics expertise; NGS workflow automation experience; entrepreneurial approach to emerging tools; collaboration with oncology, histology, automation, and informatics teams. Confirm full requirements on the Lilly posting.",
+      "applyUrl": "https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Tempus",
+    "companyType": "Precision medicine / multimodal healthcare AI company",
+    "mission": "Use large clinico-genomic libraries and patient-derived models to discover cancer targets — increasingly informed by spatial and tissue-context biology in discovery science.",
+    "location": "NYC / SF (see posting)",
+    "spatialFocus": "Tissue-context cancer target discovery using clinico-genomic + functional/organoid assays",
+    "listingsUrl": "https://www.tempus.com/careers/",
+    "featured": {
+      "position": "Sr Scientist II, Computational Discovery Science",
+      "description": "Senior computational discovery role identifying cancer targets from Tempus multimodal data and PDO assays (Workday JR202600909).",
+      "responsibilities": "Build/apply computational discovery methods; integrate clinico-genomic and functional datasets; collaborate with AI/ML and biology teams; present to pharma/biotech partners.",
+      "qualifications": "Advanced computational discovery / oncology background; multimodal data experience; strong partner-facing communication. Compensation band listed ~$145,000–$190,000 for NYC/SF.",
+      "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Memorial Sloan Kettering Cancer Center",
+    "companyType": "Academic cancer center (NYC)",
+    "mission": "Map tumor–immune architecture with spatial and single-cell methods that inform surgical oncology translation.",
+    "location": "New York, NY (onsite)",
+    "spatialFocus": "Spatial transcriptomics / single-cell computational methods in cancer immunology",
+    "listingsUrl": "https://careers.mskcc.org/",
+    "featured": {
+      "position": "Senior Computational Biologist I, Center for Molecular Oncology",
+      "description": "Computational biologist role in MSK’s Center for Molecular Oncology focused on liquid biopsy, clonal hematopoiesis, and translational cancer genomics methods (Workday 102253) — complementary to spatial TIME programs across MSK.",
+      "responsibilities": "Develop/apply computational methods for cancer genomics and liquid biopsy; analyze large NGS cohorts; collaborate with molecular oncology investigators; communicate methods and findings clearly.",
+      "qualifications": "Computational biology / bioinformatics background in cancer genomics; Python/R proficiency; collaborative translational research experience. Confirm details on Workday.",
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1"
     },
     "postedBy": null
   }
