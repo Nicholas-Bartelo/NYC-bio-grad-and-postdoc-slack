@@ -33,7 +33,7 @@ import {
   resetChannelKeys,
   savePostedHistory,
 } from "./lib/posted-history.mjs";
-import { validateApplyUrl } from "./lib/safe-url.mjs";
+import { validateApplyUrl, validateHttpsUrl } from "./lib/safe-url.mjs";
 import { postToSlack } from "./lib/slack-post.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -157,7 +157,8 @@ function normalizeItem(item) {
   if (!featuredApplyRaw || !listingsRaw) return null;
 
   const featuredUrl = validateApplyUrl(featuredApplyRaw);
-  const listingsUrl = validateApplyUrl(listingsRaw);
+  // Listings hubs may be board homepages; applyUrl may not.
+  const listingsUrl = validateHttpsUrl(listingsRaw);
   if (!featuredUrl.ok || !listingsUrl.ok) return null;
 
   // Featured JD must be a specific posting, not the same careers board URL.

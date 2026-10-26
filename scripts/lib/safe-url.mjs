@@ -36,6 +36,19 @@ export function isJobBoardHomepage(url) {
     return false;
   }
 
+  // Query params that usually identify a single Greenhouse/Lever/etc. posting.
+  const params = url.searchParams;
+  if (
+    params.get("gh_jid") ||
+    params.get("gh_jid ") ||
+    params.get("jobId") ||
+    params.get("job_id") ||
+    params.get("reqid") ||
+    params.get("reqId")
+  ) {
+    return false;
+  }
+
   // Generic company careers hubs with no job id/slug depth.
   const boardish = new Set([
     "careers",
