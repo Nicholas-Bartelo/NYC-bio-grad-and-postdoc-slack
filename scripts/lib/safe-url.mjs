@@ -60,9 +60,10 @@ export function isJobBoardHomepage(url) {
 }
 
 /**
- * @returns {{ ok: true, href: string } | { ok: false, reason: string }}
+ * Basic https URL checks (used for careers listing hubs and apply links).
+ * @returns {{ ok: true, href: string, url: URL } | { ok: false, reason: string }}
  */
-export function validateApplyUrl(raw) {
+export function validateHttpsUrl(raw) {
   if (typeof raw !== "string" || raw.trim() === "") {
     return { ok: false, reason: "missing_url" };
   }
@@ -85,8 +86,18 @@ export function validateApplyUrl(raw) {
   if (BLOCKED_HOST_SUFFIXES.some((s) => host === s || host.endsWith(`.${s}`))) {
     return { ok: false, reason: "blocked_shortener" };
   }
-  if (isJobBoardHomepage(url)) {
+  return { ok: true, href: url.toString(), url };
+}
+
+/**
+ * Featured apply link: must be a specific job posting, not a board homepage.
+ * @returns {{ ok: true, href: string } | { ok: false, reason: string }}
+ */
+export function validateApplyUrl(raw) {
+  const base = validateHttpsUrl(raw);
+  if (!base.ok) return base;
+  if (isJobBoardHomepage(base.url)) {
     return { ok: false, reason: "board_homepage_not_specific_job" };
   }
-  return { ok: true, href: url.toString() };
+  return { ok: true, href: base.href };
 }
