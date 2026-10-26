@@ -334,19 +334,20 @@ function formatMessage(picked, channel, date, { index, total } = {}) {
 }
 
 async function postChannel(channel, date, history) {
-  // Default: Incoming Webhooks (reliable app posts). User-token posting is
-  // opt-in via SLACK_PREFER_USER_TOKEN=1 — otherwise posts can silently go out
-  // as your Slack user while webhook/app messages only appear in some channels.
-  const preferUser = process.env.SLACK_PREFER_USER_TOKEN === "1";
-  const userToken = preferUser
-    ? process.env.SLACK_USER_TOKEN?.trim()
-    : undefined;
+  // Prefer SLACK_USER_TOKEN so posts appear as you (editable in Slack).
+  // Incoming Webhooks remain as fallback when the user token cannot post
+  // (e.g. not in the channel / missing scopes). Set
+  // SLACK_PREFER_WEBHOOK=1 to force app/webhook delivery instead.
+  const preferWebhook = process.env.SLACK_PREFER_WEBHOOK === "1";
+  const userToken = preferWebhook
+    ? undefined
+    : process.env.SLACK_USER_TOKEN?.trim();
   const webhook = process.env[channel.webhookEnv]?.trim();
   if (!userToken && !webhook) {
     return {
       channel: channel.slackChannel,
       posted: false,
-      reason: `missing_secret:${channel.webhookEnv}`,
+      reason: `missing_secret:SLACK_USER_TOKEN_or_${channel.webhookEnv}`,
     };
   }
 
