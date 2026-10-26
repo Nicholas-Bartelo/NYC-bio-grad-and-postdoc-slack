@@ -13,9 +13,10 @@
         "HHMI Janelia Research Campus||Postdoctoral Scientist — Lincoln Lab (fluorophores / super-resolution imaging)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598",
         "Biohub||Computational Biologist, Immune Cell Repolarization (Biohub NY)||https://job-boards.greenhouse.io/biohub/jobs/8140482",
         "Memorial Sloan Kettering Cancer Center||Senior Computational Biologist I, Center for Molecular Oncology (cfDNA / MSK-ACCESS)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1",
-        "Volastra Therapeutics||Scientist / Senior Scientist, Computational Biology||https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003"
+        "Volastra Therapeutics||Scientist / Senior Scientist, Computational Biology||https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003",
+        "New York Genome Center||Postdoctoral Research Associate in Statistical Genetics (Singh Lab)||https://jobs.silkroad.com/NYGenome/Careers/jobs/786"
       ],
-      "lastPostedDate": "2026-10-23",
+      "lastPostedDate": "2026-10-25",
       "entries": [
         {
           "key": "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
@@ -120,6 +121,14 @@
           "applyUrl": "https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003",
           "postedAt": "2026-10-23T14:27:55.586Z",
           "date": "2026-10-23"
+        },
+        {
+          "key": "New York Genome Center||Postdoctoral Research Associate in Statistical Genetics (Singh Lab)||https://jobs.silkroad.com/NYGenome/Careers/jobs/786",
+          "company": "New York Genome Center",
+          "position": "Postdoctoral Research Associate in Statistical Genetics (Singh Lab)",
+          "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/jobs/786",
+          "postedAt": "2026-10-26T01:33:52.241Z",
+          "date": "2026-10-25"
         }
       ],
       "cycleResetAt": null
@@ -136,9 +145,10 @@
         "RA Capital Management||Applied AI Scientist||https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/5427346008",
         "Inductive Bio (via Lux Capital Job Board)||Member of Technical Staff — Machine Learning||https://jobs.luxcapital.com/companies/inductive-bio-2/jobs/93052729-mts-machine-learning",
         "LatchBio (via Lux Capital Job Board)||Member of Technical Staff, Cell Therapy||https://jobs.luxcapital.com/companies/latchbio/jobs/92741263-member-of-technical-staff-cell-gene-therapy",
-        "a16z Bio + Health||Bio + Health investing / platform opportunities (open roles board)||https://boards.greenhouse.io/a16z"
+        "a16z Bio + Health||Bio + Health investing / platform opportunities (open roles board)||https://boards.greenhouse.io/a16z",
+        "Strand Therapeutics||Associate Scientist II, Analytical Development & Operations||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004"
       ],
-      "lastPostedDate": "2026-10-23",
+      "lastPostedDate": "2026-10-25",
       "entries": [
         {
           "key": "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
@@ -243,6 +253,14 @@
           "applyUrl": "https://boards.greenhouse.io/a16z",
           "postedAt": "2026-10-23T14:27:56.298Z",
           "date": "2026-10-23"
+        },
+        {
+          "key": "Strand Therapeutics||Associate Scientist II, Analytical Development & Operations||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004",
+          "company": "Strand Therapeutics",
+          "position": "Associate Scientist II, Analytical Development & Operations",
+          "applyUrl": "https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004",
+          "postedAt": "2026-10-26T01:33:52.689Z",
+          "date": "2026-10-25"
         }
       ],
       "cycleResetAt": null
@@ -258,9 +276,10 @@
         "AstraZeneca||12-Month University Industrial Placement Student: Biosciences / Oncology (Cambridge, UK)||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Biosciences_R-258891",
         "Novartis||PRISM Postbaccalaureate Research InternShip & Mentoring (2-year)||https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs",
         "Regeneron||2027 Co-op Data Science & Computational Biology (Research)||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/XMLNAME-2027-Co-op-Data-Science---Computational-Biology--Research-_R51032-1",
-        "Regeneron||Scientist — Precision Medicine Quantitative Biomarker Sciences||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Scientist--Precision-Medicine-Quantitative-Biomarker-Sciences_R49653"
+        "Regeneron||Scientist — Precision Medicine Quantitative Biomarker Sciences||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Scientist--Precision-Medicine-Quantitative-Biomarker-Sciences_R49653",
+        "Eli Lilly and Company||Scientific Lead, Molecular Characterization (Spatial Biology) — New York, NY||https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/"
       ],
-      "lastPostedDate": "2026-10-21",
+      "lastPostedDate": "2026-10-25",
       "entries": [
         {
           "key": "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
@@ -357,6 +376,14 @@
           "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Scientist--Precision-Medicine-Quantitative-Biomarker-Sciences_R49653",
           "postedAt": "2026-10-21T14:33:15.368Z",
           "date": "2026-10-21"
+        },
+        {
+          "key": "Eli Lilly and Company||Scientific Lead, Molecular Characterization (Spatial Biology) — New York, NY||https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/",
+          "company": "Eli Lilly and Company",
+          "position": "Scientific Lead, Molecular Characterization (Spatial Biology) — New York, NY",
+          "applyUrl": "https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/",
+          "postedAt": "2026-10-26T01:33:53.004Z",
+          "date": "2026-10-25"
         }
       ],
       "cycleResetAt": null
@@ -372,9 +399,10 @@
         "Y Combinator||YC Batch Application (founder program)||https://www.ycombinator.com/apply",
         "NSF I-Corps||I-Corps Teams / Hub participant (customer-discovery training)||https://www.nsf.gov/funding/initiatives/i-corps",
         "Activate Fellowship||Activate Fellowship applicant (scientist-founder)||https://www.activate.org/apply",
-        "Breakthrough Energy Fellows||Breakthrough Energy Fellows — Explorer / Innovator applicant||https://www.breakthroughenergy.org/fellows"
+        "Breakthrough Energy Fellows||Breakthrough Energy Fellows — Explorer / Innovator applicant||https://www.breakthroughenergy.org/fellows",
+        "Cartography Biosciences||Associate Scientist, Pharmacology||https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology"
       ],
-      "lastPostedDate": "2026-10-21",
+      "lastPostedDate": "2026-10-25",
       "entries": [
         {
           "key": "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
@@ -471,6 +499,14 @@
           "applyUrl": "https://www.breakthroughenergy.org/fellows",
           "postedAt": "2026-10-21T14:33:17.973Z",
           "date": "2026-10-21"
+        },
+        {
+          "key": "Cartography Biosciences||Associate Scientist, Pharmacology||https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology",
+          "company": "Cartography Biosciences",
+          "position": "Associate Scientist, Pharmacology",
+          "applyUrl": "https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology",
+          "postedAt": "2026-10-26T01:33:53.713Z",
+          "date": "2026-10-25"
         }
       ],
       "cycleResetAt": null
@@ -486,9 +522,11 @@
         "10x Genomics||Spatial Science & Technology Advisor, New York||https://jobs.sandscapitalventures.com/companies/10x-genomics/jobs/41252112-spatial-science-technology-advisor-new-york",
         "MSK Single-cell Analytics Innovation Lab (SAIL)||Computational Biologist (Single-cell Genomics / ML)||https://sail.mskcc.org/jobs/computational-biologist-single-cell-genomics-ml/",
         "Biohub||Computational Biologist, Immune Cell Repolarization (spatial / multi-omics)||https://job-boards.greenhouse.io/biohub/jobs/8140482",
-        "Recursion||Recursion careers — ML / Computational Biology openings||https://job-boards.greenhouse.io/recursionpharmaceuticals"
+        "Recursion||Recursion careers — ML / Computational Biology openings||https://job-boards.greenhouse.io/recursionpharmaceuticals",
+        "New York Genome Center||Grant Writer / Staff Scientist, Vickovic Lab||https://jobs.silkroad.com/NYGenome/Careers/Jobs/807",
+        "Tempus||Sr Scientist II, Computational Discovery Science||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909"
       ],
-      "lastPostedDate": "2026-10-21",
+      "lastPostedDate": "2026-10-25",
       "entries": [
         {
           "key": "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
@@ -601,6 +639,22 @@
           "applyUrl": "https://job-boards.greenhouse.io/recursionpharmaceuticals",
           "postedAt": "2026-10-21T14:13:10.716Z",
           "date": "2026-10-21"
+        },
+        {
+          "key": "New York Genome Center||Grant Writer / Staff Scientist, Vickovic Lab||https://jobs.silkroad.com/NYGenome/Careers/Jobs/807",
+          "company": "New York Genome Center",
+          "position": "Grant Writer / Staff Scientist, Vickovic Lab",
+          "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/Jobs/807",
+          "postedAt": "2026-10-26T01:33:54.788Z",
+          "date": "2026-10-25"
+        },
+        {
+          "key": "Tempus||Sr Scientist II, Computational Discovery Science||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909",
+          "company": "Tempus",
+          "position": "Sr Scientist II, Computational Discovery Science",
+          "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909",
+          "postedAt": "2026-10-26T01:33:55.528Z",
+          "date": "2026-10-25"
         }
       ],
       "cycleResetAt": null
