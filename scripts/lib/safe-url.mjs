@@ -13,6 +13,53 @@ const BLOCKED_HOST_SUFFIXES = [
 ];
 
 /**
+ * Reject career-board homepages used as if they were a single job JD.
+ * Featured applyUrl must point at one specific role.
+ */
+export function isJobBoardHomepage(url) {
+  const host = url.hostname.toLowerCase();
+  const path = url.pathname.replace(/\/+$/, "") || "/";
+  const parts = path.split("/").filter(Boolean);
+
+  if (host === "boards.greenhouse.io" || host === "job-boards.greenhouse.io") {
+    // Accept only /{board}/jobs/{numericId} (optional trailing junk).
+    const jobsIdx = parts.indexOf("jobs");
+    if (jobsIdx >= 1 && parts[jobsIdx + 1] && /^\d+$/.test(parts[jobsIdx + 1])) {
+      return false;
+    }
+    return true;
+  }
+
+  if (host.endsWith("ashbyhq.com") || host === "jobs.ashbyhq.com") {
+    // Accept /{org}/{job-posting-slug}; reject /{org} alone.
+    if (parts.length < 2) return true;
+    return false;
+  }
+
+  // Generic company careers hubs with no job id/slug depth.
+  const boardish = new Set([
+    "careers",
+    "jobs",
+    "join",
+    "openings",
+    "open-positions",
+    "opportunities",
+    "about",
+  ]);
+  if (parts.length === 0) return true;
+  if (parts.length === 1 && boardish.has(parts[0])) return true;
+  if (
+    parts.length === 2 &&
+    boardish.has(parts[0]) &&
+    ["jobs", "openings", "open-positions", "opportunities"].includes(parts[1])
+  ) {
+    return true;
+  }
+
+  return false;
+}
+
+/**
  * @returns {{ ok: true, href: string } | { ok: false, reason: string }}
  */
 export function validateApplyUrl(raw) {
@@ -37,6 +84,9 @@ export function validateApplyUrl(raw) {
   }
   if (BLOCKED_HOST_SUFFIXES.some((s) => host === s || host.endsWith(`.${s}`))) {
     return { ok: false, reason: "blocked_shortener" };
+  }
+  if (isJobBoardHomepage(url)) {
+    return { ok: false, reason: "board_homepage_not_specific_job" };
   }
   return { ok: true, href: url.toString() };
 }

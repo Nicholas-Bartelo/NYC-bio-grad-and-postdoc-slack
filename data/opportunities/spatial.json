@@ -144,22 +144,6 @@
     "postedBy": null
   },
   {
-    "company": "Recursion",
-    "companyType": "AI drug discovery / cellular imaging biotech",
-    "mission": "Decode biology to industrialize drug discovery using high-dimensional cellular imaging maps and machine learning.",
-    "location": "Remote / US roles vary by posting",
-    "spatialFocus": "High-content cellular imaging / phenomics (spatial cell biology)",
-    "listingsUrl": "https://www.recursion.com/careers",
-    "featured": {
-      "position": "Recursion careers — ML / Computational Biology openings",
-      "description": "Open Recursion roles spanning machine learning and computational biology on large cellular imaging and multi-omics datasets. Pick the current JD that matches your level on the Greenhouse board.",
-      "responsibilities": "Role-dependent: build models on imaging/omics datasets; partner with biology and platform teams; ship reproducible ML pipelines for discovery.",
-      "qualifications": "Strong ML or computational biology background; imaging or systems biology experience preferred. Confirm the specific posting and location on Recursion careers / Greenhouse.",
-      "applyUrl": "https://job-boards.greenhouse.io/recursionpharmaceuticals"
-    },
-    "postedBy": null
-  },
-  {
     "company": "New York Genome Center",
     "companyType": "Nonprofit genomic research institute (NYC)",
     "mission": "Advance spatial and functional genomics — the Vicković Lab develops and applies spatial genomics technologies to map tissue architecture and disease.",
@@ -192,34 +176,18 @@
     "postedBy": null
   },
   {
-    "company": "Tempus",
-    "companyType": "Precision medicine / multimodal healthcare AI company",
-    "mission": "Use large clinico-genomic libraries and patient-derived models to discover cancer targets — increasingly informed by spatial and tissue-context biology in discovery science.",
-    "location": "NYC / SF (see posting)",
-    "spatialFocus": "Tissue-context cancer target discovery using clinico-genomic + functional/organoid assays",
-    "listingsUrl": "https://www.tempus.com/careers/",
-    "featured": {
-      "position": "Sr Scientist II, Computational Discovery Science",
-      "description": "Senior computational discovery role identifying cancer targets from Tempus multimodal data and PDO assays (Workday JR202600909).",
-      "responsibilities": "Build/apply computational discovery methods; integrate clinico-genomic and functional datasets; collaborate with AI/ML and biology teams; present to pharma/biotech partners.",
-      "qualifications": "Advanced computational discovery / oncology background; multimodal data experience; strong partner-facing communication. Compensation band listed ~$145,000–$190,000 for NYC/SF.",
-      "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Memorial Sloan Kettering Cancer Center",
-    "companyType": "Academic cancer center (NYC)",
-    "mission": "Map tumor–immune architecture with spatial and single-cell methods that inform surgical oncology translation.",
+    "company": "New York Genome Center",
+    "companyType": "Nonprofit genomic research institute (NYC)",
+    "mission": "Advance genome technologies — including single-cell and spatial assays (Visium HD, Xenium, snRNA-Seq, multiome) — that power biomedical discovery.",
     "location": "New York, NY (onsite)",
-    "spatialFocus": "Spatial transcriptomics / single-cell computational methods in cancer immunology",
-    "listingsUrl": "https://careers.mskcc.org/",
+    "spatialFocus": "Visium HD, Xenium, snRNA-Seq / multiome assay development and execution",
+    "listingsUrl": "https://www.nygenome.org/careers/open-positions-training-opportunities/",
     "featured": {
-      "position": "Senior Computational Biologist I, Center for Molecular Oncology",
-      "description": "Computational biologist role in MSK’s Center for Molecular Oncology focused on liquid biopsy, clonal hematopoiesis, and translational cancer genomics methods (Workday 102253) — complementary to spatial TIME programs across MSK.",
-      "responsibilities": "Develop/apply computational methods for cancer genomics and liquid biopsy; analyze large NGS cohorts; collaborate with molecular oncology investigators; communicate methods and findings clearly.",
-      "qualifications": "Computational biology / bioinformatics background in cancer genomics; Python/R proficiency; collaborative translational research experience. Confirm details on Workday.",
-      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1"
+      "position": "Associate Scientist I, Technology Development",
+      "description": "NYC wet-lab Associate Scientist I supporting technology development for single-cell and spatial genomics assays including Visium HD and Xenium (SilkRoad job 808).",
+      "responsibilities": "Perform RNA-seq sample QC, library prep, and quantification; run single-cell and spatial assays on tissue and cell/nuclei suspensions (snRNA-Seq, snMultiome, ASAP-Seq, DLP+, Visium HD, Xenium, and related methods); support protocol development and troubleshooting; maintain rigorous experimental records.",
+      "qualifications": "Hands-on molecular biology / NGS library-prep experience; interest in single-cell and spatial genomics technology development; ability to work carefully in a core technology setting. Confirm full requirements and compensation on the SilkRoad posting.",
+      "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/jobs/808"
     },
     "postedBy": null
   }

@@ -318,8 +318,7 @@ function formatMessage(picked, channel, date, { index, total } = {}) {
     "",
     `*Qualifications (this role):* ${picked.qualifications}`,
     "",
-    `*Apply to this specific role:* <${picked.applyUrl}|${picked.position}>`,
-    `*Browse all open positions (listings page — many roles, not one job):* <${picked.listingsUrl}|${picked.company} careers / open roles>`,
+    `*Apply:* <${picked.applyUrl}|${picked.position}>`,
   );
 
   const by = formatPostedBy(picked.postedBy);
@@ -334,13 +333,19 @@ function formatMessage(picked, channel, date, { index, total } = {}) {
 }
 
 async function postChannel(channel, date, history) {
-  const userToken = process.env.SLACK_USER_TOKEN?.trim();
+  // Default: Incoming Webhooks (reliable app posts). User-token posting is
+  // opt-in via SLACK_PREFER_USER_TOKEN=1 — otherwise posts can silently go out
+  // as your Slack user while webhook/app messages only appear in some channels.
+  const preferUser = process.env.SLACK_PREFER_USER_TOKEN === "1";
+  const userToken = preferUser
+    ? process.env.SLACK_USER_TOKEN?.trim()
+    : undefined;
   const webhook = process.env[channel.webhookEnv]?.trim();
   if (!userToken && !webhook) {
     return {
       channel: channel.slackChannel,
       posted: false,
-      reason: `missing_secret:SLACK_USER_TOKEN_or_${channel.webhookEnv}`,
+      reason: `missing_secret:${channel.webhookEnv}`,
     };
   }
 
