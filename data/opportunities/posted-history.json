@@ -14,7 +14,8 @@
         "Biohub||Computational Biologist, Immune Cell Repolarization (Biohub NY)||https://job-boards.greenhouse.io/biohub/jobs/8140482",
         "Memorial Sloan Kettering Cancer Center||Senior Computational Biologist I, Center for Molecular Oncology (cfDNA / MSK-ACCESS)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1",
         "Volastra Therapeutics||Scientist / Senior Scientist, Computational Biology||https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003",
-        "New York Genome Center||Postdoctoral Research Associate in Statistical Genetics (Singh Lab)||https://jobs.silkroad.com/NYGenome/Careers/jobs/786"
+        "New York Genome Center||Postdoctoral Research Associate in Statistical Genetics (Singh Lab)||https://jobs.silkroad.com/NYGenome/Careers/jobs/786",
+        "Memorial Sloan Kettering Cancer Center||Postdoctoral Fellow, Computational Biology in Cancer — Chan Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543"
       ],
       "lastPostedDate": "2026-10-25",
       "entries": [
@@ -129,6 +130,14 @@
           "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/jobs/786",
           "postedAt": "2026-10-26T01:33:52.241Z",
           "date": "2026-10-25"
+        },
+        {
+          "key": "Memorial Sloan Kettering Cancer Center||Postdoctoral Fellow, Computational Biology in Cancer — Chan Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543",
+          "company": "Memorial Sloan Kettering Cancer Center",
+          "position": "Postdoctoral Fellow, Computational Biology in Cancer — Chan Lab",
+          "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543",
+          "postedAt": "2026-10-26T01:43:54.348Z",
+          "date": "2026-10-25"
         }
       ],
       "cycleResetAt": null
@@ -146,7 +155,8 @@
         "Inductive Bio (via Lux Capital Job Board)||Member of Technical Staff — Machine Learning||https://jobs.luxcapital.com/companies/inductive-bio-2/jobs/93052729-mts-machine-learning",
         "LatchBio (via Lux Capital Job Board)||Member of Technical Staff, Cell Therapy||https://jobs.luxcapital.com/companies/latchbio/jobs/92741263-member-of-technical-staff-cell-gene-therapy",
         "a16z Bio + Health||Bio + Health investing / platform opportunities (open roles board)||https://boards.greenhouse.io/a16z",
-        "Strand Therapeutics||Associate Scientist II, Analytical Development & Operations||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004"
+        "Strand Therapeutics||Associate Scientist II, Analytical Development & Operations||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004",
+        "Cartography Biosciences (a16z portfolio)||Associate Scientist, Pharmacology||https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology"
       ],
       "lastPostedDate": "2026-10-25",
       "entries": [
@@ -261,6 +271,14 @@
           "applyUrl": "https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004",
           "postedAt": "2026-10-26T01:33:52.689Z",
           "date": "2026-10-25"
+        },
+        {
+          "key": "Cartography Biosciences (a16z portfolio)||Associate Scientist, Pharmacology||https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology",
+          "company": "Cartography Biosciences (a16z portfolio)",
+          "position": "Associate Scientist, Pharmacology",
+          "applyUrl": "https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology",
+          "postedAt": "2026-10-26T01:43:55.234Z",
+          "date": "2026-10-25"
         }
       ],
       "cycleResetAt": null
@@ -277,7 +295,8 @@
         "Novartis||PRISM Postbaccalaureate Research InternShip & Mentoring (2-year)||https://www.novartis.com/careers/early-careers/us-biomedical-research-internship-programs",
         "Regeneron||2027 Co-op Data Science & Computational Biology (Research)||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/XMLNAME-2027-Co-op-Data-Science---Computational-Biology--Research-_R51032-1",
         "Regeneron||Scientist — Precision Medicine Quantitative Biomarker Sciences||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Scientist--Precision-Medicine-Quantitative-Biomarker-Sciences_R49653",
-        "Eli Lilly and Company||Scientific Lead, Molecular Characterization (Spatial Biology) — New York, NY||https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/"
+        "Eli Lilly and Company||Scientific Lead, Molecular Characterization (Spatial Biology) — New York, NY||https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/",
+        "Tempus||Sr Scientist II, Computational Discovery Science||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909"
       ],
       "lastPostedDate": "2026-10-25",
       "entries": [
@@ -384,6 +403,14 @@
           "applyUrl": "https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/",
           "postedAt": "2026-10-26T01:33:53.004Z",
           "date": "2026-10-25"
+        },
+        {
+          "key": "Tempus||Sr Scientist II, Computational Discovery Science||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909",
+          "company": "Tempus",
+          "position": "Sr Scientist II, Computational Discovery Science",
+          "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909",
+          "postedAt": "2026-10-26T01:43:56.044Z",
+          "date": "2026-10-25"
         }
       ],
       "cycleResetAt": null
@@ -400,7 +427,8 @@
         "NSF I-Corps||I-Corps Teams / Hub participant (customer-discovery training)||https://www.nsf.gov/funding/initiatives/i-corps",
         "Activate Fellowship||Activate Fellowship applicant (scientist-founder)||https://www.activate.org/apply",
         "Breakthrough Energy Fellows||Breakthrough Energy Fellows — Explorer / Innovator applicant||https://www.breakthroughenergy.org/fellows",
-        "Cartography Biosciences||Associate Scientist, Pharmacology||https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology"
+        "Cartography Biosciences||Associate Scientist, Pharmacology||https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology",
+        "Strand Therapeutics||Associate Scientist II, Analytical Development & Operations||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004"
       ],
       "lastPostedDate": "2026-10-25",
       "entries": [
@@ -507,6 +535,14 @@
           "applyUrl": "https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology",
           "postedAt": "2026-10-26T01:33:53.713Z",
           "date": "2026-10-25"
+        },
+        {
+          "key": "Strand Therapeutics||Associate Scientist II, Analytical Development & Operations||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004",
+          "company": "Strand Therapeutics",
+          "position": "Associate Scientist II, Analytical Development & Operations",
+          "applyUrl": "https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004",
+          "postedAt": "2026-10-26T01:43:56.704Z",
+          "date": "2026-10-25"
         }
       ],
       "cycleResetAt": null
@@ -524,7 +560,9 @@
         "Biohub||Computational Biologist, Immune Cell Repolarization (spatial / multi-omics)||https://job-boards.greenhouse.io/biohub/jobs/8140482",
         "Recursion||Recursion careers — ML / Computational Biology openings||https://job-boards.greenhouse.io/recursionpharmaceuticals",
         "New York Genome Center||Grant Writer / Staff Scientist, Vickovic Lab||https://jobs.silkroad.com/NYGenome/Careers/Jobs/807",
-        "Tempus||Sr Scientist II, Computational Discovery Science||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909"
+        "Tempus||Sr Scientist II, Computational Discovery Science||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909",
+        "Eli Lilly and Company||Scientific Lead, Molecular Characterization (Spatial Transcriptomics)||https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/",
+        "Memorial Sloan Kettering Cancer Center||Senior Computational Biologist I, Center for Molecular Oncology||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1"
       ],
       "lastPostedDate": "2026-10-25",
       "entries": [
@@ -654,6 +692,22 @@
           "position": "Sr Scientist II, Computational Discovery Science",
           "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909",
           "postedAt": "2026-10-26T01:33:55.528Z",
+          "date": "2026-10-25"
+        },
+        {
+          "key": "Eli Lilly and Company||Scientific Lead, Molecular Characterization (Spatial Transcriptomics)||https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/",
+          "company": "Eli Lilly and Company",
+          "position": "Scientific Lead, Molecular Characterization (Spatial Transcriptomics)",
+          "applyUrl": "https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/",
+          "postedAt": "2026-10-26T01:43:57.284Z",
+          "date": "2026-10-25"
+        },
+        {
+          "key": "Memorial Sloan Kettering Cancer Center||Senior Computational Biologist I, Center for Molecular Oncology||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1",
+          "company": "Memorial Sloan Kettering Cancer Center",
+          "position": "Senior Computational Biologist I, Center for Molecular Oncology",
+          "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1",
+          "postedAt": "2026-10-26T01:43:57.826Z",
           "date": "2026-10-25"
         }
       ],
