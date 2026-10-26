@@ -3,22 +3,9 @@
   "channels": {
     "biotech": {
       "keys": [
-        "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
-        "New York Genome Center||Computational Biologist, Genomics Research||https://www.nygenome.org/careers/",
-        "HHMI Janelia Research Campus||Postdoctoral Scientist — Schulze Lab (systems neuroscience / behavioral ML / VR)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506",
-        "Memorial Sloan Kettering Cancer Center||Research Technician, Niethammer Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1",
-        "New York Genome Center||Postdoctoral Research Associate, Sanjana Lab||https://jobs.silkroad.com/NYGenome/Careers/jobs/737",
-        "New York Genome Center||Computational Biologist, Single Cell Genomics (Satija Lab)||https://jobs.silkroad.com/NYGenome/Careers/jobs/500",
-        "Addgene||Sr. Manager, Scientific Product Management||https://addgene.applytojob.com/apply/mntGDS7RZV/Sr-Manager-Scientific-Product-Management",
-        "HHMI Janelia Research Campus||Postdoctoral Scientist — Lincoln Lab (fluorophores / super-resolution imaging)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598",
-        "Biohub||Computational Biologist, Immune Cell Repolarization (Biohub NY)||https://job-boards.greenhouse.io/biohub/jobs/8140482",
-        "Memorial Sloan Kettering Cancer Center||Senior Computational Biologist I, Center for Molecular Oncology (cfDNA / MSK-ACCESS)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1",
-        "Volastra Therapeutics||Scientist / Senior Scientist, Computational Biology||https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003",
-        "New York Genome Center||Postdoctoral Research Associate in Statistical Genetics (Singh Lab)||https://jobs.silkroad.com/NYGenome/Careers/jobs/786",
-        "Memorial Sloan Kettering Cancer Center||Postdoctoral Fellow, Computational Biology in Cancer — Chan Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543",
-        "Tempus||Scientist II, Computational Biology, Pharma R&D||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Scientist-II--Computational-Biology--Pharma-R-D_JR202600994"
+        "Memorial Sloan Kettering Cancer Center||Postdoctoral Fellow, Computational Biology in Cancer — Chan Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543"
       ],
-      "lastPostedDate": "2026-10-25",
+      "lastPostedDate": "2026-10-26",
       "entries": [
         {
           "key": "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
@@ -147,9 +134,17 @@
           "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Scientist-II--Computational-Biology--Pharma-R-D_JR202600994",
           "postedAt": "2026-10-26T01:44:55.226Z",
           "date": "2026-10-25"
+        },
+        {
+          "key": "Memorial Sloan Kettering Cancer Center||Postdoctoral Fellow, Computational Biology in Cancer — Chan Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543",
+          "company": "Memorial Sloan Kettering Cancer Center",
+          "position": "Postdoctoral Fellow, Computational Biology in Cancer — Chan Lab",
+          "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543",
+          "postedAt": "2026-10-26T14:00:30.522Z",
+          "date": "2026-10-26"
         }
       ],
-      "cycleResetAt": null
+      "cycleResetAt": "2026-10-26T14:00:29.298Z"
     },
     "vc": {
       "keys": [
@@ -166,9 +161,10 @@
         "a16z Bio + Health||Bio + Health investing / platform opportunities (open roles board)||https://boards.greenhouse.io/a16z",
         "Strand Therapeutics||Associate Scientist II, Analytical Development & Operations||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004",
         "Cartography Biosciences (a16z portfolio)||Associate Scientist, Pharmacology||https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology",
-        "Mirai Bio (Flagship Pioneering)||Associate Scientist / Scientist I, In Vivo Pharmacology||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8654494002?gh_jid=8654494002"
+        "Mirai Bio (Flagship Pioneering)||Associate Scientist / Scientist I, In Vivo Pharmacology||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8654494002?gh_jid=8654494002",
+        "Flagship Pioneering (Protocos)||Research Associate II, Protein Sciences||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8882558002?gh_jid=8882558002"
       ],
-      "lastPostedDate": "2026-10-25",
+      "lastPostedDate": "2026-10-26",
       "entries": [
         {
           "key": "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
@@ -297,6 +293,14 @@
           "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8654494002?gh_jid=8654494002",
           "postedAt": "2026-10-26T01:44:57.493Z",
           "date": "2026-10-25"
+        },
+        {
+          "key": "Flagship Pioneering (Protocos)||Research Associate II, Protein Sciences||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8882558002?gh_jid=8882558002",
+          "company": "Flagship Pioneering (Protocos)",
+          "position": "Research Associate II, Protein Sciences",
+          "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8882558002?gh_jid=8882558002",
+          "postedAt": "2026-10-26T14:00:32.471Z",
+          "date": "2026-10-26"
         }
       ],
       "cycleResetAt": null
@@ -315,9 +319,10 @@
         "Regeneron||Scientist — Precision Medicine Quantitative Biomarker Sciences||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Scientist--Precision-Medicine-Quantitative-Biomarker-Sciences_R49653",
         "Eli Lilly and Company||Scientific Lead, Molecular Characterization (Spatial Biology) — New York, NY||https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/",
         "Tempus||Sr Scientist II, Computational Discovery Science||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909",
-        "Regeneron||Senior Scientist – Protein Expression Sciences (Antibody Discovery)||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Senior-Scientist---Protein-Expression-Sciences--Antibody-Discovery-_R48393"
+        "Regeneron||Senior Scientist – Protein Expression Sciences (Antibody Discovery)||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Senior-Scientist---Protein-Expression-Sciences--Antibody-Discovery-_R48393",
+        "Regeneron||Senior Quantitative Biomarker Scientist||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Senior-Quantitative-Biomarker-Scientist_R50738"
       ],
-      "lastPostedDate": "2026-10-25",
+      "lastPostedDate": "2026-10-26",
       "entries": [
         {
           "key": "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
@@ -438,6 +443,14 @@
           "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Senior-Scientist---Protein-Expression-Sciences--Antibody-Discovery-_R48393",
           "postedAt": "2026-10-26T01:44:58.362Z",
           "date": "2026-10-25"
+        },
+        {
+          "key": "Regeneron||Senior Quantitative Biomarker Scientist||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Senior-Quantitative-Biomarker-Scientist_R50738",
+          "company": "Regeneron",
+          "position": "Senior Quantitative Biomarker Scientist",
+          "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Senior-Quantitative-Biomarker-Scientist_R50738",
+          "postedAt": "2026-10-26T14:00:33.613Z",
+          "date": "2026-10-26"
         }
       ],
       "cycleResetAt": null
@@ -456,9 +469,10 @@
         "Breakthrough Energy Fellows||Breakthrough Energy Fellows — Explorer / Innovator applicant||https://www.breakthroughenergy.org/fellows",
         "Cartography Biosciences||Associate Scientist, Pharmacology||https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology",
         "Strand Therapeutics||Associate Scientist II, Analytical Development & Operations||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004",
-        "Flagship Pioneering (Protocos)||Research Associate II, Protein Sciences||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8882558002?gh_jid=8882558002"
+        "Flagship Pioneering (Protocos)||Research Associate II, Protein Sciences||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8882558002?gh_jid=8882558002",
+        "Mirai Bio (Flagship Pioneering)||Associate Scientist / Scientist I, In Vivo Pharmacology (Mirai Bio)||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8654494002?gh_jid=8654494002"
       ],
-      "lastPostedDate": "2026-10-25",
+      "lastPostedDate": "2026-10-26",
       "entries": [
         {
           "key": "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
@@ -579,15 +593,25 @@
           "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8882558002?gh_jid=8882558002",
           "postedAt": "2026-10-26T01:44:59.557Z",
           "date": "2026-10-25"
+        },
+        {
+          "key": "Mirai Bio (Flagship Pioneering)||Associate Scientist / Scientist I, In Vivo Pharmacology (Mirai Bio)||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8654494002?gh_jid=8654494002",
+          "company": "Mirai Bio (Flagship Pioneering)",
+          "position": "Associate Scientist / Scientist I, In Vivo Pharmacology (Mirai Bio)",
+          "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8654494002?gh_jid=8654494002",
+          "postedAt": "2026-10-26T14:00:36.912Z",
+          "date": "2026-10-26"
         }
       ],
       "cycleResetAt": null
     },
     "spatial": {
       "keys": [
-        "PathAI||Machine Learning Engineer III (Applied Research & Model Development)||https://www.pathai.com/careers/8786343002?gh_jid=8786343002"
+        "PathAI||Machine Learning Engineer III (Applied Research & Model Development)||https://www.pathai.com/careers/8786343002?gh_jid=8786343002",
+        "New York Genome Center||Associate Scientist I, Technology Development||https://jobs.silkroad.com/NYGenome/Careers/jobs/808",
+        "PathAI||Machine Learning Engineer II (Applied Research & Model Development)||https://www.pathai.com/careers/8696752002?gh_jid=8696752002"
       ],
-      "lastPostedDate": "2026-10-25",
+      "lastPostedDate": "2026-10-26",
       "entries": [
         {
           "key": "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
@@ -748,6 +772,22 @@
           "applyUrl": "https://www.pathai.com/careers/8786343002?gh_jid=8786343002",
           "postedAt": "2026-10-26T01:45:01.369Z",
           "date": "2026-10-25"
+        },
+        {
+          "key": "New York Genome Center||Associate Scientist I, Technology Development||https://jobs.silkroad.com/NYGenome/Careers/jobs/808",
+          "company": "New York Genome Center",
+          "position": "Associate Scientist I, Technology Development",
+          "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/jobs/808",
+          "postedAt": "2026-10-26T14:00:38.272Z",
+          "date": "2026-10-26"
+        },
+        {
+          "key": "PathAI||Machine Learning Engineer II (Applied Research & Model Development)||https://www.pathai.com/careers/8696752002?gh_jid=8696752002",
+          "company": "PathAI",
+          "position": "Machine Learning Engineer II (Applied Research & Model Development)",
+          "applyUrl": "https://www.pathai.com/careers/8696752002?gh_jid=8696752002",
+          "postedAt": "2026-10-26T14:00:38.806Z",
+          "date": "2026-10-26"
         }
       ],
       "cycleResetAt": "2026-10-26T01:45:00.792Z"
