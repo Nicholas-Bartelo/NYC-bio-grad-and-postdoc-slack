@@ -4,9 +4,10 @@
     "biotech": {
       "keys": [
         "Memorial Sloan Kettering Cancer Center||Postdoctoral Fellow, Computational Biology in Cancer — Chan Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543",
-        "Memorial Sloan Kettering Cancer Center||Senior Computational Biologist I, Center for Molecular Oncology (cfDNA / MSK-ACCESS)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1"
+        "Memorial Sloan Kettering Cancer Center||Senior Computational Biologist I, Center for Molecular Oncology (cfDNA / MSK-ACCESS)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1",
+        "Memorial Sloan Kettering Cancer Center||Research Technician, Niethammer Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1"
       ],
-      "lastPostedDate": "2026-10-27",
+      "lastPostedDate": "2026-10-28",
       "entries": [
         {
           "key": "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
@@ -151,15 +152,24 @@
           "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1",
           "postedAt": "2026-10-27T14:00:28.897Z",
           "date": "2026-10-27"
+        },
+        {
+          "key": "Memorial Sloan Kettering Cancer Center||Research Technician, Niethammer Lab||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1",
+          "company": "Memorial Sloan Kettering Cancer Center",
+          "position": "Research Technician, Niethammer Lab",
+          "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1",
+          "postedAt": "2026-10-28T14:00:37.607Z",
+          "date": "2026-10-28"
         }
       ],
       "cycleResetAt": "2026-10-26T14:00:29.298Z"
     },
     "vc": {
       "keys": [
-        "Flagship Pioneering||Origination Associate||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8885168002?gh_jid=8885168002"
+        "Flagship Pioneering||Origination Associate||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8885168002?gh_jid=8885168002",
+        "Strand Therapeutics||Associate Scientist II, Analytical Development & Operations||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004"
       ],
-      "lastPostedDate": "2026-10-27",
+      "lastPostedDate": "2026-10-28",
       "entries": [
         {
           "key": "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
@@ -304,15 +314,24 @@
           "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8885168002?gh_jid=8885168002",
           "postedAt": "2026-10-27T14:00:31.516Z",
           "date": "2026-10-27"
+        },
+        {
+          "key": "Strand Therapeutics||Associate Scientist II, Analytical Development & Operations||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004",
+          "company": "Strand Therapeutics",
+          "position": "Associate Scientist II, Analytical Development & Operations",
+          "applyUrl": "https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004",
+          "postedAt": "2026-10-28T14:00:38.098Z",
+          "date": "2026-10-28"
         }
       ],
       "cycleResetAt": "2026-10-27T14:00:28.898Z"
     },
     "pharma": {
       "keys": [
-        "AstraZeneca||12-Month University Industrial Placement Student: Computational Chemistry (Cambridge, UK)||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Computational-Chemistry_R-257921"
+        "AstraZeneca||12-Month University Industrial Placement Student: Computational Chemistry (Cambridge, UK)||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Computational-Chemistry_R-257921",
+        "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433"
       ],
-      "lastPostedDate": "2026-10-27",
+      "lastPostedDate": "2026-10-28",
       "entries": [
         {
           "key": "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
@@ -449,15 +468,24 @@
           "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Computational-Chemistry_R-257921",
           "postedAt": "2026-10-27T14:00:32.676Z",
           "date": "2026-10-27"
+        },
+        {
+          "key": "Bristol Myers Squibb||Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
+          "company": "Bristol Myers Squibb",
+          "position": "Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433",
+          "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433",
+          "postedAt": "2026-10-28T14:00:41.079Z",
+          "date": "2026-10-28"
         }
       ],
       "cycleResetAt": "2026-10-27T14:00:31.516Z"
     },
     "entrepreneurship": {
       "keys": [
-        "SOSV (IndieBio → SOSV NY / SOSV SF)||SOSV Startup Development Program application (rolling)||https://sosv.com/apply/sosv/"
+        "SOSV (IndieBio → SOSV NY / SOSV SF)||SOSV Startup Development Program application (rolling)||https://sosv.com/apply/sosv/",
+        "Activate Fellowship||Activate Fellowship applicant (scientist-founder)||https://www.activate.org/apply"
       ],
-      "lastPostedDate": "2026-10-27",
+      "lastPostedDate": "2026-10-28",
       "entries": [
         {
           "key": "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
@@ -594,6 +622,14 @@
           "applyUrl": "https://sosv.com/apply/sosv/",
           "postedAt": "2026-10-27T14:00:33.291Z",
           "date": "2026-10-27"
+        },
+        {
+          "key": "Activate Fellowship||Activate Fellowship applicant (scientist-founder)||https://www.activate.org/apply",
+          "company": "Activate Fellowship",
+          "position": "Activate Fellowship applicant (scientist-founder)",
+          "applyUrl": "https://www.activate.org/apply",
+          "postedAt": "2026-10-28T14:00:42.180Z",
+          "date": "2026-10-28"
         }
       ],
       "cycleResetAt": "2026-10-27T14:00:32.676Z"
@@ -604,9 +640,11 @@
         "New York Genome Center||Associate Scientist I, Technology Development||https://jobs.silkroad.com/NYGenome/Careers/jobs/808",
         "PathAI||Machine Learning Engineer II (Applied Research & Model Development)||https://www.pathai.com/careers/8696752002?gh_jid=8696752002",
         "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
-        "Eli Lilly and Company||Scientific Lead, Molecular Characterization (Spatial Transcriptomics)||https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/"
+        "Eli Lilly and Company||Scientific Lead, Molecular Characterization (Spatial Transcriptomics)||https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/",
+        "New York Genome Center||Grant Writer / Staff Scientist, Vickovic Lab||https://jobs.silkroad.com/NYGenome/Careers/Jobs/807",
+        "Icahn School of Medicine at Mount Sinai||Postdoctoral Fellow in Spatial Biology (Yuan Lab)||https://www.fundedscience.com/jobs/postdoctoral-fellow-in-spatial-biology-icahn-school-of-028abe"
       ],
-      "lastPostedDate": "2026-10-27",
+      "lastPostedDate": "2026-10-28",
       "entries": [
         {
           "key": "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
@@ -799,6 +837,22 @@
           "applyUrl": "https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/",
           "postedAt": "2026-10-27T14:00:34.806Z",
           "date": "2026-10-27"
+        },
+        {
+          "key": "New York Genome Center||Grant Writer / Staff Scientist, Vickovic Lab||https://jobs.silkroad.com/NYGenome/Careers/Jobs/807",
+          "company": "New York Genome Center",
+          "position": "Grant Writer / Staff Scientist, Vickovic Lab",
+          "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/Jobs/807",
+          "postedAt": "2026-10-28T14:00:43.929Z",
+          "date": "2026-10-28"
+        },
+        {
+          "key": "Icahn School of Medicine at Mount Sinai||Postdoctoral Fellow in Spatial Biology (Yuan Lab)||https://www.fundedscience.com/jobs/postdoctoral-fellow-in-spatial-biology-icahn-school-of-028abe",
+          "company": "Icahn School of Medicine at Mount Sinai",
+          "position": "Postdoctoral Fellow in Spatial Biology (Yuan Lab)",
+          "applyUrl": "https://www.fundedscience.com/jobs/postdoctoral-fellow-in-spatial-biology-icahn-school-of-028abe",
+          "postedAt": "2026-10-28T14:00:47.443Z",
+          "date": "2026-10-28"
         }
       ],
       "cycleResetAt": "2026-10-26T01:45:00.792Z"
