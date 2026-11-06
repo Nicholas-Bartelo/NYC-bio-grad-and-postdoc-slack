@@ -13,9 +13,10 @@
         "New York Genome Center||Postdoctoral Research Associate, Sanjana Lab||https://jobs.silkroad.com/NYGenome/Careers/jobs/737",
         "Biohub||Computational Biologist, Immune Cell Repolarization (Biohub NY)||https://job-boards.greenhouse.io/biohub/jobs/8140482",
         "Volastra Therapeutics||Scientist / Senior Scientist, Computational Biology||https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003",
-        "New York Genome Center||Postdoctoral Research Associate in Statistical Genetics (Singh Lab)||https://jobs.silkroad.com/NYGenome/Careers/jobs/786"
+        "New York Genome Center||Postdoctoral Research Associate in Statistical Genetics (Singh Lab)||https://jobs.silkroad.com/NYGenome/Careers/jobs/786",
+        "HHMI Janelia Research Campus||Postdoctoral Scientist — Lincoln Lab (fluorophores / super-resolution imaging)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598"
       ],
-      "lastPostedDate": "2026-11-05",
+      "lastPostedDate": "2026-11-06",
       "entries": [
         {
           "key": "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
@@ -232,6 +233,14 @@
           "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/jobs/786",
           "postedAt": "2026-11-05T15:00:27.010Z",
           "date": "2026-11-05"
+        },
+        {
+          "key": "HHMI Janelia Research Campus||Postdoctoral Scientist — Lincoln Lab (fluorophores / super-resolution imaging)||https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598",
+          "company": "HHMI Janelia Research Campus",
+          "position": "Postdoctoral Scientist — Lincoln Lab (fluorophores / super-resolution imaging)",
+          "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598",
+          "postedAt": "2026-11-06T15:00:26.160Z",
+          "date": "2026-11-06"
         }
       ],
       "cycleResetAt": "2026-10-26T14:00:29.298Z"
@@ -247,9 +256,10 @@
         "Cartography Biosciences (a16z portfolio)||Associate Scientist, Pharmacology||https://jobs.a16z.com/jobs/cartography-biosciences/7a9f381c-443a-4d51-9d47-cb5d46a9036d--associate-scientist-pharmacology",
         "Flagship Pioneering (Protocos)||Research Associate II, Protein Sciences||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8882558002?gh_jid=8882558002",
         "a16z (Andreessen Horowitz)||Partner 36, Communications Partner, Bio||https://a16z.com/about/jobs/?gh_jid=7998862003",
-        "RA Capital Management||TechAtlas Healthcare Associate||https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/4565087008"
+        "RA Capital Management||TechAtlas Healthcare Associate||https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/4565087008",
+        "Inductive Bio (via Lux Capital Job Board)||Member of Technical Staff — Machine Learning||https://jobs.luxcapital.com/companies/inductive-bio-2/jobs/93052729-mts-machine-learning"
       ],
-      "lastPostedDate": "2026-11-05",
+      "lastPostedDate": "2026-11-06",
       "entries": [
         {
           "key": "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
@@ -466,6 +476,14 @@
           "applyUrl": "https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/4565087008",
           "postedAt": "2026-11-05T15:00:28.167Z",
           "date": "2026-11-05"
+        },
+        {
+          "key": "Inductive Bio (via Lux Capital Job Board)||Member of Technical Staff — Machine Learning||https://jobs.luxcapital.com/companies/inductive-bio-2/jobs/93052729-mts-machine-learning",
+          "company": "Inductive Bio (via Lux Capital Job Board)",
+          "position": "Member of Technical Staff — Machine Learning",
+          "applyUrl": "https://jobs.luxcapital.com/companies/inductive-bio-2/jobs/93052729-mts-machine-learning",
+          "postedAt": "2026-11-06T15:00:35.755Z",
+          "date": "2026-11-06"
         }
       ],
       "cycleResetAt": "2026-10-27T14:00:28.898Z"
@@ -707,9 +725,10 @@
         "Origin Bio (YC)||Computational Biologist, Spatial Transcriptomics||https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics",
         "Epinoma (YC)||Therapeutic Research Associate||https://www.ycombinator.com/companies/epinoma/jobs/GRT7VJ4-therapeutic-research-associate",
         "Strand Therapeutics||Associate Scientist II, Analytical Development & Operations||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6226643004",
-        "NIH SEED (SBIR/STTR)||SBIR/STTR funding opportunity applicant||https://seed.nih.gov/small-business-funding/find-funding/sbir-sttr-funding-opportunities"
+        "NIH SEED (SBIR/STTR)||SBIR/STTR funding opportunity applicant||https://seed.nih.gov/small-business-funding/find-funding/sbir-sttr-funding-opportunities",
+        "NSF I-Corps||I-Corps Teams / Hub participant (customer-discovery training)||https://www.nsf.gov/funding/initiatives/i-corps"
       ],
-      "lastPostedDate": "2026-11-05",
+      "lastPostedDate": "2026-11-06",
       "entries": [
         {
           "key": "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
@@ -918,25 +937,23 @@
           "applyUrl": "https://seed.nih.gov/small-business-funding/find-funding/sbir-sttr-funding-opportunities",
           "postedAt": "2026-11-05T15:00:28.836Z",
           "date": "2026-11-05"
+        },
+        {
+          "key": "NSF I-Corps||I-Corps Teams / Hub participant (customer-discovery training)||https://www.nsf.gov/funding/initiatives/i-corps",
+          "company": "NSF I-Corps",
+          "position": "I-Corps Teams / Hub participant (customer-discovery training)",
+          "applyUrl": "https://www.nsf.gov/funding/initiatives/i-corps",
+          "postedAt": "2026-11-06T15:00:37.317Z",
+          "date": "2026-11-06"
         }
       ],
       "cycleResetAt": "2026-10-27T14:00:32.676Z"
     },
     "spatial": {
       "keys": [
-        "10x Genomics||Spatial Science & Technology Advisor, New York||https://jobs.sandscapitalventures.com/companies/10x-genomics/jobs/41252112-spatial-science-technology-advisor-new-york",
-        "Icahn School of Medicine at Mount Sinai||Postdoctoral Fellow in Spatial Biology (Yuan Lab)||https://www.fundedscience.com/jobs/postdoctoral-fellow-in-spatial-biology-icahn-school-of-028abe",
-        "Eli Lilly and Company||Scientific Lead, Molecular Characterization (Spatial Transcriptomics)||https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/",
-        "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
-        "Memorial Sloan Kettering Cancer Center||Post Doctoral Research Fellow — Computational Scientist, Biostatistics & Spatial Transcriptomics (101549)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549",
-        "Biohub||Computational Biologist, Immune Cell Repolarization (spatial / multi-omics)||https://job-boards.greenhouse.io/biohub/jobs/8140482",
-        "MSK Single-cell Analytics Innovation Lab (SAIL)||Computational Biologist (Single-cell Genomics / ML)||https://sail.mskcc.org/jobs/computational-biologist-single-cell-genomics-ml/",
-        "Origin Bio (YC)||Computational Biologist, Spatial Transcriptomics||https://www.ycombinator.com/companies/origin-bio/jobs/a7q1q8R-computational-biologist-spatial-transcriptomics",
-        "New York Genome Center||Associate Scientist I, Technology Development||https://jobs.silkroad.com/NYGenome/Careers/jobs/808",
-        "PathAI||Machine Learning Engineer II (Applied Research & Model Development)||https://www.pathai.com/careers/8696752002?gh_jid=8696752002",
-        "PathAI||Machine Learning Engineer III (Applied Research & Model Development)||https://www.pathai.com/careers/8786343002?gh_jid=8786343002"
+        "Biohub||Computational Biologist, Immune Cell Repolarization (spatial / multi-omics)||https://job-boards.greenhouse.io/biohub/jobs/8140482"
       ],
-      "lastPostedDate": "2026-11-05",
+      "lastPostedDate": "2026-11-06",
       "entries": [
         {
           "key": "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
@@ -1273,9 +1290,25 @@
           "applyUrl": "https://www.pathai.com/careers/8786343002?gh_jid=8786343002",
           "postedAt": "2026-11-05T15:00:29.790Z",
           "date": "2026-11-05"
+        },
+        {
+          "key": "New York Genome Center||Grant Writer / Staff Scientist, Vickovic Lab||https://jobs.silkroad.com/NYGenome/Careers/Jobs/807",
+          "company": "New York Genome Center",
+          "position": "Grant Writer / Staff Scientist, Vickovic Lab",
+          "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/Jobs/807",
+          "postedAt": "2026-11-06T15:00:38.270Z",
+          "date": "2026-11-06"
+        },
+        {
+          "key": "Biohub||Computational Biologist, Immune Cell Repolarization (spatial / multi-omics)||https://job-boards.greenhouse.io/biohub/jobs/8140482",
+          "company": "Biohub",
+          "position": "Computational Biologist, Immune Cell Repolarization (spatial / multi-omics)",
+          "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/8140482",
+          "postedAt": "2026-11-06T15:00:38.586Z",
+          "date": "2026-11-06"
         }
       ],
-      "cycleResetAt": "2026-10-31T14:00:53.997Z"
+      "cycleResetAt": "2026-11-06T15:00:38.270Z"
     }
   }
 }
