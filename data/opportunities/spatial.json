@@ -64,22 +64,6 @@
     "postedBy": null
   },
   {
-    "company": "10x Genomics",
-    "companyType": "Spatial / single-cell genomics technology company (industry)",
-    "mission": "Enable researchers to map biology in situ with spatial and single-cell platforms (e.g. Visium/Xenium workflows) and grow adoption of spatial multiomic approaches.",
-    "location": "New York, NY territory (remote within territory; major-airport access preferred)",
-    "spatialFocus": "Spatial technology applications (Visium/Xenium and related 10x spatial portfolio)",
-    "listingsUrl": "https://careers.10xgenomics.com/",
-    "featured": {
-      "position": "Spatial Science & Technology Advisor, New York",
-      "description": "Field technical advisor accelerating 10x Spatial sales in the New York territory — deep product/workflow expertise for spatial solutions and multiomic customer enablement.",
-      "responsibilities": "Partner with Spatial Sales and Marketing to accelerate deals and maximize revenue; run sales-support activities for current/future Spatial products; act as field technical expert positioning spatial workflows (and combinations with other 10x apps) for academic, government, and industrial accounts in the assigned territory.",
-      "qualifications": "Extensive histology and/or spatial workflow experience; NGS, immunology, cell biology, and molecular biology background; single-cell genomics and deep NGS experience valued; 5+ years commercial experience (sales/marketing/support) in life-science research tools preferred; overnight travel up to ~70%. Base pay range listed ~$111,000–$151,000 on the posting aggregator — confirm on 10x’s official apply flow.",
-      "applyUrl": "https://jobs.sandscapitalventures.com/companies/10x-genomics/jobs/41252112-spatial-science-technology-advisor-new-york"
-    },
-    "postedBy": null
-  },
-  {
     "company": "MSK Single-cell Analytics Innovation Lab (SAIL)",
     "companyType": "Academic computational biology lab at Memorial Sloan Kettering (NYC)",
     "mission": "Accelerate biomedical discovery by applying statistical and AI methods to novel spatial transcriptomics and single-cell genomics datasets from patients, models, and developmental systems.",
@@ -188,6 +172,54 @@
       "responsibilities": "Perform RNA-seq sample QC, library prep, and quantification; run single-cell and spatial assays on tissue and cell/nuclei suspensions (snRNA-Seq, snMultiome, ASAP-Seq, DLP+, Visium HD, Xenium, and related methods); support protocol development and troubleshooting; maintain rigorous experimental records.",
       "qualifications": "Hands-on molecular biology / NGS library-prep experience; interest in single-cell and spatial genomics technology development; ability to work carefully in a core technology setting. Confirm full requirements and compensation on the SilkRoad posting.",
       "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/jobs/808"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Biohub",
+    "companyType": "Nonprofit biomedical research institute (NYC onsite)",
+    "mission": "Develop next-generation spatiotemporal omics to resolve immune cell state dynamics and organization for better cell therapies.",
+    "location": "New York, NY (onsite)",
+    "spatialFocus": "Imaging-based synthetic spatial omics; multi-omics integration with sequencing",
+    "listingsUrl": "https://job-boards.greenhouse.io/biohub",
+    "featured": {
+      "position": "Postdoctoral Fellow / Scientist I, Synthetic Spatial Omics (Imaging Technology)",
+      "description": "CZ Biohub NY Laboratory of Synthetic Spatial Omics role building imaging-based multi-omics platforms for immune cell states in situ (Greenhouse 8174563).",
+      "responsibilities": "Develop and apply advanced imaging-based multi-omics; integrate with sequencing approaches; measure cellular functions in situ and identify molecular drivers of functional states.",
+      "qualifications": "2–4 years post-PhD (Scientist I) or postdoc-level experience in single-cell imaging and/or sequencing omics; creative technology-development mindset. NYC pay listed Postdoc $93,000 or Scientist I $120,000–$150,000.",
+      "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/8174563"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Memorial Sloan Kettering Cancer Center",
+    "companyType": "Academic cancer center (NYC)",
+    "mission": "Lead translational single-cell and spatial biology studies of gastric cancer immunology and evolution.",
+    "location": "New York, NY",
+    "spatialFocus": "Spatial transcriptomics, multiplex immunofluorescence, scRNA-seq co-registered with H&E",
+    "listingsUrl": "https://careers.mskcc.org/",
+    "featured": {
+      "position": "Research Scholar, Computational Oncology / Immuno-Oncology (Spatial & Single-cell)",
+      "description": "Computational research scholar analyzing longitudinal multimodal immune profiling including spatial transcriptomics (Workday 103031).",
+      "responsibilities": "Analyze scRNA-seq and spatial datasets linked to clinical annotations; collaborate with tumor immunology and computational oncology PIs; publish translational findings.",
+      "qualifications": "PhD in a quantitative discipline; single-cell/spatial omics experience in cancer preferred. Salary listed ~$75,000–$80,000.",
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Scholar--Computational-OncologyImmuno-Oncology_103031"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Memorial Sloan Kettering Cancer Center",
+    "companyType": "Academic cancer center (NYC)",
+    "mission": "Study tumor cell plasticity with single-cell and spatial genomics, cfDNA, and machine learning in the Chan Lab.",
+    "location": "New York, NY",
+    "spatialFocus": "Single-cell and spatial genomics of lineage plasticity",
+    "listingsUrl": "https://careers.mskcc.org/",
+    "featured": {
+      "position": "Postdoctoral Fellow, Computational Biology in Cancer — Chan Lab",
+      "description": "Computational postdoc integrating single-cell/spatial genomics and ML for lineage plasticity under therapeutic pressure (Workday 97543).",
+      "responsibilities": "Analyze longitudinal patient cohorts and preclinical models; map immune/treatment pressures on cell fate; develop computational methods; publish first-author work.",
+      "qualifications": "PhD in computational biology/bioinformatics/CS/statistics; Python and R; prior computational biology experience; ≥1 first-author paper. Salary listed ~$72,000–$87,000.",
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543"
     },
     "postedBy": null
   }

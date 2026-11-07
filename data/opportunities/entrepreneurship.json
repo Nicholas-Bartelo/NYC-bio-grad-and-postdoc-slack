@@ -112,20 +112,6 @@
     "postedBy": null
   },
   {
-    "company": "Mirai Bio (Flagship Pioneering)",
-    "companyType": "Early Flagship-founded genetic medicines startup",
-    "mission": "Make nucleic-acid delivery a strategic advantage by combining biodistribution data, ML-guided LNPs, and modular targeting for tissues beyond the liver.",
-    "listingsUrl": "https://www.flagshippioneering.com/careers/",
-    "featured": {
-      "position": "Associate Scientist / Scientist I, In Vivo Pharmacology (Mirai Bio)",
-      "description": "Startup translational biology role at Mirai Bio supporting in vivo evaluation of genomic medicine delivery technologies (Greenhouse 8654494002; Cambridge, MA).",
-      "responsibilities": "Run and help design rodent in vivo studies; characterize novel formulations with molecular/cell assays; troubleshoot independently; collaborate across translational and delivery teams.",
-      "qualifications": "Hands-on in vivo rodent experience and standard molecular/cell biology skills; ready for Scientist I independence. Salary range listed ~$96,000–$126,500.",
-      "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8654494002?gh_jid=8654494002"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Cartography Biosciences",
     "companyType": "Early clinical oncology biotech (T-cell engagers)",
     "mission": "Advance precision antibody therapies for solid tumors using atlas-scale single-cell data and logic-gated targeting (lead program CBI-1214 in Phase 1).",
@@ -164,6 +150,104 @@
       "responsibilities": "Molecular biology and protein expression/characterization; functional screening; clear data communication in a fast-paced startup team.",
       "qualifications": "Practical microbiology, cloning, and protein analysis experience; startup flexibility. Salary range listed ~$74,000–$93,500.",
       "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8882558002?gh_jid=8882558002"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Eikon Therapeutics",
+    "companyType": "Growth-stage biotech startup",
+    "mission": "Industrialize single-molecule imaging for drug discovery across intractable target classes.",
+    "listingsUrl": "https://www.eikontx.com/careers",
+    "featured": {
+      "position": "Senior Scientist 1, Neuroscience",
+      "description": "Hands-on neuroscience Senior Scientist I at a platform biotech in NYC (Greenhouse 5231432007).",
+      "responsibilities": "Target validation with cellular models and assays; cross-functional collaboration.",
+      "qualifications": "Advanced degree with deep neuroscience lab experience. Salary listed ~$143,000–$173,250.",
+      "applyUrl": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5231432007"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Biohub",
+    "companyType": "Research institute / translational science organization",
+    "mission": "Create spatial and immune-engineering technologies that can translate into therapeutic strategies.",
+    "listingsUrl": "https://job-boards.greenhouse.io/biohub",
+    "featured": {
+      "position": "Postdoctoral Fellow / Scientist I, T Cell Biology and Tissue Immunology",
+      "description": "Parsa Lab postdoc/Scientist I on tissue-context T cell biology (Greenhouse 8351080).",
+      "responsibilities": "Mechanistic T cell–microenvironment studies; collaborate on immune reprogramming concepts.",
+      "qualifications": "Immunology PhD-level training; NYC onsite. Pay listed Postdoc $93,000 or Scientist I $120,000–$150,000.",
+      "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/8351080"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Schrödinger",
+    "companyType": "Science-driven therapeutics and software company",
+    "mission": "Ship structure-enabled drug discovery capabilities used by biopharma and internal programs.",
+    "listingsUrl": "https://www.schrodinger.com/careers",
+    "featured": {
+      "position": "Senior / Principal Scientist, Structural Biology — Target Druggability & SBDD",
+      "description": "Structural biology scientist role spanning computation and experiment (Greenhouse 7822246003).",
+      "responsibilities": "Cryptic-site hypothesis generation; experimental structure strategy; stakeholder communication.",
+      "qualifications": "PhD structural biology/biophysics; SBDD experience. Base salary listed ~$120,000–$190,000.",
+      "applyUrl": "https://job-boards.greenhouse.io/schrdinger/jobs/7822246003"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Flagship Pioneering (FL111)",
+    "companyType": "Flagship-founded platform company",
+    "mission": "Build biochemistry and biophysical assay platforms that inform hit-to-lead optimization for novel modalities.",
+    "listingsUrl": "https://www.flagshippioneering.com/careers/",
+    "featured": {
+      "position": "Scientist I, Biochemistry & Lead Discovery",
+      "description": "Cambridge, MA lab scientist leading assay development, target engagement, and binding characterization (Greenhouse 8924618002).",
+      "responsibilities": "Develop biochemical/biophysical assays; run target engagement and binding studies for small molecules and heterobifunctionals; partner with chemistry and biology on hit-to-lead and MoA questions.",
+      "qualifications": "PhD + 0–2 years or MS + 8+ years in biochemistry/biophysics assay development. Confirm compensation on the Flagship Greenhouse posting.",
+      "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8924618002?gh_jid=8924618002"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Flagship Pioneering (FL132)",
+    "companyType": "Flagship-founded amyloid research platform company",
+    "mission": "Build an amyloid research platform spanning protein biophysics, chemical biology, and structural biology for amyloidogenic diseases.",
+    "listingsUrl": "https://www.flagshippioneering.com/careers/",
+    "featured": {
+      "position": "Principal Scientist, Structural Biology / Protein Biophysics",
+      "description": "Hands-on Principal Scientist producing assay-grade amyloid proteins and developing aggregation/structural assays (Greenhouse 8928133002).",
+      "responsibilities": "Produce amyloid proteins; develop and qualify aggregation and structural assays; characterize aggregates; set technical direction for the platform.",
+      "qualifications": "Strong protein biophysics/structural biology track record. Salary listed ~$163,000–$214,500.",
+      "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8928133002?gh_jid=8928133002"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Dyne Therapeutics",
+    "companyType": "Clinical-stage genetic medicine company (muscle disease)",
+    "mission": "Deliver oligonucleotide therapeutics to muscle using FORCE platform bioconjugates.",
+    "listingsUrl": "https://www.dyne-tx.com/careers/",
+    "featured": {
+      "position": "Scientist, Bioconjugation",
+      "description": "Waltham, MA scientist designing and characterizing novel bioconjugates for Dyne’s pipeline (Greenhouse 6167326004).",
+      "responsibilities": "Design, synthesize, purify, and characterize bioconjugates; apply ADC/AOC experience where relevant; collaborate across chemistry, protein engineering, and biology.",
+      "qualifications": "Bioconjugation chemistry experience; ADC/AOC a plus. MA pay listed ~$115,000–$140,000.",
+      "applyUrl": "https://job-boards.greenhouse.io/dynetherapeutics/jobs/6167326004"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Generate:Biomedicines",
+    "companyType": "Flagship-founded generative biology company",
+    "mission": "Create breakthrough therapeutics with generative biology spanning protein design and production technologies.",
+    "listingsUrl": "https://generatebiomedicines.com/open-positions",
+    "featured": {
+      "position": "Senior Scientist I, Biotherapeutic Production Technologies",
+      "description": "Andover, MA Senior Scientist I leading protein production and characterization for discovery/platform work (gh_jid 4710188006).",
+      "responsibilities": "Lead upstream expression strategy, mammalian/cell-free production, purification, and analytical characterization across modalities.",
+      "qualifications": "Experienced protein production scientist suited to independent IC leadership. Salary listed ~$125,000–$175,000.",
+      "applyUrl": "https://generatebiomedicines.com/open-positions?gh_jid=4710188006"
     },
     "postedBy": null
   }

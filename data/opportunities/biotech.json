@@ -166,5 +166,89 @@
       "applyUrl": "https://jobs.silkroad.com/NYGenome/Careers/jobs/786"
     },
     "postedBy": null
+  },
+  {
+    "company": "Biohub",
+    "companyType": "Nonprofit biomedical research institute (NYC onsite)",
+    "mission": "Investigate how T cells interact with tissue microenvironments to shape immune responses and enable tissue-specific immune reprogramming.",
+    "listingsUrl": "https://job-boards.greenhouse.io/biohub",
+    "featured": {
+      "position": "Postdoctoral Fellow / Scientist I, T Cell Biology and Tissue Immunology",
+      "description": "Onsite NYC Parsa Lab role studying T cell differentiation, function, and adaptation across tissues (Greenhouse 8351080).",
+      "responsibilities": "Design and execute experiments on T cell–tissue interactions; analyze cellular/molecular mechanisms across inflammatory settings; collaborate toward strategies for disease- and tissue-specific immune reprogramming; publish and present findings.",
+      "qualifications": "PhD-level training suited to T cell / tissue immunology; strong experimental immunology skills. NYC pay listed Postdoc $93,000 or Scientist I $120,000–$150,000.",
+      "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/8351080"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Eikon Therapeutics",
+    "companyType": "Biopharmaceutical company (single-molecule imaging drug discovery)",
+    "mission": "Discover treatments for life-threatening diseases using real-time molecular-resolution measurements of protein movement in living cells.",
+    "listingsUrl": "https://www.eikontx.com/careers",
+    "featured": {
+      "position": "Senior Scientist 1, Neuroscience",
+      "description": "NYC Senior Scientist I identifying and validating novel Parkinson’s disease targets with complex cellular models and assays (Greenhouse 5231432007).",
+      "responsibilities": "Develop cellular models and cell-based/biochemical assays for target validation; collaborate across biology, in vivo pharmacology, and chemistry; advance neuroscience discovery programs.",
+      "qualifications": "Advanced degree plus substantial neuroscience/cell biology experience; primary neuron/glia culture proficiency. Salary listed ~$143,000–$173,250.",
+      "applyUrl": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5231432007"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Memorial Sloan Kettering Cancer Center",
+    "companyType": "Academic cancer center (NYC)",
+    "mission": "Define, predict, and understand immune-related adverse events from cancer immunotherapy using multimodal computational approaches.",
+    "listingsUrl": "https://careers.mskcc.org/",
+    "featured": {
+      "position": "Postdoctoral Fellow in Computational Immuno-Oncology and Immune-Related Adverse Events",
+      "description": "Reznik Lab / Computational Oncology postdoc integrating clinical text, germline genetics, labs, and outcomes to study immunotherapy toxicity (Workday 102557).",
+      "responsibilities": "Lead collaborative irAE projects; develop computational phenotyping (NLP/LLM), germline/GWAS/HLA analyses, or multimodal predictive models; partner with clinicians and computational scientists.",
+      "qualifications": "PhD (completed or nearing) in a quantitative/computational discipline; expertise in NLP/LLMs, statistical genetics, or immuno-oncology. Pay listed ~$72,000–$75,000.",
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow-in-Computational-Immuno-Oncology-and-Immune-Related-Adverse-Events_102557"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Memorial Sloan Kettering Cancer Center",
+    "companyType": "Academic cancer center (NYC)",
+    "mission": "Map gastric cancer immunology and evolution with longitudinal single-cell and spatial multimodal profiling linked to clinical care.",
+    "listingsUrl": "https://careers.mskcc.org/",
+    "featured": {
+      "position": "Research Scholar, Computational Oncology / Immuno-Oncology (Spatial & Single-cell)",
+      "description": "Computational postdoc/research scholar leading single-cell and spatial analyses of gastric cancer immunology (Workday 103031; Vardhana/Shah/Strong team).",
+      "responsibilities": "Analyze scRNA-seq, spatial transcriptomics, mIF/H&E, and clinical annotations; build multimodal immune profiles; collaborate on translational immuno-oncology questions.",
+      "qualifications": "PhD in biostatistics, CS, computational biology, or related field; 1st-author publication; single-cell omics experience in cancer preferred. Salary listed ~$75,000–$80,000.",
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Scholar--Computational-OncologyImmuno-Oncology_103031"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Weill Cornell Medicine (Englander Institute for Precision Medicine)",
+    "companyType": "Academic medical center / precision medicine institute (NYC)",
+    "mission": "Apply large-scale sequencing and computational genetics to discover disease genes across cardiovascular, metabolic, neurodegenerative, and cancer phenotypes.",
+    "listingsUrl": "https://eipm.weill.cornell.edu/",
+    "featured": {
+      "position": "Postdoctoral Fellow or Associate Research Scientist in Computational Biology",
+      "description": "EIPM computational biology role analyzing WGS and related datasets to interpret variants and identify novel disease genes.",
+      "responsibilities": "Lead bioinformatics projects on NGS and clinical/genomic datasets; publish and present findings; collaborate with EIPM’s bioinformatics and physician-scientist teams.",
+      "qualifications": "PhD background in cancer biology, bioinformatics, or computational biology; R/Python and NGS tooling experience; strong collaboration/communication skills.",
+      "applyUrl": "https://eipm.weill.cornell.edu/academic-postdoctoral-fellow-or-associate-research-scientist-computational-biology"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Schrödinger",
+    "companyType": "Physics-based computational chemistry / drug discovery company",
+    "mission": "Transform therapeutics discovery with a physics-based platform spanning structure-based design and experimental target enablement.",
+    "listingsUrl": "https://www.schrodinger.com/careers",
+    "featured": {
+      "position": "Senior / Principal Scientist, Structural Biology — Target Druggability & SBDD",
+      "description": "NYC/Framingham structural biology scientist defining tractability strategies and unlocking cryptic binding sites (Greenhouse 7822246003).",
+      "responsibilities": "Assess oral tractability for undrugged targets; propose in silico binding-site hypotheses; design experimental structural campaigns; partner with chemistry and biology stakeholders.",
+      "qualifications": "PhD in structural biology/biophysics or related; deep SBDD and cryptic-site experience; fluency with modern computational structural methods. Base salary listed ~$120,000–$190,000.",
+      "applyUrl": "https://job-boards.greenhouse.io/schrdinger/jobs/7822246003"
+    },
+    "postedBy": null
   }
 ]

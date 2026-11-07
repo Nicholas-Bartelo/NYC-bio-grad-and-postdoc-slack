@@ -54,12 +54,11 @@ export function getChannelHistory(history, channelId) {
     ),
   ];
 
-  // Heal wiped `keys` when there was no intentional cycle reset.
-  // (A bug previously replaced keys with only the newest post.)
-  let keys = keysFromField;
-  if (!cycleResetAt && uniqueEntryKeys.length > keysFromField.length) {
-    keys = uniqueEntryKeys;
-  }
+  // Always treat the audit log as durable memory. Cycle resets used to wipe
+  // `keys` and recirculate the same roles — users do not want repeats.
+  const keys = [
+    ...new Set([...keysFromField, ...uniqueEntryKeys]),
+  ];
 
   const lastPostedDate =
     typeof entry.lastPostedDate === "string" ? entry.lastPostedDate : null;

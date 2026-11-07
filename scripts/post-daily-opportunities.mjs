@@ -8,12 +8,12 @@
  *
  * Most channels post 1 role/day. The spatial channel posts 2/day.
  *
- * Never re-posts an opportunity that is already in posted-history (keys /
- * entries). This applies equally to cron-job.org (repository_dispatch),
- * GitHub schedule, and manual Run workflow.
- * History: data/opportunities/posted-history.json
- * Optional: ALLOW_OPPORTUNITY_CYCLE_RESET=1 to clear keys and start a new
- * cycle only after every current bank item has been posted.
+ * Never re-posts an opportunity already in posted-history (keys ∪ entries).
+ * Applies to cron-job.org (repository_dispatch), GitHub schedule, and manual
+ * Run workflow. History: data/opportunities/posted-history.json
+ *
+ * Auto-recirculation is OFF. Set ALLOW_OPPORTUNITY_CYCLE_RESET=1 only if you
+ * explicitly want repeats after the bank is exhausted.
  */
 import { readdirSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -29,6 +29,7 @@ import {
   getChannelHistory,
   loadPostedHistory,
   opportunityKey,
+  healChannelKeysFromEntries,
   recordPosted,
   resetChannelKeys,
   savePostedHistory,
@@ -203,10 +204,22 @@ async function pickHealthyOpportunity(
   let cycleReset = false;
 
   if (unused.length === 0) {
-    // Prefer new bank items. When every role has already been posted, start a
-    // new cycle so daily channels keep receiving posts (silence is worse than
-    // occasional recirculation). Set ALLOW_OPPORTUNITY_CYCLE_RESET=0 to disable.
-    if (process.env.ALLOW_OPPORTUNITY_CYCLE_RESET === "0") {
+    // Default: never recirculate. Memory is the full audit log of prior posts.
+    // Only an explicit ALLOW_OPPORTUNITY_CYCLE_RESET=1 opts into repeats.
+    if (process.env.ALLOW_OPPORTUNITY_CYCLE_RESET === "1") {
+      console.warn(
+        JSON.stringify({
+          warning: "opportunity_cycle_reset",
+          channelId,
+          bankSize: candidates.length,
+          note: "ALLOW_OPPORTUNITY_CYCLE_RESET=1 — clearing keys and recirculating bank items.",
+        }),
+      );
+      resetChannelKeys(history, channelId);
+      channelHistory = getChannelHistory(history, channelId);
+      unused = candidates;
+      cycleReset = true;
+    } else {
       const err = new Error(
         `bank_exhausted:${channelId}: all ${candidates.length} bank items were already posted; add new opportunities to data/opportunities/${channelId}.json`,
       );
@@ -214,18 +227,6 @@ async function pickHealthyOpportunity(
       err.channelId = channelId;
       throw err;
     }
-    console.warn(
-      JSON.stringify({
-        warning: "opportunity_cycle_reset",
-        channelId,
-        bankSize: candidates.length,
-        note: "All bank items were already posted; resetting cycle so posting can continue. Add new roles to reduce recirculation.",
-      }),
-    );
-    resetChannelKeys(history, channelId);
-    channelHistory = getChannelHistory(history, channelId);
-    unused = candidates;
-    cycleReset = true;
   }
 
   const start = dayIndex(
@@ -462,6 +463,11 @@ async function main() {
 
   const date = easternDateKey();
   const history = loadPostedHistory(HISTORY_PATH);
+  // Rebuild durable no-repeat memory from the audit log (clears stale
+  // cycleReset markers that previously allowed the same jobs to repost).
+  for (const channel of CHANNELS) {
+    healChannelKeysFromEntries(history, channel.id);
+  }
   const results = [];
   const errors = [];
 

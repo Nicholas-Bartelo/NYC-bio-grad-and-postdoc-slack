@@ -42,20 +42,6 @@
     "postedBy": null
   },
   {
-    "company": "Genentech",
-    "companyType": "Biotechnology / pharmaceutical company (Roche Group)",
-    "mission": "Discover and develop medicines for serious and life-threatening diseases by pushing the boundaries of science — historically including first-in-class targeted antibodies and transformative therapies.",
-    "listingsUrl": "https://careers.gene.com/us/en/c/students-graduates-jobs",
-    "featured": {
-      "position": "2027 Spring Intern — GenAI Applications",
-      "description": "Specific Genentech students & graduates internship requisition focused on GenAI applications (South San Francisco). This is a named internship posting — not the general internships board.",
-      "responsibilities": "Contribute to GenAI application projects with a Genentech hosting team during the spring internship term; analyze prototypes/data, collaborate with scientists and engineers, and present progress in the structured internship setting. Confirm exact project scope and deliverables on the live requisition before applying.",
-      "qualifications": "Student or recent-graduate eligibility as stated on the requisition; interest/skills relevant to GenAI/ML applications in a biotech R&D setting; confirm degree level, work authorization, dates, and location requirements on the posting (requisition 202610-125229).",
-      "applyUrl": "https://careers.gene.com/us/en/job/202610-125229/2027-Spring-Intern-GenAI-Applications"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Bristol Myers Squibb",
     "companyType": "Global biopharmaceutical company",
     "mission": "Discover, develop, and deliver innovative medicines for serious diseases — including radiopharmaceutical and broader R&D programs that depend on rigorous regulatory submissions.",
@@ -150,6 +136,48 @@
       "responsibilities": "Design and lead spatial transcriptomics / multimodal spatial workflows; integrate spatial transcriptomics with spatial proteomics and single-cell data; establish tissue-processing standards for oncology samples; collaborate on image analysis pipelines; evaluate and internalize emerging spatial technologies.",
       "qualifications": "Deep applied expertise in spatial transcriptomics (Visium HD, CosMx, Xenium); working knowledge of long-read sequencing helpful; experience automating complex NGS workflows; entrepreneurial mindset for deploying emerging tools. Confirm full requirements on the Lilly careers posting.",
       "applyUrl": "https://jobsearch.lilly.com/new-york-ny/scientific-lead-molecular-characterization/B79B829E48EA41C6BBFEBB528EADCE4E/job/"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Schrödinger",
+    "companyType": "Computational chemistry / drug discovery (therapeutics group)",
+    "mission": "Enable structure-based discovery of novel therapeutics with physics-based modeling plus experimental structural biology.",
+    "listingsUrl": "https://www.schrodinger.com/careers",
+    "featured": {
+      "position": "Senior / Principal Scientist, Structural Biology — Target Druggability & SBDD",
+      "description": "Structural biology scientist for target enablement and cryptic-site campaigns (Greenhouse 7822246003; NYC/Framingham).",
+      "responsibilities": "Define tractability strategies; validate novel binding sites; design experimental structure campaigns; communicate assessments to senior stakeholders.",
+      "qualifications": "PhD in structural biology/biophysics; deep SBDD experience; computational structural methods fluency. Base salary listed ~$120,000–$190,000.",
+      "applyUrl": "https://job-boards.greenhouse.io/schrdinger/jobs/7822246003"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Eikon Therapeutics",
+    "companyType": "Biopharmaceutical company",
+    "mission": "Use single-molecule imaging to unlock intractable protein classes as drug targets, including in neuroscience.",
+    "listingsUrl": "https://www.eikontx.com/careers",
+    "featured": {
+      "position": "Senior Scientist 1, Neuroscience",
+      "description": "Lab-focused Senior Scientist I for Parkinson’s target identification/validation in NYC (Greenhouse 5231432007).",
+      "responsibilities": "Build complex cellular models and assays; partner cross-functionally to advance neuroscience programs.",
+      "qualifications": "Advanced degree with extensive neuroscience/cell biology experience; primary neuron culture skills. Salary listed ~$143,000–$173,250.",
+      "applyUrl": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5231432007"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Memorial Sloan Kettering Cancer Center",
+    "companyType": "Academic cancer center collaborating with industry-facing immuno-oncology research",
+    "mission": "Improve immunotherapy safety by computationally characterizing immune-related adverse events.",
+    "listingsUrl": "https://careers.mskcc.org/",
+    "featured": {
+      "position": "Postdoctoral Fellow in Computational Immuno-Oncology and Immune-Related Adverse Events",
+      "description": "Computational immuno-oncology postdoc on irAE prediction and mechanisms (Workday 102557).",
+      "responsibilities": "Integrate multimodal clinical and genetic data; build predictive models of toxicity; collaborate across oncology and genetics.",
+      "qualifications": "PhD in a quantitative field; NLP, statistical genetics, or immuno-oncology expertise. Pay listed ~$72,000–$75,000.",
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow-in-Computational-Immuno-Oncology-and-Immune-Related-Adverse-Events_102557"
     },
     "postedBy": null
   }
