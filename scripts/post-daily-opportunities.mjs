@@ -335,10 +335,10 @@ function formatMessage(picked, channel, date, { index, total } = {}) {
 }
 
 async function postChannel(channel, date, history) {
-  // Prefer SLACK_USER_TOKEN so posts appear as you (editable in Slack).
-  // Incoming Webhooks remain as fallback when the user token cannot post
-  // (e.g. not in the channel / missing scopes). Set
-  // SLACK_PREFER_WEBHOOK=1 to force app/webhook delivery instead.
+  // Prefer SLACK_USER_TOKEN so posts appear as you (editable). Webhooks are
+  // fallback only. For private channels (e.g. #opportunities-spatial) you must
+  // be a member and have groups:read, or set SLACK_CHANNEL_ID_OPPORTUNITIES_*.
+  // Set SLACK_PREFER_WEBHOOK=1 to force app/webhook delivery instead.
   const preferWebhook = process.env.SLACK_PREFER_WEBHOOK === "1";
   const userToken = preferWebhook
     ? undefined
@@ -383,7 +383,7 @@ async function postChannel(channel, date, history) {
         total: postsPerDay,
       });
 
-      await postToSlack(text, {
+      const delivery = await postToSlack(text, {
         userToken,
         webhookUrl: webhook,
         channelId: process.env[channel.channelIdEnv]?.trim(),
@@ -408,6 +408,7 @@ async function postChannel(channel, date, history) {
         location: picked.location || null,
         spatialFocus: picked.spatialFocus || null,
         linkStatus: picked.linkStatus,
+        mode: delivery?.mode ?? null,
       });
     }
   } catch (error) {

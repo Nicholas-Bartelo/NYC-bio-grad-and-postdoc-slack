@@ -222,5 +222,181 @@
       "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543"
     },
     "postedBy": null
+  },
+  {
+    "company": "Biohub",
+    "companyType": "Nonprofit biomedical research institute (NYC onsite)",
+    "mission": "Map how T cells interact with tissue microenvironments using single-cell genomics, spatial transcriptomics, and genetic perturbations.",
+    "location": "New York, NY (onsite)",
+    "spatialFocus": "Spatial transcriptomics + single-cell genomics of tissue–immune interactions",
+    "listingsUrl": "https://job-boards.greenhouse.io/biohub",
+    "featured": {
+      "position": "Postdoctoral Fellow / Scientist I, T Cell Biology and Tissue Immunology",
+      "description": "Parsa Lab NYC role combining experimental immunology with spatial transcriptomics and single-cell genomics (Greenhouse 8351080).",
+      "responsibilities": "Develop projects on tissue–immune networks; apply molecular biology, single-cell sequencing, spatial transcriptomics, and genetic perturbation; collaborate across immunology and technology teams.",
+      "qualifications": "PhD-level immunology training. NYC pay listed Postdoc $93,000 or Scientist I $120,000–$150,000.",
+      "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/8351080"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Biohub",
+    "companyType": "Nonprofit biomedical research institute",
+    "mission": "Build analytical foundations for spatiotemporal multi-omics technology platforms.",
+    "location": "Chicago, IL (onsite) — virtual-friendly collaboration across Biohub network",
+    "spatialFocus": "Spatiotemporal multi-omics analysis, visualization, and ML integration",
+    "listingsUrl": "https://job-boards.greenhouse.io/biohub",
+    "featured": {
+      "position": "Computational Biologist, Spatiotemporal Multi-Omics",
+      "description": "Biohub Chicago computational biologist developing workflows and visualization for spatiotemporal multi-omics (Greenhouse 7922812).",
+      "responsibilities": "Develop analysis workflows for spatiotemporal/multi-omics data; build visualization tools; integrate proteomics/metabolomics; explore ML approaches; collaborate and publish.",
+      "qualifications": "PhD in a quantitative field; ≥2 years bioinformatics methods/pipelines; ≥1 year spatial, multi-omics, or biological ML experience; strong publication/open-source record.",
+      "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/7922812"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Noetik",
+    "companyType": "AI + spatial biology biotech",
+    "mission": "Generate high-quality spatial biology datasets that fuel next-generation AI models on human tissue.",
+    "location": "South San Francisco, CA (industry; remote collaboration common across spatial teams)",
+    "spatialFocus": "CosMx / Xenium / MERFISH spatial transcriptomics and spatial proteomics",
+    "listingsUrl": "https://job-boards.greenhouse.io/noetik",
+    "featured": {
+      "position": "Sr. Scientist, Spatial Biology",
+      "description": "Hands-on Senior Scientist for protocol development and QC of spatial biology experiments (Greenhouse 4407815009).",
+      "responsibilities": "Execute/troubleshoot spatial transcriptomics and proteomics assays; set QC standards; mentor colleagues; analyze spatial QC metrics.",
+      "qualifications": "PhD + 2–5 years industry spatial transcriptomics (CosMx preferred); spatial proteomics a plus; computational fluency.",
+      "applyUrl": "https://job-boards.greenhouse.io/noetik/jobs/4407815009"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Arc Institute",
+    "companyType": "Nonprofit research organization",
+    "mission": "Develop imaging-based spatial omics technologies for large-scale disease studies.",
+    "location": "Palo Alto, CA",
+    "spatialFocus": "Imaging-based spatial omics / MERFISH-like chemistries on organoids",
+    "listingsUrl": "https://job-boards.greenhouse.io/arcinstitute",
+    "featured": {
+      "position": "Scientist / Sr. Scientist, Spatial Omics Technology Development (Fixed-Term)",
+      "description": "18-month contract stabilizing custom imaging platforms and advancing spatial perturb-seq (Greenhouse 6205644004).",
+      "responsibilities": "Stabilize imaging platforms; adapt homebrew chemistry to organoids; move spatial perturb-seq toward screen-ready scale.",
+      "qualifications": "Hands-on tissue/organoid prep and in situ imaging assays (HCR, MERFISH, seqFISH, RCA, ISS).",
+      "applyUrl": "https://job-boards.greenhouse.io/arcinstitute/jobs/6205644004"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Natera",
+    "companyType": "Diagnostics / genomics company",
+    "mission": "Drive multimodal genomics experiments including spatial transcriptomic and proteomic readouts for BioPharma collaborations.",
+    "location": "San Carlos, CA",
+    "spatialFocus": "Spatial transcriptomics and spatial proteomics",
+    "listingsUrl": "https://job-boards.greenhouse.io/natera",
+    "featured": {
+      "position": "Scientist, Genomics and Cancer Biology",
+      "description": "Scientist designing multimodal genomics studies with spatial readouts (Greenhouse 6231943004).",
+      "responsibilities": "Design/execute multimodal experiments; integrate spatial and single-cell data; deliver partner-facing biological insight.",
+      "qualifications": "Strong genomics / cancer biology experimental background. Confirm details on Greenhouse.",
+      "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6231943004"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Owkin",
+    "companyType": "Agentic AI / multimodal biology company",
+    "mission": "Deploy production AI solutions for pharma using multimodal patient data including spatial and single-cell omics.",
+    "location": "Boston, MA — Remote (US)",
+    "spatialFocus": "Spatial / single-cell multimodal omics for pharma AI deployments",
+    "listingsUrl": "https://jobs.ashbyhq.com/owkin",
+    "featured": {
+      "position": "Forward Deployed Computational Biologist",
+      "description": "Remote US computational biologist embedding with pharma partners on Owkin’s K Pro platform (Ashby; salary listed ~$128k–$150k).",
+      "responsibilities": "Design and deploy production AI solutions for scientific problems; analyze multimodal omics including spatial/single-cell; partner with customers.",
+      "qualifications": "MSc/PhD in comp bio or related; impact analyzing clinical and multimodal omics; strong biology in at least one therapeutic area. CV in English; ideal start Jan/Feb 2027.",
+      "applyUrl": "https://jobs.ashbyhq.com/owkin/f588cde0-efa9-4dc1-9501-a24525110450"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "insitro",
+    "companyType": "ML-driven drug discovery company",
+    "mission": "Use computational biology across omics and imaging to identify therapeutic targets and biomarkers.",
+    "location": "South San Francisco, CA (hybrid ~3 days/week)",
+    "spatialFocus": "Spatial proteomics / transcriptomics and imaging among multimodal CompBio analyses",
+    "listingsUrl": "https://jobs.ashbyhq.com/insitro",
+    "featured": {
+      "position": "Senior Data Scientist, CompBio",
+      "description": "Senior CompBio data scientist synthesizing multimodal insights including spatial omics and imaging (Ashby).",
+      "responsibilities": "Analyze multimodal datasets; identify targets and biomarkers; partner across life science and ML teams; uphold statistical rigor.",
+      "qualifications": "PhD + 3 years postgrad; depth in scRNA-seq, microscopy, or spatial proteomics/transcriptomics; strong statistics.",
+      "applyUrl": "https://jobs.ashbyhq.com/insitro/ec4a278a-dd78-4e9c-a203-87e3e2f59e60"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Flatiron Institute (Simons Foundation)",
+    "companyType": "Nonprofit computational science institute (NYC)",
+    "mission": "Develop AI/ML methods for genome interpretation and multi-omic/spatial data integration with phenotypic and clinical data.",
+    "location": "New York, NY (onsite at Flatiron Institute)",
+    "spatialFocus": "Multi-omic and spatial data analysis/integration methods",
+    "listingsUrl": "https://www.simonsfoundation.org/flatiron/computational-biology/job-openings/",
+    "featured": {
+      "position": "Flatiron Research Fellow — Genomics, Center for Computational Biology",
+      "description": "NYC postdoctoral Flatiron Research Fellow in the Genomics group (Troyanskaya) developing methods for multi-omic and spatial data integration (apply via Simons portal).",
+      "responsibilities": "Carry out independent or collaborative research in CCB; develop methods for genome interpretation and spatial/multi-omic integration; participate in seminars and publish/share software.",
+      "qualifications": "PhD in computational biology, CS, biophysics, applied math, statistics, or related; strong ML/scientific computing. Compensation listed around $91k–$95k depending on posting year; NYC-based.",
+      "applyUrl": "https://apptrkr.com/6618044"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Columbia University",
+    "companyType": "Academic research university (NYC)",
+    "mission": "Analyze high-dimensional multimodal biological data including imaging, spatial omics, and mass spectrometry with modern ML/comp bio workflows.",
+    "location": "New York, NY",
+    "spatialFocus": "Spatial transcriptomics / spatial proteomics / imaging integration and cell–cell interaction analytics",
+    "listingsUrl": "https://opportunities.columbia.edu/jobs/search",
+    "featured": {
+      "position": "Staff Associate I — Biological Sciences (spatial omics / imaging analytics)",
+      "description": "NYC Staff Associate I developing ML/comp bio workflows for imaging, spatial transcriptomics, and spatial proteomics (ASHG/Columbia posting; internal #183792).",
+      "responsibilities": "Build image integration, segmentation, and cell–cell interaction workflows; analyze multimodal spatial and MS imaging data; maintain reproducible pipelines; communicate findings.",
+      "qualifications": "Bachelor’s required (Master’s preferred) in bioinformatics/CS/biostats/data science; 2–4 years experience; Python/R for single-cell and spatial transcriptomics.",
+      "applyUrl": "https://careers.ashg.org/jobs/22156635/staff-associate-i"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "NYU Langone Health",
+    "companyType": "Academic medical center (NYC)",
+    "mission": "Advance computational immunology and genomics of rheumatologic autoimmune disease, including spatial transcriptomics analyses.",
+    "location": "New York, NY",
+    "spatialFocus": "Spatial transcriptomics among multimodal genomic datasets for autoimmunity",
+    "listingsUrl": "https://nyulangone.org/careers",
+    "featured": {
+      "position": "Postdoctoral Research Fellow — Rheumatology, Najjar Lab (Computational Biology)",
+      "description": "NYC computational biology postdoc analyzing bulk/single-cell/spatial transcriptomics and epigenomic datasets in autoimmune disease (Nature Careers / NYU Langone).",
+      "responsibilities": "Lead 1–2 primary computational projects; analyze high-dimensional genomic datasets; collaborate across immunology and data science; contribute to manuscripts.",
+      "qualifications": "PhD in computational biology/bioinformatics/genomics/biostatistics; strong genomic analysis track record; publications. Salary listed ~$70,000–$75,000.",
+      "applyUrl": "https://www.nature.com/naturecareers/job/12866415/nyu-langone-health-postdoctoral-research-fellow-rheumatology-najjar-lab/"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Volastra Therapeutics",
+    "companyType": "Clinical-stage oncology biotech (NYC)",
+    "mission": "Treat cancer by exploiting chromosomal instability with computational biology informing discovery and translation.",
+    "location": "New York, NY",
+    "spatialFocus": "Computational analysis of multi-omic datasets informing tumor spatial biology and biomarkers",
+    "listingsUrl": "https://job-boards.greenhouse.io/volastratherapeutics",
+    "featured": {
+      "position": "Scientist / Senior Scientist, Computational Biology",
+      "description": "NYC computational biology scientist for genomic/transcriptomic/functional genomic/clinical-translational analyses (Greenhouse 7749473003).",
+      "responsibilities": "Build rigorous analyses to identify vulnerabilities, prioritize targets, nominate biomarkers, and connect preclinical findings to patients.",
+      "qualifications": "Strong computational biology / bioinformatics background in oncology. Confirm level on Greenhouse.",
+      "applyUrl": "https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003"
+    },
+    "postedBy": null
   }
 ]

@@ -180,5 +180,33 @@
       "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow-in-Computational-Immuno-Oncology-and-Immune-Related-Adverse-Events_102557"
     },
     "postedBy": null
+  },
+  {
+    "company": "Natera",
+    "companyType": "Diagnostics / genomics company",
+    "mission": "Support BioPharma collaborations with multimodal genomics including spatial and single-cell readouts.",
+    "listingsUrl": "https://job-boards.greenhouse.io/natera",
+    "featured": {
+      "position": "Scientist, Genomics and Cancer Biology",
+      "description": "Scientist role driving multimodal genomics experiments for external collaborations and internal discovery (Greenhouse 6231943004).",
+      "responsibilities": "Design and interpret bulk/single-cell/spatial multi-omic studies; communicate insights to pharma partners.",
+      "qualifications": "Genomics and cancer biology experimental experience. Confirm details on Greenhouse.",
+      "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6231943004"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Noetik",
+    "companyType": "Spatial biology + AI biotech",
+    "mission": "Generate high-quality spatial biology data that trains AI models for human tissue biology.",
+    "listingsUrl": "https://job-boards.greenhouse.io/noetik",
+    "featured": {
+      "position": "Sr. Scientist, Spatial Biology",
+      "description": "Senior Scientist executing CosMx/Xenium/MERFISH workflows and QC (Greenhouse 4407815009).",
+      "responsibilities": "Protocol development, assay troubleshooting, spatial QC standards, mentorship.",
+      "qualifications": "PhD + industry spatial transcriptomics experience; CosMx preferred.",
+      "applyUrl": "https://job-boards.greenhouse.io/noetik/jobs/4407815009"
+    },
+    "postedBy": null
   }
 ]

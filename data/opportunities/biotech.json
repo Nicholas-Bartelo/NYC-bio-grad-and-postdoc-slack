@@ -250,5 +250,19 @@
       "applyUrl": "https://job-boards.greenhouse.io/schrdinger/jobs/7822246003"
     },
     "postedBy": null
+  },
+  {
+    "company": "Noetik",
+    "companyType": "Spatial biology + AI biotech",
+    "mission": "Fuel AI models with rigorous spatial biology experiments on human tissue.",
+    "listingsUrl": "https://job-boards.greenhouse.io/noetik",
+    "featured": {
+      "position": "Sr. Scientist, Spatial Biology",
+      "description": "Hands-on spatial biology Senior Scientist (Greenhouse 4407815009).",
+      "responsibilities": "Run and troubleshoot spatial assays; enforce QC; mentor the team.",
+      "qualifications": "PhD + 2–5 years spatial transcriptomics industry experience.",
+      "applyUrl": "https://job-boards.greenhouse.io/noetik/jobs/4407815009"
+    },
+    "postedBy": null
   }
 ]

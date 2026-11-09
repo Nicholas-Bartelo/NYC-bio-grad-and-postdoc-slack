@@ -9,12 +9,13 @@ To post **as your Slack user** (and edit in the UI), use a User OAuth Token.
 2. **OAuth & Permissions** → **User Token Scopes** → add:
    - `chat:write` — post messages as you  
    - `channels:read` — find public channels by name  
+   - `channels:join` — optional; lets the bot join public channels it can see  
    - `groups:read` — find private channels by name (needed for `#opportunities-spatial`)
 3. Click **Install to Workspace** (or **Reinstall** if you added scopes).
 4. Approve as **yourself** (the account that should own the posts).
 5. Copy the **User OAuth Token** — it starts with `xoxp-`.
 
-You must be a **member** of every target channel (including private `#opportunities-spatial`).
+You must be a **member** of every target channel (including private `#opportunities-spatial`). Private channels cannot be joined by API — open Slack, join `#opportunities-spatial`, then set `SLACK_CHANNEL_ID_OPPORTUNITIES_SPATIAL` for reliability.
 
 ## GitHub secrets
 
@@ -39,11 +40,11 @@ If you skip IDs, the scripts resolve channels by name (you must be a member).
 
 ## Behavior
 
-- If `SLACK_USER_TOKEN` is set, daily posts try `chat.postMessage` **as you** first (topic + opportunities).
-- If that fails (not in the channel, missing scopes, bad token), the workflow **falls back to the Incoming Webhook** so posts still go out.
-- Webhook fallback messages are **not editable**. Editable posts require: join every target channel + valid `xoxp-` scopes (`chat:write`, `channels:read`, `groups:read`).
-- Set `SLACK_PREFER_WEBHOOK=1` on a workflow step only if you temporarily want app/webhook delivery instead.
-- After user-token posting works, new posts show your name and have **Edit** in Slack.
+- If `SLACK_USER_TOKEN` is set, **topic and opportunities** try `chat.postMessage` **as you** first, then fall back to the webhook.
+- Webhook fallback messages are **not editable**.
+- For **private** `#opportunities-spatial`: join the channel with the account behind the `xoxp-` token, keep `groups:read`, and ideally set GitHub secret `SLACK_CHANNEL_ID_OPPORTUNITIES_SPATIAL` (Channel ID from Slack → channel details).
+- Set `SLACK_PREFER_WEBHOOK=1` only if you temporarily want app/webhook delivery instead.
+- After user-token posting works, messages show your name and have **Edit** in Slack.
 
 ## Test
 

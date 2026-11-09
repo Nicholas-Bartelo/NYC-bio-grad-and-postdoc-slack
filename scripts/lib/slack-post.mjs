@@ -33,8 +33,10 @@ export async function resolveChannelId(token, channelId, channelName) {
   if (CHANNEL_ID_RE.test(name)) {
     return name;
   }
+
+  // Prefer channels the authorizing user is already in (includes private).
   let cursor;
-  for (let page = 0; page < 12; page++) {
+  for (let page = 0; page < 20; page++) {
     const listed = await slackApi(token, "users.conversations", {
       types: "public_channel,private_channel",
       exclude_archived: true,
@@ -50,8 +52,37 @@ export async function resolveChannelId(token, channelId, channelName) {
       break;
     }
   }
+
+  // Public-channel fallback via conversations.list (needs channels:read).
+  cursor = undefined;
+  for (let page = 0; page < 20; page++) {
+    const listed = await slackApi(token, "conversations.list", {
+      types: "public_channel",
+      exclude_archived: true,
+      limit: 200,
+      cursor,
+    });
+    const match = (listed.channels ?? []).find((c) => c.name === name);
+    if (match?.id) {
+      // Join so chat.postMessage succeeds for public channels.
+      try {
+        await slackApi(token, "conversations.join", { channel: match.id });
+      } catch {
+        // already_in_channel / missing_scope — still try posting with the id
+      }
+      return match.id;
+    }
+    cursor = listed.response_metadata?.next_cursor;
+    if (!cursor) {
+      break;
+    }
+  }
+
+  const idHint = name.startsWith("opportunities-")
+    ? `SLACK_CHANNEL_ID_${name.replace(/-/g, "_").toUpperCase()}`
+    : "the matching SLACK_CHANNEL_ID_* secret";
   throw new Error(
-    `Could not find #${name} in your conversations. Join the channel in Slack, then retry (or set the channel ID secret).`,
+    `Could not find #${name} in your conversations. Join the channel in Slack (required for private channels), ensure scopes chat:write + channels:read + groups:read, then retry — or set GitHub secret ${idHint}.`,
   );
 }
 
