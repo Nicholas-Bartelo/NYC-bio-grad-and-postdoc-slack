@@ -27,6 +27,7 @@ import {
 import { checkApplyUrl, checkListingsUrl } from "./lib/link-health.mjs";
 import {
   getChannelHistory,
+  historyHasOpportunity,
   loadPostedHistory,
   opportunityKey,
   healChannelKeysFromEntries,
@@ -200,7 +201,14 @@ async function pickHealthyOpportunity(
   }
 
   let channelHistory = getChannelHistory(history, channelId);
-  let unused = candidates.filter((c) => !channelHistory.keys.includes(c.key));
+  let unused = candidates.filter(
+    (c) =>
+      !historyHasOpportunity(channelHistory.keys, {
+        company: c.company,
+        position: c.position,
+        applyUrl: c.applyUrl,
+      }),
+  );
   let cycleReset = false;
 
   if (unused.length === 0) {
@@ -261,8 +269,12 @@ async function pickHealthyOpportunity(
       continue;
     }
 
+    // Prefer Workday canonical path (includes location segment) when CXS returns it.
+    const applyUrl = featuredHealth.canonicalUrl || candidate.applyUrl;
+
     return {
       ...candidate,
+      applyUrl,
       linkStatus: featuredHealth.status,
       listingsStatus: listingsHealth.status,
       skipped,

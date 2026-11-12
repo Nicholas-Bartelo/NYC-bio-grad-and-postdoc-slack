@@ -14,20 +14,6 @@
     "postedBy": null
   },
   {
-    "company": "Memorial Sloan Kettering Cancer Center",
-    "companyType": "Academic cancer center / research hospital (NYC)",
-    "mission": "End cancer for life through patient care, research, and education — including basic and translational lab science across Sloan Kettering Institute and MSK clinical programs.",
-    "listingsUrl": "https://careers.mskcc.org/",
-    "featured": {
-      "position": "Research Technician, Niethammer Lab",
-      "description": "Onsite research technician role in the Philipp Niethammer Lab studying how cells sense physical stress, using zebrafish, human cells, microscopy, genetics, and molecular biology.",
-      "responsibilities": "Prepare and maintain lab equipment, solutions, and assays; perform techniques such as CRISPR screening, flow cytometry, sterile mammalian tissue culture, transfection, fluorescent imaging, and tissue processing; conduct animal studies (injections, tissue/fluid collection, euthanasia, zebrafish handling); record/analyze data and assist peers on ongoing projects.",
-      "qualifications": "Bachelor’s degree in biology/life sciences; experience with tissue culture and molecular biology; comfort working with zebrafish larvae or adults (monitoring, genotyping, behavioral scoring, tailfin amputation); attention to detail, protocol adherence, teamwork. Location: NYC; 37.5 hours/week onsite; pay range listed ~$26.77–$40.05/hour.",
-      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Technician--Niethammer-Lab_101737-1"
-    },
-    "postedBy": null
-  },
-  {
     "company": "HHMI Janelia Research Campus",
     "companyType": "HHMI research campus (nonprofit basic science institute)",
     "mission": "Solve fundamental problems in biology by bringing scientists and tool-builders together — including new imaging chemistry and microscopy methods that enable multimodal and super-resolution biological imaging.",
@@ -37,7 +23,7 @@
       "description": "Postdoc in the Lincoln Lab designing and characterizing next-generation fluorophores for multimodal, whole-organism, and/or super-resolution imaging challenges.",
       "responsibilities": "Design and execute multistep synthetic routes for new small-molecule fluorophores and ligands; develop high-throughput spectroscopic assays and characterize photophysical profiles; apply dyes in live/fixed imaging contexts; may train into single-molecule imaging, immunofluorescence, super-resolution methods, or related techniques as projects require.",
       "qualifications": "Ph.D. in chemistry, physics, or a related physical/life science field; hybrid background in photochemistry and/or chemical biology with strong organic chemistry grounding; hands-on organic synthesis of fluorophores or light-sensitive substances; experience with computational chemistry tools (e.g. Gaussian, Orca). Spectroscopy, assay development, molecular docking, or fluorescence microscopy are assets. Janelia Postdoc 00 compensation listed at $74,200.",
-      "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Lincoln-Lab_R-4598"
+      "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Janelia-Research-Campus/Postdoctoral-Scientist---Lincoln-Lab_R-4598"
     },
     "postedBy": null
   },
@@ -51,7 +37,7 @@
       "description": "Postdoc integrating custom hardware/software with computational analysis to probe neural circuits underlying collective behavior and social cognition, including VR paradigms in Danionella.",
       "responsibilities": "Build and apply virtual-reality behavioral paradigms with the lab’s VR specialist; develop/execute experiments on inter-individual differences and social behavior circuits; use multi-animal tracking and behavioral classification to study latent structure and create brain–behavior maps; integrate software-hardware systems with analysis pipelines.",
       "qualifications": "Ph.D. in neuroscience, computer science, engineering, or a closely related field; hybrid background bridging software-hardware integration, computational/ML skills, and systems neuroscience; experience building or working with complex behavioral rigs (e.g. VR). Genuine interest in neural bases of social/collective behavior. Janelia Postdoc 00 compensation listed at $74,200.",
-      "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Postdoctoral-Scientist---Schulze-Lab_R-4506"
+      "applyUrl": "https://hhmi.wd1.myworkdayjobs.com/en-US/External/job/Janelia-Research-Campus/Postdoctoral-Scientist---Schulze-Lab_R-4506"
     },
     "postedBy": null
   },
@@ -84,20 +70,6 @@
     "postedBy": null
   },
   {
-    "company": "Memorial Sloan Kettering Cancer Center",
-    "companyType": "Academic cancer center / research hospital (NYC)",
-    "mission": "End cancer for life through patient care, research, and education — including liquid-biopsy and translational cancer genomics in the Center for Molecular Oncology.",
-    "listingsUrl": "https://careers.mskcc.org/",
-    "featured": {
-      "position": "Senior Computational Biologist I, Center for Molecular Oncology (cfDNA / MSK-ACCESS)",
-      "description": "Hybrid NYC role on the Cell-Free DNA Informatics team developing and applying computational methods for liquid biopsy, clonal hematopoiesis, and translational cancer genomics (MSK-ACCESS, CMO-CH).",
-      "responsibilities": "Analyze NGS data from MSK-ACCESS, CMO-CH, and related assays; lead computational analyses of ctDNA, clonal hematopoiesis, treatment response, and clinical outcomes; develop/automate reproducible genomic workflows; build statistical and predictive models integrating genomic and clinical data; collaborate across computational, lab, and clinical teams; contribute to manuscripts, grants, and presentations.",
-      "qualifications": "Strong computational biology / bioinformatics background suited to cancer genomics and liquid biopsy; experience with NGS analysis pipelines and statistical/ML modeling preferred. Location: 323 E 61st St, NYC; hybrid Mon–Fri. Pay range listed ~$114,000–$182,400. Confirm full requirements on the posting.",
-      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Senior-Computational-Biologist-I--Center-for-Molecular-Oncology_102253-1"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Biohub",
     "companyType": "Nonprofit biomedical research institute (NYC hybrid)",
     "mission": "Help scientists cure or prevent disease by building AI-powered tools to measure, image, and program biology — including immune-cell reprogramming research at Biohub NY.",
@@ -112,20 +84,6 @@
     "postedBy": null
   },
   {
-    "company": "Volastra Therapeutics",
-    "companyType": "Clinical-stage oncology biotech (NYC)",
-    "mission": "Pioneer cancer therapies that exploit chromosomal instability (CIN), advancing synthetic-lethal and immune-activating programs including KIF18A inhibitors in Phase 1.",
-    "listingsUrl": "https://job-boards.greenhouse.io/volastratherapeutics",
-    "featured": {
-      "position": "Scientist / Senior Scientist, Computational Biology",
-      "description": "Hands-on NYC computational biology role powering Volastra’s discovery and translational engine with genomic, transcriptomic, functional genomic, and clinical-translational analyses.",
-      "responsibilities": "Build and apply rigorous analyses to identify vulnerabilities, prioritize targets, nominate biomarkers, and connect preclinical findings to patient populations; partner with discovery biology, translational science, chemistry, pharmacology, and clinical teams; deliver decision-grade analyses that change programs.",
-      "qualifications": "Strong bioinformatics / computational biology scientist profile; excellent coding; fluency between exploratory discovery and translational questions. Salary listed approximately $140,000–$180,000 depending on level. Confirm full requirements on the posting.",
-      "applyUrl": "https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Memorial Sloan Kettering Cancer Center",
     "companyType": "Academic cancer center / research hospital (NYC)",
     "mission": "Advance computational approaches to oncogenesis and pathogenesis so cancer genetics can inform diagnosis and therapy.",
@@ -135,7 +93,7 @@
       "description": "NYC postdoc in the Chan Lab (Human Oncogenesis & Pathogenesis) focused on computational biology in cancer (Workday req 97543).",
       "responsibilities": "Lead computational analyses of cancer genomics / multi-omics datasets; develop or adapt methods for the lab’s research questions; collaborate with experimental colleagues; prepare figures, manuscripts, and presentations.",
       "qualifications": "PhD in computational biology, bioinformatics, genetics, computer science, or related field; strong programming and statistics; interest in cancer biology. Confirm full criteria on the live Workday posting.",
-      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543"
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/New-York-NY/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543"
     },
     "postedBy": null
   },
@@ -149,7 +107,7 @@
       "description": "Computational biology scientist supporting pharma R&D collaborations on Tempus’ clinico-genomic platform (Workday JR202600994; NYC/SF compensation bands listed on posting).",
       "responsibilities": "Apply computational biology methods to Tempus multimodal datasets for partner R&D questions; collaborate with AI/ML and biology teams; communicate complex results to internal and external stakeholders.",
       "qualifications": "Advanced degree or equivalent experience in computational biology, bioinformatics, or related field; experience analyzing large genomic / clinical datasets; strong communication for partner-facing science. Confirm location and compensation on the live posting.",
-      "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Scientist-II--Computational-Biology--Pharma-R-D_JR202600994"
+      "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Boston/Scientist-II--Computational-Biology--Pharma-R-D_JR202600994"
     },
     "postedBy": null
   },
@@ -182,20 +140,6 @@
     "postedBy": null
   },
   {
-    "company": "Eikon Therapeutics",
-    "companyType": "Biopharmaceutical company (single-molecule imaging drug discovery)",
-    "mission": "Discover treatments for life-threatening diseases using real-time molecular-resolution measurements of protein movement in living cells.",
-    "listingsUrl": "https://www.eikontx.com/careers",
-    "featured": {
-      "position": "Senior Scientist 1, Neuroscience",
-      "description": "NYC Senior Scientist I identifying and validating novel Parkinson’s disease targets with complex cellular models and assays (Greenhouse 5231432007).",
-      "responsibilities": "Develop cellular models and cell-based/biochemical assays for target validation; collaborate across biology, in vivo pharmacology, and chemistry; advance neuroscience discovery programs.",
-      "qualifications": "Advanced degree plus substantial neuroscience/cell biology experience; primary neuron/glia culture proficiency. Salary listed ~$143,000–$173,250.",
-      "applyUrl": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5231432007"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Memorial Sloan Kettering Cancer Center",
     "companyType": "Academic cancer center (NYC)",
     "mission": "Define, predict, and understand immune-related adverse events from cancer immunotherapy using multimodal computational approaches.",
@@ -205,21 +149,7 @@
       "description": "Reznik Lab / Computational Oncology postdoc integrating clinical text, germline genetics, labs, and outcomes to study immunotherapy toxicity (Workday 102557).",
       "responsibilities": "Lead collaborative irAE projects; develop computational phenotyping (NLP/LLM), germline/GWAS/HLA analyses, or multimodal predictive models; partner with clinicians and computational scientists.",
       "qualifications": "PhD (completed or nearing) in a quantitative/computational discipline; expertise in NLP/LLMs, statistical genetics, or immuno-oncology. Pay listed ~$72,000–$75,000.",
-      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow-in-Computational-Immuno-Oncology-and-Immune-Related-Adverse-Events_102557"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Memorial Sloan Kettering Cancer Center",
-    "companyType": "Academic cancer center (NYC)",
-    "mission": "Map gastric cancer immunology and evolution with longitudinal single-cell and spatial multimodal profiling linked to clinical care.",
-    "listingsUrl": "https://careers.mskcc.org/",
-    "featured": {
-      "position": "Research Scholar, Computational Oncology / Immuno-Oncology (Spatial & Single-cell)",
-      "description": "Computational postdoc/research scholar leading single-cell and spatial analyses of gastric cancer immunology (Workday 103031; Vardhana/Shah/Strong team).",
-      "responsibilities": "Analyze scRNA-seq, spatial transcriptomics, mIF/H&E, and clinical annotations; build multimodal immune profiles; collaborate on translational immuno-oncology questions.",
-      "qualifications": "PhD in biostatistics, CS, computational biology, or related field; 1st-author publication; single-cell omics experience in cancer preferred. Salary listed ~$75,000–$80,000.",
-      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Scholar--Computational-OncologyImmuno-Oncology_103031"
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/New-York-NY/Postdoctoral-Fellow-in-Computational-Immuno-Oncology-and-Immune-Related-Adverse-Events_102557-1"
     },
     "postedBy": null
   },
@@ -262,6 +192,62 @@
       "responsibilities": "Run and troubleshoot spatial assays; enforce QC; mentor the team.",
       "qualifications": "PhD + 2–5 years spatial transcriptomics industry experience.",
       "applyUrl": "https://job-boards.greenhouse.io/noetik/jobs/4407815009"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Memorial Sloan Kettering Cancer Center",
+    "companyType": "Academic cancer center / research hospital (NYC)",
+    "mission": "End cancer for life through patient care, research, and education — including computational oncology programs across Sloan Kettering Institute.",
+    "listingsUrl": "https://careers.mskcc.org/",
+    "featured": {
+      "position": "Computational Biologist",
+      "description": "MSK computational biologist role applying quantitative methods to cancer genomics and related research programs in New York City.",
+      "responsibilities": "Analyze high-dimensional genomic and multi-omics datasets; develop and maintain reproducible computational workflows; partner with experimental and clinical collaborators; communicate methods and findings in lab meetings and manuscripts.",
+      "qualifications": "Strong programming in Python and/or R; experience with NGS or single-cell analysis; graduate training in computational biology, bioinformatics, statistics, or a related field preferred. Confirm current requirements on the posting.",
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/New-York-NY/Computational-Biologist_103643"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Recursion",
+    "companyType": "TechBio / AI drug discovery company",
+    "mission": "Decode biology to industrialize drug discovery by combining automated experiments with large-scale machine learning.",
+    "listingsUrl": "https://www.recursion.com/careers",
+    "featured": {
+      "position": "Senior Computational Biologist — Early Discovery Oncology",
+      "description": "Senior computational biology role supporting early oncology discovery with large-scale phenomics and multi-omics data.",
+      "responsibilities": "Design and execute computational analyses for oncology discovery programs; integrate imaging, genomics, and assay readouts; partner with biologists and ML scientists to prioritize targets and hypotheses; deliver clear decision-ready analyses.",
+      "qualifications": "PhD or equivalent experience in computational biology, bioinformatics, or a related field; oncology and/or functional genomics experience preferred; strong Python skills. Confirm details on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054131"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Freenome",
+    "companyType": "Early cancer detection / multiomics biotech",
+    "mission": "Detect cancer in its earliest, most treatable stages using multiomics and machine learning.",
+    "listingsUrl": "https://www.freenome.com/careers",
+    "featured": {
+      "position": "Computational Biologist",
+      "description": "Computational biology role building and applying methods for early cancer detection from multiomic blood-based datasets.",
+      "responsibilities": "Analyze large multiomic datasets; develop and validate computational methods; collaborate with wet-lab and clinical teams; contribute to reproducible pipelines and scientific communication.",
+      "qualifications": "Strong background in computational biology or bioinformatics; experience with genomics/multiomics preferred; proficiency in Python and/or R. Confirm requirements on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/freenome/jobs/8658848002"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Sail Biomedicines (Flagship)",
+    "companyType": "Flagship-founded programmable RNA medicines company",
+    "mission": "Advance programmable eRNA therapeutics and in vivo cell engineering for autoimmune disease and beyond.",
+    "listingsUrl": "https://job-boards.greenhouse.io/sendabiosciences",
+    "featured": {
+      "position": "Senior Scientist I, Computational Biology",
+      "description": "Senior computational biology role spanning platform methods and hands-on analysis of preclinical datasets for programmable RNA / in vivo CAR-T programs (Cambridge, MA).",
+      "responsibilities": "Lead analysis of preclinical multi-omics and functional datasets; develop and benchmark computational methods; partner with experimental scientists on study design and interpretation; maintain reproducible workflows and clear documentation.",
+      "qualifications": "Ph.D. in computational biology or related field with 3+ years relevant experience; deep expertise in transcriptomics/multi-omics or preclinical quantitative analysis; strong Python/R. Confirm details on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/sendabiosciences/jobs/8924054002"
     },
     "postedBy": null
   }

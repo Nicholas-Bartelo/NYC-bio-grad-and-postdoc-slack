@@ -154,20 +154,6 @@
     "postedBy": null
   },
   {
-    "company": "Eikon Therapeutics",
-    "companyType": "Growth-stage biotech startup",
-    "mission": "Industrialize single-molecule imaging for drug discovery across intractable target classes.",
-    "listingsUrl": "https://www.eikontx.com/careers",
-    "featured": {
-      "position": "Senior Scientist 1, Neuroscience",
-      "description": "Hands-on neuroscience Senior Scientist I at a platform biotech in NYC (Greenhouse 5231432007).",
-      "responsibilities": "Target validation with cellular models and assays; cross-functional collaboration.",
-      "qualifications": "Advanced degree with deep neuroscience lab experience. Salary listed ~$143,000–$173,250.",
-      "applyUrl": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5231432007"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Biohub",
     "companyType": "Research institute / translational science organization",
     "mission": "Create spatial and immune-engineering technologies that can translate into therapeutic strategies.",
@@ -224,20 +210,6 @@
     "postedBy": null
   },
   {
-    "company": "Dyne Therapeutics",
-    "companyType": "Clinical-stage genetic medicine company (muscle disease)",
-    "mission": "Deliver oligonucleotide therapeutics to muscle using FORCE platform bioconjugates.",
-    "listingsUrl": "https://www.dyne-tx.com/careers/",
-    "featured": {
-      "position": "Scientist, Bioconjugation",
-      "description": "Waltham, MA scientist designing and characterizing novel bioconjugates for Dyne’s pipeline (Greenhouse 6167326004).",
-      "responsibilities": "Design, synthesize, purify, and characterize bioconjugates; apply ADC/AOC experience where relevant; collaborate across chemistry, protein engineering, and biology.",
-      "qualifications": "Bioconjugation chemistry experience; ADC/AOC a plus. MA pay listed ~$115,000–$140,000.",
-      "applyUrl": "https://job-boards.greenhouse.io/dynetherapeutics/jobs/6167326004"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Generate:Biomedicines",
     "companyType": "Flagship-founded generative biology company",
     "mission": "Create breakthrough therapeutics with generative biology spanning protein design and production technologies.",
@@ -248,6 +220,90 @@
       "responsibilities": "Lead upstream expression strategy, mammalian/cell-free production, purification, and analytical characterization across modalities.",
       "qualifications": "Experienced protein production scientist suited to independent IC leadership. Salary listed ~$125,000–$175,000.",
       "applyUrl": "https://generatebiomedicines.com/open-positions?gh_jid=4710188006"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Sail Biomedicines (Flagship)",
+    "companyType": "Flagship-founded programmable RNA medicines company",
+    "mission": "Build programmable RNA therapeutics at the interface of AI, delivery, and immunotherapy.",
+    "listingsUrl": "https://job-boards.greenhouse.io/sendabiosciences",
+    "featured": {
+      "position": "Senior Scientist I, Computational Biology",
+      "description": "Computational biology senior scientist supporting platform and in vivo CAR-T / eRNA programs at Sail Biomedicines.",
+      "responsibilities": "Lead preclinical data analysis; develop methods where standard workflows fall short; partner with experimental scientists; ship reproducible code and clear scientific communication.",
+      "qualifications": "Ph.D. plus relevant experience in computational biology; multi-omics and statistical modeling strength; collaborative builder mindset. Confirm details on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/sendabiosciences/jobs/8924054002"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Strand Therapeutics",
+    "companyType": "Programmable mRNA therapeutics startup",
+    "mission": "Pioneer programmable mRNA with genetic circuits for precise therapeutic control.",
+    "listingsUrl": "https://www.strandtx.com/careers",
+    "featured": {
+      "position": "Senior Scientist, Protein Sciences",
+      "description": "Founding-style protein sciences role integrating computational protein design with experimental binder discovery for Strand’s RNA medicines.",
+      "responsibilities": "Build antibody/nanobody discovery capabilities; partner with computational biology on AI-enabled design; validate expression, folding, stability, and activity; establish protein science workflows.",
+      "qualifications": "Deep protein engineering experience; computational design familiarity; ability to build a function while staying hands-on. Confirm requirements on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/strandtherapeutics/jobs/6220335004"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Generate:Biomedicines",
+    "companyType": "Generative biology company",
+    "mission": "Generate novel proteins programmed for therapeutic function using machine learning.",
+    "listingsUrl": "https://generatebiomedicines.com/open-positions",
+    "featured": {
+      "position": "Scientist I, Computational Protein Design",
+      "description": "Computational protein design scientist contributing to Generate’s generative biology platform.",
+      "responsibilities": "Design and evaluate protein candidates computationally; close the loop with experimental data; improve design methods; collaborate across ML and wet-lab teams.",
+      "qualifications": "PhD or equivalent experience in computational protein design/biophysics/related field. Confirm details on the posting.",
+      "applyUrl": "https://generatebiomedicines.com/open-positions?gh_jid=4723323006"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Recursion",
+    "companyType": "TechBio company industrializing drug discovery",
+    "mission": "Decode biology to industrialize drug discovery — a company-building environment spanning wet lab automation and ML.",
+    "listingsUrl": "https://www.recursion.com/careers",
+    "featured": {
+      "position": "Senior Computational Biologist — Early Discovery Oncology",
+      "description": "Senior computational biologist role in Recursion’s early oncology discovery organization.",
+      "responsibilities": "Drive computational analyses for oncology programs; integrate multimodal experimental data; collaborate with discovery teams; communicate clear scientific recommendations.",
+      "qualifications": "PhD or equivalent; oncology computational biology experience preferred. Confirm requirements on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054131"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Flagship Pioneering",
+    "companyType": "Bio platform venture creation firm",
+    "mission": "Create and grow transformative bio companies — including ML and biomolecular reasoning platforms.",
+    "listingsUrl": "https://www.flagshippioneering.com/careers/",
+    "featured": {
+      "position": "Principal Scientist, Machine Learning — Multimodal Biological Reasoning",
+      "description": "Principal ML scientist role focused on multimodal biological reasoning within Flagship’s ecosystem.",
+      "responsibilities": "Lead ML research for multimodal biological data; partner with company founders and scientists; translate models into scientific workflows; mentor ML talent.",
+      "qualifications": "Deep ML research experience applied to biology; strong publication/product track record preferred. Confirm details on the posting.",
+      "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8597814002?gh_jid=8597814002"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Biohub",
+    "companyType": "Nonprofit research institute (CZ Biohub Network)",
+    "mission": "Accelerate science by building technologies and collaborative research programs across Biohub sites.",
+    "listingsUrl": "https://www.biohub.org/careers/",
+    "featured": {
+      "position": "Research Scientist, AI",
+      "description": "AI research scientist role at Biohub advancing machine learning for biological discovery.",
+      "responsibilities": "Develop and apply AI/ML methods for biological data; collaborate with experimental groups; publish and share methods; contribute to Biohub’s open science mission.",
+      "qualifications": "Strong ML research background with biological applications preferred. Confirm requirements on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/7747518"
     },
     "postedBy": null
   }

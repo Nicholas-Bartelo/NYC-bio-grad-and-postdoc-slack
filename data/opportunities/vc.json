@@ -98,20 +98,6 @@
     "postedBy": null
   },
   {
-    "company": "LatchBio (via Lux Capital Job Board)",
-    "companyType": "AI-for-biology / benchmarks startup (Lux Capital portfolio)",
-    "mission": "Build rigorous scientific benchmarks that measure how well AI agents perform real biology for frontier AI labs and pharma.",
-    "listingsUrl": "https://jobs.luxcapital.com/jobs",
-    "featured": {
-      "position": "Member of Technical Staff, Cell Therapy",
-      "description": "Own cell-therapy benchmarks that define correct discovery-to-IND work for AI agents; scientific authority role at Latch (SF onsite). Listed on the Lux Capital portfolio job board.",
-      "responsibilities": "Author and ship cell-therapy benchmarks across discovery, development, and translation; set scientific standards for agent evaluation; collaborate on agentic wet-lab programs; work with CROs; help build the function beyond an individual contributor role.",
-      "qualifications": "5+ years hands-on cell therapy experience; strong opinions about what correct work looks like in the field; desire to build a function. Comp listed roughly $250k–$400k + equity. Confirm full details on the posting.",
-      "applyUrl": "https://jobs.luxcapital.com/companies/latchbio/jobs/92741263-member-of-technical-staff-cell-gene-therapy"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Flagship Pioneering (Protocos)",
     "companyType": "Flagship-founded platform company / venture-creation ecosystem role",
     "mission": "Invent and build platform companies that change human health and sustainability — Protein Sciences roles underpin discovery programs across the Flagship ecosystem.",
@@ -154,20 +140,6 @@
     "postedBy": null
   },
   {
-    "company": "Eikon Therapeutics",
-    "companyType": "VC-backed biopharma (single-molecule imaging platform)",
-    "mission": "Build a discovery engine at the intersection of chemistry, engineering, computation, and biology.",
-    "listingsUrl": "https://www.eikontx.com/careers",
-    "featured": {
-      "position": "Senior Scientist 1, Neuroscience",
-      "description": "NYC Senior Scientist I role on Parkinson’s target validation within a platform biotech (Greenhouse 5231432007).",
-      "responsibilities": "Develop assays and cellular models; collaborate across sites and disciplines to advance neuroscience targets.",
-      "qualifications": "Neuroscience/cell biology depth with primary neuron experience. Salary listed ~$143,000–$173,250.",
-      "applyUrl": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5231432007"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Schrödinger",
     "companyType": "Public computational drug-discovery platform company",
     "mission": "Advance collaborative and internal therapeutics programs with physics-based design and structural biology.",
@@ -178,20 +150,6 @@
       "responsibilities": "Partner with computational and experimental teams; design structure campaigns; present tractability assessments.",
       "qualifications": "PhD structural biology/biophysics; SBDD track record. Base salary listed ~$120,000–$190,000.",
       "applyUrl": "https://job-boards.greenhouse.io/schrdinger/jobs/7822246003"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Biohub",
-    "companyType": "Nonprofit research institute with industry-adjacent cell therapy goals",
-    "mission": "Engineer immune cells and spatial omics technologies that inform next-generation cell therapies.",
-    "listingsUrl": "https://job-boards.greenhouse.io/biohub",
-    "featured": {
-      "position": "Postdoctoral Fellow / Scientist I, Synthetic Spatial Omics (Imaging Technology)",
-      "description": "Technology-development role in synthetic spatial omics at Biohub NY (Greenhouse 8174563).",
-      "responsibilities": "Build imaging-based multi-omics platforms; integrate with sequencing; map immune cell states in situ.",
-      "qualifications": "Single-cell imaging/sequencing omics experience; NYC onsite. Pay listed Postdoc $93,000 or Scientist I $120,000–$150,000.",
-      "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/8174563"
     },
     "postedBy": null
   },
@@ -224,20 +182,6 @@
     "postedBy": null
   },
   {
-    "company": "Dyne Therapeutics",
-    "companyType": "Clinical-stage genetic medicine company (muscle disease)",
-    "mission": "Deliver oligonucleotide therapeutics to muscle using FORCE platform bioconjugates.",
-    "listingsUrl": "https://www.dyne-tx.com/careers/",
-    "featured": {
-      "position": "Scientist, Bioconjugation",
-      "description": "Waltham, MA scientist designing and characterizing novel bioconjugates for Dyne’s pipeline (Greenhouse 6167326004).",
-      "responsibilities": "Design, synthesize, purify, and characterize bioconjugates; apply ADC/AOC experience where relevant; collaborate across chemistry, protein engineering, and biology.",
-      "qualifications": "Bioconjugation chemistry experience; ADC/AOC a plus. MA pay listed ~$115,000–$140,000.",
-      "applyUrl": "https://job-boards.greenhouse.io/dynetherapeutics/jobs/6167326004"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Generate:Biomedicines",
     "companyType": "Flagship-founded generative biology company",
     "mission": "Create breakthrough therapeutics with generative biology spanning protein design and production technologies.",
@@ -248,6 +192,90 @@
       "responsibilities": "Lead upstream expression strategy, mammalian/cell-free production, purification, and analytical characterization across modalities.",
       "qualifications": "Experienced protein production scientist suited to independent IC leadership. Salary listed ~$125,000–$175,000.",
       "applyUrl": "https://generatebiomedicines.com/open-positions?gh_jid=4710188006"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Flagship Pioneering",
+    "companyType": "Bio platform venture creation firm",
+    "mission": "Originate and grow first-in-category bio platform companies — including genomics and computational roles across Flagship companies.",
+    "listingsUrl": "https://www.flagshippioneering.com/careers/",
+    "featured": {
+      "position": "Lead Bioinformatics Engineer",
+      "description": "Lead bioinformatics engineering role supporting Flagship’s computational biology infrastructure and company-building efforts.",
+      "responsibilities": "Build and scale bioinformatics pipelines and platforms; partner with scientists across Flagship companies; improve data infrastructure and reproducibility; mentor engineers.",
+      "qualifications": "Strong software/bioinformatics engineering background; experience with NGS pipelines and cloud/HPC preferred. Confirm details on the posting.",
+      "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8844445002?gh_jid=8844445002"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Flagship Pioneering (FL114)",
+    "companyType": "Flagship-founded genomics company (stealth/early)",
+    "mission": "Build genomics capabilities that enable next-generation biological discovery within the Flagship ecosystem.",
+    "listingsUrl": "https://www.flagshippioneering.com/careers/",
+    "featured": {
+      "position": "Scientist, Genomics (FL114)",
+      "description": "Scientist role focused on genomics within Flagship company FL114.",
+      "responsibilities": "Design and execute genomics experiments/analyses aligned to FL114’s platform; collaborate with computational and experimental teammates; document and present results.",
+      "qualifications": "PhD or equivalent experience in genomics/molecular biology; NGS experience preferred. Confirm requirements on the posting.",
+      "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8924757002?gh_jid=8924757002"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Generate:Biomedicines",
+    "companyType": "Flagship generative biology company",
+    "mission": "Generate protein therapeutics with machine learning by learning the generative rules of biology.",
+    "listingsUrl": "https://generatebiomedicines.com/open-positions",
+    "featured": {
+      "position": "Scientist I, Computational Protein Design",
+      "description": "Computational protein design scientist role at Generate:Biomedicines.",
+      "responsibilities": "Design proteins with computational/ML methods; analyze design–build–test cycles; partner with experimental protein scientists; contribute to platform tooling and documentation.",
+      "qualifications": "PhD or equivalent in computational biology, protein engineering, biophysics, or related field; experience with protein modeling or ML preferred. Confirm details on the posting.",
+      "applyUrl": "https://generatebiomedicines.com/open-positions?gh_jid=4723323006"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Strand Therapeutics",
+    "companyType": "Programmable mRNA therapeutics company (VC-backed)",
+    "mission": "Unlock programmable RNA medicines with genetic circuits and targeted delivery.",
+    "listingsUrl": "https://www.strandtx.com/careers",
+    "featured": {
+      "position": "Scientist, Synthetic Biology",
+      "description": "Synthetic biology scientist building RNA-based genetic circuits for Strand’s programmable medicines platform (Boston).",
+      "responsibilities": "Design and test synthetic genetic constructs; validate circuit behavior in cell systems; use molecular biology techniques; collaborate across RNA biology and delivery teams.",
+      "qualifications": "PhD in biomedical engineering, bioinformatics, or related field with 1–2 years research experience; molecular cloning and mammalian cell experience required. Confirm details on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/strandtherapeutics/jobs/6215775004"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Natera",
+    "companyType": "Cell-free DNA / genetic testing company",
+    "mission": "Advance precision genetic testing with bioinformatics and machine learning leadership.",
+    "listingsUrl": "https://www.natera.com/company/careers/",
+    "featured": {
+      "position": "Director of Bioinformatics and Machine Learning",
+      "description": "Director-level bioinformatics and ML leadership role at Natera.",
+      "responsibilities": "Set technical direction for bioinformatics/ML; lead scientists and engineers; deliver algorithms for genomic products; partner with product and clinical stakeholders.",
+      "qualifications": "Significant leadership experience in bioinformatics/ML for genomics; advanced degree preferred. Confirm requirements on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6226991004"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Freenome",
+    "companyType": "Early cancer detection / multiomics biotech",
+    "mission": "Combine multiomics and ML for earlier cancer detection — including staff-level computational biology roles.",
+    "listingsUrl": "https://www.freenome.com/careers",
+    "featured": {
+      "position": "Staff Computational Biologist",
+      "description": "Staff-level computational biologist role driving methods for Freenome’s multiomic early detection platform.",
+      "responsibilities": "Lead complex computational biology projects; set methodological standards; mentor scientists; partner across research and product teams.",
+      "qualifications": "Extensive computational biology experience; multiomics/genomics background; strong leadership and coding skills. Confirm details on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/freenome/jobs/8638413002"
     },
     "postedBy": null
   }

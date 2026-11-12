@@ -1,33 +1,5 @@
 [
   {
-    "company": "AstraZeneca",
-    "companyType": "Global pharmaceutical company (R&D / medicines)",
-    "mission": "Push the boundaries of science to deliver life-changing medicines — including oncology drug discovery supported by medicinal and computational chemistry design.",
-    "listingsUrl": "https://careers.astrazeneca.com/early-talent",
-    "featured": {
-      "position": "12-Month University Industrial Placement Student: Computational Chemistry (Cambridge, UK)",
-      "description": "Paid 12-month undergraduate industrial placement (start September 2027) in Oncology Medicinal Chemistry’s Computational Chemistry team supporting drug-discovery design efforts (Job ID R-257921).",
-      "responsibilities": "Carry out structure- and ligand-based drug design; employ machine learning and generative AI for de novo molecule design; implement cheminformatics workflows; analyze literature and high-throughput screen data; run physics-based modelling including docking, free-energy perturbation, and molecular dynamics; use packages such as Maestro and MOE.",
-      "qualifications": "Currently undertaking an undergraduate chemistry degree with the opportunity to spend 1 year in industry starting September 2027; strong planning/organisation; ability to learn and apply new methods; good collaboration/teamwork; programming/cheminformatics knowledge valued. Applications window noted around 4 Sept–2 Oct 2026; assessment day 11 Nov 2026; start 6 Sept 2027.",
-      "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Computational-Chemistry_R-257921"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "AstraZeneca",
-    "companyType": "Global pharmaceutical company (R&D / medicines)",
-    "mission": "Discover and develop oncology medicines through laboratory bioscience that turns biological insight into drug-discovery decisions.",
-    "listingsUrl": "https://careers.astrazeneca.com/early-talent",
-    "featured": {
-      "position": "12-Month University Industrial Placement Student: Biosciences / Oncology (Cambridge, UK)",
-      "description": "12-month laboratory-based Oncology R&D undergraduate industrial placement introducing students to innovative drug discovery inside an Oncology Bioscience team (Job ID R-258891; start September 2027).",
-      "responsibilities": "Contribute to a defined research project and day-to-day lab work: design and run experiments, generate and analyse data, maintain accurate experimental records, and present findings. Depending on placement area, gain experience in cell-based assays, molecular/cellular biology techniques, data analysis, and interpretation supporting oncology drug discovery.",
-      "qualifications": "Currently undertaking an undergraduate or integrated master’s degree in a biological discipline with a year-in-industry option starting September 2027; interest in cancer biology and drug discovery; strong organisation and attention to detail; ability to follow protocols and work safely; quick learner with good collaboration/communication. Application window noted ~4 Sept–2 Oct 2026; assessment day 25 Nov 2026; start 6 Sept 2027.",
-      "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/UK---Cambridge/XMLNAME-12-Month-University-Industrial-Placement-Student--Biosciences_R-258891"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Novartis",
     "companyType": "Global pharmaceutical / biomedical research company",
     "mission": "Reimagine medicine through Biomedical Research (BR) — drug discovery and related life-science research aimed at serious unmet medical need.",
@@ -42,62 +14,6 @@
     "postedBy": null
   },
   {
-    "company": "Bristol Myers Squibb",
-    "companyType": "Global biopharmaceutical company",
-    "mission": "Discover, develop, and deliver innovative medicines for serious diseases — including radiopharmaceutical and broader R&D programs that depend on rigorous regulatory submissions.",
-    "listingsUrl": "https://careers.bms.com/internships-co-ops/",
-    "featured": {
-      "position": "Regulatory Affairs Intern (Indianapolis / RayzeBio) — R1607433",
-      "description": "Full-time summer internship (June–August 2027) supporting BMS Regulatory Affairs at the Indianapolis RayzeBio site — hands-on documentation, submission tracking, and cross-functional regulatory project coordination (requisition R1607433).",
-      "responsibilities": "Assist organizing/formatting regulatory submission documents (e.g. IND, CTA, briefing packages, nonclinical reports); maintain submission trackers and document repositories; review documents for consistency under supervision; support project timelines/task lists and meeting notes; coordinate with internal teams for required documentation; conduct literature reviews and regulatory-intelligence gathering; compile summaries of FDA/EMA guidance and flag requirement changes.",
-      "qualifications": "Currently pursuing a Bachelor’s degree in Life Sciences, Pharmacy, Public Health, or a related field; strong interest in regulatory affairs and drug development; excellent organizational and communication skills; authorized to work in the U.S. for the full internship (no visa sponsorship). Preferred: Microsoft Office/Adobe Acrobat familiarity; project-management tools experience; prior coursework/internship related to clinical trials or regulatory science.",
-      "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Indianapolis---RayzeBio---IN/Regulatory-Affairs-Intern_R1607433"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Regeneron",
-    "companyType": "Biotechnology / biopharma (Tarrytown, NY)",
-    "mission": "Discover, invent, and develop medicines for people with serious diseases using genetics-driven science and data.",
-    "listingsUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers",
-    "featured": {
-      "position": "2027 Co-op Data Science & Computational Biology (Research)",
-      "description": "Full-time onsite Tarrytown co-op (Jan–Aug) on Regeneron’s Research team applying machine learning and data analysis to early-stage drug discovery problems.",
-      "responsibilities": "Build models to predict how genetic variants affect proteins; develop computational tools for high-throughput image analysis; harmonize metadata across large RNA-seq datasets; apply ML/data analysis to research questions; collaborate with researchers; write/test code; present results to the research team.",
-      "qualifications": "Must be enrolled in or accepted to an undergraduate or graduate program (bioinformatics, data science, computer science, statistics, or related) and able to commit 40 hours/week for a co-op term; returning to school afterward or graduating after the co-op. GPA 3.0+ preferred. Pay listed about $17.90–$50.90/hour by education level. Confirm dates on the posting.",
-      "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/XMLNAME-2027-Co-op-Data-Science---Computational-Biology--Research-_R51032-1"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Regeneron",
-    "companyType": "Biotechnology / biopharma (Tarrytown, NY)",
-    "mission": "Advance precision medicine with quantitative biomarker sciences supporting clinical development.",
-    "listingsUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers",
-    "featured": {
-      "position": "Scientist — Precision Medicine Quantitative Biomarker Sciences",
-      "description": "Scientist role on Regeneron’s Precision Medicine Quantitative Biomarker Sciences team (Tarrytown). Confirm current status on Workday before applying.",
-      "responsibilities": "Contribute quantitative biomarker analyses supporting precision medicine strategies; partner with clinical and translational teams; analyze biomarker datasets and communicate findings.",
-      "qualifications": "Scientific training suited to quantitative biomarker / precision medicine work (typically advanced degree). Confirm full requirements on the posting.",
-      "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Scientist--Precision-Medicine-Quantitative-Biomarker-Sciences_R49653"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Regeneron",
-    "companyType": "Biotechnology / pharmaceutical company (Tarrytown, NY)",
-    "mission": "Use science and innovation to develop life-changing medicines — including precision-medicine biomarker strategy that guides early clinical translation.",
-    "listingsUrl": "https://careers.regeneron.com/",
-    "featured": {
-      "position": "Senior Quantitative Biomarker Scientist",
-      "description": "Statistical/computational Precision Medicine role (PMQTS) analyzing omics, EHR, wearable, imaging, and other biomarker data from clinical trials (Workday R50738; Tarrytown or Armonk, NY; ~4 days/week onsite).",
-      "responsibilities": "Conduct clinical trial data management and exploratory biomarker analyses; visualize multimodal biomarker datasets; help build tools/dashboards for processing, querying, cleaning, and visualizing data; partner with Discovery Research and Clinical Development on translational biomarker strategy.",
-      "qualifications": "Strong quantitative / statistical computing background suited to clinical biomarker analysis; experience with omics or real-world clinical data preferred; collaborative mindset for cross-functional Precision Medicine work. Salary range listed ~$109,900–$179,300.",
-      "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Senior-Quantitative-Biomarker-Scientist_R50738"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Regeneron",
     "companyType": "Biotechnology / pharmaceutical company (Tarrytown, NY)",
     "mission": "Discover next-generation therapeutic antibodies through high-throughput screening and data-driven candidate selection.",
@@ -107,21 +23,7 @@
       "description": "Onsite Tarrytown Senior Scientist driving antibody discovery screening campaigns and complex dataset analysis within Protein Expression Sciences (Workday R48393).",
       "responsibilities": "Manage multiple cross-functional antibody discovery projects; analyze primary screening data and select antibodies with desired properties; capture experimental data in internal databases; present campaign results to teams and leadership; stay current with field advances and contribute to process improvements.",
       "qualifications": "PhD in molecular/cellular biology, biochemistry, immunology, or related field with ~2–4 years relevant experience; strong analytical/project-management skills; familiarity with Excel/Prism/Spotfire/Power BI (scripting a plus). Salary range listed ~$109,900–$179,300.",
-      "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/Senior-Scientist---Protein-Expression-Sciences--Antibody-Discovery-_R48393"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Tempus",
-    "companyType": "Precision medicine / multimodal healthcare AI company",
-    "mission": "Identify novel cancer therapeutic targets by combining clinico-genomic databases with functional assays on patient-derived organoids.",
-    "listingsUrl": "https://www.tempus.com/careers/",
-    "featured": {
-      "position": "Sr Scientist II, Computational Discovery Science",
-      "description": "Senior computational discovery scientist finding cancer targets using Tempus multimodal data and PDO assays; collaborative and client-facing with pharma/biotech partners (Workday JR202600909).",
-      "responsibilities": "Develop and apply computational methods for target discovery; integrate clinico-genomic and functional assay data; partner with AI/ML and wet-lab colleagues; communicate complex results to life-science partners.",
-      "qualifications": "Advanced computational biology / oncology discovery background; experience with large multimodal datasets; strong leadership and communication for partner-facing work. NYC/SF salary band listed ~$145,000–$190,000 on posting.",
-      "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Sr-Scientist-II--Computational-Discovery-Science_JR202600909"
+      "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/Senior-Scientist---Protein-Expression-Sciences--Antibody-Discovery-_R48393-1"
     },
     "postedBy": null
   },
@@ -154,20 +56,6 @@
     "postedBy": null
   },
   {
-    "company": "Eikon Therapeutics",
-    "companyType": "Biopharmaceutical company",
-    "mission": "Use single-molecule imaging to unlock intractable protein classes as drug targets, including in neuroscience.",
-    "listingsUrl": "https://www.eikontx.com/careers",
-    "featured": {
-      "position": "Senior Scientist 1, Neuroscience",
-      "description": "Lab-focused Senior Scientist I for Parkinson’s target identification/validation in NYC (Greenhouse 5231432007).",
-      "responsibilities": "Build complex cellular models and assays; partner cross-functionally to advance neuroscience programs.",
-      "qualifications": "Advanced degree with extensive neuroscience/cell biology experience; primary neuron culture skills. Salary listed ~$143,000–$173,250.",
-      "applyUrl": "https://job-boards.greenhouse.io/eikontherapeutics/jobs/5231432007"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Memorial Sloan Kettering Cancer Center",
     "companyType": "Academic cancer center collaborating with industry-facing immuno-oncology research",
     "mission": "Improve immunotherapy safety by computationally characterizing immune-related adverse events.",
@@ -177,21 +65,7 @@
       "description": "Computational immuno-oncology postdoc on irAE prediction and mechanisms (Workday 102557).",
       "responsibilities": "Integrate multimodal clinical and genetic data; build predictive models of toxicity; collaborate across oncology and genetics.",
       "qualifications": "PhD in a quantitative field; NLP, statistical genetics, or immuno-oncology expertise. Pay listed ~$72,000–$75,000.",
-      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow-in-Computational-Immuno-Oncology-and-Immune-Related-Adverse-Events_102557"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Natera",
-    "companyType": "Diagnostics / genomics company",
-    "mission": "Support BioPharma collaborations with multimodal genomics including spatial and single-cell readouts.",
-    "listingsUrl": "https://job-boards.greenhouse.io/natera",
-    "featured": {
-      "position": "Scientist, Genomics and Cancer Biology",
-      "description": "Scientist role driving multimodal genomics experiments for external collaborations and internal discovery (Greenhouse 6231943004).",
-      "responsibilities": "Design and interpret bulk/single-cell/spatial multi-omic studies; communicate insights to pharma partners.",
-      "qualifications": "Genomics and cancer biology experimental experience. Confirm details on Greenhouse.",
-      "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6231943004"
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/New-York-NY/Postdoctoral-Fellow-in-Computational-Immuno-Oncology-and-Immune-Related-Adverse-Events_102557-1"
     },
     "postedBy": null
   },
@@ -206,6 +80,132 @@
       "responsibilities": "Protocol development, assay troubleshooting, spatial QC standards, mentorship.",
       "qualifications": "PhD + industry spatial transcriptomics experience; CosMx preferred.",
       "applyUrl": "https://job-boards.greenhouse.io/noetik/jobs/4407815009"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "AstraZeneca",
+    "companyType": "Global biopharmaceutical company",
+    "mission": "Push the boundaries of science to deliver life-changing medicines — including genomics and ctDNA bioinformatics supporting oncology and precision medicine.",
+    "listingsUrl": "https://careers.astrazeneca.com/",
+    "featured": {
+      "position": "Director, Genomics & ctDNA Bioinformatics",
+      "description": "Leadership role directing genomics and circulating tumor DNA bioinformatics for AstraZeneca biomedical research (Cambridge, MA Kendall Square).",
+      "responsibilities": "Lead genomics/ctDNA bioinformatics strategy and delivery; partner with discovery and translational teams; build rigorous analytical frameworks for NGS-based biomarker programs; mentor scientists and drive cross-functional decisions.",
+      "qualifications": "Advanced degree with substantial genomics/bioinformatics leadership experience; ctDNA or liquid-biopsy analytics preferred. Confirm requirements on the posting.",
+      "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/US---Cambridge-Kendall-SQ---MA/Director--Genomics---ctDNA-Bioinformatics_R-263824-1"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "AstraZeneca",
+    "companyType": "Global biopharmaceutical company",
+    "mission": "Invent new medicines through biologics engineering, including computational design of multispecific antibodies.",
+    "listingsUrl": "https://careers.astrazeneca.com/",
+    "featured": {
+      "position": "Biologics Engineering Intern — Computational & Experimental Design of Multispecific Antibodies",
+      "description": "Internship combining computational and experimental design for multispecific antibodies within Biologics Engineering (Gaithersburg, MD).",
+      "responsibilities": "Contribute to computational design workflows for multispecific antibodies; support experimental validation planning; analyze design/assay data; present findings to the biologics engineering team.",
+      "qualifications": "Undergraduate or graduate training in bioengineering, computational biology, biochemistry, or related field; interest in antibody/protein engineering. Confirm eligibility and dates on the posting.",
+      "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/US---Gaithersburg---MD/Biologics-Engineering--Computational-and-Experimental-Design-of-Multispecific-Antibodies-Intern_R-264042"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Bristol Myers Squibb",
+    "companyType": "Global biopharmaceutical company",
+    "mission": "Transform patients’ lives through science — including computational biology supporting oncology discovery.",
+    "listingsUrl": "https://careers.bms.com/",
+    "featured": {
+      "position": "Principal Scientist, Computational Biology",
+      "description": "Principal computational biology scientist role for discovery research (Cambridge Crossing, MA).",
+      "responsibilities": "Lead computational biology analyses for discovery programs; integrate multi-omics and functional genomics; partner with experimental teams to generate actionable biological hypotheses; mentor junior scientists.",
+      "qualifications": "PhD with relevant industry/academic experience in computational biology; oncology experience preferred; strong coding and statistical skills. Confirm details on the posting.",
+      "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Principal-Scientist--Computational-Biology_R1603662"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Bristol Myers Squibb",
+    "companyType": "Global biopharmaceutical company",
+    "mission": "Advance immuno-oncology through computational cancer immunology and translational science.",
+    "listingsUrl": "https://careers.bms.com/",
+    "featured": {
+      "position": "Principal Scientist — Computational Cancer Immunology",
+      "description": "Principal scientist role focused on computational cancer immunology for BMS research programs.",
+      "responsibilities": "Analyze immune and tumor multi-omics datasets; develop computational frameworks for immuno-oncology questions; collaborate with wet-lab and clinical translational partners; communicate insights that guide program decisions.",
+      "qualifications": "PhD in computational biology/immunology or related field with substantial experience; single-cell and/or spatial immunology experience valued. Confirm requirements on the posting.",
+      "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Principal-Scientist---Computational-Cancer-Immunology_R1607771-1"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Regeneron",
+    "companyType": "Biotechnology / biopharmaceutical company (Tarrytown, NY)",
+    "mission": "Invent, develop, and commercialize life-transforming medicines — including clinical genomics and bioinformatics supporting genetic medicine.",
+    "listingsUrl": "https://careers.regeneron.com/",
+    "featured": {
+      "position": "Clinical Bioinformatician — Clinical Genomics Laboratory",
+      "description": "Clinical bioinformatics role supporting Regeneron’s Clinical Genomics Laboratory in Tarrytown, NY.",
+      "responsibilities": "Analyze clinical genomics datasets; support pipeline development and QC for sequencing assays; partner with laboratory and clinical genetics stakeholders; document methods and results for regulated/clinical contexts.",
+      "qualifications": "Background in bioinformatics, genetics, or computational biology; experience with NGS pipelines preferred; clinical genomics exposure is a plus. Confirm requirements on the posting.",
+      "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/Clinical-Bioinformatician---Clinical-Genomics-Laboratory_R52913-1"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Tempus",
+    "companyType": "AI-enabled precision medicine / healthcare technology company",
+    "mission": "Improve patient care by collecting and analyzing molecular and clinical data at scale.",
+    "listingsUrl": "https://www.tempus.com/careers/",
+    "featured": {
+      "position": "Computational Biologist II, Tempus Discover (NYC)",
+      "description": "Computational biologist role on Tempus Discover applying large-scale multimodal data to research and discovery (New York City among listed locations).",
+      "responsibilities": "Perform computational analyses on multimodal clinical-molecular datasets; build reproducible workflows; collaborate with scientists and product teams; communicate findings for discovery use cases.",
+      "qualifications": "MS/PhD or equivalent experience in computational biology/bioinformatics; strong Python/R; experience with genomics preferred. Confirm details on the posting.",
+      "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/New-York-City/Computational-Biologist-II--Tempus-Discover_JR202601216"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Tempus",
+    "companyType": "AI-enabled precision medicine / healthcare technology company",
+    "mission": "Partner with biopharma R&D teams to accelerate discovery using multimodal real-world and molecular data.",
+    "listingsUrl": "https://www.tempus.com/careers/",
+    "featured": {
+      "position": "Senior Scientist II, Computational Biology, Pharma R&D",
+      "description": "Senior computational biology scientist supporting Tempus Pharma R&D collaborations.",
+      "responsibilities": "Lead computational biology analyses for pharma partner programs; integrate multi-omics and clinical datasets; deliver decision-ready insights; mentor peers and document methods clearly.",
+      "qualifications": "Advanced degree with industry computational biology experience preferred; oncology/genomics background valued. Confirm requirements on the posting.",
+      "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Boston/Senior-Scientist-II--Computational-Biology--Pharma-R-D_JR202601002"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Natera",
+    "companyType": "Cell-free DNA / genetic testing company",
+    "mission": "Change how disease is managed by using cell-free DNA and advanced computational methods for early detection and monitoring.",
+    "listingsUrl": "https://www.natera.com/company/careers/",
+    "featured": {
+      "position": "Lead Bioinformatics & Machine Learning Scientist",
+      "description": "Lead bioinformatics and ML scientist role developing methods for Natera’s genomic products.",
+      "responsibilities": "Lead algorithm and ML development for genomic assays; analyze large NGS datasets; partner with R&D and product teams; drive rigorous validation and documentation.",
+      "qualifications": "Advanced degree in computational biology/ML or related field; substantial bioinformatics experience; strong Python and statistics. Confirm details on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6250248004"
+    },
+    "postedBy": null
+  },
+  {
+    "company": "Recursion",
+    "companyType": "TechBio / AI drug discovery company",
+    "mission": "Industrialize drug discovery with automated biology and machine learning across early discovery immunology programs.",
+    "listingsUrl": "https://www.recursion.com/careers",
+    "featured": {
+      "position": "Senior Computational Biologist — Early Discovery Immunology",
+      "description": "Senior computational biology role supporting early discovery immunology at Recursion.",
+      "responsibilities": "Analyze large-scale experimental and omics datasets for immunology discovery; collaborate with biologists and ML teams; propose targets and mechanistic hypotheses; deliver reproducible analyses.",
+      "qualifications": "PhD or equivalent experience; immunology and computational biology background preferred; strong coding skills. Confirm requirements on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054379"
     },
     "postedBy": null
   }

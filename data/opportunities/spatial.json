@@ -27,7 +27,7 @@
       "description": "NYC postdoc/computational scientist role developing statistical and ML methods for high-plex spatial and single-cell data in translational cancer research (Workday req 101549).",
       "responsibilities": "Develop/scale statistical and ML frameworks for high-dimensional spatial omics and single-cell landscapes; build pipelines for multiplexed spatial imaging and paired single-cell multi-omics; perform spatial point-pattern analysis, cell–cell interaction modeling, and niche identification in the tumor microenvironment; design analyses linking spatial immune phenotypes to clinical outcomes; support study design/power for translational protocols.",
       "qualifications": "PhD-level computational scientist with proven analysis of single-cell and high-plex spatial data; direct experience with IMC, 10x Xenium, NanoString CosMx, and/or 10x Visium; advanced Python and/or R; expert familiarity with Seurat, Giotto, and Bioconductor spatial/single-cell tools; strong spatial statistics (autocorrelation, deconvolution, neighborhood modeling). Pay range listed ~$72,000–$87,564.",
-      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549"
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/New-York-NY/Post-Doctoral-Research-Fellow-Computational-Scientist--Biostatistics---Spatial-Transcriptomics--Biostatistics---Surgery-Memorial-Sloan-Kettering-Cancer-Center_101549"
     },
     "postedBy": null
   },
@@ -59,7 +59,7 @@
       "description": "Senior industry AI scientist role designing multimodal models over pathology WSI, genomic profiles, spatial omics, and longitudinal records for Tempus AI Products (remote USA).",
       "responsibilities": "Architect AI-intensive projects from research to production-ready design; train state-of-the-art multimodal models using WSI, DNA/RNA, spatial omics, and longitudinal patient data; build solutions for biomarker discovery, therapy-outcome prediction, and CDx with life-sciences partners; ensure regulatory/quality alignment; publish and engage the AI research community.",
       "qualifications": "Demonstrated expertise in large-scale deep learning and production-grade model training; computer vision and multimodal modeling (pathology, multi-omics) preferred; medical/healthcare AI experience valued. Remote USA compensation band listed ~$200k–$240k (NYC band higher on posting). Confirm full requirements on the Workday requisition.",
-      "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267"
+      "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Chicago/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267"
     },
     "postedBy": null
   },
@@ -176,38 +176,6 @@
     "postedBy": null
   },
   {
-    "company": "Biohub",
-    "companyType": "Nonprofit biomedical research institute (NYC onsite)",
-    "mission": "Develop next-generation spatiotemporal omics to resolve immune cell state dynamics and organization for better cell therapies.",
-    "location": "New York, NY (onsite)",
-    "spatialFocus": "Imaging-based synthetic spatial omics; multi-omics integration with sequencing",
-    "listingsUrl": "https://job-boards.greenhouse.io/biohub",
-    "featured": {
-      "position": "Postdoctoral Fellow / Scientist I, Synthetic Spatial Omics (Imaging Technology)",
-      "description": "CZ Biohub NY Laboratory of Synthetic Spatial Omics role building imaging-based multi-omics platforms for immune cell states in situ (Greenhouse 8174563).",
-      "responsibilities": "Develop and apply advanced imaging-based multi-omics; integrate with sequencing approaches; measure cellular functions in situ and identify molecular drivers of functional states.",
-      "qualifications": "2–4 years post-PhD (Scientist I) or postdoc-level experience in single-cell imaging and/or sequencing omics; creative technology-development mindset. NYC pay listed Postdoc $93,000 or Scientist I $120,000–$150,000.",
-      "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/8174563"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Memorial Sloan Kettering Cancer Center",
-    "companyType": "Academic cancer center (NYC)",
-    "mission": "Lead translational single-cell and spatial biology studies of gastric cancer immunology and evolution.",
-    "location": "New York, NY",
-    "spatialFocus": "Spatial transcriptomics, multiplex immunofluorescence, scRNA-seq co-registered with H&E",
-    "listingsUrl": "https://careers.mskcc.org/",
-    "featured": {
-      "position": "Research Scholar, Computational Oncology / Immuno-Oncology (Spatial & Single-cell)",
-      "description": "Computational research scholar analyzing longitudinal multimodal immune profiling including spatial transcriptomics (Workday 103031).",
-      "responsibilities": "Analyze scRNA-seq and spatial datasets linked to clinical annotations; collaborate with tumor immunology and computational oncology PIs; publish translational findings.",
-      "qualifications": "PhD in a quantitative discipline; single-cell/spatial omics experience in cancer preferred. Salary listed ~$75,000–$80,000.",
-      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Scholar--Computational-OncologyImmuno-Oncology_103031"
-    },
-    "postedBy": null
-  },
-  {
     "company": "Memorial Sloan Kettering Cancer Center",
     "companyType": "Academic cancer center (NYC)",
     "mission": "Study tumor cell plasticity with single-cell and spatial genomics, cfDNA, and machine learning in the Chan Lab.",
@@ -219,7 +187,7 @@
       "description": "Computational postdoc integrating single-cell/spatial genomics and ML for lineage plasticity under therapeutic pressure (Workday 97543).",
       "responsibilities": "Analyze longitudinal patient cohorts and preclinical models; map immune/treatment pressures on cell fate; develop computational methods; publish first-author work.",
       "qualifications": "PhD in computational biology/bioinformatics/CS/statistics; Python and R; prior computational biology experience; ≥1 first-author paper. Salary listed ~$72,000–$87,000.",
-      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543"
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/New-York-NY/Postdoctoral-Fellow--Computational-Biology-in-Cancer---Chan-Lab-at-Memorial-Sloan-Kettering-Cancer-Center_97543"
     },
     "postedBy": null
   },
@@ -236,22 +204,6 @@
       "responsibilities": "Develop projects on tissue–immune networks; apply molecular biology, single-cell sequencing, spatial transcriptomics, and genetic perturbation; collaborate across immunology and technology teams.",
       "qualifications": "PhD-level immunology training. NYC pay listed Postdoc $93,000 or Scientist I $120,000–$150,000.",
       "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/8351080"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Biohub",
-    "companyType": "Nonprofit biomedical research institute",
-    "mission": "Build analytical foundations for spatiotemporal multi-omics technology platforms.",
-    "location": "Chicago, IL (onsite) — virtual-friendly collaboration across Biohub network",
-    "spatialFocus": "Spatiotemporal multi-omics analysis, visualization, and ML integration",
-    "listingsUrl": "https://job-boards.greenhouse.io/biohub",
-    "featured": {
-      "position": "Computational Biologist, Spatiotemporal Multi-Omics",
-      "description": "Biohub Chicago computational biologist developing workflows and visualization for spatiotemporal multi-omics (Greenhouse 7922812).",
-      "responsibilities": "Develop analysis workflows for spatiotemporal/multi-omics data; build visualization tools; integrate proteomics/metabolomics; explore ML approaches; collaborate and publish.",
-      "qualifications": "PhD in a quantitative field; ≥2 years bioinformatics methods/pipelines; ≥1 year spatial, multi-omics, or biological ML experience; strong publication/open-source record.",
-      "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/7922812"
     },
     "postedBy": null
   },
@@ -284,22 +236,6 @@
       "responsibilities": "Stabilize imaging platforms; adapt homebrew chemistry to organoids; move spatial perturb-seq toward screen-ready scale.",
       "qualifications": "Hands-on tissue/organoid prep and in situ imaging assays (HCR, MERFISH, seqFISH, RCA, ISS).",
       "applyUrl": "https://job-boards.greenhouse.io/arcinstitute/jobs/6205644004"
-    },
-    "postedBy": null
-  },
-  {
-    "company": "Natera",
-    "companyType": "Diagnostics / genomics company",
-    "mission": "Drive multimodal genomics experiments including spatial transcriptomic and proteomic readouts for BioPharma collaborations.",
-    "location": "San Carlos, CA",
-    "spatialFocus": "Spatial transcriptomics and spatial proteomics",
-    "listingsUrl": "https://job-boards.greenhouse.io/natera",
-    "featured": {
-      "position": "Scientist, Genomics and Cancer Biology",
-      "description": "Scientist designing multimodal genomics studies with spatial readouts (Greenhouse 6231943004).",
-      "responsibilities": "Design/execute multimodal experiments; integrate spatial and single-cell data; deliver partner-facing biological insight.",
-      "qualifications": "Strong genomics / cancer biology experimental background. Confirm details on Greenhouse.",
-      "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6231943004"
     },
     "postedBy": null
   },
@@ -368,35 +304,99 @@
     "postedBy": null
   },
   {
-    "company": "NYU Langone Health",
-    "companyType": "Academic medical center (NYC)",
-    "mission": "Advance computational immunology and genomics of rheumatologic autoimmune disease, including spatial transcriptomics analyses.",
-    "location": "New York, NY",
-    "spatialFocus": "Spatial transcriptomics among multimodal genomic datasets for autoimmunity",
-    "listingsUrl": "https://nyulangone.org/careers",
+    "company": "Memorial Sloan Kettering Cancer Center",
+    "companyType": "Academic cancer center / research hospital (NYC)",
+    "mission": "Advance computational oncology and spatial biology methods that connect tissue architecture to cancer phenotypes.",
+    "listingsUrl": "https://careers.mskcc.org/",
     "featured": {
-      "position": "Postdoctoral Research Fellow — Rheumatology, Najjar Lab (Computational Biology)",
-      "description": "NYC computational biology postdoc analyzing bulk/single-cell/spatial transcriptomics and epigenomic datasets in autoimmune disease (Nature Careers / NYU Langone).",
-      "responsibilities": "Lead 1–2 primary computational projects; analyze high-dimensional genomic datasets; collaborate across immunology and data science; contribute to manuscripts.",
-      "qualifications": "PhD in computational biology/bioinformatics/genomics/biostatistics; strong genomic analysis track record; publications. Salary listed ~$70,000–$75,000.",
-      "applyUrl": "https://www.nature.com/naturecareers/job/12866415/nyu-langone-health-postdoctoral-research-fellow-rheumatology-najjar-lab/"
+      "position": "Computational Biologist",
+      "description": "MSK computational biologist opening in New York — strong fit for candidates interested in cancer genomics and spatially resolved analyses.",
+      "responsibilities": "Analyze genomic and imaging/spatial datasets; build reproducible pipelines; collaborate with wet-lab and clinical investigators; communicate results clearly.",
+      "qualifications": "Computational biology / bioinformatics training; Python/R proficiency; interest in spatial or single-cell methods preferred. Confirm details on the posting.",
+      "applyUrl": "https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/New-York-NY/Computational-Biologist_103643"
     },
-    "postedBy": null
+    "postedBy": null,
+    "location": "New York, NY",
+    "spatialFocus": "Cancer genomics with relevance to tissue/microenvironment analyses"
   },
   {
-    "company": "Volastra Therapeutics",
-    "companyType": "Clinical-stage oncology biotech (NYC)",
-    "mission": "Treat cancer by exploiting chromosomal instability with computational biology informing discovery and translation.",
-    "location": "New York, NY",
-    "spatialFocus": "Computational analysis of multi-omic datasets informing tumor spatial biology and biomarkers",
-    "listingsUrl": "https://job-boards.greenhouse.io/volastratherapeutics",
+    "company": "Tempus",
+    "companyType": "AI-enabled precision medicine company",
+    "mission": "Use multimodal molecular and clinical data — including spatially informed discovery contexts — to improve care and accelerate research.",
+    "listingsUrl": "https://www.tempus.com/careers/",
     "featured": {
-      "position": "Scientist / Senior Scientist, Computational Biology",
-      "description": "NYC computational biology scientist for genomic/transcriptomic/functional genomic/clinical-translational analyses (Greenhouse 7749473003).",
-      "responsibilities": "Build rigorous analyses to identify vulnerabilities, prioritize targets, nominate biomarkers, and connect preclinical findings to patients.",
-      "qualifications": "Strong computational biology / bioinformatics background in oncology. Confirm level on Greenhouse.",
-      "applyUrl": "https://job-boards.greenhouse.io/volastratherapeutics/jobs/7749473003"
+      "position": "Computational Biologist II, Tempus Discover (NYC)",
+      "description": "NYC-listed computational biologist role on Tempus Discover working with large multimodal datasets.",
+      "responsibilities": "Analyze multimodal molecular datasets; develop computational methods; partner with product and research teams; deliver reproducible insights.",
+      "qualifications": "MS/PhD or equivalent computational biology experience; genomics preferred. Confirm details on the posting.",
+      "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/New-York-City/Computational-Biologist-II--Tempus-Discover_JR202601216"
     },
-    "postedBy": null
+    "postedBy": null,
+    "location": "New York City (and other listed Tempus locations)",
+    "spatialFocus": "Multimodal molecular analysis for discovery (including tissue-context programs)"
+  },
+  {
+    "company": "PathAI",
+    "companyType": "AI pathology / digital pathology company",
+    "mission": "Improve patient outcomes with AI-powered pathology — including machine learning on whole-slide tissue images.",
+    "listingsUrl": "https://www.pathai.com/careers",
+    "featured": {
+      "position": "Staff Machine Learning Engineer",
+      "description": "Staff ML engineer role building models and systems for AI pathology on tissue images.",
+      "responsibilities": "Design and ship ML systems for digital pathology; improve model quality and reliability; partner with pathologists and product teams; mentor engineers.",
+      "qualifications": "Extensive ML engineering experience; computer vision experience preferred. Confirm details on the posting.",
+      "applyUrl": "https://www.pathai.com/careers/8935019002?gh_jid=8935019002"
+    },
+    "postedBy": null,
+    "location": "Remote / PathAI locations (confirm on posting)",
+    "spatialFocus": "Whole-slide tissue image ML / spatial pathology"
+  },
+  {
+    "company": "Natera",
+    "companyType": "Cell-free DNA / genetic testing company",
+    "mission": "Advance cancer genomics with bioinformatics and ML — complementary to tissue and liquid-biopsy workflows.",
+    "listingsUrl": "https://www.natera.com/company/careers/",
+    "featured": {
+      "position": "Machine Learning Scientist, Multimodal AI",
+      "description": "ML scientist role focused on multimodal AI for Natera’s genomic products.",
+      "responsibilities": "Develop multimodal ML models; analyze large genomic datasets; collaborate with bioinformatics and product teams; validate models rigorously.",
+      "qualifications": "Strong ML background with genomics or multimodal data experience preferred. Confirm requirements on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6004385004"
+    },
+    "postedBy": null,
+    "location": "Confirm on posting",
+    "spatialFocus": "Multimodal genomic AI with oncology applications"
+  },
+  {
+    "company": "Freenome",
+    "companyType": "Early cancer detection biotech",
+    "mission": "Detect cancer earlier with multiomics — including computational biology roles relevant to tissue and blood-based signals.",
+    "listingsUrl": "https://www.freenome.com/careers",
+    "featured": {
+      "position": "Staff Computational Biologist",
+      "description": "Staff computational biologist advancing Freenome’s multiomic early detection methods.",
+      "responsibilities": "Lead computational biology strategy for complex multiomic problems; mentor scientists; partner across research; deliver high-quality analyses.",
+      "qualifications": "Senior computational biology experience; multiomics preferred. Confirm details on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/freenome/jobs/8638413002"
+    },
+    "postedBy": null,
+    "location": "Confirm on posting",
+    "spatialFocus": "Multiomics computational biology for oncology"
+  },
+  {
+    "company": "Schrödinger",
+    "companyType": "Computational chemistry / drug discovery software and research company",
+    "mission": "Transform drug discovery with physics-based computational chemistry and related scientific software.",
+    "listingsUrl": "https://www.schrodinger.com/careers/",
+    "featured": {
+      "position": "Computational Chemist, Senior Scientist",
+      "description": "Senior computational chemist role at Schrödinger applying structure-based methods to discovery problems.",
+      "responsibilities": "Apply computational chemistry methods to discovery projects; collaborate with experimental partners; improve modeling workflows; communicate scientific results.",
+      "qualifications": "PhD in computational chemistry or related field with relevant experience. Confirm requirements on the posting.",
+      "applyUrl": "https://job-boards.greenhouse.io/schrdinger/jobs/7637372003"
+    },
+    "postedBy": null,
+    "location": "Confirm on posting",
+    "spatialFocus": "Structure-based molecular modeling (atomic-scale spatial chemistry)"
   }
 ]

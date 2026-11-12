@@ -12,6 +12,18 @@ export function opportunityKey({ company, position, applyUrl }) {
   return `${company.trim()}||${position.trim()}||${applyUrl.trim()}`;
 }
 
+/** Stable identity when apply URLs are rewritten (e.g. Workday location segment). */
+export function opportunityRoleKey({ company, position }) {
+  return `${company.trim()}||${position.trim()}`;
+}
+
+export function historyHasOpportunity(keys, { company, position, applyUrl }) {
+  const full = opportunityKey({ company, position, applyUrl });
+  if (keys.includes(full)) return true;
+  const role = opportunityRoleKey({ company, position });
+  return keys.some((k) => typeof k === "string" && k.startsWith(`${role}||`));
+}
+
 export function loadPostedHistory(path) {
   if (!existsSync(path)) {
     return { version: 1, channels: {} };
