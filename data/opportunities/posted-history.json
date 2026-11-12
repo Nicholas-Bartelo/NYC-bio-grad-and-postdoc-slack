@@ -630,9 +630,10 @@
         "Schrödinger||Senior / Principal Scientist, Structural Biology — Target Druggability & SBDD||https://job-boards.greenhouse.io/schrdinger/jobs/7822246003",
         "Eikon Therapeutics||Senior Scientist 1, Neuroscience||https://job-boards.greenhouse.io/eikontherapeutics/jobs/5231432007",
         "Natera||Scientist, Genomics and Cancer Biology||https://job-boards.greenhouse.io/natera/jobs/6231943004",
-        "Noetik||Sr. Scientist, Spatial Biology||https://job-boards.greenhouse.io/noetik/jobs/4407815009"
+        "Noetik||Sr. Scientist, Spatial Biology||https://job-boards.greenhouse.io/noetik/jobs/4407815009",
+        "Bristol Myers Squibb||Principal Scientist, Computational Biology||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Principal-Scientist--Computational-Biology_R1603662"
       ],
-      "lastPostedDate": "2026-11-11",
+      "lastPostedDate": "2026-11-12",
       "entries": [
         {
           "key": "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
@@ -881,6 +882,14 @@
           "applyUrl": "https://job-boards.greenhouse.io/noetik/jobs/4407815009",
           "postedAt": "2026-11-11T15:00:30.140Z",
           "date": "2026-11-11"
+        },
+        {
+          "key": "Bristol Myers Squibb||Principal Scientist, Computational Biology||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Principal-Scientist--Computational-Biology_R1603662",
+          "company": "Bristol Myers Squibb",
+          "position": "Principal Scientist, Computational Biology",
+          "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Principal-Scientist--Computational-Biology_R1603662",
+          "postedAt": "2026-11-12T21:20:52.873Z",
+          "date": "2026-11-12"
         }
       ],
       "cycleResetAt": null
