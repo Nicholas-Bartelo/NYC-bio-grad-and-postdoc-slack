@@ -25,9 +25,10 @@
         "Memorial Sloan Kettering Cancer Center||Research Scholar, Computational Oncology / Immuno-Oncology (Spatial & Single-cell)||https://msk.wd108.myworkdayjobs.com/en-US/MSKCC_Careers_Primary/job/Research-Scholar--Computational-OncologyImmuno-Oncology_103031",
         "Biohub||Postdoctoral Fellow / Scientist I, T Cell Biology and Tissue Immunology||https://job-boards.greenhouse.io/biohub/jobs/8351080",
         "Sail Biomedicines (Flagship)||Senior Scientist I, Computational Biology||https://job-boards.greenhouse.io/sendabiosciences/jobs/8924054002",
-        "Freenome||Computational Biologist||https://job-boards.greenhouse.io/freenome/jobs/8658848002"
+        "Freenome||Computational Biologist||https://job-boards.greenhouse.io/freenome/jobs/8658848002",
+        "Recursion||Senior Computational Biologist — Early Discovery Oncology||https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054131"
       ],
-      "lastPostedDate": "2026-11-15",
+      "lastPostedDate": "2026-11-16",
       "entries": [
         {
           "key": "Genentech||Students & Graduates — open internship and early-career roles||https://careers.gene.com/us/en/c/students-graduates-jobs",
@@ -332,6 +333,14 @@
           "applyUrl": "https://job-boards.greenhouse.io/freenome/jobs/8658848002",
           "postedAt": "2026-11-15T15:00:24.661Z",
           "date": "2026-11-15"
+        },
+        {
+          "key": "Recursion||Senior Computational Biologist — Early Discovery Oncology||https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054131",
+          "company": "Recursion",
+          "position": "Senior Computational Biologist — Early Discovery Oncology",
+          "applyUrl": "https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054131",
+          "postedAt": "2026-11-16T15:00:27.866Z",
+          "date": "2026-11-16"
         }
       ],
       "cycleResetAt": null
@@ -361,9 +370,10 @@
         "Biohub||Postdoctoral Fellow / Scientist I, Synthetic Spatial Omics (Imaging Technology)||https://job-boards.greenhouse.io/biohub/jobs/8174563",
         "Strand Therapeutics||Scientist, Synthetic Biology||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6215775004",
         "Generate:Biomedicines||Scientist I, Computational Protein Design||https://generatebiomedicines.com/open-positions?gh_jid=4723323006",
-        "Freenome||Staff Computational Biologist||https://job-boards.greenhouse.io/freenome/jobs/8638413002"
+        "Freenome||Staff Computational Biologist||https://job-boards.greenhouse.io/freenome/jobs/8638413002",
+        "Flagship Pioneering||Lead Bioinformatics Engineer||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8844445002?gh_jid=8844445002"
       ],
-      "lastPostedDate": "2026-11-15",
+      "lastPostedDate": "2026-11-16",
       "entries": [
         {
           "key": "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
@@ -660,6 +670,14 @@
           "applyUrl": "https://job-boards.greenhouse.io/freenome/jobs/8638413002",
           "postedAt": "2026-11-15T15:00:25.097Z",
           "date": "2026-11-15"
+        },
+        {
+          "key": "Flagship Pioneering||Lead Bioinformatics Engineer||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8844445002?gh_jid=8844445002",
+          "company": "Flagship Pioneering",
+          "position": "Lead Bioinformatics Engineer",
+          "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8844445002?gh_jid=8844445002",
+          "postedAt": "2026-11-16T15:00:28.578Z",
+          "date": "2026-11-16"
         }
       ],
       "cycleResetAt": null
@@ -688,9 +706,10 @@
         "Bristol Myers Squibb||Principal Scientist, Computational Biology||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Principal-Scientist--Computational-Biology_R1603662",
         "Tempus||Senior Scientist II, Computational Biology, Pharma R&D||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Boston/Senior-Scientist-II--Computational-Biology--Pharma-R-D_JR202601002",
         "Tempus||Computational Biologist II, Tempus Discover (NYC)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/New-York-City/Computational-Biologist-II--Tempus-Discover_JR202601216",
-        "Recursion||Senior Computational Biologist — Early Discovery Immunology||https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054379"
+        "Recursion||Senior Computational Biologist — Early Discovery Immunology||https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054379",
+        "Natera||Lead Bioinformatics & Machine Learning Scientist||https://job-boards.greenhouse.io/natera/jobs/6250248004"
       ],
-      "lastPostedDate": "2026-11-15",
+      "lastPostedDate": "2026-11-16",
       "entries": [
         {
           "key": "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
@@ -971,6 +990,14 @@
           "applyUrl": "https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054379",
           "postedAt": "2026-11-15T15:00:25.762Z",
           "date": "2026-11-15"
+        },
+        {
+          "key": "Natera||Lead Bioinformatics & Machine Learning Scientist||https://job-boards.greenhouse.io/natera/jobs/6250248004",
+          "company": "Natera",
+          "position": "Lead Bioinformatics & Machine Learning Scientist",
+          "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6250248004",
+          "postedAt": "2026-11-16T15:00:29.218Z",
+          "date": "2026-11-16"
         }
       ],
       "cycleResetAt": null
@@ -999,9 +1026,10 @@
         "Dyne Therapeutics||Scientist, Bioconjugation||https://job-boards.greenhouse.io/dynetherapeutics/jobs/6167326004",
         "Strand Therapeutics||Senior Scientist, Protein Sciences||https://job-boards.greenhouse.io/strandtherapeutics/jobs/6220335004",
         "Generate:Biomedicines||Senior Scientist I, Biotherapeutic Production Technologies||https://generatebiomedicines.com/open-positions?gh_jid=4710188006",
-        "Sail Biomedicines (Flagship)||Senior Scientist I, Computational Biology||https://job-boards.greenhouse.io/sendabiosciences/jobs/8924054002"
+        "Sail Biomedicines (Flagship)||Senior Scientist I, Computational Biology||https://job-boards.greenhouse.io/sendabiosciences/jobs/8924054002",
+        "Flagship Pioneering||Principal Scientist, Machine Learning — Multimodal Biological Reasoning||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8597814002?gh_jid=8597814002"
       ],
-      "lastPostedDate": "2026-11-15",
+      "lastPostedDate": "2026-11-16",
       "entries": [
         {
           "key": "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
@@ -1290,6 +1318,14 @@
           "applyUrl": "https://job-boards.greenhouse.io/sendabiosciences/jobs/8924054002",
           "postedAt": "2026-11-15T15:00:26.286Z",
           "date": "2026-11-15"
+        },
+        {
+          "key": "Flagship Pioneering||Principal Scientist, Machine Learning — Multimodal Biological Reasoning||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8597814002?gh_jid=8597814002",
+          "company": "Flagship Pioneering",
+          "position": "Principal Scientist, Machine Learning — Multimodal Biological Reasoning",
+          "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8597814002?gh_jid=8597814002",
+          "postedAt": "2026-11-16T15:00:29.863Z",
+          "date": "2026-11-16"
         }
       ],
       "cycleResetAt": null
@@ -1327,9 +1363,11 @@
         "Schrödinger||Computational Chemist, Senior Scientist||https://job-boards.greenhouse.io/schrdinger/jobs/7637372003",
         "Freenome||Staff Computational Biologist||https://job-boards.greenhouse.io/freenome/jobs/8638413002",
         "Arc Institute||Scientist / Sr. Scientist, Spatial Omics Technology Development (Fixed-Term)||https://job-boards.greenhouse.io/arcinstitute/jobs/6205644004",
-        "Tempus||Computational Biologist II, Tempus Discover (NYC)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/New-York-City/Computational-Biologist-II--Tempus-Discover_JR202601216"
+        "Tempus||Computational Biologist II, Tempus Discover (NYC)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/New-York-City/Computational-Biologist-II--Tempus-Discover_JR202601216",
+        "PathAI||Staff Machine Learning Engineer||https://www.pathai.com/careers/8935019002?gh_jid=8935019002",
+        "Owkin||Forward Deployed Computational Biologist||https://jobs.ashbyhq.com/owkin/f588cde0-efa9-4dc1-9501-a24525110450"
       ],
-      "lastPostedDate": "2026-11-15",
+      "lastPostedDate": "2026-11-16",
       "entries": [
         {
           "key": "Tempus||Staff AI Scientist — AI Products / Life Sciences (JR202600267)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Staff-AI-Scientist---AI-Products---Life-Sciences_JR202600267",
@@ -1834,6 +1872,22 @@
           "applyUrl": "https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/New-York-City/Computational-Biologist-II--Tempus-Discover_JR202601216",
           "postedAt": "2026-11-15T15:00:28.416Z",
           "date": "2026-11-15"
+        },
+        {
+          "key": "PathAI||Staff Machine Learning Engineer||https://www.pathai.com/careers/8935019002?gh_jid=8935019002",
+          "company": "PathAI",
+          "position": "Staff Machine Learning Engineer",
+          "applyUrl": "https://www.pathai.com/careers/8935019002?gh_jid=8935019002",
+          "postedAt": "2026-11-16T15:00:31.516Z",
+          "date": "2026-11-16"
+        },
+        {
+          "key": "Owkin||Forward Deployed Computational Biologist||https://jobs.ashbyhq.com/owkin/f588cde0-efa9-4dc1-9501-a24525110450",
+          "company": "Owkin",
+          "position": "Forward Deployed Computational Biologist",
+          "applyUrl": "https://jobs.ashbyhq.com/owkin/f588cde0-efa9-4dc1-9501-a24525110450",
+          "postedAt": "2026-11-16T15:00:32.209Z",
+          "date": "2026-11-16"
         }
       ],
       "cycleResetAt": null
