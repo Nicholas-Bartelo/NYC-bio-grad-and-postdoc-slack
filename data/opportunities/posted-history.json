@@ -725,9 +725,10 @@
         "Tempus||Senior Scientist II, Computational Biology, Pharma R&D||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/Boston/Senior-Scientist-II--Computational-Biology--Pharma-R-D_JR202601002",
         "Tempus||Computational Biologist II, Tempus Discover (NYC)||https://tempus.wd5.myworkdayjobs.com/en-US/Tempus_Careers/job/New-York-City/Computational-Biologist-II--Tempus-Discover_JR202601216",
         "Recursion||Senior Computational Biologist — Early Discovery Immunology||https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054379",
-        "Natera||Lead Bioinformatics & Machine Learning Scientist||https://job-boards.greenhouse.io/natera/jobs/6250248004"
+        "Natera||Lead Bioinformatics & Machine Learning Scientist||https://job-boards.greenhouse.io/natera/jobs/6250248004",
+        "Bristol Myers Squibb||Principal Scientist — Computational Cancer Immunology||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Principal-Scientist---Computational-Cancer-Immunology_R1607771-1"
       ],
-      "lastPostedDate": "2026-11-16",
+      "lastPostedDate": "2026-11-17",
       "entries": [
         {
           "key": "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
@@ -1016,6 +1017,14 @@
           "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6250248004",
           "postedAt": "2026-11-16T15:00:29.218Z",
           "date": "2026-11-16"
+        },
+        {
+          "key": "Bristol Myers Squibb||Principal Scientist — Computational Cancer Immunology||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Principal-Scientist---Computational-Cancer-Immunology_R1607771-1",
+          "company": "Bristol Myers Squibb",
+          "position": "Principal Scientist — Computational Cancer Immunology",
+          "applyUrl": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Principal-Scientist---Computational-Cancer-Immunology_R1607771-1",
+          "postedAt": "2026-11-17T22:47:07.525Z",
+          "date": "2026-11-17"
         }
       ],
       "cycleResetAt": null
