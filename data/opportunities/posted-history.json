@@ -381,9 +381,10 @@
         "Generate:Biomedicines||Scientist I, Computational Protein Design||https://generatebiomedicines.com/open-positions?gh_jid=4723323006",
         "Freenome||Staff Computational Biologist||https://job-boards.greenhouse.io/freenome/jobs/8638413002",
         "Flagship Pioneering||Lead Bioinformatics Engineer||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8844445002?gh_jid=8844445002",
-        "Natera||Director of Bioinformatics and Machine Learning||https://job-boards.greenhouse.io/natera/jobs/6226991004"
+        "Natera||Director of Bioinformatics and Machine Learning||https://job-boards.greenhouse.io/natera/jobs/6226991004",
+        "Flagship Pioneering (FL114)||Scientist, Genomics (FL114)||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8924757002?gh_jid=8924757002"
       ],
-      "lastPostedDate": "2026-11-17",
+      "lastPostedDate": "2026-11-18",
       "entries": [
         {
           "key": "Atlas Venture||Firm opportunities (see current Atlas site listings / contact paths)||https://www.atlasventure.com/",
@@ -696,6 +697,14 @@
           "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6226991004",
           "postedAt": "2026-11-17T15:00:29.366Z",
           "date": "2026-11-17"
+        },
+        {
+          "key": "Flagship Pioneering (FL114)||Scientist, Genomics (FL114)||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8924757002?gh_jid=8924757002",
+          "company": "Flagship Pioneering (FL114)",
+          "position": "Scientist, Genomics (FL114)",
+          "applyUrl": "https://boards.greenhouse.io/flagshippioneeringinc/jobs/8924757002?gh_jid=8924757002",
+          "postedAt": "2026-11-18T15:00:28.915Z",
+          "date": "2026-11-18"
         }
       ],
       "cycleResetAt": null
@@ -1055,9 +1064,10 @@
         "Generate:Biomedicines||Senior Scientist I, Biotherapeutic Production Technologies||https://generatebiomedicines.com/open-positions?gh_jid=4710188006",
         "Sail Biomedicines (Flagship)||Senior Scientist I, Computational Biology||https://job-boards.greenhouse.io/sendabiosciences/jobs/8924054002",
         "Flagship Pioneering||Principal Scientist, Machine Learning — Multimodal Biological Reasoning||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8597814002?gh_jid=8597814002",
-        "Generate:Biomedicines||Scientist I, Computational Protein Design||https://generatebiomedicines.com/open-positions?gh_jid=4723323006"
+        "Generate:Biomedicines||Scientist I, Computational Protein Design||https://generatebiomedicines.com/open-positions?gh_jid=4723323006",
+        "Recursion||Senior Computational Biologist — Early Discovery Oncology||https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054131"
       ],
-      "lastPostedDate": "2026-11-17",
+      "lastPostedDate": "2026-11-18",
       "entries": [
         {
           "key": "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
@@ -1362,6 +1372,14 @@
           "applyUrl": "https://generatebiomedicines.com/open-positions?gh_jid=4723323006",
           "postedAt": "2026-11-17T15:00:32.478Z",
           "date": "2026-11-17"
+        },
+        {
+          "key": "Recursion||Senior Computational Biologist — Early Discovery Oncology||https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054131",
+          "company": "Recursion",
+          "position": "Senior Computational Biologist — Early Discovery Oncology",
+          "applyUrl": "https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054131",
+          "postedAt": "2026-11-18T15:00:31.157Z",
+          "date": "2026-11-18"
         }
       ],
       "cycleResetAt": null
