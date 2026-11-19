@@ -1074,9 +1074,10 @@
         "Sail Biomedicines (Flagship)||Senior Scientist I, Computational Biology||https://job-boards.greenhouse.io/sendabiosciences/jobs/8924054002",
         "Flagship Pioneering||Principal Scientist, Machine Learning — Multimodal Biological Reasoning||https://boards.greenhouse.io/flagshippioneeringinc/jobs/8597814002?gh_jid=8597814002",
         "Generate:Biomedicines||Scientist I, Computational Protein Design||https://generatebiomedicines.com/open-positions?gh_jid=4723323006",
-        "Recursion||Senior Computational Biologist — Early Discovery Oncology||https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054131"
+        "Recursion||Senior Computational Biologist — Early Discovery Oncology||https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054131",
+        "Biohub||Research Scientist, AI||https://job-boards.greenhouse.io/biohub/jobs/7747518"
       ],
-      "lastPostedDate": "2026-11-18",
+      "lastPostedDate": "2026-11-19",
       "entries": [
         {
           "key": "NIH SEED (SBIR/STTR)||SBIR/STTR small business research funding||https://seed.nih.gov/",
@@ -1389,6 +1390,14 @@
           "applyUrl": "https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054131",
           "postedAt": "2026-11-18T15:00:31.157Z",
           "date": "2026-11-18"
+        },
+        {
+          "key": "Biohub||Research Scientist, AI||https://job-boards.greenhouse.io/biohub/jobs/7747518",
+          "company": "Biohub",
+          "position": "Research Scientist, AI",
+          "applyUrl": "https://job-boards.greenhouse.io/biohub/jobs/7747518",
+          "postedAt": "2026-11-19T15:00:29.242Z",
+          "date": "2026-11-19"
         }
       ],
       "cycleResetAt": null
