@@ -736,9 +736,10 @@
         "Recursion||Senior Computational Biologist — Early Discovery Immunology||https://job-boards.greenhouse.io/recursionpharmaceuticals/jobs/8054379",
         "Natera||Lead Bioinformatics & Machine Learning Scientist||https://job-boards.greenhouse.io/natera/jobs/6250248004",
         "Bristol Myers Squibb||Principal Scientist — Computational Cancer Immunology||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Principal-Scientist---Computational-Cancer-Immunology_R1607771-1",
-        "Regeneron||Clinical Bioinformatician — Clinical Genomics Laboratory||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/Clinical-Bioinformatician---Clinical-Genomics-Laboratory_R52913-1"
+        "Regeneron||Clinical Bioinformatician — Clinical Genomics Laboratory||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/Clinical-Bioinformatician---Clinical-Genomics-Laboratory_R52913-1",
+        "AstraZeneca||Biologics Engineering Intern — Computational & Experimental Design of Multispecific Antibodies||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/US---Gaithersburg---MD/Biologics-Engineering--Computational-and-Experimental-Design-of-Multispecific-Antibodies-Intern_R-264042"
       ],
-      "lastPostedDate": "2026-11-18",
+      "lastPostedDate": "2026-11-20",
       "entries": [
         {
           "key": "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
@@ -1043,6 +1044,14 @@
           "applyUrl": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/Clinical-Bioinformatician---Clinical-Genomics-Laboratory_R52913-1",
           "postedAt": "2026-11-18T21:43:17.297Z",
           "date": "2026-11-18"
+        },
+        {
+          "key": "AstraZeneca||Biologics Engineering Intern — Computational & Experimental Design of Multispecific Antibodies||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/US---Gaithersburg---MD/Biologics-Engineering--Computational-and-Experimental-Design-of-Multispecific-Antibodies-Intern_R-264042",
+          "company": "AstraZeneca",
+          "position": "Biologics Engineering Intern — Computational & Experimental Design of Multispecific Antibodies",
+          "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/US---Gaithersburg---MD/Biologics-Engineering--Computational-and-Experimental-Design-of-Multispecific-Antibodies-Intern_R-264042",
+          "postedAt": "2026-11-20T23:50:58.954Z",
+          "date": "2026-11-20"
         }
       ],
       "cycleResetAt": null
