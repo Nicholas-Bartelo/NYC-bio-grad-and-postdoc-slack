@@ -737,9 +737,10 @@
         "Natera||Lead Bioinformatics & Machine Learning Scientist||https://job-boards.greenhouse.io/natera/jobs/6250248004",
         "Bristol Myers Squibb||Principal Scientist — Computational Cancer Immunology||https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Cambridge-Crossing---MA---US/Principal-Scientist---Computational-Cancer-Immunology_R1607771-1",
         "Regeneron||Clinical Bioinformatician — Clinical Genomics Laboratory||https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/Clinical-Bioinformatician---Clinical-Genomics-Laboratory_R52913-1",
-        "AstraZeneca||Biologics Engineering Intern — Computational & Experimental Design of Multispecific Antibodies||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/US---Gaithersburg---MD/Biologics-Engineering--Computational-and-Experimental-Design-of-Multispecific-Antibodies-Intern_R-264042"
+        "AstraZeneca||Biologics Engineering Intern — Computational & Experimental Design of Multispecific Antibodies||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/US---Gaithersburg---MD/Biologics-Engineering--Computational-and-Experimental-Design-of-Multispecific-Antibodies-Intern_R-264042",
+        "AstraZeneca||Director, Genomics & ctDNA Bioinformatics||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/US---Cambridge-Kendall-SQ---MA/Director--Genomics---ctDNA-Bioinformatics_R-263824-1"
       ],
-      "lastPostedDate": "2026-11-20",
+      "lastPostedDate": "2026-11-21",
       "entries": [
         {
           "key": "Sanofi||Students — search current openings||https://jobs.sanofi.com/en/search-jobs/students",
@@ -1052,6 +1053,14 @@
           "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/US---Gaithersburg---MD/Biologics-Engineering--Computational-and-Experimental-Design-of-Multispecific-Antibodies-Intern_R-264042",
           "postedAt": "2026-11-20T23:50:58.954Z",
           "date": "2026-11-20"
+        },
+        {
+          "key": "AstraZeneca||Director, Genomics & ctDNA Bioinformatics||https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/US---Cambridge-Kendall-SQ---MA/Director--Genomics---ctDNA-Bioinformatics_R-263824-1",
+          "company": "AstraZeneca",
+          "position": "Director, Genomics & ctDNA Bioinformatics",
+          "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/Careers/job/US---Cambridge-Kendall-SQ---MA/Director--Genomics---ctDNA-Bioinformatics_R-263824-1",
+          "postedAt": "2026-11-21T15:00:26.490Z",
+          "date": "2026-11-21"
         }
       ],
       "cycleResetAt": null
